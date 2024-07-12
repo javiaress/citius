@@ -147,8 +147,6 @@ train_data = pd.concat(train_cases)
 val_data = pd.concat(val_cases)
 test_data = pd.concat(test_cases)
 
-test_data
-
 
 # ### Construct the prefixes 
 
@@ -252,16 +250,33 @@ X_train, Y_a_train, Y_t_train = get_prefixes(train_data, divisor, divisor2)
 X_val, Y_a_val, Y_t_val = get_prefixes(val_data, divisor, divisor2)
 # X_test, Y_a_test, Y_t_test = get_prefixes(test_data, divisor, divisor2)
 
-print(X_val[1])
-print(Y_a_val[1])
-print(Y_t_val[1])
+print(X_train.shape)
+print(type(X_train))
 
+import torch
+from mamba_ssm import Mamba
+
+x = torch.tensor(X_train).to("cuda")
+
+model = Mamba(
+    # This module uses roughly 3 * expand * d_model^2 parameters
+    d_model=18, # Model dimension d_model
+    d_state=16,  # SSM state expansion factor
+    d_conv=4,    # Local convolution width
+    expand=2,    # Block expansion factor
+).to("cuda")
+
+y = model(x)
+
+print(y.shape)
+print(y)
+print(model)
 
 # ## Building and training the model
 
 # In[9]:
 
-
+'''
 import tensorflow as tf
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, Concatenate, Conv1D, GlobalAveragePooling1D, \
@@ -288,7 +303,6 @@ act_output = Dense(NUM_ACTIVITIES + 1, activation='softmax', kernel_initializer=
 time_output = Dense(1, kernel_initializer='glorot_uniform', name='time_output')(b2_2)
 
 model = Model(inputs=[main_input], outputs=[act_output, time_output])
-
 
 # ### Compile the model
 
@@ -410,4 +424,4 @@ for prefix_size in range(1, MAX_LEN):
 
 dl_score = np.mean(np.array(dl_score))
 
-dl_score
+dl_score'''

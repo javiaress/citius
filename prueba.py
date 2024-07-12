@@ -17,7 +17,7 @@ data_folder = './data/'
 filename = 'helpdesk'
 
 data = pd.read_csv(data_folder + filename + '.csv')
-data
+print(data)
 
 
 # ### Getting important columns
@@ -30,7 +30,7 @@ ACTIVITY_COL = 'concept:name'
 TIMESTAMP_COL = 'time:timestamp'
 
 data = data[[CASE_COL, ACTIVITY_COL, TIMESTAMP_COL]]
-data
+print(data)
 
 
 # ### Convert categorical values to labels
@@ -47,6 +47,18 @@ def category_to_label(attr: pd.Series) -> (pd.Series, dict, dict):
 
     return attr_cat, attr_dict, reverse_dict
 
+import torch
+from mamba_ssm import Mamba
+
+import tensorflow as tf
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Concatenate, Conv1D, GlobalAveragePooling1D, \
+    GlobalMaxPooling1D, Reshape, MaxPooling1D, Flatten, Dense, Embedding, Dropout, \
+    LSTM, BatchNormalization
+from tensorflow.keras.optimizers import Adam, Nadam
+from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
+import distutils.dir_util
+
 
 data.loc[:, ACTIVITY_COL], _, _ = category_to_label(data[ACTIVITY_COL])
-data
+print(data)
