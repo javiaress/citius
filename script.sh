@@ -9,4 +9,4 @@
 #SBATCH --err errors.err
 #SBATCH --out output.out
 
-python prueba.py
+python mamba.py
