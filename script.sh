@@ -9,10 +9,4 @@
 #SBATCH --err errors.err
 #SBATCH --out output.out
 
-# Conda environment name
-conda_env="suffixprediction"
-
-# Activate the Conda environment
-source activate $conda_env
-
-python prueba.py
+python mamba.py

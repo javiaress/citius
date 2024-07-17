@@ -123,9 +123,6 @@ test_data = pd.concat(test_cases)
 print("test_data: ")
 print(test_data)
 print("\n\n")
-print("test_data.shape(): ")
-print(test_data.shape())
-print("\n\n")
 # ### Construct the prefixes 
 
 # In[8]:
@@ -176,10 +173,13 @@ X_val, Y_a_val = get_prefixes(val_data)
 # X_test, Y_a_test, Y_t_test = get_prefixes(test_data, divisor, divisor2)
 
 print(X_train.shape)
+print("\n\n")
 print(Y_a_train.shape)
+print("\n\n")
 print(X_val[1])
+print("\n\n")
 print(Y_a_val[1])
-
+'''
 import torch
 from mamba_ssm import Mamba
 
@@ -202,7 +202,7 @@ print(model)
 # ## Building and training the model
 
 # In[9]:
-
+'''
 '''
 import tensorflow as tf
 from tensorflow.keras.models import Model
