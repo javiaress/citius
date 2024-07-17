@@ -153,7 +153,7 @@ def get_prefixes(data):
             next_acts.append(gr[ACTIVITY_COL].values) # LA SIGUIENTE ACTIVIDAD ES TODA LA TRAZA, PARA PONER TODAS LAS ACTIVIDADES RESTANTES SERÍA gr[ACTIVITY_COL][i:].values
             
     # Matrix containing the training data
-    X = np.zeros((len(prefixes_acts), MAX_LEN, NUM_ACTIVITIES), dtype=np.float32)
+    X = np.zeros((len(prefixes_acts), MAX_LEN, NUM_ACTIVITIES+1), dtype=np.float32)
     # Target event prediction data
     Y_a = np.zeros((len(prefixes_acts), NUM_ACTIVITIES+1), dtype=np.float32)
     
@@ -168,41 +168,165 @@ def get_prefixes(data):
     
     return X, Y_a
 
-X_train, Y_a_train = get_prefixes(train_data)
-X_val, Y_a_val = get_prefixes(val_data)
-# X_test, Y_a_test, Y_t_test = get_prefixes(test_data, divisor, divisor2)
+x_train, y_train = get_prefixes(train_data)
+x_val, y_val = get_prefixes(val_data)
+x_test, y_test = get_prefixes(test_data)
 
-print(X_train.shape)
+print(x_train.shape)
 print("\n\n")
-print(Y_a_train.shape)
+print(y_train.shape)
 print("\n\n")
-print(X_val[1])
+print(x_val[1])
 print("\n\n")
-print(Y_a_val[1])
-'''
+print(y_val[1])
+print("\n\n")
+
 import torch
 from mamba_ssm import Mamba
 
-x = torch.tensor(X_train).to("cuda")
+x_train = torch.tensor(x_train).to("cuda")
+y_train = torch.tensor(y_train).to("cuda")
+x_val = torch.tensor(x_val).to("cuda")
+y_val = torch.tensor(y_val).to("cuda")
+x_test = torch.tensor(x_test).to("cuda")
+y_test = torch.tensor(y_test).to("cuda")
 
 model = Mamba(
     # This module uses roughly 3 * expand * d_model^2 parameters
-    d_model=18, # Model dimension d_model
+    d_model=15, # Model dimension d_model
     d_state=16,  # SSM state expansion factor
     d_conv=4,    # Local convolution width
     expand=2,    # Block expansion factor
 ).to("cuda")
 
-y = model(x)
+y = model(x_train)
 
 print(y.shape)
-print(y)
-print(model)
+print("aplicado mamba\n\n")
 
-# ## Building and training the model
+from torch.utils.data import DataLoader, TensorDataset
 
-# In[9]:
+dataset_train = TensorDataset(x_train, y_train)
+loader_train = DataLoader(dataset=dataset_train, batch_size=14, shuffle=True)
+
+dataset_val = TensorDataset(x_val, y_val)
+loader_val = DataLoader(dataset=dataset_val, batch_size=14, shuffle=True)
+
+dataset_test = TensorDataset(x_test, y_test)
+loader_test = DataLoader(dataset=dataset_test, batch_size=14, shuffle=True)
+
+import os
+import pathlib
+import torch
+import torch.nn as nn
+import numpy as np
+import wandb
+
+
+def acc(y_pred, y_real):
+
+    # Obtener las predicciones para el último timestep
+    y_pred_last = y_pred[:, -1, :]  # [batch_size, num_classes]
+
+    # Aplicar log_softmax a lo largo de la dimensión de las clases (dim=1)
+    y_pred_softmax = torch.log_softmax(y_pred_last, dim=1)
+    
+    # Obtener las etiquetas predichas (clases con la mayor probabilidad)
+    _, y_pred_tags = torch.max(y_pred_softmax, dim=1)
+    
+    # Obtener las etiquetas reales (clases con la mayor probabilidad)
+    _, y_real_tags = torch.max(y_real, dim=1)
+    
+    # Comparar las etiquetas predichas con las etiquetas reales
+    correct_pred = (y_pred_tags == y_real_tags).float()
+    
+    # Calcular la precisión: número de predicciones correctas dividido por el total de predicciones
+    acc = correct_pred.sum() / correct_pred.numel()
+
+
 '''
+    y_pred_softmax = torch.log_softmax(y_pred, dim=2)
+    _, y_pred_tags = torch.max(y_pred_softmax, dim=2)
+
+    correct_pred = (y_pred_tags == y_real).float()
+    acc = correct_pred.sum() / correct_pred.numel()
+'''
+    return acc
+
+def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wandb):
+
+    opt = torch.optim.Adam(model.parameters(), lr=0.002, betas=(0.9, 0.999), eps=1e-08)
+    loss_fn = nn.CrossEntropyLoss().to("cuda")
+
+    val_mae_best = np.inf  # Starts the best MAE value as infinite
+
+    for e in range(5):
+        train_epoch_loss = []
+        train_epoch_acc = []
+        model.train()
+        sum_train_loss = 0
+        for mini_batch in iter(train_loader):
+            prefix = mini_batch[0].to("cuda")
+            y_real = mini_batch[1]
+
+            model.zero_grad()
+            y_pred = model(prefix)
+            
+            y_real = y_real.long()
+
+            train_loss = loss_fn(y_pred, y_real)
+            
+            print(f"Tipo de y_pred: {y_pred.shape}\n")
+            print(f"Tipo de targets antes de convertir: {y_real.shape}\n")
+            print(y_real)
+            print("\n\n")
+            
+            print(y_pred)
+            
+            print("\n\n")
+
+            print(prefix) #echarle un ojo a lo q significa cada dimension para hacer la funcion de acc bn
+
+
+            train_acc = acc(y_pred, y_real)
+            return  #LLEGAMOS HASTA AQUI
+            train_loss.backward()
+            opt.step()
+
+            train_epoch_loss.append(train_loss.item())
+            train_epoch_acc.append(train_acc.item())
+        
+        with torch.no_grad():
+            val_epoch_loss, val_epoch_acc = model.val_test(val_loader)
+            
+            print(f'Epoch {e}: | Train Loss: {sum(train_epoch_loss) / len(train_epoch_loss):.6f} | '
+                    f'Val Loss: {sum(val_epoch_loss) / len(val_epoch_loss):.6f} | '
+                    f'Train Acc: {(sum(train_epoch_acc) / len(train_epoch_acc)) * 100:.3f} | '
+                    f'Val Acc: {(sum(val_epoch_acc) / len(val_epoch_acc)) * 100:.3f}')
+
+            if use_wandb:
+                wandb.log({
+                    num_fold + '_train_loss': sum(train_epoch_loss) / len(train_epoch_loss),
+                    num_fold + '_val_loss': sum(val_epoch_loss) / len(val_epoch_loss),
+                    num_fold + '_train_acc': (sum(train_epoch_acc) / len(train_epoch_acc)) * 100,
+                    num_fold + '_val_acc': (sum(val_epoch_acc) / len(val_epoch_acc)) * 100
+                    })
+
+            if sum(val_epoch_loss) / len(val_epoch_loss) < val_mae_best:
+                val_mae_best = sum(val_epoch_loss) / len(val_epoch_loss)
+
+                if os.path.isdir('../models/' + filename + '/' + num_fold + '/'):
+                    torch.save(self, "../models/" + filename + '/' + num_fold + "/" + model_name)
+                else:
+                    pathlib.Path('../models/' + filename + '/' + num_fold).mkdir(parents=True, exist_ok=True)
+                    torch.save(self, "../models/" + filename + '/' + num_fold + "/" + model_name)
+
+fit(model, loader_train, loader_val, "mamba", "1", True, "mamba")
+
+
+print("\n\n sa cabau")
+
+
 '''
 import tensorflow as tf
 from tensorflow.keras.models import Model
@@ -242,6 +366,33 @@ model.compile(loss={'act_output': 'categorical_crossentropy', 'time_output': 'ma
 
 
 # ### Train the model
+
+# In[12]:
+
+
+# Configure savings of best model
+distutils.dir_util.mkpath("models/" + filename)
+best_model_path = "models/" + filename + "_tax.h5"
+model_checkpoint = ModelCheckpoint(best_model_path, monitor='val_loss', verbose=0,
+                                   save_best_only=True, save_weights_only=False, mode='auto')
+
+# In[12]:
+
+
+# Configure savings of best model
+distutils.dir_util.mkpath("models/" + filename)
+best_model_path = "models/" + filename + "_tax.h5"
+model_checkpoint = ModelCheckpoint(best_model_path, monitor='val_loss', verbose=0,
+                                   save_best_only=True, save_weights_only=False, mode='auto')
+
+# In[12]:
+
+
+# Configure savings of best model
+distutils.dir_util.mkpath("models/" + filename)
+best_model_path = "models/" + filename + "_tax.h5"
+model_checkpoint = ModelCheckpoint(best_model_path, monitor='val_loss', verbose=0,
+                                   save_best_only=True, save_weights_only=False, mode='auto')
 
 # In[12]:
 
@@ -317,33 +468,6 @@ for prefix_size in range(1, MAX_LEN):
         
         if prefix_size >= len(case):
             continue  # make no prediction for this case, since this case has ended already
-            
-        ground_truth = case[ACTIVITY_COL][prefix_size:prefix_size+predict_size].values
-        ground_truth_t = case['times2'][prefix_size - 1]
-        case_end_time = case['times2'][len(case) - 1]
-        ground_truth_t = case_end_time - ground_truth_t
-        predicted = []
-        total_predicted_time = 0
-        for i in range(predict_size):
-            enc = encode_tax(prefix_acts, prefix_t, prefix_t3, divisor, divisor2, MAX_LEN)
-            y = model.predict(enc, verbose=0)  # make predictions
-            # split prediction into separate activity and time predictions
-            y_act = y[0][0]
-            y_t = y[1][0][0]
-            prediction = np.argmax(y_act)
-            prefix_acts.append(prediction)
-            if y_t < 0:
-                y_t = 0.0
-            prefix_t.append(y_t)
-            if prediction == NUM_ACTIVITIES:
-                break  # end of case was just predicted, therefore, stop prediction further into the future
-            y_t = y_t * divisor3
-            prefix_t3.append(prefix_t3[-1] + timedelta(seconds=y_t))
-            total_predicted_time = total_predicted_time + y_t
-            predicted.append(prediction)
-        if len(ground_truth) > 0:
-            predicted = list(map(lambda x: chr(x+161), predicted))
-            ground_truth = list(map(lambda x: chr(x+161), ground_truth))
             dls = 1 - (damerau_levenshtein_distance(''.join(predicted), ''.join(ground_truth)) / max(len(predicted), len(ground_truth)))
             if dls < 0:
                 dls = 0

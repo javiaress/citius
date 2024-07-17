@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=prueba            # Job name
+#SBATCH --job-name=mamba            # Job name
 #SBATCH --nodes=1                    # -N Run all processes on a single node   
 #SBATCH --ntasks=1                   # -n Run a single task   
 #SBATCH --cpus-per-task=1            # -c Run 1 processor per task       
