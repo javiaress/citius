@@ -155,16 +155,17 @@ def get_prefixes(data):
     # Matrix containing the training data
     X = np.zeros((len(prefixes_acts), MAX_LEN, NUM_ACTIVITIES+1), dtype=np.float32)
     # Target event prediction data
-    Y_a = np.zeros((len(prefixes_acts), NUM_ACTIVITIES+1), dtype=np.float32)
+    Y_a = np.zeros((len(prefixes_acts), MAX_LEN, NUM_ACTIVITIES+1), dtype=np.float32)
     
     for i, prefix_acts in enumerate(prefixes_acts):
         left_pad = MAX_LEN - len(prefix_acts)
+        left_pad_trace = MAX_LEN - len(next_acts[i])
         next_act = next_acts[i]
         for j, act in enumerate(prefix_acts):
             X[i, j + left_pad, act] = 1
         
-        for k in next_act:
-                Y_a[i, k] = 1
+        for k, act in enumerate(next_act):
+            Y_a[i, k + left_pad, act] = 1
     
     return X, Y_a
 
