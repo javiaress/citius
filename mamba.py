@@ -275,7 +275,8 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
     loss_fn = nn.CrossEntropyLoss().to("cuda")
 
     val_mae_best = np.inf  # Starts the best MAE value as infinite
-    
+    epochs_no_improve = 0
+
     for e in range(100):
         train_epoch_loss = []
         train_epoch_acc = []
@@ -313,10 +314,13 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
         with torch.no_grad():
             val_epoch_loss, val_epoch_acc = val_test(model, val_loader)
             
-            print(f'Epoch {e}: | Train Loss: {sum(train_epoch_loss) / len(train_epoch_loss):.6f} | '
-                    f'Val Loss: {sum(val_epoch_loss) / len(val_epoch_loss):.6f} | '
-                    f'Train Acc: {(sum(train_epoch_acc) / len(train_epoch_acc)) * 100:.3f} | '
-                    f'Val Acc: {(sum(val_epoch_acc) / len(val_epoch_acc)) * 100:.3f}')
+            avg_train_loss = sum(train_epoch_loss) / len(train_epoch_loss)
+            avg_val_loss = sum(val_epoch_loss) / len(val_epoch_loss)
+            avg_train_acc = (sum(train_epoch_acc) / len(train_epoch_acc)) * 100
+            avg_val_acc = (sum(val_epoch_acc) / len(val_epoch_acc)) * 100
+
+            print(f'Epoch {e}: | Train Loss: {avg_train_loss:.6f} | Val Loss: {avg_val_loss:.6f} | '
+                  f'Train Acc: {avg_train_acc:.3f} | Val Acc: {avg_val_acc:.3f}')
 
             if use_wandb:
                 wandb.log({
@@ -329,16 +333,25 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             if sum(val_epoch_loss) / len(val_epoch_loss) < val_mae_best:
                 val_mae_best = sum(val_epoch_loss) / len(val_epoch_loss)
 
+                epochs_no_improve = 0
+
                 if os.path.isdir('./models/' + filename + '/' + num_fold + '/'):
                     torch.save(model, "./models/" + filename + '/' + num_fold + "/" + model_name)
                 else:
                     pathlib.Path('./models/' + filename + '/' + num_fold).mkdir(parents=True, exist_ok=True)
                     torch.save(model, "./models/" + filename + '/' + num_fold + "/" + model_name)
+            
+            else:
+                epochs_no_improve += 1
+
+            if epochs_no_improve >= 42:
+                print("Early stopping")
+                break
 
 fit(model, loader_train, loader_val, "mamba", "1", "modelomamba", False)
 
-
-def test(model, val_loader)
+'''
+def test(model, val_loader):
     model.eval()
     loss_fn = nn.CrossEntropyLoss().to("cuda")
 
@@ -358,6 +371,6 @@ def test(model, val_loader)
         val_epoch_acc.append(val_acc.item())
 
     return val_epoch_loss, val_epoch_acc
-
+'''
 print("\n\n sa cabau")
 
