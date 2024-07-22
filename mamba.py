@@ -344,11 +344,11 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             else:
                 epochs_no_improve += 1
 
-            if epochs_no_improve >= 42:
+            if epochs_no_improve >= 30:
                 print("Early stopping")
                 break
 
-fit(model, loader_train, loader_val, "mamba", "1", "modelomamba", False)
+fit(model, loader_train, loader_val, "mamba", "2", "modelomamba", False)
 
 '''
 def test(model, val_loader):

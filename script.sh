@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=1            # -c Run 1 processor per task       
 #SBATCH --mem=1gb                    # Job memory request
 #SBATCH --gres=gpu:1                 # Request one GPU per job
-#SBATCH --time=00:05:00              # Time limit hrs:min:sec
+#SBATCH --time=00:10:00              # Time limit hrs:min:sec
 #SBATCH --err errors.err
 #SBATCH --out output.out
 
