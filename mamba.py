@@ -388,7 +388,7 @@ def test(model, val_loader):
         val_acc = levenshtein_acc(y_pred, y_real)
 
         val_epoch_loss.append(val_loss.item())
-        val_epoch_acc.append(val_acc.item())
+        val_epoch_acc.append(val_acc)
 
     return val_epoch_loss, val_epoch_acc
 
