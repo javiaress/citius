@@ -159,6 +159,8 @@ def get_prefixes(data):
     # Target event prediction data
     Y_a = np.zeros((len(prefixes_acts), MAX_LEN, NUM_ACTIVITIES+1), dtype=np.float32)
     
+    tam_suf = np.zeros(len(prefixes_acts), dtype=np.int32)
+
     for i, prefix_acts in enumerate(prefixes_acts):
         left_pad = MAX_LEN - len(prefix_acts)
         left_pad_trace = MAX_LEN - len(next_acts[i])
@@ -168,23 +170,23 @@ def get_prefixes(data):
         
         for k, act in enumerate(next_act):
             Y_a[i, k + left_pad_trace, act] = 1
+            
+        tam_suf[i] = len(next_acts[i]) - len(prefixes_acts[i])
     
-    return X, Y_a
+    return X, Y_a, tam_suf
 
-x_train, y_train = get_prefixes(train_data)
-x_val, y_val = get_prefixes(val_data)
-x_test, y_test = get_prefixes(test_data)
+x_train, y_train, tam_suf_train = get_prefixes(train_data)
+x_val, y_val, tam_suf_val = get_prefixes(val_data) 
+x_test, y_test, tam_suf_test = get_prefixes(test_data)
 
-'''
-print(x_train.shape)
-print("\n\n")
-print(y_train.shape)
-print("\n\n")
+
 print(x_val[1])
 print("\n\n")
 print(y_val[1])
 print("\n\n")
-'''
+print(tam_suf_val[1])
+print("\n\n")
+
 
 import torch
 from mamba_ssm import Mamba
@@ -212,13 +214,13 @@ print("aplicado mamba\n\n")
 from torch.utils.data import DataLoader, TensorDataset
 
 dataset_train = TensorDataset(x_train, y_train)
-loader_train = DataLoader(dataset=dataset_train, batch_size=14, shuffle=True)
+loader_train = DataLoader(dataset=dataset_train, batch_size=16, shuffle=True)
 
 dataset_val = TensorDataset(x_val, y_val)
-loader_val = DataLoader(dataset=dataset_val, batch_size=14, shuffle=True)
+loader_val = DataLoader(dataset=dataset_val, batch_size=16, shuffle=True)
 
 dataset_test = TensorDataset(x_test, y_test)
-loader_test = DataLoader(dataset=dataset_test, batch_size=14, shuffle=True)
+loader_test = DataLoader(dataset=dataset_test, batch_size=16, shuffle=True)
 
 import os
 import pathlib
@@ -244,7 +246,6 @@ def acc(y_pred, y_real):
     correct_pred = (y_pred_tags == y_real_tags).float()
     acc = correct_pred.sum() / correct_pred.numel()
 
-    #print(acc)
     return acc
 
 def val_test(model, val_loader):
