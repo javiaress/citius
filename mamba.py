@@ -219,7 +219,7 @@ loader_train = DataLoader(dataset=dataset_train, batch_size=16, shuffle=True)
 dataset_val = TensorDataset(x_val, y_val)
 loader_val = DataLoader(dataset=dataset_val, batch_size=16, shuffle=True)
 
-dataset_test = TensorDataset(x_test, y_test)
+dataset_test = TensorDataset(x_test, y_test, tam_suf_test)
 loader_test = DataLoader(dataset=dataset_test, batch_size=16, shuffle=True)
 
 import os
@@ -354,7 +354,7 @@ fit(model, loader_train, loader_val, "mamba", "1", "modelomamba", False)
 
 from jellyfish._jellyfish import damerau_levenshtein_distance
 
-def levenshtein_acc(y_pred, y_real):
+def levenshtein_acc(y_pred, y_real, tam_suf):
     y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
     _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
 
@@ -364,7 +364,7 @@ def levenshtein_acc(y_pred, y_real):
     y_real_tags = y_real_tags.cpu().numpy()
 
     acc = 0
-    for i in range(len(y_pred_tags)):
+    for i in range(tam_suf, len(y_pred_tags)):
         pred_seq = ''.join(map(chr, y_pred_tags[i] + 161))
         real_seq = ''.join(map(chr, y_real_tags[i] + 161))
 
@@ -382,11 +382,12 @@ def test(model, val_loader):
     for mini_batch in iter(val_loader):
         prefix = mini_batch[0].to("cuda")
         y_real = mini_batch[1]
+        tam_suf = mini_batch[2]
 
         y_pred = model(prefix)
 
         val_loss = loss_fn(y_pred, y_real)
-        val_acc = levenshtein_acc(y_pred, y_real)
+        val_acc = levenshtein_acc(y_pred, y_real, tam_suf)
 
         val_epoch_loss.append(val_loss.item())
         val_epoch_acc.append(val_acc)
