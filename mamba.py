@@ -348,9 +348,29 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
                 print("Early stopping")
                 break
 
-fit(model, loader_train, loader_val, "mamba", "2", "modelomamba", False)
+fit(model, loader_train, loader_val, "mamba", "1", "modelomamba", False)
 
-'''
+
+from jellyfish._jellyfish import damerau_levenshtein_distance
+
+def levenshtein_acc(y_pred, y_real):
+    y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
+    _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
+
+    _, y_real_tags = torch.max(y_real, dim=-1)
+
+    y_pred_tags = y_pred_tags.cpu().numpy()
+    y_real_tags = y_real_tags.cpu().numpy()
+
+    acc = 0
+    for i in range(len(y_pred_tags)):
+        pred_seq = ''.join(map(chr, y_pred_tags[i] + 161))
+        real_seq = ''.join(map(chr, y_real_tags[i] + 161))
+
+        acc += 1 - damerau_levenshtein_distance(pred_seq, real_seq) / max(len(pred_seq), len(real_seq))
+
+    return acc / len(y_pred_tags)
+
 def test(model, val_loader):
     model.eval()
     loss_fn = nn.CrossEntropyLoss().to("cuda")
@@ -365,12 +385,17 @@ def test(model, val_loader):
         y_pred = model(prefix)
 
         val_loss = loss_fn(y_pred, y_real)
-        val_acc = acc(y_pred, y_real)
+        val_acc = levenshtein_acc(y_pred, y_real)
 
         val_epoch_loss.append(val_loss.item())
         val_epoch_acc.append(val_acc.item())
 
     return val_epoch_loss, val_epoch_acc
-'''
+
+val_epoch_loss, val_epoch_acc = test(model, loader_test)
+
+print(f'Levenshtein Acc: {sum(val_epoch_acc) / len(val_epoch_acc)}')
+
+
 print("\n\n sa cabau")
 
