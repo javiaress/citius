@@ -197,6 +197,7 @@ x_val = torch.tensor(x_val).to("cuda")
 y_val = torch.tensor(y_val).to("cuda")
 x_test = torch.tensor(x_test).to("cuda")
 y_test = torch.tensor(y_test).to("cuda")
+tam_suf_test = torch.tensor(tam_suf_test).to("cuda")
 
 model = Mamba(
     # This module uses roughly 3 * expand * d_model^2 parameters
@@ -362,11 +363,11 @@ def levenshtein_acc(y_pred, y_real, tam_suf):
 
     y_pred_tags = y_pred_tags.cpu().numpy()
     y_real_tags = y_real_tags.cpu().numpy()
-
+    
     acc = 0
-    for i in range(tam_suf, len(y_pred_tags)):
-        pred_seq = ''.join(map(chr, y_pred_tags[i] + 161))
-        real_seq = ''.join(map(chr, y_real_tags[i] + 161))
+    for i in range(len(y_pred_tags)):
+        pred_seq = ''.join(map(chr, y_pred_tags[i][-tam_suf[i]:] + 161))
+        real_seq = ''.join(map(chr, y_real_tags[i][-tam_suf[i]:] + 161))
 
         acc += 1 - damerau_levenshtein_distance(pred_seq, real_seq) / max(len(pred_seq), len(real_seq))
 
@@ -388,7 +389,6 @@ def test(model, val_loader):
 
         val_loss = loss_fn(y_pred, y_real)
         val_acc = levenshtein_acc(y_pred, y_real, tam_suf)
-
         val_epoch_loss.append(val_loss.item())
         val_epoch_acc.append(val_acc)
 
