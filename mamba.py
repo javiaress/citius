@@ -14,19 +14,17 @@ import pandas as pd
 import numpy as np
 
 data_folder = './data/'
-filename = 'helpdesk'
-
+filename = 'BPI_Challenge_2012'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
-
 
 # ### Getting important columns
 
 # In[2]:
 
 
-CASE_COL = 'case:concept:name'
-ACTIVITY_COL = 'concept:name'
+CASE_COL = 'CaseID'
+ACTIVITY_COL = 'Activity'
 TIMESTAMP_COL = 'time:timestamp'
 
 data = data[[CASE_COL, ACTIVITY_COL]]
@@ -201,7 +199,7 @@ tam_suf_test = torch.tensor(tam_suf_test).to("cuda")
 
 model = Mamba(
     # This module uses roughly 3 * expand * d_model^2 parameters
-    d_model=15, # Model dimension d_model
+    d_model=37, # Model dimension d_model
     d_state=16,  # SSM state expansion factor
     d_conv=4,    # Local convolution width
     expand=2,    # Block expansion factor
