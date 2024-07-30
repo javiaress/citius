@@ -14,7 +14,7 @@ import pandas as pd
 import numpy as np
 
 data_folder = './data/'
-filename = 'helpdesk'
+filename = 'SEPSIS'
 
 data = pd.read_csv(data_folder + filename + '.csv')
 data
@@ -25,9 +25,9 @@ data
 # In[2]:
 
 
-CASE_COL = 'case:concept:name'
-ACTIVITY_COL = 'concept:name'
-TIMESTAMP_COL = 'time:timestamp'
+CASE_COL = 'CaseID'
+ACTIVITY_COL = 'Activity'
+TIMESTAMP_COL = 'Timestamp'
 
 data = data[[CASE_COL, ACTIVITY_COL, TIMESTAMP_COL]]
 
@@ -252,9 +252,9 @@ X_train, Y_a_train, Y_t_train = get_prefixes(train_data, divisor, divisor2)
 X_val, Y_a_val, Y_t_val = get_prefixes(val_data, divisor, divisor2)
 # X_test, Y_a_test, Y_t_test = get_prefixes(test_data, divisor, divisor2)
 
-print(X_val[1])
-print(Y_a_val[1])
-print(Y_t_val[1])
+#print(X_val[1])
+#print(Y_a_val[1])
+#print(Y_t_val[1])
 
 
 # ## Building and training the model
@@ -307,7 +307,7 @@ model.compile(loss={'act_output': 'categorical_crossentropy', 'time_output': 'ma
 
 # Configure savings of best model
 distutils.dir_util.mkpath("models/" + filename)
-best_model_path = "models/" + filename + "_tax.h5"
+best_model_path = "models/" + filename + "_tax.keras"
 model_checkpoint = ModelCheckpoint(best_model_path, monitor='val_loss', verbose=0,
                                    save_best_only=True, save_weights_only=False, mode='auto')
 # Configure early stopping when validation loss is not reducing
@@ -410,4 +410,5 @@ for prefix_size in range(1, MAX_LEN):
 
 dl_score = np.mean(np.array(dl_score))
 
-dl_score
+print("Accuracy: ")
+print(dl_score)
