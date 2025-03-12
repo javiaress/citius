@@ -14,7 +14,7 @@ import pandas as pd
 import numpy as np
 
 data_folder = './data/'
-filename = 'helpdesk'
+filename = 'SEPSIS'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
 
@@ -26,10 +26,8 @@ data
 CASE_COL = 'CaseID'
 ACTIVITY_COL = 'Activity'
 TIMESTAMP_COL = 'time:timestamp'
-CASE_COL_HD = 'case:concept:name'
-ACTIVITY_COL_HD = 'concept:name'
 
-data = data[[CASE_COL_HD, ACTIVITY_COL_HD]]
+data = data[[CASE_COL, ACTIVITY_COL]]
 
 
 
@@ -37,10 +35,9 @@ data = data[[CASE_COL_HD, ACTIVITY_COL_HD]]
 
 # In[3]:
 
-
 def category_to_label(attr: pd.Series) -> (pd.Series, dict, dict):
     uniq_attr = attr.unique()
-    attr_dict = {idx: value for idx, value in enumerate(uniq_attr)}
+    attr_dict = {idx + 1: value for idx, value in enumerate(uniq_attr)}
     reverse_dict = {value: key for key, value in attr_dict.items()}
 
     attr_cat = pd.Series(map(lambda x: reverse_dict[x], attr.values))
@@ -75,6 +72,8 @@ data = data_augment
 
 
 NUM_ACTIVITIES = data[ACTIVITY_COL].nunique()
+
+print(f"El número de actividades es: {NUM_ACTIVITIES} \n")
 
 data_augment = pd.DataFrame()
 
@@ -211,7 +210,7 @@ model = MixerModel(
     d_model=64,           # Dimensión del modelo
     n_layer=12,           # Número de capas
     d_intermediate=128,   # Dimensión de la capa intermedia
-    vocab_size=15     # Tamaño del vocabulario
+    vocab_size=17     # Tamaño del vocabulario
 )
 
 y = model(x_train)
