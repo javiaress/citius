@@ -190,13 +190,13 @@ import torch
 from mamba_ssm import Mamba
 from mamba_ssm.models.mixer_seq_simple import MixerModel 
 
-x_train = torch.tensor(x_train).to("cuda")
-y_train = torch.tensor(y_train).to("cuda")
-x_val = torch.tensor(x_val).to("cuda")
-y_val = torch.tensor(y_val).to("cuda")
-x_test = torch.tensor(x_test).to("cuda")
-y_test = torch.tensor(y_test).to("cuda")
-tam_suf_test = torch.tensor(tam_suf_test).to("cuda")
+x_train = torch.tensor(x_train, dtype=torch.long).to("cuda")
+y_train = torch.tensor(y_train, dtype=torch.long).to("cuda")
+x_val = torch.tensor(x_val, dtype=torch.long).to("cuda")
+y_val = torch.tensor(y_val, dtype=torch.long).to("cuda")
+x_test = torch.tensor(x_test, dtype=torch.long).to("cuda")
+y_test = torch.tensor(y_test, dtype=torch.long).to("cuda")
+tam_suf_test = torch.tensor(tam_suf_test, dtype=torch.long).to("cuda")
 '''
 model = Mamba(
     # This module uses roughly 3 * expand * d_model^2 parameters

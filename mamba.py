@@ -14,7 +14,7 @@ import pandas as pd
 import numpy as np
 
 data_folder = './data/'
-filename = 'BPI_Challenge_2012'
+filename = 'SEPSIS'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
 
@@ -199,7 +199,7 @@ tam_suf_test = torch.tensor(tam_suf_test).to("cuda")
 
 model = Mamba(
     # This module uses roughly 3 * expand * d_model^2 parameters
-    d_model=37, # Model dimension d_model
+    d_model=17, # Model dimension d_model
     d_state=16,  # SSM state expansion factor
     d_conv=4,    # Local convolution width
     expand=2,    # Block expansion factor
