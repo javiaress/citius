@@ -207,17 +207,17 @@ model = Mamba(
 ).to("cuda")
 '''
 model = MixerModel(
-    d_model=64,           # Dimensión del modelo
-    n_layer=12,           # Número de capas
-    d_intermediate=128,   # Dimensión de la capa intermedia
+    d_model=32,           # Dimensión del modelo
+    n_layer=4,           # Número de capas
+    d_intermediate=64,   # Dimensión de la capa intermedia
     vocab_size=17     # Tamaño del vocabulario
-)
+).to("cuda")
 
 y = model(x_train)
 
 print(y.shape)
 print("aplicado mamba\n\n")
-"""
+
 from torch.utils.data import DataLoader, TensorDataset
 
 dataset_train = TensorDataset(x_train, y_train)
@@ -242,7 +242,7 @@ def acc(y_pred, y_real):
     y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
     _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
 
-    _, y_real_tags = torch.max(y_real, dim=-1)
+    #_, y_real_tags = torch.max(y_real, dim=-1)
 
     '''
     print(y_pred_tags)
@@ -250,7 +250,7 @@ def acc(y_pred, y_real):
     print(y_real_tags)
     '''
 
-    correct_pred = (y_pred_tags == y_real_tags).float()
+    correct_pred = (y_pred_tags == y_real).float()
     acc = correct_pred.sum() / correct_pred.numel()
 
     return acc
@@ -297,6 +297,13 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             model.zero_grad()
             y_pred = model(prefix)
             
+            print(f"Tipo de y_pred: {y_pred.shape}\n")
+            print(f"Tipo de targets antes de convertir: {y_real.shape}\n\n\nreal:")
+            print(y_real)
+            print("\n\n pred:")
+
+            print(y_pred)
+            print("\n\n")
 
             train_loss = loss_fn(y_pred, y_real)
             
@@ -365,10 +372,10 @@ def levenshtein_acc(y_pred, y_real, tam_suf):
     y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
     _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
 
-    _, y_real_tags = torch.max(y_real, dim=-1)
+    #_, y_real_tags = torch.max(y_real, dim=-1)
 
     y_pred_tags = y_pred_tags.cpu().numpy()
-    y_real_tags = y_real_tags.cpu().numpy()
+    y_real_tags = y_real.cpu().numpy()
     
     acc = 0
     for i in range(len(y_pred_tags)):
@@ -407,4 +414,4 @@ print(f'Levenshtein Acc: {sum(val_epoch_acc) / len(val_epoch_acc)}')
 
 print("\n\n sa cabau")
 
-"""
+
