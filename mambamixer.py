@@ -82,7 +82,7 @@ for _, case in cases:
     case = case.reset_index(drop=True)
     
     eoc_row = pd.DataFrame({CASE_COL: [case[CASE_COL][0]],
-                            ACTIVITY_COL: [NUM_ACTIVITIES]})
+                            ACTIVITY_COL: [NUM_ACTIVITIES + 1]})
     case = pd.concat([case, eoc_row])
     case = case.reset_index(drop=True)
 
@@ -178,9 +178,10 @@ x_train, y_train, tam_suf_train = get_prefixes(train_data)
 x_val, y_val, tam_suf_val = get_prefixes(val_data) 
 x_test, y_test, tam_suf_test = get_prefixes(test_data)
 
-
+print(x_val[1].shape)
 print(x_val[1])
 print("\n\n")
+print(y_val[1].shape)
 print(y_val[1])
 print("\n\n")
 print(tam_suf_val[1])
