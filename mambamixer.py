@@ -208,7 +208,7 @@ model = Mamba(
 ).to("cuda")
 '''
 model = MixerModel(
-    d_model=32,           # Dimensión del modelo
+    d_model=17,           # Dimensión del modelo
     n_layer=4,           # Número de capas
     d_intermediate=64,   # Dimensión de la capa intermedia
     vocab_size=17     # Tamaño del vocabulario
@@ -268,8 +268,11 @@ def val_test(model, val_loader):
         y_real = mini_batch[1]
 
         y_pred = model(prefix)
+
+        y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
+        _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
         
-        val_loss = loss_fn(y_pred, y_real)
+        val_loss = loss_fn(y_pred_tags, y_real)
         val_acc = acc(y_pred, y_real)
         
         val_epoch_loss.append(val_loss.item())
@@ -298,15 +301,10 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             model.zero_grad()
             y_pred = model(prefix)
             
-            print(f"Tipo de y_pred: {y_pred.shape}\n")
-            print(f"Tipo de targets antes de convertir: {y_real.shape}\n\n\nreal:")
-            print(y_real)
-            print("\n\n pred:")
+            y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
+            _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
 
-            print(y_pred)
-            print("\n\n")
-
-            train_loss = loss_fn(y_pred, y_real)
+            train_loss = loss_fn(y_pred_tags, y_real)
             
             '''
             print(f"Tipo de y_pred: {y_pred.shape}\n")
@@ -400,8 +398,11 @@ def test(model, val_loader):
         tam_suf = mini_batch[2]
 
         y_pred = model(prefix)
+        
+        y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
+        _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
 
-        val_loss = loss_fn(y_pred, y_real)
+        val_loss = loss_fn(y_pred_tags, y_real)
         val_acc = levenshtein_acc(y_pred, y_real, tam_suf)
         val_epoch_loss.append(val_loss.item())
         val_epoch_acc.append(val_acc)
