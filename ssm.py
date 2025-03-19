@@ -27,10 +27,10 @@ class SSM(nn.Module):
         #self.act = nn.SiLU()
 
         self.x_proj = nn.Linear(
-            self.d_inner, self.dt_rank + self.d_state * 2, bias=False
+            self.d_inner, self.dt_rank + self.d_state * 2
         )
 
-        self.dt_proj = nn.Linear(self.dt_rank, self.d_inner, bias=True) # MIRAR BIAS
+        self.dt_proj = nn.Linear(self.dt_rank, self.d_inner)
         
         '''
         # Initialize special dt projection to preserve variance at initialization
@@ -81,13 +81,26 @@ class SSM(nn.Module):
             dt = x_proj[self.d_state:self.d_state + self.dt_rank]
             C = x_proj[self.d_state + self.dt_rank:]
 
+            print(f"dt shape: {dt.shape}")
+            print(f"A shape: {self.A.shape}")
+            print(f"B shape: {B.shape}")
+            print(f"C shape: {C.shape}")
+
             dt = self.dt_proj(dt)
+            print(f"dt shape: {dt.shape}")
+
             dA = torch.einsum("ji,is->jis", dt, self.A) # 1 inner, inner state -> 1 inner state
-            dB = torch.matmul(dt.T, B) # state 1, 1 inner -> state inner
+            print(f"dA shape: {dA.shape}")
 
-            hidden_state = hidden_state * dA + x * dB
+            dB = torch.einsum("ji,js->jis", dt, B) # 1 inner, 1 state -> 1 inner state
+            print(f"dB shape: {dB.shape}")
 
+            hidden_state = hidden_state * dA + rearrange(x, "b d -> b d 1") * dB
+            print(f"hidden_state shape: {hidden_state.shape}")
+
+            #y = torch.einsum("bdn,bn->bd", ssm_state.to(dtype), C) + self.D * x
             y = torch.einsum("is,js->ji", hidden_state, C)  + self.D * x
+            print(f"y shape: {y.shape}")
 
             hidden_previos.append(hidden_state)
             out.append(y)
@@ -95,9 +108,9 @@ class SSM(nn.Module):
         return out, hidden_previos
 
 
-'''
+"""
 DATOS Y ENTRENAMIENTO
-'''
+
 
 data_folder = './data/'
 filename = 'SEPSIS'
@@ -295,3 +308,4 @@ print(out.shape)
 print("\n\n")
 print(out)
 
+"""
