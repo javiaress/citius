@@ -77,9 +77,9 @@ class SSM(nn.Module):
 
         for i in range(batch):
             x_proj = self.x_proj(x[i])
-            B = x_proj[:, :self.d_state]
-            dt = x_proj[:, self.d_state:self.d_state + self.dt_rank]
-            C = x_proj[:, self.d_state + self.dt_rank:]
+            B = x_proj[:self.d_state]
+            dt = x_proj[self.d_state:self.d_state + self.dt_rank]
+            C = x_proj[self.d_state + self.dt_rank:]
 
             dt = self.dt_proj(dt)
             dA = torch.einsum("ji,is->jis", dt, self.A) # 1 inner, inner state -> 1 inner state
@@ -286,10 +286,10 @@ model = SSM(
 )
 #Haz que los prints tambien tengan texto por favor usa f strings
 
-print(x_train.shape)
+print(x_train[1].shape)
 print("\n\n")
 
-out, hidden = model(x_train)
+out, hidden = model(x_train[1])
 
 print(out.shape)
 print("\n\n")
