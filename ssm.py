@@ -81,26 +81,26 @@ class SSM(nn.Module):
             dt = x_proj[self.d_state:self.d_state + self.dt_rank]
             C = x_proj[self.d_state + self.dt_rank:]
 
-            print(f"dt shape: {dt.shape}")
-            print(f"A shape: {self.A.shape}")
-            print(f"B shape: {B.shape}")
-            print(f"C shape: {C.shape}")
+            print(f"dt shape: {dt.shape}\n\n")
+            print(f"A shape: {self.A.shape}\n\n")
+            print(f"B shape: {B.shape}\n\n")
+            print(f"C shape: {C.shape}\n\n")
 
             dt = self.dt_proj(dt)
-            print(f"dt shape: {dt.shape}")
+            print(f"dt shape: {dt.shape}\n\n")
 
             dA = torch.einsum("ji,is->jis", dt, self.A) # 1 inner, inner state -> 1 inner state
-            print(f"dA shape: {dA.shape}")
+            print(f"dA shape: {dA.shape}\n\n")
 
             dB = torch.einsum("ji,js->jis", dt, B) # 1 inner, 1 state -> 1 inner state
-            print(f"dB shape: {dB.shape}")
+            print(f"dB shape: {dB.shape}\n\n")
 
             hidden_state = hidden_state * dA + rearrange(x, "b d -> b d 1") * dB
-            print(f"hidden_state shape: {hidden_state.shape}")
+            print(f"hidden_state shape: {hidden_state.shape}\n\n")
 
             #y = torch.einsum("bdn,bn->bd", ssm_state.to(dtype), C) + self.D * x
             y = torch.einsum("is,js->ji", hidden_state, C)  + self.D * x
-            print(f"y shape: {y.shape}")
+            print(f"y shape: {y.shape}\n\n")
 
             hidden_previos.append(hidden_state)
             out.append(y)
