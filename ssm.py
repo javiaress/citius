@@ -88,38 +88,40 @@ class SSM(nn.Module):
 
             dt = self.dt_proj(dt)
             print(f"dt shape: {dt.shape}\n\n")
-
+            
+            dt = dt.unsqueeze(0)
             dA = torch.einsum("ji,is->jis", dt, self.A) # 1 inner, inner state -> 1 inner state
             print(f"dA shape: {dA.shape}\n\n")
 
+            B = B.unsqueeze(0)
             dB = torch.einsum("ji,js->jis", dt, B) # 1 inner, 1 state -> 1 inner state
             print(f"dB shape: {dB.shape}\n\n")
-
-            hidden_state = hidden_state * dA + rearrange(x, "b d -> b d 1") * dB
+            
+            hidden_state = hidden_state * dA + rearrange(x[i], "d -> 1 d 1") * dB
             print(f"hidden_state shape: {hidden_state.shape}\n\n")
-
-            #y = torch.einsum("bdn,bn->bd", ssm_state.to(dtype), C) + self.D * x
-            y = torch.einsum("is,js->ji", hidden_state, C)  + self.D * x
+            
+            C = C.unsqueeze(0)
+            y = torch.einsum("jis,js->ji", hidden_state, C)  + self.D * x[i]
             print(f"y shape: {y.shape}\n\n")
 
             hidden_previos.append(hidden_state)
             out.append(y)
-
+            
+            print("FIN ITER\n")
         return out, hidden_previos
 
 model = SSM(
-    d_inner=17,
+    d_inner=5,
     d_state=16
 )
 
-entrada = torch.tensor([[1, 2, 3, 4, 5]])
+entrada = torch.tensor([[0, 1, 0, 0, 1],[0, 0, 0, 1, 0]], dtype=torch.float32)
 
 out, hidden = model(entrada)
 
-print(out.shape)
-print("\n\n")
 print(out)
-
+print("\n\n")
+print(hidden)
 
 """
 DATOS Y ENTRENAMIENTO
