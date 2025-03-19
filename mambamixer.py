@@ -271,7 +271,10 @@ def val_test(model, val_loader):
 
         y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
         _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
-        
+       
+        y_pred_tags = y_pred_tags.to(torch.float32)
+        y_real = y_real.to(torch.float32)
+
         val_loss = loss_fn(y_pred_tags, y_real)
         val_acc = acc(y_pred, y_real)
         
@@ -303,6 +306,9 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             
             y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
             _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
+        
+            y_pred_tags = y_pred_tags.to(torch.float32)
+            y_real = y_real.to(torch.float32)
 
             train_loss = loss_fn(y_pred_tags, y_real)
             
@@ -319,7 +325,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
 
             train_acc = acc(y_pred, y_real)
 
-            train_loss.backward()
+            #train_loss.backward()
             opt.step()
 
             train_epoch_loss.append(train_loss.item())
@@ -401,6 +407,9 @@ def test(model, val_loader):
         
         y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
         _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
+        
+        y_pred_tags = y_pred_tags.to(torch.float32)
+        y_real = y_real.to(torch.float32)
 
         val_loss = loss_fn(y_pred_tags, y_real)
         val_acc = levenshtein_acc(y_pred, y_real, tam_suf)
