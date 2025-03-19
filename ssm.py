@@ -107,6 +107,19 @@ class SSM(nn.Module):
 
         return out, hidden_previos
 
+model = SSM(
+    d_inner=17,
+    d_state=16
+)
+
+entrada = torch.tensor([[1, 2, 3, 4, 5]])
+
+out, hidden = model(entrada)
+
+print(out.shape)
+print("\n\n")
+print(out)
+
 
 """
 DATOS Y ENTRENAMIENTO
@@ -297,7 +310,6 @@ model = SSM(
     d_inner=17,
     d_state=16
 )
-#Haz que los prints tambien tengan texto por favor usa f strings
 
 print(x_train[1].shape)
 print("\n\n")
