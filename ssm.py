@@ -12,19 +12,24 @@ import numpy as np
 class SSM(nn.Module):
     def __init__(
         self,
-        d_inner,
+        d_model,
+        d_embedding=32,
+        d_inner=64,
         d_state=16,
         dt_rank="auto",
         dt_init="random",
         dt_scale=1.0,
     ):
         super().__init__()
+        self.d_model = d_model
         self.d_inner = d_inner
         self.d_state = d_state
         self.dt_rank = math.ceil(self.d_inner / 16) if dt_rank == "auto" else dt_rank
 
         #self.activation = "silu"
         #self.act = nn.SiLU()
+        self.embedding = nn.Embedding(self.d_model + 1, self.d_embedding, padding_idx=0) #PREGUNTAR PADDING
+        self.linear1 = nn.Linear(self.d_embedding, self.d_inner)
 
         self.x_proj = nn.Linear(
             self.d_inner, self.dt_rank + self.d_state * 2
@@ -32,28 +37,7 @@ class SSM(nn.Module):
 
         self.dt_proj = nn.Linear(self.dt_rank, self.d_inner)
         
-        '''
-        # Initialize special dt projection to preserve variance at initialization
-        dt_init_std = self.dt_rank**-0.5 * dt_scale
-        if dt_init == "constant":
-            nn.init.constant_(self.dt_proj.weight, dt_init_std)
-        elif dt_init == "random":
-            nn.init.uniform_(self.dt_proj.weight, -dt_init_std, dt_init_std)
-        else:
-            raise NotImplementedError
-
-        # Initialize dt bias so that F.softplus(dt_bias) is between dt_min and dt_max
-        dt = torch.exp(
-            torch.rand(self.d_inner) * (math.log(dt_max) - math.log(dt_min))
-            + math.log(dt_min)
-        ).clamp(min=dt_init_floor)
-        # Inverse of softplus: https://github.com/pytorch/pytorch/issues/72759
-        inv_dt = dt + torch.log(-torch.expm1(-dt))
-        with torch.no_grad():
-            self.dt_proj.bias.copy_(inv_dt)
-        # Our initialization would set all Linear.bias to zero, need to mark this one as _no_reinit
-        self.dt_proj.bias._no_reinit = True
-        '''
+        self.linear2 = nn.Linear(self.d_inner, self.d_model) 
 
         # S4D real initialization
         A = repeat(
@@ -74,6 +58,10 @@ class SSM(nn.Module):
         hidden_state = torch.zeros((self.d_inner, self.d_state), dtype=torch.float32)
         out = []
         hidden_previos = []
+
+        x = self.embedding(x)
+
+        x = self.linear1(x)
 
         for i in range(batch):
             x_proj = self.x_proj(x[i])
@@ -103,6 +91,8 @@ class SSM(nn.Module):
             C = C.unsqueeze(0)
             y = torch.einsum("jis,js->ji", hidden_state, C)  + self.D * x[i]
             print(f"y shape: {y.shape}\n\n")
+
+            y = self.linear2(y)
 
             hidden_previos.append(hidden_state)
             out.append(y)
@@ -309,8 +299,7 @@ y_test = torch.tensor(y_test)
 tam_suf_test = torch.tensor(tam_suf_test)
 
 model = SSM(
-    d_inner=17,
-    d_state=16
+    d_model=NUM_ACTIVITIES+1
 )
 
 print(x_train[1].shape)
@@ -321,5 +310,194 @@ out, hidden = model(x_train[1])
 print(out.shape)
 print("\n\n")
 print(out)
+
+from torch.utils.data import DataLoader, TensorDataset
+
+dataset_train = TensorDataset(x_train, y_train)
+loader_train = DataLoader(dataset=dataset_train, batch_size=16, shuffle=True)
+
+dataset_val = TensorDataset(x_val, y_val)
+loader_val = DataLoader(dataset=dataset_val, batch_size=16, shuffle=True)
+
+dataset_test = TensorDataset(x_test, y_test, tam_suf_test)
+loader_test = DataLoader(dataset=dataset_test, batch_size=16, shuffle=True)
+
+import os
+import pathlib
+import torch
+import torch.nn as nn
+import numpy as np
+import wandb
+
+
+def acc(y_pred, y_real):
+
+    y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
+    _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
+
+    _, y_real_tags = torch.max(y_real, dim=-1)
+
+    '''
+    print(y_pred_tags)
+    print("\n\n")
+    print(y_real_tags)
+    '''
+
+    correct_pred = (y_pred_tags == y_real_tags).float()
+    acc = correct_pred.sum() / correct_pred.numel()
+
+    return acc
+
+def val_test(model, val_loader):
+    model.eval()
+    loss_fn = nn.CrossEntropyLoss().to("cuda")
+
+    val_epoch_loss = []
+    val_epoch_acc = []
+    
+    for mini_batch in iter(val_loader):
+        prefix = mini_batch[0].to("cuda")       
+        y_real = mini_batch[1]
+
+        y_pred = model(prefix)
+        
+        val_loss = loss_fn(y_pred, y_real)
+        val_acc = acc(y_pred, y_real)
+        
+        val_epoch_loss.append(val_loss.item())
+        val_epoch_acc.append(val_acc.item())
+
+    return val_epoch_loss, val_epoch_acc
+
+
+def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wandb):
+
+    opt = torch.optim.Adam(model.parameters(), lr=0.002, betas=(0.9, 0.999), eps=1e-08)
+    loss_fn = nn.CrossEntropyLoss().to("cuda")
+
+    val_mae_best = np.inf  # Starts the best MAE value as infinite
+    epochs_no_improve = 0
+
+    for e in range(100):
+        train_epoch_loss = []
+        train_epoch_acc = []
+        model.train()
+        sum_train_loss = 0
+        for mini_batch in iter(train_loader):
+            prefix = mini_batch[0].to("cuda")
+            y_real = mini_batch[1]
+
+            model.zero_grad()
+            y_pred = model(prefix)
+            
+
+            train_loss = loss_fn(y_pred, y_real)
+            
+            '''
+            print(f"Tipo de y_pred: {y_pred.shape}\n")
+            print(f"Tipo de targets antes de convertir: {y_real.shape}\n\n\nreal:")
+            print(y_real)
+            print("\n\n pred:")
+            
+            print(y_pred)
+            print("\n\n")
+            '''
+            #print(prefix) #echarle un ojo a lo q significa cada dimension para hacer la funcion de acc bn
+
+            train_acc = acc(y_pred, y_real)
+
+            train_loss.backward()
+            opt.step()
+
+            train_epoch_loss.append(train_loss.item())
+            train_epoch_acc.append(train_acc.item())
+
+        with torch.no_grad():
+            val_epoch_loss, val_epoch_acc = val_test(model, val_loader)
+            
+            avg_train_loss = sum(train_epoch_loss) / len(train_epoch_loss)
+            avg_val_loss = sum(val_epoch_loss) / len(val_epoch_loss)
+            avg_train_acc = (sum(train_epoch_acc) / len(train_epoch_acc)) * 100
+            avg_val_acc = (sum(val_epoch_acc) / len(val_epoch_acc)) * 100
+
+            print(f'Epoch {e}: | Train Loss: {avg_train_loss:.6f} | Val Loss: {avg_val_loss:.6f} | '
+                  f'Train Acc: {avg_train_acc:.3f} | Val Acc: {avg_val_acc:.3f}')
+
+            if use_wandb:
+                wandb.log({
+                    num_fold + '_train_loss': sum(train_epoch_loss) / len(train_epoch_loss),
+                    num_fold + '_val_loss': sum(val_epoch_loss) / len(val_epoch_loss),
+                    num_fold + '_train_acc': (sum(train_epoch_acc) / len(train_epoch_acc)) * 100,
+                    num_fold + '_val_acc': (sum(val_epoch_acc) / len(val_epoch_acc)) * 100
+                    })
+
+            if sum(val_epoch_loss) / len(val_epoch_loss) < val_mae_best:
+                val_mae_best = sum(val_epoch_loss) / len(val_epoch_loss)
+
+                epochs_no_improve = 0
+
+                if os.path.isdir('./models/' + filename + '/' + num_fold + '/'):
+                    torch.save(model, "./models/" + filename + '/' + num_fold + "/" + model_name)
+                else:
+                    pathlib.Path('./models/' + filename + '/' + num_fold).mkdir(parents=True, exist_ok=True)
+                    torch.save(model, "./models/" + filename + '/' + num_fold + "/" + model_name)
+            
+            else:
+                epochs_no_improve += 1
+
+            if epochs_no_improve >= 30:
+                print("Early stopping")
+                break
+
+fit(model, loader_train, loader_val, "mamba", "1", "modelomamba", False)
+
+
+from jellyfish._jellyfish import damerau_levenshtein_distance
+
+def levenshtein_acc(y_pred, y_real, tam_suf):
+    y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
+    _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
+
+    _, y_real_tags = torch.max(y_real, dim=-1)
+
+    y_pred_tags = y_pred_tags.cpu().numpy()
+    y_real_tags = y_real_tags.cpu().numpy()
+    
+    acc = 0
+    for i in range(len(y_pred_tags)):
+        pred_seq = ''.join(map(chr, y_pred_tags[i][-tam_suf[i]:] + 161))
+        real_seq = ''.join(map(chr, y_real_tags[i][-tam_suf[i]:] + 161))
+
+        acc += 1 - damerau_levenshtein_distance(pred_seq, real_seq) / max(len(pred_seq), len(real_seq))
+
+    return acc / len(y_pred_tags)
+
+def test(model, val_loader):
+    model.eval()
+    loss_fn = nn.CrossEntropyLoss().to("cuda")
+
+    val_epoch_loss = []
+    val_epoch_acc = []
+
+    for mini_batch in iter(val_loader):
+        prefix = mini_batch[0].to("cuda")
+        y_real = mini_batch[1]
+        tam_suf = mini_batch[2]
+
+        y_pred = model(prefix)
+
+        val_loss = loss_fn(y_pred, y_real)
+        val_acc = levenshtein_acc(y_pred, y_real, tam_suf)
+        val_epoch_loss.append(val_loss.item())
+        val_epoch_acc.append(val_acc)
+
+    return val_epoch_loss, val_epoch_acc
+
+val_epoch_loss, val_epoch_acc = test(model, loader_test)
+
+print(f'Levenshtein Acc: {sum(val_epoch_acc) / len(val_epoch_acc)}')
+
+
+print("\n\n sa cabau")
 
 """

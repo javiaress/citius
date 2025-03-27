@@ -96,7 +96,7 @@ data = data_augment
 # In[7]:
 
 
-TRAIN_SIZE = 0.55
+TRAIN_SIZE = 0.64
 VAL_SIZE = 0.16
 
 # Group events by case id (traces)
@@ -111,7 +111,7 @@ third_cut = round(len(cases) * (0.64+VAL_SIZE))
 # Split in train-validation-test
 train_cases = cases[:first_cut]
 val_cases = cases[first_cut:second_cut]
-test_cases = cases[third_cut:]
+test_cases = cases[second_cut:]
 
 train_data = pd.concat(train_cases)
 val_data = pd.concat(val_cases)
