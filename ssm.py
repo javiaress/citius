@@ -12,32 +12,21 @@ import numpy as np
 class SSM(nn.Module):
     def __init__(
         self,
-        d_model,
-        d_embedding=32,
-        d_inner=64,
+        d_inner,
         d_state=16,
-        dt_rank="auto",
-        dt_init="random",
-        dt_scale=1.0,
+        dt_rank="auto"
     ):
         super().__init__()
-        self.d_model = d_model
+
         self.d_inner = d_inner
         self.d_state = d_state
         self.dt_rank = math.ceil(self.d_inner / 16) if dt_rank == "auto" else dt_rank
-
-        #self.activation = "silu"
-        #self.act = nn.SiLU()
-        self.embedding = nn.Embedding(self.d_model + 1, self.d_embedding, padding_idx=0) #PREGUNTAR PADDING
-        self.linear1 = nn.Linear(self.d_embedding, self.d_inner)
 
         self.x_proj = nn.Linear(
             self.d_inner, self.dt_rank + self.d_state * 2
         )
 
         self.dt_proj = nn.Linear(self.dt_rank, self.d_inner)
-        
-        self.linear2 = nn.Linear(self.d_inner, self.d_model) 
 
         # S4D real initialization
         A = repeat(
@@ -54,64 +43,77 @@ class SSM(nn.Module):
     
     def forward(self, x):
 
-        batch, _ = x.shape
+        _, seq, _ = x.shape
         hidden_state = torch.zeros((self.d_inner, self.d_state), dtype=torch.float32)
         out = []
         hidden_previos = []
 
-        x = self.embedding(x)
-
-        x = self.linear1(x)
-
-        for i in range(batch):
-            x_proj = self.x_proj(x[i])
+        for i in range(seq):
+            x_proj = self.x_proj(x[:,i,:])
             B = x_proj[:self.d_state]
             dt = x_proj[self.d_state:self.d_state + self.dt_rank]
             C = x_proj[self.d_state + self.dt_rank:]
 
-            print(f"dt shape: {dt.shape}\n\n")
-            print(f"A shape: {self.A.shape}\n\n")
-            print(f"B shape: {B.shape}\n\n")
-            print(f"C shape: {C.shape}\n\n")
+            #print(f"dt shape: {dt.shape}\n\n")
+            #print(f"A shape: {self.A.shape}\n\n")
+            #print(f"B shape: {B.shape}\n\n")
+            #print(f"C shape: {C.shape}\n\n")
 
             dt = self.dt_proj(dt)
-            print(f"dt shape: {dt.shape}\n\n")
+            #print(f"dt shape: {dt.shape}\n\n")
             
             dt = dt.unsqueeze(0)
             dA = torch.einsum("ji,is->jis", dt, self.A) # 1 inner, inner state -> 1 inner state
-            print(f"dA shape: {dA.shape}\n\n")
+            #print(f"dA shape: {dA.shape}\n\n")
 
             B = B.unsqueeze(0)
             dB = torch.einsum("ji,js->jis", dt, B) # 1 inner, 1 state -> 1 inner state
-            print(f"dB shape: {dB.shape}\n\n")
+            #print(f"dB shape: {dB.shape}\n\n")
             
             hidden_state = hidden_state * dA + rearrange(x[i], "d -> 1 d 1") * dB
-            print(f"hidden_state shape: {hidden_state.shape}\n\n")
+            #print(f"hidden_state shape: {hidden_state.shape}\n\n")
             
             C = C.unsqueeze(0)
             y = torch.einsum("jis,js->ji", hidden_state, C)  + self.D * x[i]
-            print(f"y shape: {y.shape}\n\n")
-
-            y = self.linear2(y)
+            #print(f"y shape: {y.shape}\n\n")
 
             hidden_previos.append(hidden_state)
             out.append(y)
             
-            print("FIN ITER\n")
+            #print("FIN ITER\n")
         return out, hidden_previos
 
-model = SSM(
-    d_inner=5,
-    d_state=16
+class Modelo(nn.Module):
+    def __init__(self, d_model, d_embedding = 32, d_hidden = 64):
+        super().__init__()
+        self.embedding = nn.Embedding(d_model, d_embedding, padding_idx=0)
+        self.linear1 = nn.Linear(d_embedding, d_hidden)
+        self.ssm = SSM(d_inner= d_hidden)
+        self.linear2 = nn.Linear(d_hidden, d_model)
+    
+    def forward(self, x):
+        
+        print(f"input shape: {x.shape}\n\n")
+        embed_x = self.embedding(x) 
+        print(f"embed_x shape: {embed_x.shape}\n\n")
+        x_ssm = self.linear1(embed_x)
+        print(f"x_ssm shape: {x_ssm.shape}\n\n")
+        out, _ = self.ssm(x_ssm) 
+        print(f"out shape: {out.shape}\n\n")
+        out = self.linear2(out)
+        print(f"out shape: {out.shape}\n\n")
+        return out
+
+model = Modelo(
+    d_model=4
 )
 
-entrada = torch.tensor([[0, 1, 0, 0, 1],[0, 0, 0, 1, 0]], dtype=torch.float32)
+entrada = torch.tensor([[0, 0, 4, 1],[0, 1, 2, 5]], dtype=torch.float32)
 
-out, hidden = model(entrada)
+out = model(entrada)
 
 print(out)
 print("\n\n")
-print(hidden)
 
 """
 DATOS Y ENTRENAMIENTO
@@ -298,7 +300,7 @@ x_test = torch.tensor(x_test)
 y_test = torch.tensor(y_test)
 tam_suf_test = torch.tensor(tam_suf_test)
 
-model = SSM(
+model = Modelo(
     d_model=NUM_ACTIVITIES+1
 )
 
