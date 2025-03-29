@@ -49,10 +49,12 @@ class SSM(nn.Module):
         hidden_previos = []
 
         for i in range(seq):
+            
+            #print(f"x: {x.shape}\n\n")
             x_proj = self.x_proj(x[:,i,:])
-            B = x_proj[:self.d_state]
-            dt = x_proj[self.d_state:self.d_state + self.dt_rank]
-            C = x_proj[self.d_state + self.dt_rank:]
+            B = x_proj[:,:self.d_state]
+            dt = x_proj[:,self.d_state:self.d_state + self.dt_rank]
+            C = x_proj[:,self.d_state + self.dt_rank:]
 
             #print(f"dt shape: {dt.shape}\n\n")
             #print(f"A shape: {self.A.shape}\n\n")
@@ -62,19 +64,20 @@ class SSM(nn.Module):
             dt = self.dt_proj(dt)
             #print(f"dt shape: {dt.shape}\n\n")
             
-            dt = dt.unsqueeze(0)
+            #dt = dt.unsqueeze(0)
             dA = torch.einsum("ji,is->jis", dt, self.A) # 1 inner, inner state -> 1 inner state
             #print(f"dA shape: {dA.shape}\n\n")
 
-            B = B.unsqueeze(0)
+            #B = B.unsqueeze(0)
             dB = torch.einsum("ji,js->jis", dt, B) # 1 inner, 1 state -> 1 inner state
             #print(f"dB shape: {dB.shape}\n\n")
             
-            hidden_state = hidden_state * dA + rearrange(x[i], "d -> 1 d 1") * dB
+            #print(f"x[:,i]: {x[:,i].shape}\n\n")
+            hidden_state = hidden_state * dA + rearrange(x[:,i], "b d -> b d 1") * dB
             #print(f"hidden_state shape: {hidden_state.shape}\n\n")
             
-            C = C.unsqueeze(0)
-            y = torch.einsum("jis,js->ji", hidden_state, C)  + self.D * x[i]
+            #C = C.unsqueeze(0)
+            y = torch.einsum("jis,js->ji", hidden_state, C)  + self.D * x[:,i]
             #print(f"y shape: {y.shape}\n\n")
 
             hidden_previos.append(hidden_state)
@@ -99,16 +102,16 @@ class Modelo(nn.Module):
         x_ssm = self.linear1(embed_x)
         print(f"x_ssm shape: {x_ssm.shape}\n\n")
         out, _ = self.ssm(x_ssm) 
-        print(f"out shape: {out.shape}\n\n")
-        out = self.linear2(out)
-        print(f"out shape: {out.shape}\n\n")
-        return out
+        print(f"out shape: {out[-1].shape}\n\n")
+        salida = self.linear2(out[-1])
+        print(f"salida shape: {salida.shape}\n\n")
+        return salida
 
 model = Modelo(
-    d_model=4
+    d_model=8
 )
 
-entrada = torch.tensor([[0, 0, 4, 1],[0, 1, 2, 5]], dtype=torch.float32)
+entrada = torch.tensor([[0, 0, 4, 1],[0, 1, 2, 5]])
 
 out = model(entrada)
 
