@@ -34,7 +34,9 @@ class SSM(nn.Module):
             "n -> d n",
             d=self.d_inner,
         ).contiguous()
-        self.A = nn.Parameter(A)
+        A_log = torch.log(A)
+        self.A_log = nn.Parameter(A_log)
+        self.A_log._no_weight_decay = True
 
         # D "skip" parameter
         self.D = nn.Parameter(torch.ones(self.d_inner, dtype=torch.float32)) 
@@ -55,9 +57,10 @@ class SSM(nn.Module):
             B = x_proj[:,:self.d_state]
             dt = x_proj[:,self.d_state:self.d_state + self.dt_rank]
             C = x_proj[:,self.d_state + self.dt_rank:]
+            A = -torch.exp(self.A_log.float())
 
             #print(f"dt shape: {dt.shape}\n\n")
-            #print(f"A shape: {self.A.shape}\n\n")
+            #print(f"A shape: {A.shape}\n\n")
             #print(f"B shape: {B.shape}\n\n")
             #print(f"C shape: {C.shape}\n\n")
 
@@ -65,7 +68,7 @@ class SSM(nn.Module):
             #print(f"dt shape: {dt.shape}\n\n")
             
             #dt = dt.unsqueeze(0)
-            dA = torch.einsum("ji,is->jis", dt, self.A) # 1 inner, inner state -> 1 inner state
+            dA = torch.einsum("ji,is->jis", dt, A) # 1 inner, inner state -> 1 inner state
             #print(f"dA shape: {dA.shape}\n\n")
 
             #B = B.unsqueeze(0)
@@ -74,6 +77,7 @@ class SSM(nn.Module):
             
             #print(f"x[:,i]: {x[:,i].shape}\n\n")
             hidden_state = hidden_state * dA + rearrange(x[:,i], "b d -> b d 1") * dB
+            hidden_state = torch.clamp(hidden_state, min=-1e6, max=1e6)
             #print(f"hidden_state shape: {hidden_state.shape}\n\n")
             
             #C = C.unsqueeze(0)
@@ -84,6 +88,11 @@ class SSM(nn.Module):
             out.append(y)
             
             #print("FIN ITER\n")
+        out = torch.stack(out)  # (seq, batch, d_inner)
+        hidden_previos = torch.stack(hidden_previos)  # (seq, batch, d_inner, d_state)
+        
+        out = out.permute(1, 0, 2)  # (batch, seq, d_inner)
+        hidden_previos = hidden_previos.permute(1, 0, 2, 3)  # (batch, seq, d_inner, d_state)
         return out, hidden_previos
 
 class Modelo(nn.Module):
@@ -102,8 +111,8 @@ class Modelo(nn.Module):
         x_ssm = self.linear1(embed_x)
         print(f"x_ssm shape: {x_ssm.shape}\n\n")
         out, _ = self.ssm(x_ssm) 
-        print(f"out shape: {out[-1].shape}\n\n")
-        salida = self.linear2(out[-1])
+        print(f"out shape: {out.shape}\n\n")
+        salida = self.linear2(out)
         print(f"salida shape: {salida.shape}\n\n")
         return salida
 
@@ -115,7 +124,7 @@ entrada = torch.tensor([[0, 0, 4, 1],[0, 1, 2, 5]])
 
 out = model(entrada)
 
-#print(out)
+print(out)
 print("\n\n")
 
 """
@@ -261,7 +270,7 @@ def get_prefixes(data):
             next_acts.append(gr[ACTIVITY_COL].values)
             
     # Matrix containing the training data
-    X = np.zeros((len(prefixes_acts), MAX_LEN), dtype=np.float32)
+    X = np.zeros((len(prefixes_acts), MAX_LEN), dtype = np.float32)
     # Target event prediction data
     Y_a = np.zeros((len(prefixes_acts), MAX_LEN), dtype=np.float32)
     
@@ -294,14 +303,13 @@ print("\n\n")
 print(tam_suf_val[1])
 print("\n\n")
 
-
-x_train = torch.tensor(x_train)
-y_train = torch.tensor(y_train)
-x_val = torch.tensor(x_val)
-y_val = torch.tensor(y_val)
-x_test = torch.tensor(x_test)
-y_test = torch.tensor(y_test)
-tam_suf_test = torch.tensor(tam_suf_test)
+x_train = torch.tensor(x_train, dtype=torch.long)
+y_train = torch.tensor(y_train, dtype=torch.long)
+x_val = torch.tensor(x_val, dtype=torch.long)
+y_val = torch.tensor(y_val, dtype=torch.long)
+x_test = torch.tensor(x_test, dtype=torch.long)
+y_test = torch.tensor(y_test, dtype=torch.long)
+tam_suf_test = torch.tensor(tam_suf_test, dtype=torch.long)
 
 model = Modelo(
     d_model=NUM_ACTIVITIES+1
@@ -314,7 +322,7 @@ print("\n\n")
 print(out)
 print("\n\n")
 print("MODELO PASADO")
-"""
+
 from torch.utils.data import DataLoader, TensorDataset
 
 dataset_train = TensorDataset(x_train, y_train)
@@ -503,4 +511,4 @@ print(f'Levenshtein Acc: {sum(val_epoch_acc) / len(val_epoch_acc)}')
 
 
 print("\n\n sa cabau")
-"""
+
