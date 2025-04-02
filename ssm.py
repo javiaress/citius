@@ -115,12 +115,12 @@ entrada = torch.tensor([[0, 0, 4, 1],[0, 1, 2, 5]])
 
 out = model(entrada)
 
-print(out)
+#print(out)
 print("\n\n")
 
 """
 DATOS Y ENTRENAMIENTO
-
+"""
 
 data_folder = './data/'
 filename = 'SEPSIS'
@@ -147,7 +147,7 @@ data = data[[CASE_COL, ACTIVITY_COL]]
 
 def category_to_label(attr: pd.Series) -> (pd.Series, dict, dict):
     uniq_attr = attr.unique()
-    attr_dict = {idx: value for idx, value in enumerate(uniq_attr)}
+    attr_dict = {idx + 1: value for idx, value in enumerate(uniq_attr)}
     reverse_dict = {value: key for key, value in attr_dict.items()}
 
     attr_cat = pd.Series(map(lambda x: reverse_dict[x], attr.values))
@@ -190,7 +190,7 @@ for _, case in cases:
     case = case.reset_index(drop=True)
     
     eoc_row = pd.DataFrame({CASE_COL: [case[CASE_COL][0]],
-                            ACTIVITY_COL: [NUM_ACTIVITIES]})
+                            ACTIVITY_COL: [NUM_ACTIVITIES + 1]})
     case = pd.concat([case, eoc_row])
     case = case.reset_index(drop=True)
 
@@ -261,9 +261,9 @@ def get_prefixes(data):
             next_acts.append(gr[ACTIVITY_COL].values)
             
     # Matrix containing the training data
-    X = np.zeros((len(prefixes_acts), MAX_LEN, NUM_ACTIVITIES+1), dtype=np.float32)
+    X = np.zeros((len(prefixes_acts), MAX_LEN), dtype=np.float32)
     # Target event prediction data
-    Y_a = np.zeros((len(prefixes_acts), MAX_LEN, NUM_ACTIVITIES+1), dtype=np.float32)
+    Y_a = np.zeros((len(prefixes_acts), MAX_LEN), dtype=np.float32)
     
     tam_suf = np.zeros(len(prefixes_acts), dtype=np.int32)
 
@@ -272,10 +272,10 @@ def get_prefixes(data):
         left_pad_trace = MAX_LEN - len(next_acts[i])
         next_act = next_acts[i]
         for j, act in enumerate(prefix_acts):
-            X[i, j + left_pad, act] = 1
+            X[i, j + left_pad] = act
         
         for k, act in enumerate(next_act):
-            Y_a[i, k + left_pad_trace, act] = 1
+            Y_a[i, k + left_pad_trace] = act
             
         tam_suf[i] = len(next_acts[i]) - len(prefixes_acts[i])
     
@@ -307,15 +307,14 @@ model = Modelo(
     d_model=NUM_ACTIVITIES+1
 )
 
-print(x_train[1].shape)
-print("\n\n")
-
-out, hidden = model(x_train[1])
+out = model(x_train)
 
 print(out.shape)
 print("\n\n")
 print(out)
-
+print("\n\n")
+print("MODELO PASADO")
+"""
 from torch.utils.data import DataLoader, TensorDataset
 
 dataset_train = TensorDataset(x_train, y_train)
@@ -504,5 +503,4 @@ print(f'Levenshtein Acc: {sum(val_epoch_acc) / len(val_epoch_acc)}')
 
 
 print("\n\n sa cabau")
-
 """
