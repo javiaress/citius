@@ -302,17 +302,19 @@ print("\n\n")
 print(tam_suf_val[1])
 print("\n\n")
 
-x_train = torch.tensor(x_train, dtype=torch.long)
-y_train = torch.tensor(y_train, dtype=torch.long)
-x_val = torch.tensor(x_val, dtype=torch.long)
-y_val = torch.tensor(y_val, dtype=torch.long)
-x_test = torch.tensor(x_test, dtype=torch.long)
-y_test = torch.tensor(y_test, dtype=torch.long)
-tam_suf_test = torch.tensor(tam_suf_test, dtype=torch.long)
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+x_train = torch.tensor(x_train, dtype=torch.long).to(device)
+y_train = torch.tensor(y_train, dtype=torch.long).to(device)
+x_val = torch.tensor(x_val, dtype=torch.long).to(device)
+y_val = torch.tensor(y_val, dtype=torch.long).to(device)
+x_test = torch.tensor(x_test, dtype=torch.long).to(device)
+y_test = torch.tensor(y_test, dtype=torch.long).to(device)
+tam_suf_test = torch.tensor(tam_suf_test, dtype=torch.long).to(device)
 
 model = Modelo(
     d_model=NUM_ACTIVITIES+1
-)
+).to(device)
 
 out = model(x_train)
 
@@ -361,13 +363,13 @@ def acc(y_pred, y_real):
 
 def val_test(model, val_loader):
     model.eval()
-    loss_fn = nn.CrossEntropyLoss(ignore_index=-1)
+    loss_fn = nn.CrossEntropyLoss(ignore_index=0).to(device)
 
     val_epoch_loss = []
     val_epoch_acc = []
     
     for mini_batch in iter(val_loader):
-        prefix = mini_batch[0]       
+        prefix = mini_batch[0].to(device)
         y_real = mini_batch[1]
 
         y_pred = model(prefix)
@@ -375,7 +377,6 @@ def val_test(model, val_loader):
         # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
         y_pred_loss = y_pred.view(-1, 17)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
         y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
-        y_real_loss = y_real_loss - 1
         
         val_loss = loss_fn(y_pred_loss, y_real_loss)
         val_acc = acc(y_pred, y_real)
@@ -389,7 +390,7 @@ def val_test(model, val_loader):
 def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wandb):
 
     opt = torch.optim.Adam(model.parameters(), lr=0.002, betas=(0.9, 0.999), eps=1e-08)
-    loss_fn = nn.CrossEntropyLoss(ignore_index=0)
+    loss_fn = nn.CrossEntropyLoss(ignore_index=0).to(device)
 
     val_mae_best = np.inf  # Starts the best MAE value as infinite
     epochs_no_improve = 0
@@ -401,7 +402,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
         sum_train_loss = 0
         print(f"Se ejecutará {len(train_loader)} veces el bucle de mini-batches.")
         for mini_batch in iter(train_loader):
-            prefix = mini_batch[0]
+            prefix = mini_batch[0].to(device)
             y_real = mini_batch[1]
 
             model.zero_grad()
@@ -495,13 +496,13 @@ def levenshtein_acc(y_pred, y_real, tam_suf):
 
 def test(model, val_loader):
     model.eval()
-    loss_fn = nn.CrossEntropyLoss()
+    loss_fn = nn.CrossEntropyLoss().to(device)
 
     val_epoch_loss = []
     val_epoch_acc = []
 
     for mini_batch in iter(val_loader):
-        prefix = mini_batch[0]
+        prefix = mini_batch[0].to(device)
         y_real = mini_batch[1]
         tam_suf = mini_batch[2]
 
