@@ -105,15 +105,15 @@ class Modelo(nn.Module):
     
     def forward(self, x):
         
-        print(f"input shape: {x.shape}\n\n")
+        #print(f"input shape: {x.shape}\n\n")
         embed_x = self.embedding(x) 
-        print(f"embed_x shape: {embed_x.shape}\n\n")
+        #print(f"embed_x shape: {embed_x.shape}\n\n")
         x_ssm = self.linear1(embed_x)
-        print(f"x_ssm shape: {x_ssm.shape}\n\n")
+        #print(f"x_ssm shape: {x_ssm.shape}\n\n")
         out, _ = self.ssm(x_ssm) 
-        print(f"out shape: {out.shape}\n\n")
+        #print(f"out shape: {out.shape}\n\n")
         salida = self.linear2(out)
-        print(f"salida shape: {salida.shape}\n\n")
+        #print(f"salida shape: {salida.shape}\n\n")
         return salida
 
 model = Modelo(
@@ -347,7 +347,7 @@ def acc(y_pred, y_real):
     y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
     _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
 
-    _, y_real_tags = torch.max(y_real, dim=-1)
+    #_, y_real_tags = torch.max(y_real, dim=-1)
 
     '''
     print(y_pred_tags)
@@ -355,27 +355,32 @@ def acc(y_pred, y_real):
     print(y_real_tags)
     '''
 
-    correct_pred = (y_pred_tags == y_real_tags).float()
+    correct_pred = (y_pred_tags == y_real).float()
     acc = correct_pred.sum() / correct_pred.numel()
 
     return acc
 
 def val_test(model, val_loader):
     model.eval()
-    loss_fn = nn.CrossEntropyLoss().to("cuda")
+    loss_fn = nn.CrossEntropyLoss(ignore_index=-1)
 
     val_epoch_loss = []
     val_epoch_acc = []
     
     for mini_batch in iter(val_loader):
-        prefix = mini_batch[0].to("cuda")       
+        prefix = mini_batch[0]       
         y_real = mini_batch[1]
 
         y_pred = model(prefix)
+
+        # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
+        y_pred_loss = y_pred.view(-1, 17)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+        y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
+        y_real_loss = y_real_loss - 1
         
-        val_loss = loss_fn(y_pred, y_real)
+        val_loss = loss_fn(y_pred_loss, y_real_loss)
         val_acc = acc(y_pred, y_real)
-        
+        print("a")  
         val_epoch_loss.append(val_loss.item())
         val_epoch_acc.append(val_acc.item())
 
@@ -385,7 +390,7 @@ def val_test(model, val_loader):
 def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wandb):
 
     opt = torch.optim.Adam(model.parameters(), lr=0.002, betas=(0.9, 0.999), eps=1e-08)
-    loss_fn = nn.CrossEntropyLoss().to("cuda")
+    loss_fn = nn.CrossEntropyLoss(ignore_index=-1)
 
     val_mae_best = np.inf  # Starts the best MAE value as infinite
     epochs_no_improve = 0
@@ -395,15 +400,20 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
         train_epoch_acc = []
         model.train()
         sum_train_loss = 0
+        print(f"Se ejecutará {len(train_loader)} veces el bucle de mini-batches.")
         for mini_batch in iter(train_loader):
-            prefix = mini_batch[0].to("cuda")
+            prefix = mini_batch[0]
             y_real = mini_batch[1]
 
             model.zero_grad()
             y_pred = model(prefix)
-            
 
-            train_loss = loss_fn(y_pred, y_real)
+            # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
+            y_pred_loss = y_pred.view(-1, 17)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+            y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
+            y_real_loss = y_real_loss - 1
+
+            train_loss = loss_fn(y_pred_loss, y_real_loss)
             
             '''
             print(f"Tipo de y_pred: {y_pred.shape}\n")
@@ -423,6 +433,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
 
             train_epoch_loss.append(train_loss.item())
             train_epoch_acc.append(train_acc.item())
+            print("b")
 
         with torch.no_grad():
             val_epoch_loss, val_epoch_acc = val_test(model, val_loader)
@@ -486,13 +497,13 @@ def levenshtein_acc(y_pred, y_real, tam_suf):
 
 def test(model, val_loader):
     model.eval()
-    loss_fn = nn.CrossEntropyLoss().to("cuda")
+    loss_fn = nn.CrossEntropyLoss()
 
     val_epoch_loss = []
     val_epoch_acc = []
 
     for mini_batch in iter(val_loader):
-        prefix = mini_batch[0].to("cuda")
+        prefix = mini_batch[0]
         y_real = mini_batch[1]
         tam_suf = mini_batch[2]
 
