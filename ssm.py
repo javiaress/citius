@@ -101,7 +101,7 @@ class Modelo(nn.Module):
         self.embedding = nn.Embedding(d_model, d_embedding, padding_idx=0)
         self.linear1 = nn.Linear(d_embedding, d_hidden)
         self.ssm = SSM(d_inner= d_hidden)
-        self.linear2 = nn.Linear(d_hidden, d_model)
+        self.linear2 = nn.Linear(d_hidden, d_model + 1)
     
     def forward(self, x):
         
@@ -267,7 +267,7 @@ def get_prefixes(data):
 
             prefixes_acts.append(gr[ACTIVITY_COL][0:i].values)
 
-            next_acts.append(gr[ACTIVITY_COL].values)
+            next_acts.append(gr[ACTIVITY_COL][i:].values)
             
     # Matrix containing the training data
     X = np.zeros((len(prefixes_acts), MAX_LEN), dtype = np.float32)
@@ -278,13 +278,12 @@ def get_prefixes(data):
 
     for i, prefix_acts in enumerate(prefixes_acts):
         left_pad = MAX_LEN - len(prefix_acts)
-        left_pad_trace = MAX_LEN - len(next_acts[i])
         next_act = next_acts[i]
         for j, act in enumerate(prefix_acts):
             X[i, j + left_pad] = act
         
         for k, act in enumerate(next_act):
-            Y_a[i, k + left_pad_trace] = act
+            Y_a[i, k] = act
             
         tam_suf[i] = len(next_acts[i]) - len(prefixes_acts[i])
     
@@ -390,7 +389,7 @@ def val_test(model, val_loader):
 def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wandb):
 
     opt = torch.optim.Adam(model.parameters(), lr=0.002, betas=(0.9, 0.999), eps=1e-08)
-    loss_fn = nn.CrossEntropyLoss(ignore_index=-1)
+    loss_fn = nn.CrossEntropyLoss(ignore_index=0)
 
     val_mae_best = np.inf  # Starts the best MAE value as infinite
     epochs_no_improve = 0
@@ -407,12 +406,11 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
 
             model.zero_grad()
             y_pred = model(prefix)
-
+            
             # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
             y_pred_loss = y_pred.view(-1, 17)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
             y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
-            y_real_loss = y_real_loss - 1
-
+            
             train_loss = loss_fn(y_pred_loss, y_real_loss)
             
             '''
@@ -472,7 +470,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
                 print("Early stopping")
                 break
 
-fit(model, loader_train, loader_val, "mamba", "1", "modelomamba", False)
+fit(model, loader_train, loader_val, "ssm", "1", "modelossm", False)
 
 
 from jellyfish._jellyfish import damerau_levenshtein_distance
