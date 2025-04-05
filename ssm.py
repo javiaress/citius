@@ -14,7 +14,8 @@ class SSM(nn.Module):
         self,
         d_inner,
         d_state=16,
-        dt_rank="auto"
+        dt_rank="auto",
+        device=None
     ):
         super().__init__()
 
@@ -27,10 +28,11 @@ class SSM(nn.Module):
         )
 
         self.dt_proj = nn.Linear(self.dt_rank, self.d_inner)
+        self.device = device
 
         # S4D real initialization
         A = repeat(
-            torch.arange(1, self.d_state + 1, dtype=torch.float32),
+            torch.arange(1, self.d_state + 1, dtype=torch.float32, device=device),
             "n -> d n",
             d=self.d_inner,
         ).contiguous()
@@ -39,14 +41,14 @@ class SSM(nn.Module):
         self.A_log._no_weight_decay = True
 
         # D "skip" parameter
-        self.D = nn.Parameter(torch.ones(self.d_inner, dtype=torch.float32)) 
+        self.D = nn.Parameter(torch.ones(self.d_inner, dtype=torch.float32, device=device)) 
         self.D._no_weight_decay = True
         
     
     def forward(self, x):
 
         _, seq, _ = x.shape
-        hidden_state = torch.zeros((self.d_inner, self.d_state), dtype=torch.float32)
+        hidden_state = torch.zeros((self.d_inner, self.d_state), dtype=torch.float32, device = self.device)
         out = []
         hidden_previos = []
 
@@ -96,11 +98,11 @@ class SSM(nn.Module):
         return out, hidden_previos
 
 class Modelo(nn.Module):
-    def __init__(self, d_model, d_embedding = 32, d_hidden = 64):
+    def __init__(self, d_model, d_embedding = 32, d_hidden = 64, device=None):
         super().__init__()
         self.embedding = nn.Embedding(d_model, d_embedding, padding_idx=0)
         self.linear1 = nn.Linear(d_embedding, d_hidden)
-        self.ssm = SSM(d_inner= d_hidden)
+        self.ssm = SSM(d_inner= d_hidden, device = device)
         self.linear2 = nn.Linear(d_hidden, d_model + 1)
     
     def forward(self, x):
@@ -115,9 +117,10 @@ class Modelo(nn.Module):
         salida = self.linear2(out)
         #print(f"salida shape: {salida.shape}\n\n")
         return salida
-
+'''
 model = Modelo(
-    d_model=8
+    d_model=8,
+    device = device
 )
 
 entrada = torch.tensor([[0, 0, 4, 1],[0, 1, 2, 5]])
@@ -126,7 +129,7 @@ out = model(entrada)
 
 print(out)
 print("\n\n")
-
+'''
 """
 DATOS Y ENTRENAMIENTO
 """
@@ -313,7 +316,7 @@ y_test = torch.tensor(y_test, dtype=torch.long).to(device)
 tam_suf_test = torch.tensor(tam_suf_test, dtype=torch.long).to(device)
 
 model = Modelo(
-    d_model=NUM_ACTIVITIES+1
+    d_model=NUM_ACTIVITIES+1, device=device
 ).to(device)
 
 out = model(x_train)
@@ -375,12 +378,12 @@ def val_test(model, val_loader):
         y_pred = model(prefix)
 
         # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
-        y_pred_loss = y_pred.view(-1, 17)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+        y_pred_loss = y_pred.view(-1, 18)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
         y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
         
         val_loss = loss_fn(y_pred_loss, y_real_loss)
         val_acc = acc(y_pred, y_real)
-        print("a")  
+        #print("a")  
         val_epoch_loss.append(val_loss.item())
         val_epoch_acc.append(val_acc.item())
 
@@ -409,7 +412,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             y_pred = model(prefix)
             
             # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
-            y_pred_loss = y_pred.view(-1, 17)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+            y_pred_loss = y_pred.view(-1, 18)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
             y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
             
             train_loss = loss_fn(y_pred_loss, y_real_loss)
@@ -432,7 +435,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
 
             train_epoch_loss.append(train_loss.item())
             train_epoch_acc.append(train_acc.item())
-            print("b")
+            #print("b")
 
         with torch.no_grad():
             val_epoch_loss, val_epoch_acc = val_test(model, val_loader)
