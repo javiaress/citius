@@ -403,7 +403,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
         train_epoch_acc = []
         model.train()
         sum_train_loss = 0
-        print(f"Se ejecutará {len(train_loader)} veces el bucle de mini-batches.")
+        #print(f"Se ejecutará {len(train_loader)} veces el bucle de mini-batches.")
         for mini_batch in iter(train_loader):
             prefix = mini_batch[0].to(device)
             y_real = mini_batch[1]
@@ -483,10 +483,10 @@ def levenshtein_acc(y_pred, y_real, tam_suf):
     y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
     _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
 
-    _, y_real_tags = torch.max(y_real, dim=-1)
+    #_, y_real_tags = torch.max(y_real, dim=-1)
 
     y_pred_tags = y_pred_tags.cpu().numpy()
-    y_real_tags = y_real_tags.cpu().numpy()
+    y_real_tags = y_real.cpu().numpy()
     
     acc = 0
     for i in range(len(y_pred_tags)):
@@ -499,7 +499,7 @@ def levenshtein_acc(y_pred, y_real, tam_suf):
 
 def test(model, val_loader):
     model.eval()
-    loss_fn = nn.CrossEntropyLoss().to(device)
+    loss_fn = nn.CrossEntropyLoss(ignore_index=0).to(device)
 
     val_epoch_loss = []
     val_epoch_acc = []
@@ -511,7 +511,11 @@ def test(model, val_loader):
 
         y_pred = model(prefix)
 
-        val_loss = loss_fn(y_pred, y_real)
+        # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
+        y_pred_loss = y_pred.view(-1, 18)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+        y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
+        
+        val_loss = loss_fn(y_pred_loss, y_real_loss)
         val_acc = levenshtein_acc(y_pred, y_real, tam_suf)
         val_epoch_loss.append(val_loss.item())
         val_epoch_acc.append(val_acc)
