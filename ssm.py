@@ -135,7 +135,7 @@ DATOS Y ENTRENAMIENTO
 """
 
 data_folder = './data/'
-filename = 'SEPSIS'
+filename = 'BPI_Challenge_2013_closed_problems'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
 
@@ -146,6 +146,9 @@ data
 
 CASE_COL = 'CaseID'
 ACTIVITY_COL = 'Activity'
+#CASE_COL = 'case:concept:name'
+#ACTIVITY_COL = 'concept:name'
+
 TIMESTAMP_COL = 'time:timestamp'
 
 data = data[[CASE_COL, ACTIVITY_COL]]
@@ -322,9 +325,6 @@ model = Modelo(
 out = model(x_train)
 
 print(out.shape)
-print("\n\n")
-print(out)
-print("\n\n")
 print("MODELO PASADO")
 
 from torch.utils.data import DataLoader, TensorDataset
@@ -378,7 +378,7 @@ def val_test(model, val_loader):
         y_pred = model(prefix)
 
         # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
-        y_pred_loss = y_pred.view(-1, 18)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+        y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
         y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
         
         val_loss = loss_fn(y_pred_loss, y_real_loss)
@@ -412,7 +412,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             y_pred = model(prefix)
             
             # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
-            y_pred_loss = y_pred.view(-1, 18)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+            y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
             y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
             
             train_loss = loss_fn(y_pred_loss, y_real_loss)
@@ -512,7 +512,7 @@ def test(model, val_loader):
         y_pred = model(prefix)
 
         # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
-        y_pred_loss = y_pred.view(-1, 18)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+        y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
         y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
         
         val_loss = loss_fn(y_pred_loss, y_real_loss)
