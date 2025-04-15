@@ -426,12 +426,15 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
 
             '''
 
+            y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
+            _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
+
             if (e == 1):
                 print("\n\n real:")
                 print(y_real)
                 print("\n\n pred:")
                 
-                print(y_pred)
+                print(y_pred_tags)
                 print("\n\n")
 
             #print(prefix) #echarle un ojo a lo q significa cada dimension para hacer la funcion de acc bn
