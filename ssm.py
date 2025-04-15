@@ -135,7 +135,7 @@ DATOS Y ENTRENAMIENTO
 """
 
 data_folder = './data/'
-filename = 'BPI_Challenge_2013_closed_problems'
+filename = 'BPI_Challenge_2012'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
 
@@ -220,8 +220,8 @@ data = data_augment
 # In[7]:
 
 
-TRAIN_SIZE = 0.64
-VAL_SIZE = 0.16
+TRAIN_SIZE = 0.3
+VAL_SIZE = 0.05
 
 # Group events by case id (traces)
 df_groupby = data_augment.groupby(CASE_COL, sort=False)
@@ -230,11 +230,12 @@ cases = [case for _, case in df_groupby]
 # Get splitting points
 first_cut = round(len(cases) * TRAIN_SIZE)
 second_cut = round(len(cases) * (TRAIN_SIZE+VAL_SIZE))
+third_cut = round(len(cases) * (0.9))
 
 # Split in train-validation-test
 train_cases = cases[:first_cut]
 val_cases = cases[first_cut:second_cut]
-test_cases = cases[second_cut:]
+test_cases = cases[third_cut:]
 
 train_data = pd.concat(train_cases)
 val_data = pd.concat(val_cases)
@@ -299,6 +300,7 @@ x_train, y_train, tam_suf_train = get_prefixes(train_data)
 x_val, y_val, tam_suf_val = get_prefixes(val_data) 
 x_test, y_test, tam_suf_test = get_prefixes(test_data)
 
+'''
 print(x_val[1].shape)
 print(x_val[1])
 print("\n\n")
@@ -307,6 +309,7 @@ print(y_val[1])
 print("\n\n")
 print(tam_suf_val[1])
 print("\n\n")
+'''
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -325,7 +328,7 @@ model = Modelo(
 out = model(x_train)
 
 print(out.shape)
-print("MODELO PASADO")
+print("MODELO PASADO\n")
 
 from torch.utils.data import DataLoader, TensorDataset
 
