@@ -437,6 +437,14 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
                 print(y_pred_tags)
                 print("\n\n")
 
+            elif (e == 8 and i % 100 == 0):
+                print("\n\n real:")
+                print(y_real)
+                print("\n\n pred:")
+
+                print(y_pred_tags)
+                print("\n\n")
+
             #print(prefix) #echarle un ojo a lo q significa cada dimension para hacer la funcion de acc bn
 
             train_acc = acc(y_pred, y_real)
