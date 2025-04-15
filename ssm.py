@@ -407,7 +407,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
         model.train()
         sum_train_loss = 0
         print(f"Se ejecutará {len(train_loader)} veces el bucle de mini-batches.")
-        for mini_batch in iter(train_loader):
+        for i, mini_batch in enumerate(train_loader):
             prefix = mini_batch[0].to(device)
             y_real = mini_batch[1]
 
@@ -429,7 +429,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
             _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
 
-            if (e == 1):
+            if (e == 1 and i % 100 == 0):
                 print("\n\n real:")
                 print(y_real)
                 print("\n\n pred:")
