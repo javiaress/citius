@@ -430,6 +430,11 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
 
             if (e == 1 and i % 100 == 0):
+                if i == 0:
+                    print("\n\nMatriz A:")
+                    print(model.ssm.A_log)
+                    print("\n\nMatriz D:")
+                    print(model.ssm.D)
                 print("\n\n real:")
                 print(y_real)
                 print("\n\n pred:")
@@ -438,6 +443,11 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
                 print("\n\n")
 
             elif (e == 8 and i % 100 == 0):
+                if i == 0:
+                    print("\n\nMatriz A:")
+                    print(model.ssm.A_log)
+                    print("\n\nMatriz D:")
+                    print(model.ssm.D)
                 print("\n\n real:")
                 print(y_real)
                 print("\n\n pred:")
