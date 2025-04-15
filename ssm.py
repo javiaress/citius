@@ -396,7 +396,7 @@ def val_test(model, val_loader):
 def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wandb):
 
     opt = torch.optim.Adam(model.parameters(), lr=0.002, betas=(0.9, 0.999), eps=1e-08)
-    loss_fn = nn.CrossEntropyLoss(ignore_index=0).to(device)
+    loss_fn = nn.CrossEntropyLoss().to(device)
 
     val_mae_best = np.inf  # Starts the best MAE value as infinite
     epochs_no_improve = 0
@@ -406,7 +406,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
         train_epoch_acc = []
         model.train()
         sum_train_loss = 0
-        print(f"Se ejecutará {len(train_loader)} veces el bucle de mini-batches.")
+        #print(f"Se ejecutará {len(train_loader)} veces el bucle de mini-batches.")
         for i, mini_batch in enumerate(train_loader):
             prefix = mini_batch[0].to(device)
             y_real = mini_batch[1]
@@ -424,7 +424,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             print(f"Tipo de y_pred: {y_pred.shape}\n")
             print(f"Tipo de targets antes de convertir: {y_real.shape}\n\n\nreal:")
 
-            '''
+            
 
             y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
             _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
@@ -453,7 +453,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
                 print("\n\n pred:")
 
                 print(y_pred_tags)
-                print("\n\n")
+                print("\n\n")'''
 
             #print(prefix) #echarle un ojo a lo q significa cada dimension para hacer la funcion de acc bn
 
