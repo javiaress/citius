@@ -503,8 +503,8 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
                 print("Early stopping")
                 break
 
-fit(model, loader_train, loader_val, "ssm", "1", "modelossm", False)
-
+#fit(model, loader_train, loader_val, "ssm", "1", "modelossm", False)
+torch.load("./models/ssm/1/modelossm")
 
 from jellyfish._jellyfish import damerau_levenshtein_distance
 
@@ -533,7 +533,7 @@ def test(model, val_loader):
     val_epoch_loss = []
     val_epoch_acc = []
 
-    for mini_batch in iter(val_loader):
+    for i,mini_batch in enumerate(val_loader):
         prefix = mini_batch[0].to(device)
         y_real = mini_batch[1]
         tam_suf = mini_batch[2]
@@ -543,6 +543,17 @@ def test(model, val_loader):
         # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
         y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
         y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
+
+        if (i % 100 == 0):
+
+            y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
+            _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
+            print("\n\n real:")
+            print(y_real)
+            print("\n\n pred:")
+                
+            print(y_pred_tags)
+            print("\n\n")
         
         val_loss = loss_fn(y_pred_loss, y_real_loss)
         val_acc = levenshtein_acc(y_pred, y_real, tam_suf)
