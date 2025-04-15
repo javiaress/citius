@@ -135,7 +135,7 @@ DATOS Y ENTRENAMIENTO
 """
 
 data_folder = './data/'
-filename = 'BPI_Challenge_2012'
+filename = 'env_permit'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
 
@@ -220,8 +220,8 @@ data = data_augment
 # In[7]:
 
 
-TRAIN_SIZE = 0.3
-VAL_SIZE = 0.05
+TRAIN_SIZE = 0.64
+VAL_SIZE = 0.16
 
 # Group events by case id (traces)
 df_groupby = data_augment.groupby(CASE_COL, sort=False)
@@ -230,12 +230,12 @@ cases = [case for _, case in df_groupby]
 # Get splitting points
 first_cut = round(len(cases) * TRAIN_SIZE)
 second_cut = round(len(cases) * (TRAIN_SIZE+VAL_SIZE))
-third_cut = round(len(cases) * (0.9))
+#third_cut = round(len(cases) * (0.9))
 
 # Split in train-validation-test
 train_cases = cases[:first_cut]
 val_cases = cases[first_cut:second_cut]
-test_cases = cases[third_cut:]
+test_cases = cases[second_cut:]
 
 train_data = pd.concat(train_cases)
 val_data = pd.concat(val_cases)
@@ -406,7 +406,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
         train_epoch_acc = []
         model.train()
         sum_train_loss = 0
-        #print(f"Se ejecutará {len(train_loader)} veces el bucle de mini-batches.")
+        print(f"Se ejecutará {len(train_loader)} veces el bucle de mini-batches.")
         for mini_batch in iter(train_loader):
             prefix = mini_batch[0].to(device)
             y_real = mini_batch[1]
@@ -423,12 +423,17 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             '''
             print(f"Tipo de y_pred: {y_pred.shape}\n")
             print(f"Tipo de targets antes de convertir: {y_real.shape}\n\n\nreal:")
-            print(y_real)
-            print("\n\n pred:")
-            
-            print(y_pred)
-            print("\n\n")
+
             '''
+
+            if (e == 1):
+                print("\n\n real:")
+                print(y_real)
+                print("\n\n pred:")
+                
+                print(y_pred)
+                print("\n\n")
+
             #print(prefix) #echarle un ojo a lo q significa cada dimension para hacer la funcion de acc bn
 
             train_acc = acc(y_pred, y_real)
