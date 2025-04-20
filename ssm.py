@@ -292,7 +292,7 @@ def get_prefixes(data):
         for k, act in enumerate(next_act):
             Y_a[i, k] = act
             
-        tam_suf[i] = len(next_acts[i]) - len(prefixes_acts[i])
+        tam_suf[i] = len(next_acts[i]) # - len(prefixes_acts[i]) Ahora ya no se incluye el prefijo
     
     return X, Y_a, tam_suf
 
@@ -526,8 +526,8 @@ def levenshtein_acc(y_pred, y_real, tam_suf):
             print(f"y_pred_tags2: {y_pred_tags[i][-tam_suf[i]:]}\n\n")
             print(f"y_real_tags2: {y_real_tags[i][-tam_suf[i]:]}\n\n")
 
-        pred_seq = ''.join(map(chr, y_pred_tags[i][-tam_suf[i]:] + 161))
-        real_seq = ''.join(map(chr, y_real_tags[i][-tam_suf[i]:] + 161))
+        pred_seq = ''.join(map(chr, y_pred_tags[i][:tam_suf[i]] + 161))
+        real_seq = ''.join(map(chr, y_real_tags[i][:tam_suf[i]] + 161))
 
         acc += 1 - damerau_levenshtein_distance(pred_seq, real_seq) / max(len(pred_seq), len(real_seq))
 
