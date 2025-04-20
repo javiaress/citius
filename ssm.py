@@ -503,8 +503,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
                 print("Early stopping")
                 break
 
-#fit(model, loader_train, loader_val, "ssm", "1", "modelossm", False)
-torch.load("./models/ssm/1/modelossm")
+fit(model, loader_train, loader_val, "ssm", "1", "modelossm", False)
 
 from jellyfish._jellyfish import damerau_levenshtein_distance
 
@@ -519,6 +518,14 @@ def levenshtein_acc(y_pred, y_real, tam_suf):
     
     acc = 0
     for i in range(len(y_pred_tags)):
+
+        if (i == 0):
+            print(f"y_pred_tags: {y_pred_tags[i]}\n\n")
+            print(f"y_real_tags: {y_real_tags[i]}\n\n")
+            print(f"tam_suf: {tam_suf[i]}\n\n")
+            print(f"y_pred_tags2: {y_pred_tags[i][-tam_suf[i]:]}\n\n")
+            print(f"y_real_tags2: {y_real_tags[i][-tam_suf[i]:]}\n\n")
+
         pred_seq = ''.join(map(chr, y_pred_tags[i][-tam_suf[i]:] + 161))
         real_seq = ''.join(map(chr, y_real_tags[i][-tam_suf[i]:] + 161))
 
