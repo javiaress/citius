@@ -396,7 +396,7 @@ def val_test(model, val_loader):
 def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wandb):
 
     opt = torch.optim.Adam(model.parameters(), lr=0.002, betas=(0.9, 0.999), eps=1e-08)
-    loss_fn = nn.CrossEntropyLoss().to(device)
+    loss_fn = nn.CrossEntropyLoss(ignore_index=0).to(device)
 
     val_mae_best = np.inf  # Starts the best MAE value as infinite
     epochs_no_improve = 0
@@ -523,8 +523,8 @@ def levenshtein_acc(y_pred, y_real, tam_suf):
             print(f"y_pred_tags: {y_pred_tags[i]}\n\n")
             print(f"y_real_tags: {y_real_tags[i]}\n\n")
             print(f"tam_suf: {tam_suf[i]}\n\n")
-            print(f"y_pred_tags2: {y_pred_tags[i][-tam_suf[i]:]}\n\n")
-            print(f"y_real_tags2: {y_real_tags[i][-tam_suf[i]:]}\n\n")
+            print(f"y_pred_tags2: {y_pred_tags[i][:tam_suf[i]]}\n\n")
+            print(f"y_real_tags2: {y_real_tags[i][:tam_suf[i]]}\n\n")
 
         pred_seq = ''.join(map(chr, y_pred_tags[i][:tam_suf[i]] + 161))
         real_seq = ''.join(map(chr, y_real_tags[i][:tam_suf[i]] + 161))
