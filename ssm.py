@@ -135,7 +135,7 @@ DATOS Y ENTRENAMIENTO
 """
 
 data_folder = './data/'
-filename = 'env_permit'
+filename = 'SEPSIS'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
 
@@ -519,12 +519,12 @@ def levenshtein_acc(y_pred, y_real, tam_suf):
     acc = 0
     for i in range(len(y_pred_tags)):
 
-        if (i == 0):
+        """if (i == 0):
             print(f"y_pred_tags: {y_pred_tags[i]}\n\n")
             print(f"y_real_tags: {y_real_tags[i]}\n\n")
             print(f"tam_suf: {tam_suf[i]}\n\n")
             print(f"y_pred_tags2: {y_pred_tags[i][:tam_suf[i]]}\n\n")
-            print(f"y_real_tags2: {y_real_tags[i][:tam_suf[i]]}\n\n")
+            print(f"y_real_tags2: {y_real_tags[i][:tam_suf[i]]}\n\n")"""
 
         pred_seq = ''.join(map(chr, y_pred_tags[i][:tam_suf[i]] + 161))
         real_seq = ''.join(map(chr, y_real_tags[i][:tam_suf[i]] + 161))
@@ -557,10 +557,10 @@ def test(model, val_loader):
             _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
             print("\n\n real:")
             print(y_real)
-            print("\n\n pred:")
-                
+            print("\n\n pred:")               
             print(y_pred_tags)
             print("\n\n")
+            print(f"tam_suf: {tam_suf}\n\n")
         
         val_loss = loss_fn(y_pred_loss, y_real_loss)
         val_acc = levenshtein_acc(y_pred, y_real, tam_suf)
