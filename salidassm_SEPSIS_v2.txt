@@ -1,0 +1,102 @@
+torch.Size([9938, 186, 18])
+MODELO PASADO
+
+Epoch 0: | Train Loss: 2439.879441 | Val Loss: 722.097682 | Train Acc: 3.003 | Val Acc: 1.209
+Epoch 1: | Train Loss: 1560.764373 | Val Loss: 198.402752 | Train Acc: 2.575 | Val Acc: 1.494
+Epoch 2: | Train Loss: 781.244266 | Val Loss: 90.714868 | Train Acc: 2.496 | Val Acc: 1.472
+Epoch 3: | Train Loss: 589.806851 | Val Loss: 13.574810 | Train Acc: 2.769 | Val Acc: 1.379
+Epoch 4: | Train Loss: 47.801639 | Val Loss: 22.836936 | Train Acc: 2.576 | Val Acc: 1.551
+Epoch 5: | Train Loss: 101.166249 | Val Loss: 35.312571 | Train Acc: 3.018 | Val Acc: 1.620
+Epoch 6: | Train Loss: 115.068730 | Val Loss: 35.521450 | Train Acc: 2.512 | Val Acc: 1.729
+Epoch 7: | Train Loss: 33.665697 | Val Loss: 13.968239 | Train Acc: 2.617 | Val Acc: 1.834
+Epoch 8: | Train Loss: 255.055676 | Val Loss: 9.750731 | Train Acc: 2.691 | Val Acc: 1.436
+Epoch 9: | Train Loss: 239.975865 | Val Loss: 2.144526 | Train Acc: 2.877 | Val Acc: 1.897
+Epoch 10: | Train Loss: 2.745874 | Val Loss: 2.151147 | Train Acc: 2.538 | Val Acc: 1.489
+Epoch 11: | Train Loss: 1.988383 | Val Loss: 2.154165 | Train Acc: 2.572 | Val Acc: 1.543
+Epoch 12: | Train Loss: 1.987970 | Val Loss: 2.153111 | Train Acc: 2.545 | Val Acc: 1.509
+Epoch 13: | Train Loss: 1.989417 | Val Loss: 2.148799 | Train Acc: 2.539 | Val Acc: 1.529
+Epoch 14: | Train Loss: 1.986807 | Val Loss: 2.157354 | Train Acc: 2.530 | Val Acc: 1.514
+Epoch 15: | Train Loss: 1.987688 | Val Loss: 2.150613 | Train Acc: 2.570 | Val Acc: 1.536
+Epoch 16: | Train Loss: 1.987386 | Val Loss: 2.152038 | Train Acc: 2.598 | Val Acc: 1.596
+Epoch 17: | Train Loss: 1.991332 | Val Loss: 2.150282 | Train Acc: 2.653 | Val Acc: 1.671
+Epoch 18: | Train Loss: 1.991214 | Val Loss: 2.149183 | Train Acc: 2.756 | Val Acc: 1.637
+Epoch 19: | Train Loss: 1.989487 | Val Loss: 2.159748 | Train Acc: 2.873 | Val Acc: 1.572
+Epoch 20: | Train Loss: 3918.559346 | Val Loss: 81.184350 | Train Acc: 4.433 | Val Acc: 1.858
+Epoch 21: | Train Loss: 65.945170 | Val Loss: 15.705644 | Train Acc: 3.473 | Val Acc: 1.648
+Epoch 22: | Train Loss: 33.239315 | Val Loss: 12.375273 | Train Acc: 3.439 | Val Acc: 1.832
+Epoch 23: | Train Loss: 13.271795 | Val Loss: 15.544796 | Train Acc: 3.281 | Val Acc: 1.813
+Epoch 24: | Train Loss: 22.728175 | Val Loss: 2.608590 | Train Acc: 3.245 | Val Acc: 2.000
+Epoch 25: | Train Loss: 2.813108 | Val Loss: 2.192297 | Train Acc: 3.666 | Val Acc: 2.166
+Epoch 26: | Train Loss: 2.000697 | Val Loss: 2.150359 | Train Acc: 4.314 | Val Acc: 2.497
+Epoch 27: | Train Loss: 1.996281 | Val Loss: 2.156302 | Train Acc: 4.033 | Val Acc: 2.265
+Epoch 28: | Train Loss: 1.999288 | Val Loss: 2.152327 | Train Acc: 3.968 | Val Acc: 2.357
+Epoch 29: | Train Loss: 1.998029 | Val Loss: 2.161433 | Train Acc: 3.960 | Val Acc: 2.262
+Epoch 30: | Train Loss: 2.002926 | Val Loss: 2.148381 | Train Acc: 3.941 | Val Acc: 2.309
+Epoch 31: | Train Loss: 1.997669 | Val Loss: 2.165103 | Train Acc: 3.953 | Val Acc: 2.274
+Epoch 32: | Train Loss: 1.995950 | Val Loss: 2.153294 | Train Acc: 3.959 | Val Acc: 2.240
+Epoch 33: | Train Loss: 1.991300 | Val Loss: 2.153284 | Train Acc: 3.631 | Val Acc: 1.927
+Epoch 34: | Train Loss: 2.441443 | Val Loss: 2.154356 | Train Acc: 3.744 | Val Acc: 2.219
+Epoch 35: | Train Loss: 1.988962 | Val Loss: 2.160599 | Train Acc: 3.859 | Val Acc: 2.221
+Epoch 36: | Train Loss: 1.991586 | Val Loss: 2.154678 | Train Acc: 3.734 | Val Acc: 2.122
+Epoch 37: | Train Loss: 1.985718 | Val Loss: 2.153509 | Train Acc: 3.713 | Val Acc: 2.103
+Epoch 38: | Train Loss: 1.987240 | Val Loss: 2.163053 | Train Acc: 3.733 | Val Acc: 2.114
+Epoch 39: | Train Loss: 1.985461 | Val Loss: 2.150437 | Train Acc: 3.720 | Val Acc: 2.121
+Early stopping
+
+
+ real:
+tensor([[ 7,  9,  5,  ...,  0,  0,  0],
+        [17,  0,  0,  ...,  0,  0,  0],
+        [ 9,  5,  6,  ...,  0,  0,  0],
+        ...,
+        [ 5,  6,  5,  ...,  0,  0,  0],
+        [ 6,  6,  5,  ...,  0,  0,  0],
+        [ 5,  4,  6,  ...,  0,  0,  0]], device='cuda:0')
+
+
+ pred:
+tensor([[ 5,  5,  5,  ...,  0, 13,  9],
+        [ 5,  5,  5,  ...,  0, 13,  0],
+        [ 5,  5,  5,  ..., 13, 13, 13],
+        ...,
+        [ 5,  5,  5,  ...,  4,  0,  0],
+        [ 5,  5,  5,  ...,  2, 14,  2],
+        [ 5,  5,  5,  ...,  0,  0, 16]], device='cuda:0')
+
+
+
+tam_suf: tensor([ 7,  1,  7, 12, 15,  9, 19,  8, 12, 47,  2,  7, 10,  6, 58,  6],
+       device='cuda:0')
+
+
+
+
+ real:
+tensor([[ 5,  6,  3,  ...,  0,  0,  0],
+        [10, 17,  0,  ...,  0,  0,  0],
+        [ 8,  9,  5,  ...,  0,  0,  0],
+        ...,
+        [ 6, 10, 11,  ...,  0,  0,  0],
+        [ 7,  6,  5,  ...,  0,  0,  0],
+        [ 4, 17,  0,  ...,  0,  0,  0]], device='cuda:0')
+
+
+ pred:
+tensor([[ 5,  5,  5,  ...,  7,  7, 10],
+        [ 5,  5,  5,  ...,  4,  0, 14],
+        [ 5,  5,  5,  ...,  1,  9,  5],
+        ...,
+        [ 5,  5,  5,  ..., 13,  9,  5],
+        [ 5,  5,  5,  ...,  7,  7,  4],
+        [ 5,  5,  5,  ..., 13, 13, 13]], device='cuda:0')
+
+
+
+tam_suf: tensor([12,  2,  6,  5,  8,  8, 21, 11, 12, 16, 11, 13, 19,  4,  9,  2],
+       device='cuda:0')
+
+
+Levenshtein Acc: 0.20046392936714436
+
+
+ sa cabau
