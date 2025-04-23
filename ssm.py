@@ -135,7 +135,7 @@ DATOS Y ENTRENAMIENTO
 """
 
 data_folder = './data/'
-filename = 'SEPSIS'
+filename = 'BPI_Challenge_2013_incidents'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
 
