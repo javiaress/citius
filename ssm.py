@@ -491,10 +491,10 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
                 epochs_no_improve = 0
 
                 if os.path.isdir('./models/' + filename + '/' + num_fold + '/'):
-                    torch.save(model, "./models/" + filename + '/' + num_fold + "/" + model_name)
+                    torch.save(model.state_dict(), "./models/" + filename + '/' + num_fold + "/" + model_name)
                 else:
                     pathlib.Path('./models/' + filename + '/' + num_fold).mkdir(parents=True, exist_ok=True)
-                    torch.save(model, "./models/" + filename + '/' + num_fold + "/" + model_name)
+                    torch.save(model.state_dict(), "./models/" + filename + '/' + num_fold + "/" + model_name)
             
             else:
                 epochs_no_improve += 1
@@ -569,6 +569,9 @@ def test(model, val_loader):
         val_epoch_acc.append(val_acc)
 
     return val_epoch_loss, val_epoch_acc
+
+model.load_state_dict(torch.load("./models/ssm/1/modelossm"))
+model.to(device)
 
 val_epoch_loss, val_epoch_acc = test(model, loader_test)
 
