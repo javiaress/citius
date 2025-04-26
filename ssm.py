@@ -90,15 +90,15 @@ class SSM(nn.Module):
             out.append(y)
             
             #print("FIN ITER\n")
-        out = torch.stack(out)  # (seq, batch, d_inner)
+        #out = torch.stack(out)  # (seq, batch, d_inner)
         hidden_previos = torch.stack(hidden_previos)  # (seq, batch, d_inner, d_state)
         
-        out = out.permute(1, 0, 2)  # (batch, seq, d_inner)
+        #out = out.permute(1, 0, 2)  # (batch, seq, d_inner)
         hidden_previos = hidden_previos.permute(1, 0, 2, 3)  # (batch, seq, d_inner, d_state)
-        return out, hidden_previos
+        return y, hidden_previos
 
 class Modelo(nn.Module):
-    def __init__(self, d_model, d_embedding = 32, d_hidden = 64, device=None):
+    def __init__(self, d_model, d_embedding = 32, d_hidden = 32, device=None):
         super().__init__()
         self.embedding = nn.Embedding(d_model, d_embedding, padding_idx=0)
         self.linear1 = nn.Linear(d_embedding, d_hidden)
@@ -108,9 +108,9 @@ class Modelo(nn.Module):
     def forward(self, x):
         
         #print(f"input shape: {x.shape}\n\n")
-        embed_x = self.embedding(x) 
+        x_ssm = self.embedding(x) 
         #print(f"embed_x shape: {embed_x.shape}\n\n")
-        x_ssm = self.linear1(embed_x)
+        #x_ssm = self.linear1(embed_x)
         #print(f"x_ssm shape: {x_ssm.shape}\n\n")
         out, _ = self.ssm(x_ssm) 
         #print(f"out shape: {out.shape}\n\n")
@@ -135,7 +135,7 @@ DATOS Y ENTRENAMIENTO
 """
 
 data_folder = './data/'
-filename = 'BPI_Challenge_2013_incidents'
+filename = 'SEPSIS'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
 
@@ -274,14 +274,14 @@ def get_prefixes(data):
 
             prefixes_acts.append(gr[ACTIVITY_COL][0:i].values)
 
-            next_acts.append(gr[ACTIVITY_COL][i:].values)
+            next_acts.append(gr[ACTIVITY_COL][i])
             
     # Matrix containing the training data
     X = np.zeros((len(prefixes_acts), MAX_LEN), dtype = np.float32)
     # Target event prediction data
-    Y_a = np.zeros((len(prefixes_acts), MAX_LEN), dtype=np.float32)
+    Y_a = np.zeros((len(prefixes_acts)), dtype=np.float32)
     
-    tam_suf = np.zeros(len(prefixes_acts), dtype=np.int32)
+    #tam_suf = np.zeros(len(prefixes_acts), dtype=np.int32)
 
     for i, prefix_acts in enumerate(prefixes_acts):
         left_pad = MAX_LEN - len(prefix_acts)
@@ -289,24 +289,26 @@ def get_prefixes(data):
         for j, act in enumerate(prefix_acts):
             X[i, j + left_pad] = act
         
-        for k, act in enumerate(next_act):
-            Y_a[i, k] = act
+        Y_a[i] = act
+        #for k, act in enumerate(next_act):
+            #Y_a[i, k] = act
             
-        tam_suf[i] = len(next_acts[i]) # - len(prefixes_acts[i]) Ahora ya no se incluye el prefijo
+        #tam_suf[i] = len(next_acts[i]) # - len(prefixes_acts[i]) Ahora ya no se incluye el prefijo
     
-    return X, Y_a, tam_suf
+    return X, Y_a#, tam_suf
 
-x_train, y_train, tam_suf_train = get_prefixes(train_data)
-x_val, y_val, tam_suf_val = get_prefixes(val_data) 
-x_test, y_test, tam_suf_test = get_prefixes(test_data)
+x_train, y_train = get_prefixes(train_data)
+x_val, y_val = get_prefixes(val_data) 
+x_test, y_test = get_prefixes(test_data)
 
-'''
+
 print(x_val[1].shape)
 print(x_val[1])
 print("\n\n")
 print(y_val[1].shape)
 print(y_val[1])
 print("\n\n")
+'''
 print(tam_suf_val[1])
 print("\n\n")
 '''
@@ -319,7 +321,7 @@ x_val = torch.tensor(x_val, dtype=torch.long).to(device)
 y_val = torch.tensor(y_val, dtype=torch.long).to(device)
 x_test = torch.tensor(x_test, dtype=torch.long).to(device)
 y_test = torch.tensor(y_test, dtype=torch.long).to(device)
-tam_suf_test = torch.tensor(tam_suf_test, dtype=torch.long).to(device)
+#tam_suf_test = torch.tensor(tam_suf_test, dtype=torch.long).to(device)
 
 model = Modelo(
     d_model=NUM_ACTIVITIES+1, device=device
@@ -338,7 +340,7 @@ loader_train = DataLoader(dataset=dataset_train, batch_size=16, shuffle=True)
 dataset_val = TensorDataset(x_val, y_val)
 loader_val = DataLoader(dataset=dataset_val, batch_size=16, shuffle=True)
 
-dataset_test = TensorDataset(x_test, y_test, tam_suf_test)
+dataset_test = TensorDataset(x_test, y_test)
 loader_test = DataLoader(dataset=dataset_test, batch_size=16, shuffle=True)
 
 import os
@@ -351,8 +353,8 @@ import wandb
 
 def acc(y_pred, y_real):
 
-    y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
-    _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
+    #y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
+    #_, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
 
     #_, y_real_tags = torch.max(y_real, dim=-1)
 
@@ -362,7 +364,7 @@ def acc(y_pred, y_real):
     print(y_real_tags)
     '''
 
-    correct_pred = (y_pred_tags == y_real).float()
+    correct_pred = (y_pred == y_real).float()
     acc = correct_pred.sum() / correct_pred.numel()
 
     return acc
@@ -381,12 +383,12 @@ def val_test(model, val_loader):
         y_pred = model(prefix)
 
         # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
-        y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
-        y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
+        #y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+        #y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
         
-        val_loss = loss_fn(y_pred_loss, y_real_loss)
+        val_loss = loss_fn(y_pred, y_real)
         val_acc = acc(y_pred, y_real)
-        #print("a")  
+
         val_epoch_loss.append(val_loss.item())
         val_epoch_acc.append(val_acc.item())
 
@@ -405,7 +407,6 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
         train_epoch_loss = []
         train_epoch_acc = []
         model.train()
-        sum_train_loss = 0
         #print(f"Se ejecutará {len(train_loader)} veces el bucle de mini-batches.")
         for i, mini_batch in enumerate(train_loader):
             prefix = mini_batch[0].to(device)
@@ -415,10 +416,13 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             y_pred = model(prefix)
             
             # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
-            y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
-            y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
+            #y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+            #y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
             
-            train_loss = loss_fn(y_pred_loss, y_real_loss)
+            print(f"Tipo de y_pred: {y_pred.shape}\n y_pred: {y_pred}\n")
+            print(f"Tipo de targets antes de convertir: {y_real.shape}\nreal: {y_real}\n\n\n")
+
+            train_loss = loss_fn(y_pred, y_real)
             
             '''
             print(f"Tipo de y_pred: {y_pred.shape}\n")
@@ -464,7 +468,6 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
 
             train_epoch_loss.append(train_loss.item())
             train_epoch_acc.append(train_acc.item())
-            #print("b")
 
         with torch.no_grad():
             val_epoch_loss, val_epoch_acc = val_test(model, val_loader)
@@ -543,13 +546,13 @@ def test(model, val_loader):
     for i,mini_batch in enumerate(val_loader):
         prefix = mini_batch[0].to(device)
         y_real = mini_batch[1]
-        tam_suf = mini_batch[2]
+        #tam_suf = mini_batch[2]
 
         y_pred = model(prefix)
 
         # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
-        y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
-        y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
+        #y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+        #y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
 
         if (i % 100 == 0):
 
@@ -560,10 +563,11 @@ def test(model, val_loader):
             print("\n\n pred:")               
             print(y_pred_tags)
             print("\n\n")
-            print(f"tam_suf: {tam_suf}\n\n")
+            #print(f"tam_suf: {tam_suf}\n\n")
         
-        val_loss = loss_fn(y_pred_loss, y_real_loss)
-        val_acc = levenshtein_acc(y_pred, y_real, tam_suf)
+        val_loss = loss_fn(y_pred, y_real)
+        val_acc = acc(y_pred, y_real)
+        #val_acc = levenshtein_acc(y_pred, y_real, tam_suf)
         val_epoch_loss.append(val_loss.item())
         val_epoch_acc.append(val_acc)
 
