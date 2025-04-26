@@ -279,7 +279,7 @@ def get_prefixes(data):
     # Matrix containing the training data
     X = np.zeros((len(prefixes_acts), MAX_LEN), dtype = np.float32)
     # Target event prediction data
-    Y_a = np.zeros((len(prefixes_acts)), dtype=np.float32)
+    Y_a = np.zeros((len(prefixes_acts)), dtype=np.int32)
     
     #tam_suf = np.zeros(len(prefixes_acts), dtype=np.int32)
 
@@ -353,8 +353,8 @@ import wandb
 
 def acc(y_pred, y_real):
 
-    #y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
-    #_, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
+    y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
+    _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
 
     #_, y_real_tags = torch.max(y_real, dim=-1)
 
@@ -364,7 +364,7 @@ def acc(y_pred, y_real):
     print(y_real_tags)
     '''
 
-    correct_pred = (y_pred == y_real).float()
+    correct_pred = (y_pred_tags == y_real).float()
     acc = correct_pred.sum() / correct_pred.numel()
 
     return acc
