@@ -135,7 +135,7 @@ DATOS Y ENTRENAMIENTO
 """
 
 data_folder = './data/'
-filename = 'SEPSIS'
+filename = 'BPI_Challenge_2013_closed_problems'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
 
@@ -419,9 +419,6 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             #y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
             #y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
             
-            print(f"Tipo de y_pred: {y_pred.shape}\n y_pred: {y_pred}\n")
-            print(f"Tipo de targets antes de convertir: {y_real.shape}\nreal: {y_real}\n\n\n")
-
             train_loss = loss_fn(y_pred, y_real)
             
             '''
