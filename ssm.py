@@ -103,6 +103,10 @@ class SSM(nn.Module):
 class Modelo(nn.Module):
     def __init__(self, d_model, d_embedding = 32, d_hidden = 32, device=None):
         super().__init__()
+        self.d_model = d_model
+        self.d_embedding = d_embedding
+        self.d_hidden = d_hidden
+        self.device = device
         self.embedding = nn.Embedding(d_model, d_embedding, padding_idx=0)
         self.linear1 = nn.Linear(d_embedding, d_hidden)
         self.ssm = SSM(d_inner= d_hidden, device = device)
@@ -110,16 +114,46 @@ class Modelo(nn.Module):
     
     def forward(self, x):
         
-        #print(f"input shape: {x.shape}\n\n")
-        x_ssm = self.embedding(x) 
-        #print(f"embed_x shape: {embed_x.shape}\n\n")
-        #x_ssm = self.linear1(embed_x)
-        #print(f"x_ssm shape: {x_ssm.shape}\n\n")
-        out, _ = self.ssm(x_ssm)
-        #print(f"out shape: {out.shape}\n\n")
-        salida = self.linear2(out)
-        #print(f"salida shape: {salida.shape}\n\n")
-        return salida
+        print(f"input shape: {x.shape}\n\n")
+        batch_size, seq_len = x.shape
+        device = self.device
+        EOS_TOKEN = self.d_model
+
+        # Inicializa secuencia generada con la entrada original
+        generated = x.clone()
+        finished = torch.zeros(batch_size, dtype=torch.bool, device=device)
+        outputs = []
+
+        for _ in range(seq_len):
+            x_ssm = self.embedding(generated) 
+            #print(f"embed_x shape: {embed_x.shape}\n\n")
+            #x_ssm = self.linear1(embed_x)
+            #print(f"x_ssm shape: {x_ssm.shape}\n\n")
+            out, _ = self.ssm(x_ssm)
+            #print(f"out shape: {out.shape}\n\n")
+            logits = self.linear2(out)  # solo la última salida
+
+            # Para secuencias terminadas, forzar salida 0
+            logits[finished] = -1e9
+            logits[finished, 0] = 1e9  # Forzamos probabilidad máxima en el padding
+
+
+            next_token = torch.argmax(logits, dim=-1)  # (batch,)
+            #print(f"next_token shape: {next_token.shape}\n\n")
+
+            outputs.append(next_token) # REVISAR DIMENSIONES
+
+            # Añadir nuevo token a la secuencia
+            generated = torch.cat([generated, next_token.unsqueeze(1)], dim=1)
+
+            # Verifica si se ha alcanzado el token de fin de secuencia (EOS)
+            finished = finished | (next_token == EOS_TOKEN)
+
+            # Si todos los casos han terminado, salir del bucle
+            if finished.all():
+                break            
+
+        return outputs
 '''
 model = Modelo(
     d_model=8,
@@ -138,7 +172,7 @@ DATOS Y ENTRENAMIENTO
 """
 
 data_folder = './data/'
-filename = 'BPI_Challenge_2013_incidents'
+filename = 'env_permit'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
 
@@ -224,7 +258,7 @@ data = data_augment
 # In[7]:
 
 
-TRAIN_SIZE = 0.6
+TRAIN_SIZE = 0.64
 VAL_SIZE = 0.16
 
 # Group events by case id (traces)
@@ -234,12 +268,12 @@ cases = [case for _, case in df_groupby]
 # Get splitting points
 first_cut = round(len(cases) * TRAIN_SIZE)
 second_cut = round(len(cases) * (TRAIN_SIZE+VAL_SIZE))
-third_cut = round(len(cases) * (0.8))
+#third_cut = round(len(cases) * (0.8))
 
 # Split in train-validation-test
 train_cases = cases[:first_cut]
 val_cases = cases[first_cut:second_cut]
-test_cases = cases[third_cut:]
+test_cases = cases[second_cut:]
 
 train_data = pd.concat(train_cases)
 val_data = pd.concat(val_cases)
@@ -278,14 +312,14 @@ def get_prefixes(data):
 
             prefixes_acts.append(gr[ACTIVITY_COL][0:i].values)
 
-            next_acts.append(gr[ACTIVITY_COL][i])
+            next_acts.append(gr[ACTIVITY_COL][i:].values)
             
     # Matrix containing the training data
     X = np.zeros((len(prefixes_acts), MAX_LEN), dtype = np.float32)
     # Target event prediction data
-    Y_a = np.zeros((len(prefixes_acts)), dtype=np.int32)
+    Y_a = np.zeros((len(prefixes_acts), MAX_LEN), dtype=np.int32)
     
-    #tam_suf = np.zeros(len(prefixes_acts), dtype=np.int32)
+    tam_suf = np.zeros(len(prefixes_acts), dtype=np.int32)
 
     for i, prefix_acts in enumerate(prefixes_acts):
         left_pad = MAX_LEN - len(prefix_acts)
@@ -293,13 +327,12 @@ def get_prefixes(data):
         for j, act in enumerate(prefix_acts):
             X[i, j + left_pad] = act
         
-        Y_a[i] = next_act
-        #for k, act in enumerate(next_act):
-            #Y_a[i, k] = act
+        for k, act in enumerate(next_act):
+            Y_a[i, k] = act
             
-        #tam_suf[i] = len(next_acts[i]) # - len(prefixes_acts[i]) Ahora ya no se incluye el prefijo
+        tam_suf[i] = len(next_acts[i]) # - len(prefixes_acts[i]) Ahora ya no se incluye el prefijo
     
-    return X, Y_a#, tam_suf
+    return X, Y_a, tam_suf
 
 x_train, y_train = get_prefixes(train_data)
 x_val, y_val = get_prefixes(val_data) 
@@ -516,7 +549,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
                 print("Early stopping")
                 break
 
-fit(model, loader_train, loader_val, "ssm", "1", "modelossm", False)
+fit(model, loader_train, loader_val, filename, "1", "modelossm", False)
 
 from jellyfish._jellyfish import damerau_levenshtein_distance
 
