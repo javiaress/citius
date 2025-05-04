@@ -78,8 +78,11 @@ class SSM(nn.Module):
             #print(f"dB shape: {dB.shape}\n\n")
             
             #print(f"x[:,i]: {x[:,i].shape}\n\n")
+            mask = (x[:, i].abs().sum(dim=-1) > 1e-5).float().unsqueeze(-1).unsqueeze(-1)
             hidden_state = hidden_state * dA + rearrange(x[:,i], "b d -> b d 1") * dB
+            hidden_state = hidden_state * mask + hidden_state.detach() * (1 - mask)  # evita updates con padding
             hidden_state = torch.clamp(hidden_state, min=-1e6, max=1e6)
+
             #print(f"hidden_state shape: {hidden_state.shape}\n\n")
             
             #C = C.unsqueeze(0)
@@ -112,7 +115,7 @@ class Modelo(nn.Module):
         #print(f"embed_x shape: {embed_x.shape}\n\n")
         #x_ssm = self.linear1(embed_x)
         #print(f"x_ssm shape: {x_ssm.shape}\n\n")
-        out, _ = self.ssm(x_ssm) 
+        out, _ = self.ssm(x_ssm)
         #print(f"out shape: {out.shape}\n\n")
         salida = self.linear2(out)
         #print(f"salida shape: {salida.shape}\n\n")
@@ -135,7 +138,7 @@ DATOS Y ENTRENAMIENTO
 """
 
 data_folder = './data/'
-filename = 'BPI_Challenge_2013_closed_problems'
+filename = 'BPI_Challenge_2013_incidents'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
 
@@ -148,6 +151,7 @@ CASE_COL = 'CaseID'
 ACTIVITY_COL = 'Activity'
 #CASE_COL = 'case:concept:name'
 #ACTIVITY_COL = 'concept:name'
+
 
 TIMESTAMP_COL = 'time:timestamp'
 
@@ -220,7 +224,7 @@ data = data_augment
 # In[7]:
 
 
-TRAIN_SIZE = 0.64
+TRAIN_SIZE = 0.6
 VAL_SIZE = 0.16
 
 # Group events by case id (traces)
@@ -230,12 +234,12 @@ cases = [case for _, case in df_groupby]
 # Get splitting points
 first_cut = round(len(cases) * TRAIN_SIZE)
 second_cut = round(len(cases) * (TRAIN_SIZE+VAL_SIZE))
-#third_cut = round(len(cases) * (0.9))
+third_cut = round(len(cases) * (0.8))
 
 # Split in train-validation-test
 train_cases = cases[:first_cut]
 val_cases = cases[first_cut:second_cut]
-test_cases = cases[second_cut:]
+test_cases = cases[third_cut:]
 
 train_data = pd.concat(train_cases)
 val_data = pd.concat(val_cases)
@@ -289,7 +293,7 @@ def get_prefixes(data):
         for j, act in enumerate(prefix_acts):
             X[i, j + left_pad] = act
         
-        Y_a[i] = act
+        Y_a[i] = next_act
         #for k, act in enumerate(next_act):
             #Y_a[i, k] = act
             
@@ -414,7 +418,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
 
             model.zero_grad()
             y_pred = model(prefix)
-            
+           
             # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
             #y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
             #y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
@@ -461,6 +465,15 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             train_acc = acc(y_pred, y_real)
 
             train_loss.backward()
+            torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+            '''for name, param in model.named_parameters():
+                if param.grad is not None:
+                    if torch.isnan(param.grad).any():
+                        print(f"⚠️  Gradiente con NaN en: {name}")
+                    if torch.isinf(param.grad).any():
+                        print(f"⚠️  Gradiente con Inf en: {name}")
+                    if (param.grad.abs() > 1e6).any():
+                        print(f"⚠️  Gradiente muy grande en: {name} - max: {param.grad.abs().max().item()}")'''
             opt.step()
 
             train_epoch_loss.append(train_loss.item())
