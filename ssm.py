@@ -334,9 +334,9 @@ def get_prefixes(data):
     
     return X, Y_a, tam_suf
 
-x_train, y_train = get_prefixes(train_data)
-x_val, y_val = get_prefixes(val_data) 
-x_test, y_test = get_prefixes(test_data)
+x_train, y_train, tam_suf_train = get_prefixes(train_data)
+x_val, y_val, tam_suf_val = get_prefixes(val_data) 
+x_test, y_test, tam_suf_test = get_prefixes(test_data)
 
 
 print(x_val[1].shape)
@@ -345,10 +345,8 @@ print("\n\n")
 print(y_val[1].shape)
 print(y_val[1])
 print("\n\n")
-'''
 print(tam_suf_val[1])
 print("\n\n")
-'''
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -358,7 +356,7 @@ x_val = torch.tensor(x_val, dtype=torch.long).to(device)
 y_val = torch.tensor(y_val, dtype=torch.long).to(device)
 x_test = torch.tensor(x_test, dtype=torch.long).to(device)
 y_test = torch.tensor(y_test, dtype=torch.long).to(device)
-#tam_suf_test = torch.tensor(tam_suf_test, dtype=torch.long).to(device)
+tam_suf_test = torch.tensor(tam_suf_test, dtype=torch.long).to(device)
 
 model = Modelo(
     d_model=NUM_ACTIVITIES+1, device=device
@@ -377,7 +375,7 @@ loader_train = DataLoader(dataset=dataset_train, batch_size=16, shuffle=True)
 dataset_val = TensorDataset(x_val, y_val)
 loader_val = DataLoader(dataset=dataset_val, batch_size=16, shuffle=True)
 
-dataset_test = TensorDataset(x_test, y_test)
+dataset_test = TensorDataset(x_test, y_test, tam_suf_test)
 loader_test = DataLoader(dataset=dataset_test, batch_size=16, shuffle=True)
 
 import os
@@ -589,7 +587,7 @@ def test(model, val_loader):
     for i,mini_batch in enumerate(val_loader):
         prefix = mini_batch[0].to(device)
         y_real = mini_batch[1]
-        #tam_suf = mini_batch[2]
+        tam_suf = mini_batch[2]
 
         y_pred = model(prefix)
 
@@ -606,11 +604,11 @@ def test(model, val_loader):
             print("\n\n pred:")               
             print(y_pred_tags)
             print("\n\n")
-            #print(f"tam_suf: {tam_suf}\n\n")
+            print(f"tam_suf: {tam_suf}\n\n")
         
         val_loss = loss_fn(y_pred, y_real)
-        val_acc = acc(y_pred, y_real)
-        #val_acc = levenshtein_acc(y_pred, y_real, tam_suf)
+        #val_acc = acc(y_pred, y_real)
+        val_acc = levenshtein_acc(y_pred, y_real, tam_suf)
         val_epoch_loss.append(val_loss.item())
         val_epoch_acc.append(val_acc)
 
