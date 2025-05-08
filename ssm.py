@@ -77,7 +77,6 @@ class SSM(nn.Module):
             dB = torch.einsum("ji,js->jis", dt, B) # 1 inner, 1 state -> 1 inner state
             #print(f"dB shape: {dB.shape}\n\n")
             
-            #print(f"x[:,i]: {x[:,i].shape}\n\n")
             mask = (x[:, i].abs().sum(dim=-1) > 1e-5).float().unsqueeze(-1).unsqueeze(-1)
             hidden_state = hidden_state * dA + rearrange(x[:,i], "b d -> b d 1") * dB
             hidden_state = hidden_state * mask + hidden_state.detach() * (1 - mask)  # evita updates con padding
@@ -107,14 +106,14 @@ class Modelo(nn.Module):
         self.d_embedding = d_embedding
         self.d_hidden = d_hidden
         self.device = device
-        self.embedding = nn.Embedding(d_model, d_embedding, padding_idx=0)
+        self.embedding = nn.Embedding(d_model + 1, d_embedding, padding_idx=0)
         self.linear1 = nn.Linear(d_embedding, d_hidden)
         self.ssm = SSM(d_inner= d_hidden, device = device)
         self.linear2 = nn.Linear(d_hidden, d_model + 1)
     
     def forward(self, x):
         
-        print(f"input shape: {x.shape}\n\n")
+        #print(f"input shape: {x.shape}\n\n")
         batch_size, seq_len = x.shape
         device = self.device
         EOS_TOKEN = self.d_model
@@ -141,7 +140,7 @@ class Modelo(nn.Module):
             next_token = torch.argmax(logits, dim=-1)  # (batch,)
             #print(f"next_token shape: {next_token.shape}\n\n")
 
-            outputs.append(next_token) # REVISAR DIMENSIONES
+            outputs.append(logits) # REVISAR DIMENSIONES
 
             # Añadir nuevo token a la secuencia
             generated = torch.cat([generated, next_token.unsqueeze(1)], dim=1)
@@ -150,10 +149,10 @@ class Modelo(nn.Module):
             finished = finished | (next_token == EOS_TOKEN)
 
             # Si todos los casos han terminado, salir del bucle
-            if finished.all():
-                break            
+            #if finished.all():
+                #break            
 
-        return outputs
+        return torch.stack(outputs, dim=1)
 '''
 model = Modelo(
     d_model=8,
@@ -418,10 +417,10 @@ def val_test(model, val_loader):
         y_pred = model(prefix)
 
         # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
-        #y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
-        #y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
+        y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+        y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
         
-        val_loss = loss_fn(y_pred, y_real)
+        val_loss = loss_fn(y_pred_loss, y_real_loss)
         val_acc = acc(y_pred, y_real)
 
         val_epoch_loss.append(val_loss.item())
@@ -451,10 +450,10 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             y_pred = model(prefix)
            
             # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
-            #y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
-            #y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
-            
-            train_loss = loss_fn(y_pred, y_real)
+            y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+            y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
+
+            train_loss = loss_fn(y_pred_loss, y_real_loss)
             
             '''
             print(f"Tipo de y_pred: {y_pred.shape}\n")
@@ -547,7 +546,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
                 print("Early stopping")
                 break
 
-fit(model, loader_train, loader_val, filename, "1", "modelossm", False)
+#fit(model, loader_train, loader_val, filename, "1", "modelossm", False)
 
 from jellyfish._jellyfish import damerau_levenshtein_distance
 
@@ -592,8 +591,8 @@ def test(model, val_loader):
         y_pred = model(prefix)
 
         # Aplanar las dimensiones para que CrossEntropyLoss las pueda manejar correctamente
-        #y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
-        #y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
+        y_pred_loss = y_pred.view(-1, NUM_ACTIVITIES+2)  # Esto convierte el tensor de forma [16, 186, 17] en [16*186, 17]
+        y_real_loss = y_real.view(-1)  # Esto convierte el tensor de forma [16, 186] en [16*186]
 
         if (i % 100 == 0):
 
@@ -606,7 +605,7 @@ def test(model, val_loader):
             print("\n\n")
             print(f"tam_suf: {tam_suf}\n\n")
         
-        val_loss = loss_fn(y_pred, y_real)
+        val_loss = loss_fn(y_pred_loss, y_real_loss)
         #val_acc = acc(y_pred, y_real)
         val_acc = levenshtein_acc(y_pred, y_real, tam_suf)
         val_epoch_loss.append(val_loss.item())
@@ -614,7 +613,7 @@ def test(model, val_loader):
 
     return val_epoch_loss, val_epoch_acc
 
-model.load_state_dict(torch.load("./models/ssm/1/modelossm"))
+model.load_state_dict(torch.load("./models/" + filename + "/1/modelossm"))
 model.to(device)
 
 val_epoch_loss, val_epoch_acc = test(model, loader_test)
