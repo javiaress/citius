@@ -1,0 +1,1377 @@
+caseid,task,user,end_timestamp
+3,Accepted-In Progress,Tomas-Org line A2,2007-05-10T14:21:54.000000
+3,Accepted-Wait,Tomas-Org line A2,2009-12-02T13:24:33.000000
+3,Accepted-In Progress,Tomas-Org line A2,2011-09-03T05:10:59.000000
+3,Accepted-In Progress,Carrie-Org line A2,2012-01-18T07:20:53.000000
+3,Completed-Closed,Carrie-Org line A2,2012-01-18T07:21:10.000000
+5,Accepted-In Progress,Tomas-Org line A2,2008-05-07T16:58:51.000000
+5,Accepted-In Progress,Tomas-Org line A2,2008-10-06T14:44:37.000000
+5,Accepted-Wait,Tomas-Org line A2,2009-12-02T13:24:34.000000
+5,Accepted-In Progress,Tomas-Org line A2,2011-09-01T22:27:50.000000
+5,Accepted-In Progress,Tomas-Org line A2,2011-09-01T22:27:55.000000
+5,Accepted-In Progress,Carrie-Org line A2,2012-01-20T06:53:32.000000
+5,Completed-Closed,Carrie-Org line A2,2012-01-20T06:53:35.000000
+10,Accepted-In Progress,Per-Org line C,2009-08-11T06:44:51.000000
+10,Queued-Awaiting Assignment,Per-Org line C,2009-08-11T06:55:12.000000
+10,Accepted-Assigned,Per-Org line C,2009-08-11T10:01:25.000000
+10,Queued-Awaiting Assignment,Per-Org line C,2010-05-18T10:35:53.000000
+10,Accepted-In Progress,Tony-Org line C,2010-06-16T10:00:32.000000
+10,Accepted-Wait,Tony-Org line C,2011-10-01T20:40:28.000000
+10,Queued-Awaiting Assignment,Tony-Org line C,2011-12-07T11:41:00.000000
+10,Accepted-In Progress,Reza-Org line C,2012-02-15T11:01:20.000000
+10,Completed-Closed,Reza-Org line C,2012-02-19T20:57:21.000000
+12,Queued-Awaiting Assignment,Adam-Org line A2,2009-09-16T20:42:12.000000
+12,Accepted-In Progress,Adam-Org line A2,2009-09-28T09:26:19.000000
+12,Accepted-Wait,Adam-Org line A2,2009-09-28T09:26:30.000000
+12,Queued-Awaiting Assignment,Adam-Org line A2,2010-04-08T10:09:22.000000
+12,Queued-Awaiting Assignment,Adam-Org line A2,2010-04-08T10:11:51.000000
+12,Accepted-In Progress,Adam-Org line A2,2010-04-12T08:05:58.000000
+12,Accepted-Wait,Adam-Org line A2,2010-04-12T08:10:24.000000
+12,Accepted-In Progress,Adam-Org line A2,2011-10-18T14:09:14.000000
+12,Accepted-Wait,Adam-Org line A2,2012-05-24T08:02:19.000000
+12,Completed-Closed,Adam-Org line A2,2012-05-24T09:03:31.000000
+31,Accepted-In Progress,Lena-Org line A2,2010-01-05T15:42:20.000000
+31,Completed-Closed,Lena-Org line A2,2012-03-20T15:14:00.000000
+39,Accepted-In Progress,Ewa-Org line A2,2010-02-03T08:34:32.000000
+39,Queued-Awaiting Assignment,Ewa-Org line A2,2010-02-03T08:45:18.000000
+39,Accepted-In Progress,Ewa-Org line A2,2010-02-03T09:40:51.000000
+39,Accepted-Assigned,Ewa-Org line A2,2010-02-03T09:40:58.000000
+39,Accepted-In Progress,Ewa-Org line A2,2011-12-20T21:25:19.000000
+39,Completed-Closed,Ewa-Org line A2,2012-01-03T12:13:02.000000
+48,Accepted-In Progress,Carolyn-Org line G3,2010-03-01T05:54:12.000000
+48,Queued-Awaiting Assignment,Carolyn-Org line G3,2010-03-01T06:04:33.000000
+48,Accepted-In Progress,Naga-Org line G3,2010-03-01T10:53:51.000000
+48,Accepted-Assigned,Carolyn-Org line G3,2010-03-01T11:00:54.000000
+48,Accepted-In Progress,Ewa-Org line G3,2011-12-28T15:01:17.000000
+48,Completed-Closed,Ewa-Org line G3,2012-01-30T11:30:21.000000
+54,Accepted-In Progress,Tomas-Org line A2,2010-03-11T13:06:34.000000
+54,Accepted-In Progress,Tomas-Org line A2,2010-03-11T13:10:10.000000
+54,Queued-Awaiting Assignment,Tomas-Org line A2,2010-03-11T13:12:19.000000
+54,Accepted-In Progress,Pawel-Org line A2,2010-03-11T13:12:35.000000
+54,Queued-Awaiting Assignment,Tomas-Org line A2,2010-03-11T13:12:46.000000
+54,Accepted-In Progress,Pawel-Org line A2,2010-03-11T13:13:02.000000
+54,Accepted-Assigned,Tomas-Org line A2,2010-07-20T07:25:18.000000
+54,Accepted-In Progress,Tomas-Org line A2,2011-09-05T07:28:42.000000
+54,Accepted-In Progress,Carrie-Org line A2,2012-01-20T07:24:45.000000
+54,Completed-Closed,Carrie-Org line A2,2012-01-20T07:24:59.000000
+83,Accepted-In Progress,Carolyn-Org line G3,2010-05-04T16:15:44.000000
+83,Queued-Awaiting Assignment,Carolyn-Org line G3,2010-05-04T16:23:17.000000
+83,Accepted-In Progress,Naga-Org line G3,2010-05-04T16:24:58.000000
+83,Accepted-Assigned,Carolyn-Org line G3,2010-05-04T16:27:46.000000
+83,Accepted-In Progress,Ewa-Org line G3,2012-01-18T09:30:42.000000
+83,Completed-Closed,Ewa-Org line G3,2012-01-18T09:31:12.000000
+86,Accepted-In Progress,Peter-Org line C,2010-05-06T15:36:41.000000
+86,Unmatched-Unmatched,Peter-Org line C,2010-05-06T16:05:00.000000
+86,Queued-Awaiting Assignment,Peter-Org line C,2010-10-01T14:43:52.000000
+86,Accepted-In Progress,Peter-Org line C,2010-10-04T08:59:18.000000
+86,Accepted-Wait,Peter-Org line C,2010-10-04T09:00:12.000000
+86,Accepted-Assigned,Tomas-Org line C,2010-10-19T12:43:59.000000
+86,Accepted-Wait,Tomas-Org line C,2011-10-20T12:21:34.000000
+86,Completed-Closed,Tomas-Org line C,2012-01-30T12:18:55.000000
+88,Accepted-In Progress,Carolyn-Org line G3,2010-05-10T12:01:38.000000
+88,Queued-Awaiting Assignment,Carolyn-Org line G3,2010-05-10T12:07:54.000000
+88,Accepted-In Progress,Naga-Org line G3,2010-05-10T18:36:38.000000
+88,Accepted-Assigned,Carolyn-Org line G3,2010-05-10T18:41:50.000000
+88,Accepted-In Progress,Ewa-Org line G3,2012-02-02T21:52:05.000000
+88,Completed-Closed,Ewa-Org line G3,2012-02-04T07:56:49.000000
+96,Accepted-In Progress,Carolyn-Org line G3,2010-05-20T10:55:23.000000
+96,Queued-Awaiting Assignment,Carolyn-Org line G3,2010-05-20T11:43:22.000000
+96,Accepted-In Progress,Naga-Org line G3,2010-05-20T22:57:03.000000
+96,Accepted-Assigned,Carolyn-Org line G3,2010-05-20T22:58:48.000000
+96,Accepted-In Progress,Ewa-Org line G3,2012-02-03T06:52:26.000000
+96,Completed-Closed,Ewa-Org line G3,2012-02-03T06:54:03.000000
+100,Accepted-In Progress,Sumesh-Org line C,2010-05-25T10:42:48.000000
+100,Accepted-Wait,Sumesh-Org line C,2010-05-25T10:49:29.000000
+100,Accepted-In Progress,Sumesh-Org line C,2011-06-29T14:13:19.000000
+100,Queued-Awaiting Assignment,Prasad-Org line C,2011-11-23T11:47:29.000000
+100,Accepted-In Progress,Manoj-Org line C,2011-11-23T11:49:06.000000
+100,Queued-Awaiting Assignment,David-Org line C,2011-11-23T11:55:00.000000
+100,Accepted-In Progress,Markus-Org line C,2011-11-29T13:18:56.000000
+100,Completed-Closed,Markus-Org line C,2012-03-23T12:57:17.000000
+109,Accepted-In Progress,Victor-Org line C,2010-06-08T13:20:08.000000
+109,Queued-Awaiting Assignment,Victor-Org line C,2010-06-08T13:24:21.000000
+109,Accepted-Assigned,Leif-Org line C,2010-06-09T13:43:31.000000
+109,Queued-Awaiting Assignment,Ulf-Org line C,2010-06-15T10:40:07.000000
+109,Accepted-In Progress,Amir-Org line C,2011-11-01T16:27:08.000000
+109,Accepted-Assigned,Anna-Org line C,2011-11-01T16:29:39.000000
+109,Accepted-In Progress,Anna-Org line C,2012-02-01T12:59:45.000000
+109,Completed-Closed,Anna-Org line C,2012-02-01T12:59:47.000000
+113,Accepted-In Progress,Barbara-Org line A2,2010-06-14T06:38:32.000000
+113,Accepted-Wait,Barbara-Org line A2,2010-06-14T06:38:53.000000
+113,Accepted-In Progress,Barbara-Org line A2,2010-06-14T13:34:32.000000
+113,Accepted-Wait,Barbara-Org line A2,2010-06-14T13:57:51.000000
+113,Accepted-In Progress,Barbara-Org line A2,2010-06-15T06:41:34.000000
+113,Accepted-Wait,Barbara-Org line A2,2010-06-15T07:43:03.000000
+113,Accepted-In Progress,Barbara-Org line A2,2012-03-28T12:42:34.000000
+113,Completed-Closed,Barbara-Org line A2,2012-03-28T12:45:28.000000
+126,Accepted-In Progress,Joakim-Org line G4,2010-07-08T02:50:41.000000
+126,Queued-Awaiting Assignment,Joakim-Org line G4,2010-07-08T03:04:25.000000
+126,Accepted-Assigned,Mikael-Org line G4,2010-07-09T13:06:01.000000
+126,Accepted-Assigned,Per-Org line G4,2010-09-07T11:57:19.000000
+126,Accepted-In Progress,Per-Org line G4,2010-09-23T08:26:35.000000
+126,Accepted-Wait,Per-Org line G4,2010-12-05T12:27:07.000000
+126,Completed-Closed,Per-Org line G4,2012-01-26T10:39:55.000000
+129,Accepted-In Progress,Lena-Org line A2,2010-07-15T08:35:37.000000
+129,Accepted-Wait,Lena-Org line A2,2010-07-15T08:39:54.000000
+129,Completed-Closed,Lena-Org line A2,2012-03-20T15:18:28.000000
+135,Accepted-In Progress,Carolyn-Org line G3,2010-08-03T09:23:32.000000
+135,Queued-Awaiting Assignment,Carolyn-Org line G3,2010-08-03T09:33:47.000000
+135,Accepted-In Progress,Kannan-Org line G3,2010-08-03T10:56:56.000000
+135,Accepted-Assigned,Carolyn-Org line G3,2010-08-03T10:57:02.000000
+135,Accepted-In Progress,Kannan-Org line G3,2010-08-11T13:01:08.000000
+135,Accepted-Wait,Kannan-Org line G3,2010-09-20T12:43:53.000000
+135,Accepted-Assigned,Carolyn-Org line G3,2010-09-20T12:44:35.000000
+135,Accepted-In Progress,Santhosh-Org line A2,2010-09-29T17:42:02.000000
+135,Accepted-Assigned,Manjunath-Org line A2,2010-09-29T17:43:46.000000
+135,Queued-Awaiting Assignment,Carolyn-Org line G3,2010-10-05T12:06:25.000000
+135,Accepted-In Progress,Kannan-Org line G3,2010-10-13T14:00:10.000000
+135,Accepted-Assigned,Carolyn-Org line G3,2010-10-13T14:00:17.000000
+135,Accepted-In Progress,Ewa-Org line G3,2012-02-04T09:43:42.000000
+135,Completed-Closed,Ewa-Org line G3,2012-02-04T09:46:56.000000
+136,Accepted-In Progress,Åsa-Org line C,2010-08-09T15:20:59.000000
+136,Queued-Awaiting Assignment,Åsa-Org line C,2010-08-09T15:21:46.000000
+136,Accepted-In Progress,Stephen-Org line C,2010-08-09T15:21:55.000000
+136,Accepted-Wait,Stephen-Org line C,2010-08-12T13:09:54.000000
+136,Accepted-In Progress,Åsa-Org line C,2010-08-18T09:28:28.000000
+136,Accepted-Assigned,Stephen-Org line C,2010-08-18T09:28:48.000000
+136,Accepted-In Progress,Stephen-Org line C,2010-08-18T13:42:02.000000
+136,Accepted-Assigned,Åsa-Org line C,2011-01-06T11:42:00.000000
+136,Accepted-Assigned,Magnus-Org line C,2011-01-10T09:31:14.000000
+136,Accepted-In Progress,Mica-Org line C,2011-09-14T10:04:06.000000
+136,Accepted-Assigned,Mårten-Org line C,2011-10-18T12:16:24.000000
+136,Accepted-In Progress,Mica-Org line C,2011-10-18T12:16:31.000000
+136,Completed-Closed,Mica-Org line C,2012-01-18T08:45:44.000000
+138,Accepted-In Progress,Carolyn-Org line G3,2010-08-11T12:41:13.000000
+138,Queued-Awaiting Assignment,Carolyn-Org line G3,2010-08-11T12:49:10.000000
+138,Accepted-In Progress,Kannan-Org line G3,2010-08-11T13:08:47.000000
+138,Accepted-Assigned,Carolyn-Org line G3,2010-08-11T13:08:54.000000
+138,Queued-Awaiting Assignment,Hannes-Org line A2,2011-04-12T13:50:34.000000
+138,Accepted-Assigned,Jayalakshmi-Org line A2,2011-04-12T13:50:53.000000
+138,Accepted-Wait,Jayalakshmi-Org line A2,2011-04-19T10:57:14.000000
+138,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-04-28T12:16:11.000000
+138,Accepted-In Progress,Padmanabha-Org line G3,2011-04-28T15:43:47.000000
+138,Accepted-Assigned,Carolyn-Org line G3,2011-04-28T15:43:54.000000
+138,Accepted-In Progress,Ewa-Org line G3,2012-01-31T08:36:21.000000
+138,Completed-Closed,Ewa-Org line G3,2012-01-31T08:36:40.000000
+139,Accepted-In Progress,Tord-Org line G4,2010-08-18T12:00:14.000000
+139,Completed-Closed,Tord-Org line G4,2012-01-24T13:49:26.000000
+140,Accepted-In Progress,Carolyn-Org line G3,2010-08-19T06:24:05.000000
+140,Queued-Awaiting Assignment,Carolyn-Org line G3,2010-08-19T06:27:30.000000
+140,Accepted-In Progress,Kannan-Org line G3,2010-08-20T15:02:07.000000
+140,Accepted-Assigned,Carolyn-Org line G3,2010-08-20T15:02:16.000000
+140,Accepted-In Progress,Ewa-Org line G3,2012-01-04T15:58:37.000000
+140,Completed-Closed,Ewa-Org line G3,2012-01-04T15:59:08.000000
+147,Accepted-In Progress,Per-Org line C,2010-09-09T09:24:32.000000
+147,Accepted-In Progress,Per-Org line C,2010-09-16T13:11:58.000000
+147,Completed-Closed,Per-Org line C,2012-02-20T06:16:22.000000
+155,Accepted-In Progress,Lionel-Org line B,2010-09-27T12:55:41.000000
+155,Queued-Awaiting Assignment,Lionel-Org line B,2010-09-27T16:32:05.000000
+155,Accepted-In Progress,Nicolas-Org line B,2010-09-29T07:53:12.000000
+155,Queued-Awaiting Assignment,Åsa-Org line C,2010-09-29T07:55:31.000000
+155,Accepted-In Progress,Anders-Org line C,2010-10-22T14:31:35.000000
+155,Queued-Awaiting Assignment,Patrik-Org line C,2010-10-28T11:47:41.000000
+155,Accepted-In Progress,Gunilla-Org line C,2010-11-12T11:33:36.000000
+155,Queued-Awaiting Assignment,Lionel-Org line B,2010-11-12T11:52:43.000000
+155,Accepted-In Progress,Rijin-Org line B,2010-11-16T10:09:29.000000
+155,Accepted-In Progress,Rijin-Org line B,2010-11-16T10:22:09.000000
+155,Accepted-Wait,Rijin-Org line B,2010-11-19T16:26:11.000000
+155,Accepted-In Progress,Rijin-Org line B,2011-06-30T08:22:26.000000
+155,Accepted-Wait,Rijin-Org line B,2011-07-01T15:08:45.000000
+155,Accepted-In Progress,Rijin-Org line B,2012-02-29T17:04:06.000000
+155,Completed-Closed,Rijin-Org line B,2012-02-29T17:07:28.000000
+156,Accepted-In Progress,Carin-Org line A2,2010-09-28T14:22:31.000000
+156,Accepted-Assigned,Carin-Org line A2,2010-09-28T14:26:58.000000
+156,Accepted-Assigned,Lennart-Org line A2,2011-12-11T19:57:51.000000
+156,Accepted-In Progress,Ann-Org line A2,2012-03-30T12:42:05.000000
+156,Accepted-Wait,Ann-Org line A2,2012-03-30T12:42:14.000000
+156,Completed-Closed,Ann-Org line A2,2012-05-28T08:33:05.000000
+158,Accepted-In Progress,Anette-Org line A2,2010-10-01T11:18:17.000000
+158,Accepted-Assigned,Anette-Org line A2,2011-11-28T15:18:58.000000
+158,Accepted-In Progress,Stefan-Org line A2,2012-02-06T14:12:33.000000
+158,Accepted-Assigned,Valter-Org line A2,2012-02-06T14:17:07.000000
+158,Queued-Awaiting Assignment,Agneta-Org line A2,2012-04-25T11:19:22.000000
+158,Accepted-Assigned,Valter-Org line A2,2012-04-25T11:32:24.000000
+158,Accepted-In Progress,Valter-Org line A2,2012-05-15T11:34:52.000000
+158,Completed-Closed,Valter-Org line A2,2012-05-15T11:34:53.000000
+170,Accepted-In Progress,Fredrik-Org line A2,2010-10-25T11:53:47.000000
+170,Accepted-In Progress,Fredrik-Org line A2,2011-10-05T21:07:51.000000
+170,Queued-Awaiting Assignment,Fredrik-Org line A2,2011-10-05T21:07:59.000000
+170,Accepted-In Progress,Fredrik-Org line A2,2011-10-06T18:05:33.000000
+170,Accepted-Assigned,Joakim-Org line A2,2011-12-06T20:31:33.000000
+170,Completed-Closed,Joakim-Org line A2,2012-01-04T12:52:57.000000
+171,Accepted-In Progress,Rune-Org line A2,2010-10-25T13:20:49.000000
+171,Accepted-Wait,Rune-Org line A2,2010-10-25T13:40:53.000000
+171,Completed-Closed,Rune-Org line A2,2012-05-15T14:27:14.000000
+174,Accepted-In Progress,Viktoria-Org line G4,2010-11-03T07:04:02.000000
+174,Accepted-Wait,Viktoria-Org line G4,2010-11-03T08:52:09.000000
+174,Queued-Awaiting Assignment,Viktoria-Org line G4,2010-11-24T12:41:08.000000
+174,Accepted-In Progress,Michael-Org line A2,2010-11-24T12:50:59.000000
+174,Accepted-Wait,Michael-Org line A2,2010-11-24T12:51:02.000000
+174,Queued-Awaiting Assignment,Viktoria-Org line G4,2010-11-24T13:08:53.000000
+174,Accepted-In Progress,Michael-Org line A2,2010-11-24T13:11:07.000000
+174,Accepted-Wait,Michael-Org line A2,2010-11-24T13:11:10.000000
+174,Queued-Awaiting Assignment,Viktoria-Org line G4,2010-11-25T13:37:13.000000
+174,Accepted-In Progress,Viktoria-Org line G4,2010-11-25T13:38:42.000000
+174,Accepted-Wait,Viktoria-Org line G4,2010-11-25T13:40:20.000000
+174,Accepted-In Progress,Gustav-Org line G4,2012-02-21T14:15:29.000000
+174,Completed-Closed,Gustav-Org line G4,2012-02-21T14:15:31.000000
+178,Accepted-In Progress,Carolyn-Org line G3,2010-11-09T06:48:53.000000
+178,Queued-Awaiting Assignment,Carolyn-Org line G3,2010-11-09T06:51:35.000000
+178,Accepted-In Progress,Kannan-Org line G3,2010-11-09T08:48:16.000000
+178,Accepted-Assigned,Carolyn-Org line G3,2010-11-09T08:48:31.000000
+178,Accepted-In Progress,Ewa-Org line G3,2012-02-04T11:31:11.000000
+178,Completed-Closed,Ewa-Org line G3,2012-02-04T11:32:21.000000
+179,Accepted-In Progress,Gustav-Org line G4,2010-11-10T09:48:43.000000
+179,Completed-Closed,Gustav-Org line G4,2010-12-29T09:30:03.000000
+179,Accepted-In Progress,Gustav-Org line G4,2010-12-29T09:37:12.000000
+179,Accepted-In Progress,Gustav-Org line G4,2012-02-21T14:25:02.000000
+179,Completed-Closed,Gustav-Org line G4,2012-02-21T14:25:20.000000
+188,Accepted-In Progress,Carolyn-Org line G3,2010-11-24T09:01:08.000000
+188,Queued-Awaiting Assignment,Carolyn-Org line G3,2010-11-24T09:14:44.000000
+188,Accepted-In Progress,Santhosh-Org line G3,2010-11-24T11:45:45.000000
+188,Accepted-Assigned,Carolyn-Org line G3,2010-11-24T11:47:40.000000
+188,Accepted-In Progress,Ewa-Org line G3,2012-01-04T15:51:02.000000
+188,Completed-Closed,Ewa-Org line G3,2012-01-04T15:51:12.000000
+195,Accepted-In Progress,Carolyn-Org line G3,2010-12-03T11:08:38.000000
+195,Queued-Awaiting Assignment,Carolyn-Org line G3,2010-12-03T11:14:56.000000
+195,Accepted-In Progress,Santhosh-Org line G3,2010-12-03T12:43:00.000000
+195,Accepted-Assigned,Carolyn-Org line G3,2010-12-03T12:45:20.000000
+195,Accepted-In Progress,Ewa-Org line G3,2012-01-30T12:03:34.000000
+195,Completed-Closed,Ewa-Org line G3,2012-01-30T12:04:09.000000
+199,Accepted-In Progress,Roland-Org line G4,2010-12-07T13:24:36.000000
+199,Accepted-Wait,Roland-Org line G4,2011-01-18T09:59:26.000000
+199,Accepted-In Progress,Roland-Org line G4,2011-01-26T06:48:18.000000
+199,Accepted-Wait,Roland-Org line G4,2011-04-28T06:46:03.000000
+199,Completed-Closed,Roland-Org line G4,2012-01-26T09:47:59.000000
+209,Accepted-In Progress,Carolyn-Org line G3,2010-12-21T16:08:01.000000
+209,Queued-Awaiting Assignment,Carolyn-Org line G3,2010-12-21T16:22:42.000000
+209,Accepted-In Progress,Padmanabha-Org line A2,2010-12-23T10:20:20.000000
+209,Accepted-Assigned,Padmanabha-Org line A2,2010-12-23T10:22:21.000000
+209,Accepted-Assigned,Carolyn-Org line A2,2010-12-23T10:22:22.000000
+209,Accepted-In Progress,Ewa-Org line A2,2012-01-30T11:55:06.000000
+209,Completed-Closed,Ewa-Org line A2,2012-01-30T11:56:15.000000
+210,Accepted-In Progress,Bengt-Org line C,2010-12-22T12:09:10.000000
+210,Accepted-Assigned,Bengt-Org line C,2010-12-22T12:16:21.000000
+210,Accepted-In Progress,Bengt-Org line C,2011-08-31T09:03:38.000000
+210,Completed-Closed,Bengt-Org line C,2012-04-02T08:35:12.000000
+221,Accepted-In Progress,Agneta-Org line A2,2011-01-13T09:01:34.000000
+221,Completed-Closed,Agneta-Org line A2,2012-01-10T11:24:45.000000
+224,Accepted-In Progress,Virginie-Org line C,2011-01-17T10:12:41.000000
+224,Completed-Closed,Virginie-Org line C,2012-01-06T16:48:18.000000
+242,Accepted-In Progress,Carolyn-Org line G3,2011-02-16T07:51:55.000000
+242,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-02-16T08:05:00.000000
+242,Accepted-In Progress,Padmanabha-Org line G3,2011-02-16T09:22:59.000000
+242,Accepted-Assigned,Carolyn-Org line G3,2011-02-16T09:23:08.000000
+242,Accepted-In Progress,Ewa-Org line G3,2012-01-30T11:45:03.000000
+242,Completed-Closed,Ewa-Org line G3,2012-01-30T11:47:13.000000
+243,Accepted-In Progress,Maria-Org line A2,2011-02-16T12:36:35.000000
+243,Accepted-Wait,Maria-Org line A2,2011-10-27T14:58:55.000000
+243,Completed-Closed,Maria-Org line A2,2012-04-18T07:46:11.000000
+254,Accepted-In Progress,Joakim-Org line G4,2011-02-23T16:45:04.000000
+254,Accepted-In Progress,Joakim-Org line G4,2011-02-23T16:52:29.000000
+254,Accepted-Wait,Joakim-Org line G4,2011-05-04T08:05:50.000000
+254,Queued-Awaiting Assignment,Joakim-Org line G4,2011-09-05T08:10:57.000000
+254,Accepted-Assigned,Mikael-Org line G4,2011-10-20T07:58:13.000000
+254,Accepted-Wait,Mikael-Org line G4,2012-01-08T01:14:30.000000
+254,Completed-Closed,Mikael-Org line G4,2012-01-25T10:20:10.000000
+260,Accepted-In Progress,Carolyn-Org line G3,2011-03-03T11:21:48.000000
+260,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-03-03T11:25:34.000000
+260,Accepted-In Progress,Santhosh-Org line G3,2011-03-03T11:29:49.000000
+260,Accepted-Assigned,Carolyn-Org line G3,2011-03-03T11:31:27.000000
+260,Accepted-In Progress,Ewa-Org line G3,2012-01-30T12:07:26.000000
+260,Completed-Closed,Ewa-Org line G3,2012-01-30T12:08:04.000000
+265,Accepted-In Progress,Katarina-Org line G4,2011-03-14T14:04:30.000000
+265,Completed-Closed,Katarina-Org line G4,2012-02-01T15:12:52.000000
+266,Accepted-In Progress,Carolyn-Org line G3,2011-03-15T05:32:07.000000
+266,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-03-15T05:37:19.000000
+266,Accepted-In Progress,Santhosh-Org line G3,2011-03-15T10:41:56.000000
+266,Accepted-Assigned,Carolyn-Org line G3,2011-03-15T10:42:27.000000
+266,Accepted-In Progress,Ewa-Org line G3,2012-02-02T21:26:14.000000
+266,Completed-Closed,Ewa-Org line G3,2012-02-02T21:28:26.000000
+282,Accepted-In Progress,Carolyn-Org line G3,2011-04-05T11:38:03.000000
+282,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-04-05T11:41:43.000000
+282,Accepted-In Progress,Santhosh-Org line G3,2011-04-05T11:44:05.000000
+282,Accepted-Assigned,Carolyn-Org line G3,2011-04-05T11:47:27.000000
+282,Accepted-In Progress,Ewa-Org line G3,2012-01-30T20:47:07.000000
+282,Completed-Closed,Ewa-Org line G3,2012-01-30T20:50:05.000000
+285,Accepted-In Progress,Daniel-Org line A2,2011-04-06T12:15:49.000000
+285,Accepted-Assigned,Daniel-Org line A2,2012-03-28T11:13:09.000000
+285,Completed-Closed,Daniel-Org line A2,2012-04-04T07:28:32.000000
+286,Accepted-In Progress,Kranthi-Org line A2,2011-04-06T14:21:18.000000
+286,Accepted-In Progress,Kranthi-Org line A2,2011-04-06T14:31:54.000000
+286,Accepted-Wait,Kranthi-Org line A2,2012-02-08T05:46:59.000000
+286,Completed-Closed,Kranthi-Org line A2,2012-02-08T05:51:52.000000
+287,Accepted-In Progress,Håkan-Org line A2,2011-04-06T15:53:40.000000
+287,Accepted-In Progress,Håkan-Org line A2,2012-04-04T14:55:47.000000
+287,Completed-Closed,Håkan-Org line A2,2012-04-04T14:57:36.000000
+290,Accepted-In Progress,Mikael-Org line C,2011-04-08T09:57:43.000000
+290,Accepted-Wait,Mikael-Org line C,2011-04-11T08:18:36.000000
+290,Accepted-In Progress,Mikael-Org line C,2012-02-21T09:22:27.000000
+290,Completed-Closed,Mikael-Org line C,2012-02-21T09:31:26.000000
+291,Accepted-In Progress,James-Org line V11,2011-04-08T11:23:18.000000
+291,Accepted-In Progress,James-Org line V11,2012-04-24T13:16:44.000000
+291,Completed-Closed,James-Org line V11,2012-04-24T13:16:46.000000
+292,Accepted-In Progress,Patrik-Org line A2,2011-04-08T15:37:57.000000
+292,Accepted-Assigned,Patrik-Org line A2,2012-03-28T11:12:38.000000
+292,Accepted-In Progress,Daniel-Org line A2,2012-04-11T14:37:55.000000
+292,Completed-Closed,Daniel-Org line A2,2012-04-11T14:37:59.000000
+294,Accepted-In Progress,Nigel-Org line C,2011-04-11T19:53:58.000000
+294,Queued-Awaiting Assignment,Nigel-Org line C,2011-04-14T15:44:52.000000
+294,Accepted-In Progress,Nigel-Org line C,2012-02-15T10:58:47.000000
+294,Completed-Closed,Nigel-Org line C,2012-02-15T11:01:31.000000
+296,Accepted-In Progress,Ing-Marie-Org line G4,2011-04-12T12:24:13.000000
+296,Queued-Awaiting Assignment,Ing-Marie-Org line G4,2011-04-12T12:24:29.000000
+296,Accepted-In Progress,Suresh-Org line G4,2012-01-23T14:42:08.000000
+296,Queued-Awaiting Assignment,Peter-Org line C,2012-01-23T15:04:38.000000
+296,Accepted-In Progress,Peter-Org line C,2012-01-27T15:01:45.000000
+296,Completed-Closed,Peter-Org line C,2012-01-27T15:01:47.000000
+298,Accepted-In Progress,Gustav-Org line G4,2011-04-14T11:59:47.000000
+298,Accepted-In Progress,Gustav-Org line G4,2012-02-21T14:31:53.000000
+298,Completed-Closed,Gustav-Org line G4,2012-02-21T14:31:54.000000
+299,Accepted-In Progress,Carolyn-Org line G3,2011-04-14T13:36:04.000000
+299,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-04-14T13:38:58.000000
+299,Accepted-In Progress,Padmanabha-Org line G3,2011-04-14T15:10:44.000000
+299,Accepted-Assigned,Carolyn-Org line G3,2011-04-14T15:10:49.000000
+299,Accepted-In Progress,Ewa-Org line G3,2012-01-30T12:06:42.000000
+299,Completed-Closed,Ewa-Org line G3,2012-01-30T12:07:11.000000
+308,Accepted-In Progress,Carolyn-Org line G3,2011-04-20T13:18:07.000000
+308,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-04-20T13:21:54.000000
+308,Accepted-In Progress,Padmanabha-Org line G3,2011-04-21T10:19:11.000000
+308,Accepted-Assigned,Carolyn-Org line G3,2011-04-21T10:19:25.000000
+308,Queued-Awaiting Assignment,Hannes-Org line A2,2011-04-22T10:39:46.000000
+308,Accepted-Assigned,Y-Org line A2,2011-04-22T10:42:02.000000
+308,Accepted-Assigned,Jayalakshmi-Org line A2,2011-04-25T12:44:07.000000
+308,Accepted-Wait,Jayalakshmi-Org line A2,2011-04-27T13:28:55.000000
+308,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-04-29T07:42:30.000000
+308,Accepted-In Progress,Padmanabha-Org line G3,2011-04-29T11:42:45.000000
+308,Accepted-Assigned,Carolyn-Org line G3,2011-04-29T11:42:52.000000
+308,Accepted-In Progress,Ewa-Org line G3,2012-02-06T20:47:09.000000
+308,Completed-Closed,Ewa-Org line G3,2012-02-06T20:48:29.000000
+312,Accepted-In Progress,Per-Org line G4,2011-04-25T04:46:33.000000
+312,Accepted-Assigned,Per-Org line G4,2011-04-25T04:48:34.000000
+312,Completed-Closed,Per-Org line G4,2012-01-26T10:31:40.000000
+318,Accepted-In Progress,Piotr-Org line A2,2011-04-28T14:29:42.000000
+318,Completed-Closed,Piotr-Org line A2,2012-05-29T15:02:34.000000
+321,Accepted-In Progress,Carolyn-Org line G3,2011-05-03T15:14:07.000000
+321,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-05-03T15:16:39.000000
+321,Accepted-In Progress,Padmanabha-Org line G3,2011-05-04T04:46:05.000000
+321,Accepted-Assigned,Carolyn-Org line G3,2011-05-04T04:46:17.000000
+321,Accepted-In Progress,Ewa-Org line G3,2012-02-06T20:35:55.000000
+321,Completed-Closed,Ewa-Org line G3,2012-02-06T20:37:18.000000
+323,Accepted-In Progress,Michael-Org line A2,2011-05-04T12:57:47.000000
+323,Accepted-In Progress,Michael-Org line A2,2012-04-25T11:54:18.000000
+323,Completed-Closed,Michael-Org line A2,2012-04-25T11:55:34.000000
+325,Accepted-In Progress,Carolyn-Org line G3,2011-05-05T09:25:29.000000
+325,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-05-05T10:06:48.000000
+325,Accepted-In Progress,Padmanabha-Org line G3,2011-05-05T10:22:56.000000
+325,Accepted-Assigned,Carolyn-Org line G3,2011-05-05T10:23:27.000000
+325,Accepted-In Progress,Ewa-Org line G3,2012-02-06T15:54:07.000000
+325,Completed-Closed,Ewa-Org line G3,2012-02-06T16:00:04.000000
+327,Accepted-In Progress,Carolyn-Org line G3,2011-05-05T12:28:19.000000
+327,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-05-05T12:30:57.000000
+327,Accepted-In Progress,Padmanabha-Org line G3,2011-05-06T05:01:15.000000
+327,Accepted-Assigned,Carolyn-Org line G3,2011-05-06T05:01:21.000000
+327,Accepted-In Progress,Ewa-Org line G3,2012-02-15T14:27:07.000000
+327,Completed-Closed,Ewa-Org line G3,2012-02-15T14:27:34.000000
+328,Accepted-In Progress,Mikael-Org line A2,2011-05-06T10:18:49.000000
+328,Completed-Closed,Mikael-Org line A2,2012-02-29T13:40:19.000000
+331,Accepted-In Progress,Eric-Org line G4,2011-05-10T05:37:04.000000
+331,Accepted-Wait,Eric-Org line G4,2011-05-10T05:37:21.000000
+331,Accepted-Wait,Eric-Org line G4,2011-10-20T19:20:55.000000
+331,Completed-Closed,Eric-Org line G4,2012-01-09T09:28:28.000000
+333,Accepted-In Progress,Harikumar-Org line A2,2011-05-12T09:42:03.000000
+333,Accepted-In Progress,Harikumar-Org line A2,2011-05-16T13:43:50.000000
+333,Accepted-Assigned,Sreehari-Org line A2,2012-03-30T15:15:20.000000
+333,Accepted-In Progress,Sreehari-Org line A2,2012-03-30T15:16:51.000000
+333,Completed-Closed,Sreehari-Org line A2,2012-05-10T15:14:28.000000
+346,Accepted-In Progress,Cecilia-Org line V2,2011-05-24T09:28:27.000000
+346,Queued-Awaiting Assignment,Cecilia-Org line V2,2011-09-06T12:09:34.000000
+346,Accepted-In Progress,Lennart-Org line V2,2011-09-12T11:25:53.000000
+346,Accepted-Wait,Lennart-Org line V2,2012-01-04T14:54:14.000000
+346,Completed-Closed,Lennart-Org line V2,2012-04-13T11:45:24.000000
+348,Accepted-In Progress,Carin-Org line A2,2011-05-25T14:21:09.000000
+348,Accepted-Wait,Carin-Org line A2,2011-05-25T14:25:44.000000
+348,Accepted-In Progress,Carin-Org line A2,2012-01-03T12:58:05.000000
+348,Completed-Closed,Carin-Org line A2,2012-01-03T12:58:52.000000
+352,Accepted-Wait,Martin-Org line C,2011-05-27T16:13:49.000000
+352,Queued-Awaiting Assignment,Martin-Org line C,2011-05-27T16:24:20.000000
+352,Accepted-In Progress,Martin-Org line C,2012-04-04T13:42:22.000000
+352,Accepted-In Progress,Jason-Org line C,2012-04-04T14:36:34.000000
+352,Completed-Closed,Jason-Org line C,2012-04-04T14:50:44.000000
+355,Accepted-In Progress,Carolyn-Org line G3,2011-06-01T13:38:53.000000
+355,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-06-01T13:41:27.000000
+355,Accepted-In Progress,Santhosh-Org line G3,2011-06-01T18:50:10.000000
+355,Accepted-Assigned,Carolyn-Org line G3,2011-06-01T18:52:31.000000
+355,Accepted-In Progress,Padmanabha-Org line G3,2011-06-23T21:12:29.000000
+355,Queued-Awaiting Assignment,Hannes-Org line A2,2011-06-23T21:14:18.000000
+355,Accepted-Assigned,Y-Org line A2,2011-06-23T21:22:36.000000
+355,Accepted-In Progress,Y-Org line A2,2011-07-06T09:19:56.000000
+355,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-07-06T09:33:06.000000
+355,Accepted-In Progress,Padmanabha-Org line G3,2011-07-06T20:29:51.000000
+355,Accepted-Assigned,Carolyn-Org line G3,2011-07-06T20:29:59.000000
+355,Accepted-In Progress,Ewa-Org line G3,2012-01-30T20:23:29.000000
+355,Completed-Closed,Ewa-Org line G3,2012-01-30T20:46:35.000000
+361,Accepted-In Progress,Eric-Org line G4,2011-06-10T15:33:05.000000
+361,Accepted-In Progress,Eric-Org line G4,2011-06-10T15:34:10.000000
+361,Completed-Closed,Eric-Org line G4,2012-01-09T09:29:29.000000
+363,Accepted-In Progress,Carolyn-Org line G3,2011-06-15T11:13:35.000000
+363,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-06-15T11:16:38.000000
+363,Accepted-In Progress,Santhosh-Org line G3,2011-06-15T11:23:33.000000
+363,Accepted-Assigned,Carolyn-Org line G3,2011-06-15T11:25:44.000000
+363,Accepted-In Progress,Ewa-Org line G3,2012-02-02T21:28:50.000000
+363,Completed-Closed,Ewa-Org line G3,2012-02-02T21:31:56.000000
+370,Accepted-In Progress,Michal-Org line A2,2011-06-21T10:01:27.000000
+370,Accepted-Wait,Michal-Org line A2,2011-07-28T12:22:47.000000
+370,Accepted-Wait,Michal-Org line A2,2011-07-28T12:24:26.000000
+370,Accepted-In Progress,Michal-Org line A2,2012-01-19T14:23:31.000000
+370,Completed-Closed,Michal-Org line A2,2012-01-19T14:25:35.000000
+375,Accepted-In Progress,Peter-Org line G4,2011-06-22T09:34:30.000000
+375,Completed-Closed,Peter-Org line G4,2012-01-03T14:58:00.000000
+377,Accepted-In Progress,Peter-Org line G4,2011-06-22T09:50:21.000000
+377,Completed-Closed,Peter-Org line G4,2012-01-03T14:59:05.000000
+380,Accepted-In Progress,Carolyn-Org line G3,2011-06-23T19:04:57.000000
+380,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-06-23T19:05:33.000000
+380,Accepted-In Progress,Padmanabha-Org line G3,2011-06-23T21:05:57.000000
+380,Accepted-Assigned,Carolyn-Org line G3,2011-06-23T21:06:02.000000
+380,Queued-Awaiting Assignment,Hannes-Org line A2,2011-06-24T19:10:43.000000
+380,Accepted-Assigned,Naomi-Org line A2,2011-06-24T19:11:55.000000
+380,Accepted-In Progress,Sandro-Org line A2,2011-06-30T20:20:42.000000
+380,Queued-Awaiting Assignment,Sandro-Org line A2,2011-06-30T20:35:02.000000
+380,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-06-30T20:35:03.000000
+380,Accepted-In Progress,Padmanabha-Org line G3,2011-06-30T23:54:29.000000
+380,Accepted-Assigned,Carolyn-Org line G3,2011-06-30T23:54:53.000000
+380,Accepted-In Progress,Ewa-Org line G3,2012-01-30T11:40:26.000000
+380,Completed-Closed,Ewa-Org line G3,2012-01-30T11:40:27.000000
+382,Accepted-In Progress,Göran-Org line C,2011-06-28T10:05:28.000000
+382,Queued-Awaiting Assignment,Göran-Org line C,2011-07-01T15:05:33.000000
+382,Accepted-Assigned,Daniel-Org line C,2011-07-12T13:28:19.000000
+382,Queued-Awaiting Assignment,Joakim-Org line G4,2011-09-05T08:14:45.000000
+382,Accepted-Assigned,Mikael-Org line G4,2011-10-20T07:57:26.000000
+382,Accepted-In Progress,Mikael-Org line G4,2012-01-09T13:45:16.000000
+382,Completed-Closed,Mikael-Org line G4,2012-01-09T13:48:33.000000
+390,Accepted-In Progress,Mikael-Org line G4,2011-07-01T15:48:55.000000
+390,Accepted-Wait,Mikael-Org line G4,2012-01-19T15:56:50.000000
+390,Accepted-Wait,Mikael-Org line G4,2012-01-19T15:57:43.000000
+390,Completed-Closed,Mikael-Org line G4,2012-01-30T16:58:49.000000
+398,Accepted-In Progress,Andrew-Org line A2,2011-07-11T12:45:54.000000
+398,Accepted-Wait,Andrew-Org line A2,2011-10-20T10:18:10.000000
+398,Completed-Closed,Andrew-Org line A2,2012-05-04T15:05:09.000000
+409,Accepted-In Progress,Carolyn-Org line G3,2011-07-15T06:50:37.000000
+409,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-07-15T06:53:23.000000
+409,Accepted-In Progress,Padmanabha-Org line G3,2011-07-15T06:55:33.000000
+409,Accepted-Assigned,Carolyn-Org line G3,2011-07-15T06:55:41.000000
+409,Accepted-In Progress,Ewa-Org line G3,2012-02-06T21:10:04.000000
+409,Completed-Closed,Ewa-Org line G3,2012-02-06T21:11:17.000000
+410,Accepted-In Progress,Carolyn-Org line G3,2011-07-15T07:02:25.000000
+410,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-07-15T07:12:43.000000
+410,Accepted-In Progress,Padmanabha-Org line G3,2011-07-15T07:14:45.000000
+410,Accepted-Assigned,Carolyn-Org line G3,2011-07-15T07:14:54.000000
+410,Accepted-In Progress,Ewa-Org line G3,2012-02-06T20:33:03.000000
+410,Completed-Closed,Ewa-Org line G3,2012-02-06T20:34:12.000000
+411,Accepted-In Progress,Carolyn-Org line G3,2011-07-15T11:56:10.000000
+411,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-07-15T12:15:01.000000
+411,Accepted-In Progress,Kannan-Org line G3,2011-07-18T10:20:39.000000
+411,Accepted-Assigned,Carolyn-Org line G3,2011-07-18T10:20:47.000000
+411,Accepted-In Progress,Ewa-Org line G3,2012-02-06T19:56:07.000000
+411,Completed-Closed,Ewa-Org line G3,2012-02-06T19:57:55.000000
+419,Accepted-In Progress,Kåre_OLD-Org line C,2011-07-26T22:10:10.000000
+419,Accepted-Assigned,Kåre_OLD-Org line C,2011-08-11T11:59:08.000000
+419,Accepted-Wait,Kåre_OLD-Org line C,2011-08-19T09:17:19.000000
+419,Accepted-Wait,Kåre_OLD-Org line C,2011-09-02T13:50:00.000000
+419,Accepted-Assigned,Jakob-Org line C,2011-09-02T13:50:16.000000
+419,Accepted-In Progress,Jakob-Org line C,2011-12-14T15:02:37.000000
+419,Completed-Closed,Jakob-Org line C,2012-02-07T12:10:40.000000
+425,Accepted-In Progress,Carolyn-Org line G3,2011-08-05T09:46:33.000000
+425,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-08-05T09:49:47.000000
+425,Accepted-In Progress,Santhosh-Org line G3,2011-08-05T10:48:23.000000
+425,Accepted-Assigned,Carolyn-Org line G3,2011-08-05T11:00:21.000000
+425,Queued-Awaiting Assignment,Hannes-Org line A2,2011-09-22T22:56:57.000000
+425,Accepted-Assigned,Y-Org line A2,2011-09-22T22:58:15.000000
+425,Accepted-In Progress,Y-Org line A2,2011-09-23T07:47:05.000000
+425,Accepted-Wait,Y-Org line A2,2011-09-23T07:48:36.000000
+425,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-10-26T08:01:42.000000
+425,Accepted-In Progress,Ewa-Org line G3,2012-02-06T16:02:25.000000
+425,Completed-Closed,Ewa-Org line G3,2012-02-06T16:03:44.000000
+426,Accepted-In Progress,Tomas-Org line A2,2011-08-08T06:08:01.000000
+426,Accepted-Assigned,Tomas-Org line A2,2011-08-08T06:12:59.000000
+426,Accepted-In Progress,Tomas-Org line A2,2011-09-01T21:51:36.000000
+426,Accepted-In Progress,Carrie-Org line A2,2012-01-18T06:45:42.000000
+426,Completed-Closed,Carrie-Org line A2,2012-01-18T06:46:41.000000
+428,Accepted-In Progress,Linda-Org line C,2011-08-09T07:34:14.000000
+428,Accepted-Wait,Linda-Org line C,2011-08-09T07:40:29.000000
+428,Accepted-Assigned,Linda-Org line C,2011-08-16T09:46:16.000000
+428,Accepted-Wait,Linda-Org line C,2011-08-30T12:43:01.000000
+428,Completed-Closed,Linda-Org line C,2012-01-10T07:55:39.000000
+429,Accepted-In Progress,Peter-Org line G4,2011-08-09T14:42:56.000000
+429,Completed-Closed,Peter-Org line G4,2012-01-03T15:00:22.000000
+430,Accepted-In Progress,Peter-Org line G4,2011-08-09T15:54:06.000000
+430,Completed-Closed,Peter-Org line G4,2012-01-03T15:04:17.000000
+435,Accepted-In Progress,Peter-Org line G4,2011-08-11T07:40:08.000000
+435,Completed-Closed,Peter-Org line G4,2012-01-04T14:39:30.000000
+438,Accepted-In Progress,Craig-Org line F,2011-08-13T15:56:32.000000
+438,Queued-Awaiting Assignment,Craig-Org line F,2011-08-13T16:00:02.000000
+438,Accepted-In Progress,Johan-Org line F,2011-09-13T08:58:21.000000
+438,Accepted-Wait,Johan-Org line F,2012-01-04T11:25:03.000000
+438,Completed-Closed,Johan-Org line F,2012-01-04T11:25:52.000000
+447,Accepted-In Progress,Christofer-Org line A2,2011-08-22T15:33:44.000000
+447,Accepted-In Progress,Christofer-Org line A2,2011-08-22T15:35:30.000000
+447,Queued-Awaiting Assignment,Christofer-Org line A2,2011-08-22T15:40:46.000000
+447,Accepted-In Progress,Christofer-Org line A2,2011-11-09T13:56:53.000000
+447,Accepted-Wait,Christofer-Org line A2,2011-11-09T13:56:57.000000
+447,Completed-Closed,Christofer-Org line A2,2012-02-01T11:53:37.000000
+458,Accepted-In Progress,Håkan-Org line A2,2011-08-27T19:30:27.000000
+458,Accepted-In Progress,Håkan-Org line A2,2012-04-04T15:07:47.000000
+458,Completed-Closed,Håkan-Org line A2,2012-04-04T15:07:50.000000
+461,Accepted-In Progress,Ian-Org line A2,2011-08-29T16:33:51.000000
+461,Accepted-Assigned,Ian-Org line A2,2011-08-29T16:38:53.000000
+461,Accepted-In Progress,Ian-Org line A2,2011-09-09T11:16:42.000000
+461,Accepted-Wait,Ian-Org line A2,2011-09-21T09:38:15.000000
+461,Accepted-In Progress,Andrew-Org line A2,2012-05-04T15:00:08.000000
+461,Completed-Closed,Andrew-Org line A2,2012-05-04T15:00:25.000000
+467,Accepted-In Progress,Gunnar-Org line V2,2011-08-31T11:50:43.000000
+467,Completed-Closed,Gunnar-Org line V2,2012-01-26T07:17:14.000000
+471,Accepted-In Progress,Ulrika-Org line A2,2011-09-01T13:24:00.000000
+471,Queued-Awaiting Assignment,Ulrika-Org line A2,2011-09-01T13:32:07.000000
+471,Accepted-In Progress,Daniel-Org line A2,2012-04-11T14:45:30.000000
+471,Completed-Closed,Daniel-Org line A2,2012-04-11T14:45:52.000000
+477,Accepted-In Progress,Gregory-Org line C,2011-09-05T08:57:47.000000
+477,Completed-Closed,Gregory-Org line C,2012-02-27T13:09:00.000000
+486,Accepted-In Progress,Adam-Org line A2,2011-09-10T03:56:18.000000
+486,Accepted-Wait,Adam-Org line A2,2011-09-10T03:59:01.000000
+486,Accepted-In Progress,Adam-Org line A2,2011-10-24T08:28:52.000000
+486,Accepted-In Progress,Miroslaw-Org line A2,2012-05-23T14:48:45.000000
+486,Completed-Closed,Miroslaw-Org line A2,2012-05-23T14:51:16.000000
+493,Accepted-In Progress,Carolyn-Org line G3,2011-09-13T10:41:35.000000
+493,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-09-13T10:56:49.000000
+493,Accepted-In Progress,SV-Org line G3,2011-09-13T11:10:06.000000
+493,Accepted-Assigned,Carolyn-Org line G3,2011-09-13T11:10:19.000000
+493,Accepted-In Progress,Ewa-Org line G3,2012-02-06T16:06:58.000000
+493,Completed-Closed,Ewa-Org line G3,2012-02-06T16:08:27.000000
+494,Accepted-In Progress,Carolyn-Org line G3,2011-09-13T10:59:02.000000
+494,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-09-13T11:03:04.000000
+494,Accepted-In Progress,SV-Org line G3,2011-09-13T11:25:42.000000
+494,Accepted-Assigned,Carolyn-Org line G3,2011-09-13T11:26:18.000000
+494,Accepted-In Progress,Ewa-Org line G3,2012-01-30T12:57:57.000000
+494,Completed-Closed,Ewa-Org line G3,2012-01-30T13:25:19.000000
+503,Accepted-In Progress,Mats-Org line A2,2011-09-15T07:23:48.000000
+503,Queued-Awaiting Assignment,Mats-Org line A2,2011-09-15T07:25:16.000000
+503,Accepted-In Progress,Grzegorz-Org line C,2011-09-15T09:26:39.000000
+503,Queued-Awaiting Assignment,Mats-Org line A2,2011-09-15T09:27:25.000000
+503,Accepted-In Progress,Grzegorz-Org line A2,2011-09-15T09:27:53.000000
+503,Accepted-Assigned,Gladys-Org line A2,2011-09-15T09:28:03.000000
+503,Queued-Awaiting Assignment,Adam-Org line C,2011-09-15T10:05:35.000000
+503,Accepted-In Progress,Adam-Org line C,2011-09-15T10:08:38.000000
+503,Accepted-In Progress,John-Org line C,2012-01-04T10:59:17.000000
+503,Completed-Closed,John-Org line C,2012-01-04T11:02:04.000000
+506,Accepted-In Progress,Wim-Org line D,2011-09-19T13:44:47.000000
+506,Accepted-In Progress,Wim-Org line D,2011-09-20T13:06:13.000000
+506,Accepted-In Progress,Wim-Org line D,2011-09-21T08:44:31.000000
+506,Completed-Closed,Wim-Org line D,2012-03-23T09:52:42.000000
+522,Accepted-In Progress,Robert-Org line C,2011-09-27T07:38:17.000000
+522,Queued-Awaiting Assignment,Robert-Org line C,2011-09-27T07:41:46.000000
+522,Accepted-In Progress,Debashish-Org line C,2011-09-28T01:53:29.000000
+522,Queued-Awaiting Assignment,Robert-Org line C,2011-09-28T02:11:27.000000
+522,Queued-Awaiting Assignment,Laurent-Org line C,2011-09-28T09:49:58.000000
+522,Accepted-In Progress,Nicolas-Org line C,2012-02-15T14:18:55.000000
+522,Completed-Closed,Nicolas-Org line C,2012-02-15T14:39:53.000000
+527,Accepted-In Progress,Peter-Org line C,2011-09-28T09:10:15.000000
+527,Accepted-In Progress,Peter-Org line C,2011-09-28T09:11:24.000000
+527,Queued-Awaiting Assignment,Peter-Org line C,2011-09-29T20:24:51.000000
+527,Accepted-Assigned,Patrik-Org line C,2011-09-30T07:56:01.000000
+527,Accepted-Assigned,Jörgen-Org line C,2011-10-13T12:29:22.000000
+527,Accepted-In Progress,Jörgen-Org line C,2011-12-14T15:01:57.000000
+527,Completed-Closed,Jörgen-Org line C,2012-02-29T13:57:57.000000
+529,Accepted-In Progress,Carolyn-Org line G3,2011-09-28T17:42:44.000000
+529,Queued-Awaiting Assignment,Carolyn-Org line G3,2011-09-28T17:46:57.000000
+529,Accepted-In Progress,SV-Org line G3,2011-09-28T17:51:32.000000
+529,Accepted-Assigned,Carolyn-Org line G3,2011-09-28T17:51:42.000000
+529,Accepted-In Progress,Ewa-Org line G3,2012-01-31T08:25:40.000000
+529,Completed-Closed,Ewa-Org line G3,2012-01-31T08:26:03.000000
+534,Accepted-In Progress,Jonas-Org line C,2011-09-30T10:13:32.000000
+534,Queued-Awaiting Assignment,Jonas-Org line C,2011-09-30T10:14:16.000000
+534,Accepted-In Progress,Sheetal-Org line C,2011-10-11T09:03:54.000000
+534,Accepted-Wait,Sheetal-Org line C,2011-10-11T09:04:02.000000
+534,Queued-Awaiting Assignment,Stefan-Org line C,2011-12-07T13:21:13.000000
+534,Accepted-Assigned,Shaji-Org line C,2011-12-09T12:31:20.000000
+534,Queued-Awaiting Assignment,Pranesh-Org line C,2012-01-19T06:12:20.000000
+534,Accepted-In Progress,Sheetal-Org line C,2012-01-19T06:24:33.000000
+534,Accepted-Wait,Sheetal-Org line C,2012-01-19T06:25:08.000000
+534,Accepted-Assigned,Febin-Org line C,2012-02-22T07:40:00.000000
+534,Accepted-Wait,Febin-Org line C,2012-02-22T07:51:19.000000
+534,Queued-Awaiting Assignment,Pranesh-Org line C,2012-03-02T12:26:58.000000
+534,Accepted-In Progress,Pradeesh-Org line C,2012-03-29T11:10:34.000000
+534,Accepted-Wait,Pradeesh-Org line C,2012-03-29T11:10:53.000000
+534,Completed-Closed,Pradeesh-Org line C,2012-04-24T08:17:50.000000
+535,Accepted-In Progress,Vinay-Org line C,2011-09-30T10:16:37.000000
+535,Queued-Awaiting Assignment,Vinay-Org line C,2011-09-30T10:17:49.000000
+535,Queued-Awaiting Assignment,Mathieu-Org line C,2011-10-25T08:48:30.000000
+535,Accepted-Assigned,Franck-Org line C,2011-10-25T08:48:37.000000
+535,Accepted-In Progress,Franck-Org line C,2011-12-21T13:19:41.000000
+535,Completed-Closed,Franck-Org line C,2012-03-16T06:53:47.000000
+538,Accepted-In Progress,Kjell-Org line A2,2011-10-03T11:33:11.000000
+538,Accepted-Assigned,Kjell-Org line A2,2011-10-03T11:34:09.000000
+538,Accepted-In Progress,Ingemar-Org line A2,2012-01-10T11:56:18.000000
+538,Completed-Closed,Ingemar-Org line A2,2012-01-10T11:56:57.000000
+542,Accepted-In Progress,Carlos-Org line A2,2011-10-03T20:02:40.000000
+542,Queued-Awaiting Assignment,Carlos-Org line A2,2011-12-09T11:34:50.000000
+542,Accepted-In Progress,Thiago-Org line B,2011-12-19T12:54:48.000000
+542,Queued-Awaiting Assignment,Viktoria-Org line A2,2011-12-19T13:01:51.000000
+542,Accepted-In Progress,Gustav-Org line G4,2012-02-20T09:37:04.000000
+542,Accepted-In Progress,Adam-Org line G4,2012-02-20T09:41:00.000000
+542,Accepted-In Progress,Gustav-Org line G4,2012-02-21T14:54:11.000000
+542,Completed-Closed,Gustav-Org line G4,2012-02-21T14:54:13.000000
+543,Accepted-In Progress,Susanne-Org line G4,2011-10-04T14:24:54.000000
+543,Completed-Closed,Susanne-Org line G4,2012-01-17T08:11:19.000000
+549,Accepted-In Progress,Gustav-Org line G4,2011-10-06T13:15:59.000000
+549,Accepted-In Progress,Gustav-Org line G4,2012-02-21T14:57:25.000000
+549,Completed-Closed,Gustav-Org line G4,2012-02-21T14:57:29.000000
+551,Accepted-In Progress,Richard-Org line C,2011-10-10T05:38:10.000000
+551,Completed-Closed,Richard-Org line C,2012-02-02T14:25:02.000000
+558,Accepted-In Progress,Michael-Org line C,2011-10-11T15:05:35.000000
+558,Completed-Closed,Michael-Org line C,2012-02-01T09:03:47.000000
+561,Accepted-In Progress,Håkan-Org line A2,2011-10-12T09:32:41.000000
+561,Accepted-Assigned,Håkan-Org line A2,2011-10-12T09:47:12.000000
+561,Accepted-Assigned,Mattias-Org line A2,2012-01-19T12:51:59.000000
+561,Accepted-Wait,Mattias-Org line A2,2012-05-04T16:17:46.000000
+561,Accepted-In Progress,Mattias-Org line A2,2012-05-04T16:18:01.000000
+561,Completed-Closed,Mattias-Org line A2,2012-05-10T07:55:09.000000
+573,Accepted-In Progress,Vikrant-Org line A2,2011-10-17T14:05:05.000000
+573,Completed-Closed,Vikrant-Org line A2,2012-01-25T13:26:37.000000
+575,Accepted-In Progress,Kymaria-Org line C,2011-10-17T17:46:10.000000
+575,Queued-Awaiting Assignment,Kymaria-Org line C,2011-10-17T18:40:08.000000
+575,Queued-Awaiting Assignment,Kymaria-Org line C,2011-10-17T18:40:09.000000
+575,Accepted-In Progress,Kymaria-Org line C,2011-10-18T12:39:20.000000
+575,Accepted-Wait,Kymaria-Org line C,2011-10-18T18:49:58.000000
+575,Completed-Closed,Kymaria-Org line C,2012-01-06T14:50:17.000000
+576,Accepted-In Progress,Torbjörn-Org line G4,2011-10-18T10:06:35.000000
+576,Completed-Closed,Torbjörn-Org line G4,2012-01-09T12:54:21.000000
+578,Accepted-In Progress,Nicolas-Org line C,2011-10-18T14:37:21.000000
+578,Completed-Closed,Nicolas-Org line C,2012-03-30T10:43:20.000000
+581,Queued-Awaiting Assignment,Maryse-Org line A2,2011-10-19T12:46:56.000000
+581,Accepted-In Progress,Maryse-Org line A2,2011-10-19T13:23:01.000000
+581,Queued-Awaiting Assignment,Maryse-Org line A2,2011-10-19T13:34:22.000000
+581,Accepted-In Progress,Maryse-Org line A2,2011-10-19T13:36:21.000000
+581,Accepted-In Progress,Maryse-Org line A2,2011-10-19T13:38:22.000000
+581,Completed-Closed,Maryse-Org line A2,2012-04-12T12:15:00.000000
+584,Accepted-In Progress,Håkan-Org line G4,2011-10-20T12:39:33.000000
+584,Completed-Closed,Håkan-Org line G4,2012-03-13T12:19:08.000000
+588,Accepted-In Progress,Christoffer-Org line C,2011-10-21T12:01:26.000000
+588,Completed-Closed,Christoffer-Org line C,2012-02-01T12:02:51.000000
+591,Accepted-In Progress,Eric-Org line G4,2011-10-23T08:39:49.000000
+591,Completed-Closed,Eric-Org line G4,2012-01-09T09:21:47.000000
+597,Accepted-Wait,Sreelesh-Org line C,2011-10-25T02:39:54.000000
+597,Accepted-In Progress,Sreelesh-Org line C,2012-01-04T12:59:47.000000
+597,Accepted-Wait,Sreelesh-Org line C,2012-01-04T12:59:54.000000
+597,Queued-Awaiting Assignment,Robert-Org line C,2012-03-07T12:15:35.000000
+597,Queued-Awaiting Assignment,Amit-Org line C,2012-03-12T18:09:52.000000
+597,Accepted-In Progress,Sreelesh-Org line C,2012-03-28T14:55:11.000000
+597,Completed-Closed,Sreelesh-Org line C,2012-03-28T14:55:58.000000
+601,Accepted-In Progress,Per-Org line A2,2011-10-25T13:30:47.000000
+601,Completed-Closed,Per-Org line A2,2012-04-20T07:21:40.000000
+602,Queued-Awaiting Assignment,Srinivasan-Org line B,2011-10-26T08:56:21.000000
+602,Accepted-In Progress,Rijin-Org line B,2011-10-27T11:50:17.000000
+602,Completed-Closed,Rijin-Org line B,2011-12-30T04:05:05.000000
+602,Accepted-In Progress,Rijin-Org line B,2011-12-30T04:36:51.000000
+602,Completed-Closed,Rijin-Org line B,2012-01-31T11:56:19.000000
+610,Accepted-In Progress,Tomas-Org line C,2011-10-27T13:32:18.000000
+610,Accepted-In Progress,Tomas-Org line C,2011-10-27T13:33:37.000000
+610,Completed-Closed,Tomas-Org line C,2012-01-30T12:42:26.000000
+617,Accepted-In Progress,Marcin-Org line A2,2011-10-31T08:05:05.000000
+617,Queued-Awaiting Assignment,Marcin-Org line A2,2011-10-31T08:05:35.000000
+617,Accepted-In Progress,Marcin-Org line A2,2011-11-04T14:19:35.000000
+617,Completed-Closed,Marcin-Org line A2,2012-01-18T10:28:06.000000
+618,Accepted-In Progress,Robert-Org line C,2011-10-31T16:54:07.000000
+618,Accepted-In Progress,Robert-Org line C,2011-10-31T16:56:44.000000
+618,Completed-Closed,Robert-Org line C,2012-01-04T13:48:41.000000
+619,Accepted-In Progress,Ann-Charlotte-Org line C,2011-10-31T22:40:16.000000
+619,Queued-Awaiting Assignment,Ann-Charlotte-Org line C,2011-10-31T22:48:47.000000
+619,Accepted-In Progress,Marcus-Org line C,2011-11-18T06:31:45.000000
+619,Queued-Awaiting Assignment,Martin-Org line C,2011-11-18T06:34:16.000000
+619,Accepted-In Progress,Lennart-Org line C,2011-11-18T09:43:24.000000
+619,Completed-Closed,Lennart-Org line C,2012-04-11T08:03:56.000000
+626,Accepted-In Progress,Andreas-Org line G4,2011-11-02T08:00:44.000000
+626,Accepted-Assigned,Andreas-Org line G4,2011-11-02T08:03:13.000000
+626,Accepted-In Progress,Gustav-Org line G4,2011-11-21T13:52:20.000000
+626,Completed-Closed,Gustav-Org line G4,2012-01-30T12:43:57.000000
+629,Accepted-In Progress,Aparna-Org line A2,2011-11-02T18:58:55.000000
+629,Completed-Closed,Aparna-Org line A2,2012-01-26T10:00:39.000000
+631,Accepted-In Progress,Sandra-Org line C,2011-11-03T08:48:02.000000
+631,Queued-Awaiting Assignment,Sandra-Org line C,2011-12-07T14:01:12.000000
+631,Accepted-In Progress,Andrzej-Org line A2,2011-12-07T14:01:20.000000
+631,Queued-Awaiting Assignment,Cyril-Org line C,2011-12-07T14:04:17.000000
+631,Accepted-In Progress,Cyril-Org line C,2012-01-10T15:27:44.000000
+631,Completed-Closed,Cyril-Org line C,2012-01-10T15:29:11.000000
+634,Accepted-In Progress,Daniel-Org line C,2011-11-03T17:45:21.000000
+634,Accepted-In Progress,Daniel-Org line C,2012-02-02T11:18:05.000000
+634,Accepted-Assigned,Rajesh Kumar-Org line C,2012-02-02T11:18:31.000000
+634,Accepted-In Progress,Andres-Org line C,2012-03-08T12:58:03.000000
+634,Completed-Closed,Andres-Org line C,2012-03-08T12:58:40.000000
+643,Accepted-In Progress,Praveen-Org line C,2011-11-06T08:00:41.000000
+643,Queued-Awaiting Assignment,Praveen-Org line C,2011-11-06T08:10:10.000000
+643,Accepted-In Progress,Sameer-Org line C,2011-11-07T07:35:18.000000
+643,Queued-Awaiting Assignment,Martin-Org line C,2011-11-07T07:38:14.000000
+643,Accepted-In Progress,Michael-Org line C,2011-11-07T08:10:45.000000
+643,Accepted-Wait,Michael-Org line C,2011-11-07T09:03:58.000000
+643,Accepted-In Progress,Michael-Org line C,2011-11-07T10:45:40.000000
+643,Queued-Awaiting Assignment,Daniel-Org line C,2011-11-07T10:47:27.000000
+643,Accepted-In Progress,Mikael-Org line C,2011-11-08T09:42:37.000000
+643,Accepted-Assigned,Daniel-Org line C,2011-11-09T11:08:35.000000
+643,Accepted-In Progress,Mikael-Org line C,2011-11-09T11:09:46.000000
+643,Completed-Closed,Mikael-Org line C,2011-11-25T07:39:57.000000
+643,Accepted-In Progress,M Humaira-Org line C,2011-12-07T12:25:46.000000
+643,Queued-Awaiting Assignment,Praveen-Org line C,2011-12-07T12:27:34.000000
+643,Accepted-In Progress,Arun-Org line C,2011-12-07T12:29:22.000000
+643,Accepted-Assigned,Partha-Org line C,2011-12-07T12:29:55.000000
+643,Queued-Awaiting Assignment,Martin-Org line C,2011-12-07T12:50:32.000000
+643,Accepted-In Progress,Mikael-Org line C,2012-01-22T21:20:26.000000
+643,Completed-Closed,Mikael-Org line C,2012-01-22T21:21:04.000000
+660,Accepted-In Progress,Amit-Org line C,2011-11-11T03:57:04.000000
+660,Queued-Awaiting Assignment,Amit-Org line C,2011-11-11T03:58:52.000000
+660,Queued-Awaiting Assignment,Rafal-Org line C,2011-11-13T04:23:39.000000
+660,Queued-Awaiting Assignment,Amit-Org line C,2011-12-01T07:16:48.000000
+660,Accepted-In Progress,Sreelesh-Org line C,2012-01-04T13:00:38.000000
+660,Accepted-Wait,Sreelesh-Org line C,2012-01-04T13:00:42.000000
+660,Completed-Closed,Sreelesh-Org line C,2012-02-27T12:26:37.000000
+665,Accepted-In Progress,Bruno-Org line C,2011-11-14T13:38:06.000000
+665,Accepted-In Progress,Bruno-Org line C,2011-11-14T13:38:49.000000
+665,Queued-Awaiting Assignment,Viktoria-Org line G4,2011-11-17T12:32:14.000000
+665,Accepted-In Progress,Helene-Org line G4,2011-12-13T09:08:38.000000
+665,Completed-Closed,Helene-Org line G4,2012-03-06T13:55:15.000000
+668,Accepted-Wait,Alan-Org line A2,2011-11-15T14:37:49.000000
+668,Completed-Closed,Alan-Org line A2,2012-02-15T10:35:45.000000
+669,Accepted-In Progress,Vinay-Org line C,2011-11-15T16:44:09.000000
+669,Queued-Awaiting Assignment,Vinay-Org line C,2011-11-15T16:44:52.000000
+669,Accepted-In Progress,Arvind-Org line C,2011-11-21T10:30:07.000000
+669,Completed-Closed,Arvind-Org line C,2012-05-23T16:28:37.000000
+672,Accepted-In Progress,Vinay-Org line C,2011-11-16T16:09:39.000000
+672,Queued-Awaiting Assignment,Vinay-Org line C,2011-11-16T16:39:55.000000
+672,Accepted-In Progress,Avishek-Org line C,2011-12-19T14:57:47.000000
+672,Completed-Closed,Avishek-Org line C,2012-01-04T13:30:41.000000
+674,Accepted-In Progress,Börje-Org line C,2011-11-18T07:28:00.000000
+674,Accepted-Wait,Börje-Org line C,2011-12-27T13:47:10.000000
+674,Completed-Closed,Börje-Org line C,2012-01-03T09:49:38.000000
+677,Accepted-In Progress,Mikael-Org line G4,2011-11-18T10:16:41.000000
+677,Accepted-Wait,Mikael-Org line G4,2012-01-19T16:12:53.000000
+677,Completed-Closed,Mikael-Org line G4,2012-01-25T17:27:07.000000
+678,Accepted-In Progress,Anders-Org line G1,2011-11-18T11:20:03.000000
+678,Accepted-In Progress,Anders-Org line G1,2011-12-21T13:26:03.000000
+678,Accepted-Wait,Anders-Org line G1,2011-12-21T13:26:22.000000
+678,Completed-Closed,Anders-Org line G1,2012-03-14T11:04:02.000000
+691,Accepted-In Progress,Joakim-Org line C,2011-11-24T06:34:09.000000
+691,Accepted-Wait,Joakim-Org line C,2012-02-07T14:03:51.000000
+691,Completed-Closed,Joakim-Org line C,2012-04-25T14:00:33.000000
+695,Accepted-In Progress,Jonas-Org line C,2011-11-24T16:30:30.000000
+695,Completed-Closed,Jonas-Org line C,2012-02-15T11:26:06.000000
+695,Accepted-In Progress,Jonas-Org line C,2012-02-15T14:54:41.000000
+695,Completed-Closed,Jonas-Org line C,2012-02-15T15:12:50.000000
+705,Accepted-In Progress,Britt-Org line A2,2011-11-30T03:43:31.000000
+705,Queued-Awaiting Assignment,Britt-Org line A2,2011-11-30T07:37:56.000000
+705,Accepted-In Progress,Britt-Org line A2,2011-12-12T11:48:59.000000
+705,Accepted-Wait,Britt-Org line A2,2011-12-12T13:52:54.000000
+705,Completed-Closed,Britt-Org line A2,2012-01-19T15:18:51.000000
+710,Accepted-In Progress,J-Org line C,2011-11-30T09:02:03.000000
+710,Accepted-Wait,J-Org line C,2011-11-30T09:13:35.000000
+710,Completed-Closed,J-Org line C,2012-01-03T11:57:51.000000
+712,Accepted-In Progress,Maciej-Org line A2,2011-11-30T14:31:18.000000
+712,Accepted-Wait,Maciej-Org line A2,2011-11-30T16:01:49.000000
+712,Accepted-In Progress,Maciej-Org line A2,2011-12-01T07:46:45.000000
+712,Accepted-Wait,Maciej-Org line A2,2011-12-01T08:40:25.000000
+712,Accepted-In Progress,Maciej-Org line A2,2011-12-01T13:48:20.000000
+712,Accepted-Wait,Maciej-Org line A2,2011-12-01T13:57:08.000000
+712,Accepted-In Progress,Maciej-Org line A2,2011-12-07T08:31:50.000000
+712,Accepted-Wait,Maciej-Org line A2,2011-12-07T08:33:39.000000
+712,Accepted-In Progress,Maciej-Org line A2,2011-12-16T08:54:02.000000
+712,Accepted-Wait,Maciej-Org line A2,2011-12-16T10:32:18.000000
+712,Accepted-In Progress,Maciej-Org line A2,2011-12-21T13:30:32.000000
+712,Accepted-Wait,Maciej-Org line A2,2011-12-21T13:50:36.000000
+712,Accepted-In Progress,Maciej-Org line A2,2011-12-22T14:46:34.000000
+712,Accepted-Wait,Maciej-Org line A2,2011-12-22T14:47:39.000000
+712,Accepted-In Progress,Maciej-Org line A2,2012-01-03T12:48:13.000000
+712,Accepted-Wait,Maciej-Org line A2,2012-01-03T13:28:00.000000
+712,Accepted-In Progress,Maciej-Org line A2,2012-01-04T09:19:43.000000
+712,Accepted-Wait,Maciej-Org line A2,2012-01-04T09:22:53.000000
+712,Accepted-In Progress,Maciej-Org line A2,2012-01-04T12:07:03.000000
+712,Accepted-In Progress,Maciej-Org line A2,2012-01-04T12:22:48.000000
+712,Queued-Awaiting Assignment,Frederic-Org line A2,2012-01-04T12:23:34.000000
+712,Accepted-In Progress,Maciej-Org line A2,2012-01-04T12:24:20.000000
+712,Queued-Awaiting Assignment,Prasad-Org line C,2012-01-04T12:34:55.000000
+712,Accepted-In Progress,Jitender-Org line C,2012-01-04T12:45:03.000000
+712,Accepted-Wait,Jitender-Org line C,2012-01-04T13:12:21.000000
+712,Queued-Awaiting Assignment,Amit-Org line C,2012-01-05T08:43:34.000000
+712,Accepted-In Progress,Garima-Org line C,2012-03-02T12:53:06.000000
+712,Accepted-Wait,Garima-Org line C,2012-03-02T13:05:20.000000
+712,Queued-Awaiting Assignment,Robert-Org line C,2012-03-08T09:31:51.000000
+712,Queued-Awaiting Assignment,Amit-Org line C,2012-03-12T18:19:23.000000
+712,Accepted-In Progress,Sreelesh-Org line C,2012-03-19T09:58:46.000000
+712,Queued-Awaiting Assignment,Prasad-Org line C,2012-03-28T10:42:48.000000
+712,Accepted-In Progress,Umar-Org line C,2012-03-28T11:41:29.000000
+712,Accepted-In Progress,Jitender-Org line C,2012-03-28T12:40:01.000000
+712,Completed-Closed,Jitender-Org line C,2012-03-28T12:42:04.000000
+714,Accepted-In Progress,Rafal-Org line A2,2011-12-01T09:20:57.000000
+714,Completed-Closed,Rafal-Org line A2,2012-02-23T12:41:54.000000
+718,Accepted-In Progress,Stefan-Org line C,2011-12-02T10:04:01.000000
+718,Queued-Awaiting Assignment,Stefan-Org line C,2011-12-02T10:06:46.000000
+718,Accepted-In Progress,Stefan-Org line C,2011-12-02T12:13:40.000000
+718,Accepted-Assigned,Julien-Org line C,2011-12-02T12:14:03.000000
+718,Accepted-In Progress,Julien-Org line C,2012-01-02T12:14:01.000000
+718,Accepted-In Progress,William-Org line C,2012-01-03T14:44:20.000000
+718,Accepted-Assigned,Julien-Org line C,2012-01-03T14:47:07.000000
+718,Accepted-In Progress,Kjell-Org line C,2012-02-21T13:15:31.000000
+718,Completed-Closed,Kjell-Org line C,2012-02-21T13:15:35.000000
+720,Accepted-In Progress,Ewa-Org line G3,2011-12-02T11:09:21.000000
+720,Completed-Closed,Ewa-Org line G3,2012-01-03T10:10:20.000000
+721,Accepted-In Progress,Amit-Org line C,2011-12-02T11:45:33.000000
+721,Queued-Awaiting Assignment,Amit-Org line C,2011-12-02T11:51:13.000000
+721,Accepted-In Progress,Prashant-Org line C,2011-12-06T10:32:54.000000
+721,Queued-Awaiting Assignment,Robert-Org line C,2011-12-06T10:35:01.000000
+721,Accepted-In Progress,Praveen-Org line C,2011-12-06T11:50:12.000000
+721,Queued-Awaiting Assignment,Martin-Org line C,2011-12-06T11:56:00.000000
+721,Accepted-In Progress,Michael-Org line C,2011-12-06T12:54:20.000000
+721,Accepted-Wait,Michael-Org line C,2011-12-06T13:54:19.000000
+721,Queued-Awaiting Assignment,Martin-Org line C,2012-01-30T13:13:13.000000
+721,Accepted-In Progress,Michael-Org line C,2012-01-30T13:13:14.000000
+721,Queued-Awaiting Assignment,Martin-Org line C,2012-01-30T13:13:51.000000
+721,Accepted-In Progress,Michael-Org line C,2012-01-30T13:17:15.000000
+721,Queued-Awaiting Assignment,Martin-Org line C,2012-01-30T13:17:46.000000
+721,Accepted-In Progress,Pascal-Org line C,2012-01-30T13:31:28.000000
+721,Accepted-Assigned,Michael-Org line C,2012-01-30T13:32:18.000000
+721,Accepted-In Progress,Nitesh-Org line C,2012-02-13T13:36:25.000000
+721,Accepted-Wait,Nitesh-Org line C,2012-02-13T13:39:27.000000
+721,Completed-Closed,Nitesh-Org line C,2012-03-05T15:16:43.000000
+730,Accepted-In Progress,Stephane-Org line C,2011-12-05T09:59:00.000000
+730,Completed-Closed,Stephane-Org line C,2012-01-23T13:06:08.000000
+743,Accepted-In Progress,Karin-Org line C,2011-12-07T14:52:47.000000
+743,Completed-Closed,Karin-Org line C,2012-05-04T11:05:10.000000
+746,Accepted-In Progress,Ewa-Org line G3,2011-12-08T12:23:24.000000
+746,Completed-Closed,Ewa-Org line G3,2012-01-03T10:07:51.000000
+756,Accepted-In Progress,Frederic-Org line A2,2011-12-12T14:33:32.000000
+756,Accepted-Wait,Frederic-Org line A2,2012-03-02T10:22:18.000000
+756,Completed-Closed,Frederic-Org line A2,2012-03-22T14:45:50.000000
+759,Accepted-In Progress,Bikshamaiah-Org line C,2011-12-13T08:52:25.000000
+759,Completed-Closed,Bikshamaiah-Org line C,2012-04-30T15:41:11.000000
+762,Accepted-In Progress,Venkata-Org line A2,2011-12-13T14:36:57.000000
+762,Accepted-Assigned,Venkata-Org line A2,2012-03-13T13:23:34.000000
+762,Accepted-In Progress,Håkan-Org line A2,2012-04-23T13:31:16.000000
+762,Completed-Closed,Håkan-Org line A2,2012-04-23T13:32:27.000000
+771,Accepted-Wait,Lisbeth-Org line A2,2011-12-14T11:24:49.000000
+771,Accepted-In Progress,Lisbeth-Org line A2,2012-02-06T11:02:10.000000
+771,Accepted-Wait,Lisbeth-Org line A2,2012-02-06T16:05:17.000000
+771,Completed-Closed,Lisbeth-Org line A2,2012-03-09T14:45:01.000000
+772,Accepted-In Progress,Lisbeth-Org line A2,2011-12-14T11:27:57.000000
+772,Accepted-Wait,Lisbeth-Org line A2,2011-12-14T11:28:40.000000
+772,Accepted-In Progress,Lisbeth-Org line A2,2012-02-07T08:40:27.000000
+772,Accepted-Wait,Lisbeth-Org line A2,2012-02-10T08:13:16.000000
+772,Completed-Closed,Lisbeth-Org line A2,2012-03-09T15:16:31.000000
+780,Accepted-In Progress,Mikael-Org line C,2011-12-15T14:23:36.000000
+780,Accepted-Wait,Mikael-Org line C,2011-12-15T14:23:45.000000
+780,Completed-Closed,Mikael-Org line C,2012-03-30T12:07:57.000000
+781,Accepted-In Progress,Mica-Org line C,2011-12-16T08:13:45.000000
+781,Queued-Awaiting Assignment,Mica-Org line C,2011-12-16T08:17:50.000000
+781,Accepted-In Progress,Mica-Org line C,2011-12-16T08:20:27.000000
+781,Completed-Closed,Mica-Org line C,2012-03-12T12:00:12.000000
+785,Accepted-In Progress,Britt-Org line A2,2011-12-19T02:13:32.000000
+785,Queued-Awaiting Assignment,Britt-Org line A2,2011-12-19T02:14:22.000000
+785,Accepted-In Progress,Britt-Org line A2,2012-01-05T13:08:46.000000
+785,Accepted-Wait,Britt-Org line A2,2012-01-05T13:25:39.000000
+785,Completed-Closed,Britt-Org line A2,2012-01-19T15:33:55.000000
+788,Accepted-In Progress,Kwewat-Org line B,2011-12-19T07:57:11.000000
+788,Accepted-Wait,Kwewat-Org line B,2011-12-19T08:13:17.000000
+788,Completed-Closed,Kwewat-Org line B,2012-01-20T07:24:03.000000
+793,Accepted-In Progress,Vaibhav-Org line C,2011-12-20T00:48:36.000000
+793,Accepted-In Progress,Vaibhav-Org line C,2011-12-20T00:49:14.000000
+793,Accepted-Wait,Vaibhav-Org line C,2012-02-07T18:48:51.000000
+793,Completed-Closed,Vaibhav-Org line C,2012-05-28T09:50:17.000000
+793,Accepted-In Progress,Vaibhav-Org line C,2012-05-28T10:04:15.000000
+793,Completed-Closed,Vaibhav-Org line C,2012-05-28T10:06:04.000000
+799,Accepted-In Progress,Arnaud-Org line C,2011-12-21T06:14:19.000000
+799,Accepted-Wait,Arnaud-Org line C,2012-01-18T11:17:47.000000
+799,Accepted-In Progress,Arnaud-Org line C,2012-02-01T11:23:43.000000
+799,Accepted-In Progress,Arnaud-Org line C,2012-04-12T09:35:52.000000
+799,Accepted-In Progress,Bruno-Org line C,2012-04-19T12:28:17.000000
+799,Completed-Closed,Bruno-Org line C,2012-05-09T08:32:27.000000
+802,Accepted-In Progress,Alex-Org line C,2011-12-21T10:13:58.000000
+802,Accepted-In Progress,Alex-Org line C,2012-01-26T13:12:53.000000
+802,Completed-Closed,Alex-Org line C,2012-03-01T14:37:25.000000
+806,Accepted-In Progress,Rafal-Org line A2,2011-12-22T10:00:33.000000
+806,Accepted-In Progress,Rafal-Org line A2,2012-05-29T11:37:20.000000
+806,Completed-Closed,Rafal-Org line A2,2012-05-29T11:38:04.000000
+809,Accepted-In Progress,Vikrant-Org line A2,2011-12-22T12:59:52.000000
+809,Completed-Closed,Vikrant-Org line A2,2012-04-19T15:42:44.000000
+810,Accepted-In Progress,Ing-Marie-Org line G4,2011-12-22T13:57:58.000000
+810,Accepted-Assigned,Ing-Marie-Org line G4,2012-02-02T11:54:54.000000
+810,Accepted-In Progress,Suresh-Org line G4,2012-04-27T13:39:00.000000
+810,Completed-Closed,Suresh-Org line G4,2012-04-27T13:41:34.000000
+811,Accepted-In Progress,--Org line C,2011-12-22T16:18:37.000000
+811,Accepted-In Progress,--Org line C,2011-12-22T16:21:45.000000
+811,Accepted-Assigned,Rajkishore-Org line C,2011-12-26T15:36:48.000000
+811,Accepted-In Progress,Rajkishore-Org line C,2011-12-27T10:05:29.000000
+811,Accepted-Wait,Rajkishore-Org line C,2012-01-17T20:43:17.000000
+811,Accepted-In Progress,Rajkishore-Org line C,2012-04-03T20:11:09.000000
+811,Completed-Closed,Rajkishore-Org line C,2012-05-08T01:29:27.000000
+817,Accepted-In Progress,Christian-Org line C,2011-12-27T08:05:25.000000
+817,Accepted-Assigned,Christian-Org line C,2012-02-21T07:04:40.000000
+817,Accepted-In Progress,Christian-Org line C,2012-05-24T13:40:31.000000
+817,Completed-Closed,Christian-Org line C,2012-05-24T13:41:49.000000
+824,Accepted-In Progress,Marlene-Org line G4,2011-12-30T14:51:11.000000
+824,Completed-Closed,Marlene-Org line G4,2012-02-01T13:00:43.000000
+826,Accepted-In Progress,Srinivasan-Org line B,2012-01-03T13:40:35.000000
+826,Queued-Awaiting Assignment,Srinivasan-Org line B,2012-01-03T13:53:17.000000
+826,Accepted-In Progress,Rijin-Org line B,2012-01-03T13:54:20.000000
+826,Completed-Closed,Rijin-Org line B,2012-02-29T12:48:12.000000
+834,Accepted-In Progress,Frederic-Org line C,2012-01-05T12:27:48.000000
+834,Completed-Closed,Frederic-Org line C,2012-05-14T06:42:53.000000
+843,Accepted-In Progress,Ann-Org line A2,2012-01-09T08:07:32.000000
+843,Completed-Closed,Ann-Org line A2,2012-03-30T11:14:54.000000
+847,Accepted-In Progress,Ian-Org line A2,2012-01-09T11:49:14.000000
+847,Accepted-Assigned,Ian-Org line A2,2012-01-09T11:52:21.000000
+847,Accepted-In Progress,Ian-Org line A2,2012-02-14T14:02:15.000000
+847,Accepted-In Progress,Timothy-Org line A2,2012-02-16T12:15:37.000000
+847,Completed-Closed,Timothy-Org line A2,2012-02-16T12:16:32.000000
+847,Accepted-In Progress,Anna-Org line A2,2012-04-02T15:15:53.000000
+847,Completed-Closed,Anna-Org line A2,2012-04-02T15:16:13.000000
+849,Accepted-In Progress,Bartlomiej-Org line A2,2012-01-09T13:43:27.000000
+849,Accepted-In Progress,Bartlomiej-Org line A2,2012-01-09T13:44:50.000000
+849,Queued-Awaiting Assignment,Bartlomiej-Org line A2,2012-01-09T13:51:23.000000
+849,Accepted-In Progress,Jitender-Org line C,2012-01-09T13:59:22.000000
+849,Completed-Closed,Jitender-Org line C,2012-01-09T14:01:12.000000
+852,Accepted-In Progress,Florent-Org line C,2012-01-09T18:10:00.000000
+852,Completed-Closed,Florent-Org line C,2012-03-14T11:50:13.000000
+855,Accepted-In Progress,Tomas-Org line V2,2012-01-10T07:55:05.000000
+855,Completed-Closed,Tomas-Org line V2,2012-02-29T11:21:30.000000
+865,Accepted-In Progress,Sara-Org line A2,2012-01-10T21:07:22.000000
+865,Completed-Closed,Sara-Org line A2,2012-01-18T09:43:12.000000
+873,Accepted-In Progress,Peter-Org line C,2012-01-12T09:51:17.000000
+873,Queued-Awaiting Assignment,Peter-Org line C,2012-01-12T10:03:05.000000
+873,Accepted-In Progress,Prasanth-Org line C,2012-01-12T10:57:00.000000
+873,Queued-Awaiting Assignment,Peter-Org line C,2012-01-12T11:00:10.000000
+873,Accepted-In Progress,Karin-Org line C,2012-01-17T14:34:13.000000
+873,Accepted-In Progress,Prasanth-Org line C,2012-01-18T08:03:29.000000
+873,Completed-Closed,Prasanth-Org line C,2012-01-18T08:20:58.000000
+874,Accepted-In Progress,Fabrice-Org line C,2012-01-12T10:16:10.000000
+874,Accepted-Wait,Fabrice-Org line C,2012-02-07T10:40:16.000000
+874,Accepted-In Progress,Fabrice-Org line C,2012-02-15T14:16:52.000000
+874,Completed-Closed,Fabrice-Org line C,2012-02-15T14:51:00.000000
+885,Accepted-In Progress,Dan-Org line C,2012-01-13T09:45:27.000000
+885,Queued-Awaiting Assignment,Dan-Org line C,2012-01-13T10:32:14.000000
+885,Accepted-In Progress,Dan-Org line C,2012-03-02T09:15:13.000000
+885,Completed-Closed,Dan-Org line C,2012-03-02T09:30:45.000000
+887,Accepted-In Progress,Andreas-Org line C,2012-01-13T11:00:21.000000
+887,Queued-Awaiting Assignment,Andreas-Org line C,2012-01-13T11:01:04.000000
+887,Accepted-In Progress,Alexander-Org line C,2012-01-13T11:17:28.000000
+887,Queued-Awaiting Assignment,Daniel-Org line C,2012-01-13T11:18:05.000000
+887,Accepted-Assigned,Per-Org line C,2012-01-13T15:10:30.000000
+887,Accepted-In Progress,Per-Org line C,2012-01-16T12:06:28.000000
+887,Completed-Closed,Per-Org line C,2012-01-19T09:36:02.000000
+889,Accepted-In Progress,Maria-Org line A2,2012-01-13T12:40:59.000000
+889,Completed-Closed,Maria-Org line A2,2012-01-16T11:40:15.000000
+892,Queued-Awaiting Assignment,Robert-Org line C,2012-01-13T19:03:40.000000
+892,Accepted-In Progress,Nurhafiza-Org line C,2012-01-31T13:16:55.000000
+892,Queued-Awaiting Assignment,Divyaprakash-Org line B,2012-01-31T13:29:08.000000
+892,Accepted-In Progress,Robert-Org line C,2012-01-31T14:02:59.000000
+892,Completed-Closed,Robert-Org line C,2012-02-17T19:13:20.000000
+910,Accepted-In Progress,Ewa-Org line G3,2012-01-18T10:17:02.000000
+910,Completed-Closed,Ewa-Org line G3,2012-01-18T10:19:42.000000
+915,Accepted-In Progress,Marc-Org line F,2012-01-19T09:31:05.000000
+915,Completed-Closed,Marc-Org line F,2012-01-19T09:36:41.000000
+915,Accepted-In Progress,Marc-Org line F,2012-02-03T14:24:29.000000
+915,Queued-Awaiting Assignment,Peter-Org line C,2012-02-03T14:27:38.000000
+915,Accepted-In Progress,Linda-Org line C,2012-02-03T15:04:03.000000
+915,Completed-Closed,Linda-Org line C,2012-02-08T14:02:38.000000
+916,Accepted-In Progress,Ashutosh-Org line C,2012-01-19T12:38:14.000000
+916,Completed-Closed,Ashutosh-Org line C,2012-01-23T07:25:04.000000
+917,Accepted-Wait,Andrew-Org line A2,2012-01-19T16:14:34.000000
+917,Accepted-In Progress,Andrew-Org line A2,2012-05-04T15:03:03.000000
+917,Completed-Closed,Andrew-Org line A2,2012-05-04T15:05:30.000000
+924,Accepted-In Progress,Ewa-Org line G3,2012-01-22T17:05:20.000000
+924,Completed-Closed,Ewa-Org line G3,2012-01-22T17:11:52.000000
+925,Accepted-In Progress,Per-Org line G4,2012-01-23T08:18:48.000000
+925,Completed-Closed,Per-Org line G4,2012-03-28T09:23:22.000000
+926,Accepted-In Progress,Hans-Org line C,2012-01-23T08:59:10.000000
+926,Completed-Closed,Hans-Org line C,2012-04-10T08:25:33.000000
+930,Accepted-In Progress,Trevor-Org line C,2012-01-23T11:23:55.000000
+930,Accepted-In Progress,Trevor-Org line C,2012-01-23T11:24:49.000000
+930,Accepted-Wait,Trevor-Org line C,2012-01-23T11:27:02.000000
+930,Accepted-Assigned,Trevor-Org line C,2012-01-23T11:30:15.000000
+930,Completed-Closed,Trevor-Org line C,2012-03-30T08:56:29.000000
+932,Accepted-In Progress,Marc-Org line F,2012-01-23T12:25:31.000000
+932,Completed-Closed,Marc-Org line F,2012-03-15T03:34:37.000000
+939,Accepted-In Progress,Viktoria-Org line A2,2012-01-24T20:38:34.000000
+939,Queued-Awaiting Assignment,Viktoria-Org line A2,2012-01-24T20:39:32.000000
+939,Accepted-In Progress,Klas-Ove-Org line A2,2012-01-26T09:46:09.000000
+939,Completed-Closed,Klas-Ove-Org line A2,2012-01-26T10:05:49.000000
+942,Accepted-In Progress,Agoritsa-Org line A2,2012-01-25T07:42:51.000000
+942,Completed-Closed,Agoritsa-Org line A2,2012-01-25T09:27:29.000000
+943,Accepted-In Progress,Henrik-Org line C,2012-01-25T07:51:58.000000
+943,Completed-Closed,Henrik-Org line C,2012-01-25T12:24:46.000000
+944,Accepted-In Progress,Mica-Org line C,2012-01-25T11:42:10.000000
+944,Queued-Awaiting Assignment,Mica-Org line C,2012-01-25T11:48:44.000000
+944,Queued-Awaiting Assignment,Robert-Org line C,2012-01-25T12:13:48.000000
+944,Accepted-In Progress,Roland-Org line C,2012-01-26T08:24:25.000000
+944,Queued-Awaiting Assignment,Tomas-Org line C,2012-01-26T08:26:06.000000
+944,Accepted-In Progress,Kenneth-Org line C,2012-01-26T08:31:23.000000
+944,Completed-Closed,Kenneth-Org line C,2012-02-09T08:48:06.000000
+945,Accepted-In Progress,Maria-Org line C,2012-01-25T12:38:09.000000
+945,Queued-Awaiting Assignment,Maria-Org line C,2012-01-25T12:43:06.000000
+945,Accepted-In Progress,Petrus-Org line C,2012-01-27T07:47:55.000000
+945,Queued-Awaiting Assignment,--Org line C,2012-01-27T07:49:58.000000
+945,Accepted-In Progress,--Org line C,2012-02-03T12:35:13.000000
+945,Queued-Awaiting Assignment,Rajesh Kumar-Org line C,2012-02-03T12:36:31.000000
+945,Accepted-In Progress,Rajesh Kumar-Org line C,2012-02-08T06:58:42.000000
+945,Queued-Awaiting Assignment,Praveen-Org line C,2012-02-08T11:27:15.000000
+945,Queued-Awaiting Assignment,Martin-Org line C,2012-02-10T07:06:11.000000
+945,Accepted-In Progress,Rajesh Kumar-Org line C,2012-02-10T08:51:48.000000
+945,Queued-Awaiting Assignment,--Org line C,2012-02-10T09:23:56.000000
+945,Accepted-In Progress,Rajendra-Org line C,2012-02-13T08:12:50.000000
+945,Completed-Closed,Rajendra-Org line C,2012-02-13T08:55:40.000000
+948,Accepted-In Progress,Håkan-Org line G4,2012-01-26T07:21:24.000000
+948,Completed-Closed,Håkan-Org line G4,2012-04-02T15:10:52.000000
+952,Accepted-In Progress,Miroslaw-Org line A2,2012-01-26T15:50:33.000000
+952,Accepted-Wait,Miroslaw-Org line A2,2012-01-26T15:52:01.000000
+952,Completed-Closed,Miroslaw-Org line A2,2012-05-23T15:34:17.000000
+964,Accepted-In Progress,Reine-Org line G4,2012-01-30T12:01:10.000000
+964,Completed-Closed,Reine-Org line G4,2012-03-21T08:30:06.000000
+978,Queued-Awaiting Assignment,Craig-Org line F,2012-02-01T18:48:25.000000
+978,Accepted-In Progress,Stefan-Org line F,2012-02-02T08:11:04.000000
+978,Completed-Closed,Stefan-Org line F,2012-02-08T07:07:31.000000
+978,Accepted-In Progress,Kymaria-Org line C,2012-03-22T18:24:25.000000
+978,Completed-Closed,Kymaria-Org line C,2012-03-28T13:29:10.000000
+989,Accepted-In Progress,Grzegorz-Org line A2,2012-02-03T13:55:04.000000
+989,Accepted-Wait,Grzegorz-Org line A2,2012-02-08T09:07:57.000000
+989,Completed-Closed,Grzegorz-Org line A2,2012-04-23T11:39:22.000000
+993,Accepted-In Progress,Irfan-Org line C,2012-02-06T06:53:05.000000
+993,Accepted-Wait,Irfan-Org line C,2012-02-06T08:47:54.000000
+993,Completed-Closed,Irfan-Org line C,2012-03-29T06:30:58.000000
+1018,Accepted-In Progress,Pascal-Org line C,2012-02-08T12:18:12.000000
+1018,Accepted-Wait,Pascal-Org line C,2012-02-08T12:27:33.000000
+1018,Completed-Closed,Pascal-Org line C,2012-04-11T11:56:45.000000
+1023,Accepted-In Progress,Lars-Org line V2,2012-02-08T14:38:45.000000
+1023,Completed-Closed,Lars-Org line V2,2012-05-23T08:17:43.000000
+1033,Accepted-In Progress,Rafal-Org line A2,2012-02-09T14:44:33.000000
+1033,Queued-Awaiting Assignment,Rafal-Org line A2,2012-02-22T08:00:03.000000
+1033,Accepted-In Progress,Mariusz-Org line A2,2012-02-22T10:17:49.000000
+1033,Queued-Awaiting Assignment,Alain-Org line C,2012-02-22T12:46:10.000000
+1033,Accepted-In Progress,Venkatarami Reddy-Org line C,2012-02-23T08:13:35.000000
+1033,Completed-Closed,Venkatarami Reddy-Org line C,2012-02-23T08:14:16.000000
+1034,Accepted-In Progress,Jitender-Org line C,2012-02-09T15:57:01.000000
+1034,Accepted-Wait,Jitender-Org line C,2012-02-09T16:21:03.000000
+1034,Completed-Closed,Jitender-Org line C,2012-02-27T15:16:08.000000
+1037,Accepted-In Progress,Bhavesh-Org line C,2012-02-09T16:24:55.000000
+1037,Completed-Closed,Bhavesh-Org line C,2012-03-13T07:36:51.000000
+1048,Accepted-In Progress,Satish-Org line C,2012-02-13T11:10:55.000000
+1048,Completed-Closed,Satish-Org line C,2012-02-14T08:31:28.000000
+1050,Accepted-In Progress,Tomas-Org line C,2012-02-13T12:37:00.000000
+1050,Accepted-In Progress,Tomas-Org line C,2012-02-13T21:43:09.000000
+1050,Completed-Closed,Tomas-Org line C,2012-03-28T07:56:30.000000
+1061,Accepted-In Progress,Erik-Org line G4,2012-02-14T09:46:27.000000
+1061,Completed-Closed,Erik-Org line G4,2012-02-14T14:19:06.000000
+1074,Accepted-In Progress,Prashant-Org line C,2012-02-15T14:57:25.000000
+1074,Accepted-Wait,Prashant-Org line C,2012-02-15T15:00:08.000000
+1074,Completed-Closed,Prashant-Org line C,2012-02-27T11:44:46.000000
+1074,Accepted-In Progress,Prashant-Org line C,2012-03-07T07:20:08.000000
+1074,Queued-Awaiting Assignment,Robert-Org line C,2012-03-07T07:22:21.000000
+1074,Accepted-In Progress,Vaibhav-Org line C,2012-03-12T18:20:37.000000
+1074,Completed-Closed,Vaibhav-Org line C,2012-03-12T18:20:52.000000
+1085,Accepted-In Progress,Ewa-Org line G3,2012-02-16T11:01:43.000000
+1085,Completed-Closed,Ewa-Org line G3,2012-02-16T11:05:54.000000
+1088,Accepted-In Progress,David-Org line C,2012-02-17T08:50:35.000000
+1088,Queued-Awaiting Assignment,David-Org line C,2012-02-17T08:53:16.000000
+1088,Accepted-In Progress,David-Org line C,2012-03-21T07:19:43.000000
+1088,Accepted-Assigned,Mattias-Org line C,2012-04-25T12:15:52.000000
+1088,Accepted-In Progress,Martin-Org line C,2012-04-25T13:23:48.000000
+1088,Completed-Closed,Martin-Org line C,2012-04-25T13:25:41.000000
+1092,Accepted-In Progress,Ulrika-Org line A2,2012-02-17T16:51:32.000000
+1092,Queued-Awaiting Assignment,Ulrika-Org line A2,2012-02-17T16:56:15.000000
+1092,Accepted-In Progress,Kymaria-Org line C,2012-03-23T13:46:14.000000
+1092,Completed-Closed,Kymaria-Org line C,2012-03-23T13:52:53.000000
+1100,Accepted-In Progress,Roger-Org line C,2012-02-21T07:47:06.000000
+1100,Completed-Closed,Roger-Org line C,2012-04-12T09:05:27.000000
+1113,Accepted-In Progress,Torbjörn-Org line G4,2012-02-23T08:32:06.000000
+1113,Completed-Closed,Torbjörn-Org line G4,2012-02-24T13:50:02.000000
+1114,Accepted-In Progress,Grzegorz-Org line A2,2012-02-23T08:07:54.000000
+1114,Completed-Closed,Grzegorz-Org line A2,2012-02-23T08:34:57.000000
+1118,Accepted-In Progress,Vikash-Org line C,2012-02-23T19:02:43.000000
+1118,Completed-Closed,Vikash-Org line C,2012-02-29T16:00:26.000000
+1120,Accepted-In Progress,Mats-Org line C,2012-02-24T14:06:27.000000
+1120,Completed-Closed,Mats-Org line C,2012-03-29T12:20:18.000000
+1121,Accepted-In Progress,Robert-Org line C,2012-02-24T13:41:30.000000
+1121,Queued-Awaiting Assignment,Robert-Org line C,2012-02-24T13:44:02.000000
+1121,Queued-Awaiting Assignment,Pratap-Org line C,2012-03-09T09:33:06.000000
+1121,Accepted-In Progress,Pratap-Org line C,2012-03-09T09:38:32.000000
+1121,Queued-Awaiting Assignment,Amit-Org line C,2012-03-09T10:33:30.000000
+1121,Accepted-In Progress,Pratap-Org line C,2012-03-09T10:33:35.000000
+1121,Queued-Awaiting Assignment,Robert-Org line C,2012-03-09T10:34:00.000000
+1121,Accepted-In Progress,Bhavesh-Org line C,2012-03-13T10:42:39.000000
+1121,Queued-Awaiting Assignment,Pratap-Org line C,2012-03-27T14:51:19.000000
+1121,Accepted-In Progress,Pratap-Org line C,2012-03-27T14:59:20.000000
+1121,Queued-Awaiting Assignment,Robert-Org line C,2012-03-27T15:14:38.000000
+1121,Accepted-In Progress,Antony-Org line C,2012-04-16T09:31:48.000000
+1121,Completed-Closed,Antony-Org line C,2012-04-16T09:35:22.000000
+1124,Accepted-In Progress,Christer-Org line C,2012-02-25T23:40:53.000000
+1124,Completed-Closed,Christer-Org line C,2012-02-26T00:36:37.000000
+1131,Accepted-In Progress,Johan-Org line C,2012-02-27T11:55:39.000000
+1131,Completed-Closed,Johan-Org line C,2012-02-27T12:05:54.000000
+1132,Accepted-In Progress,Martin-Org line C,2012-02-27T12:04:10.000000
+1132,Accepted-In Progress,Martin-Org line C,2012-02-27T12:06:32.000000
+1132,Queued-Awaiting Assignment,Martin-Org line C,2012-02-28T14:36:18.000000
+1132,Accepted-In Progress,Michael-Org line C,2012-02-29T07:45:33.000000
+1132,Accepted-Assigned,Pascal-Org line C,2012-02-29T09:24:30.000000
+1132,Accepted-In Progress,Pascal-Org line C,2012-03-22T14:05:34.000000
+1132,Completed-Closed,Pascal-Org line C,2012-03-30T12:38:43.000000
+1134,Accepted-In Progress,Stefan-Org line A2,2012-02-28T08:27:52.000000
+1134,Accepted-Wait,Stefan-Org line A2,2012-03-28T12:02:39.000000
+1134,Completed-Closed,Stefan-Org line A2,2012-05-16T09:16:51.000000
+1140,Accepted-In Progress,Lisbeth-Org line A2,2012-02-29T07:15:32.000000
+1140,Accepted-Wait,Lisbeth-Org line A2,2012-02-29T09:18:00.000000
+1140,Completed-Closed,Lisbeth-Org line A2,2012-03-05T15:27:15.000000
+1148,Accepted-In Progress,Christer-Org line C,2012-02-29T15:26:17.000000
+1148,Completed-Closed,Christer-Org line C,2012-05-29T12:52:12.000000
+1151,Accepted-In Progress,Torbjörn-Org line G4,2012-03-01T12:44:24.000000
+1151,Completed-Closed,Torbjörn-Org line G4,2012-04-19T18:12:12.000000
+1157,Accepted-In Progress,Peter-Org line G4,2012-03-01T23:17:13.000000
+1157,Accepted-In Progress,Peter-Org line G4,2012-03-12T07:24:31.000000
+1157,Accepted-In Progress,Göran-Org line G4,2012-03-28T12:42:53.000000
+1157,Queued-Awaiting Assignment,Ulf-Org line C,2012-03-28T12:49:40.000000
+1157,Accepted-In Progress,Ulf-Org line C,2012-03-28T12:52:43.000000
+1157,Queued-Awaiting Assignment,Ulf-Org line C,2012-03-29T11:41:49.000000
+1157,Accepted-In Progress,Ulf-Org line C,2012-03-29T11:49:40.000000
+1157,Queued-Awaiting Assignment,Ulf-Org line C,2012-03-29T11:50:02.000000
+1157,Accepted-In Progress,Ulf-Org line C,2012-03-29T11:50:21.000000
+1157,Completed-Closed,Ulf-Org line C,2012-04-11T11:03:04.000000
+1160,Accepted-In Progress,Mahesh-Org line C,2012-03-02T07:49:22.000000
+1160,Queued-Awaiting Assignment,Mahesh-Org line C,2012-03-02T07:49:43.000000
+1160,Accepted-In Progress,Radha-Org line C,2012-03-29T07:20:23.000000
+1160,Accepted-Assigned,Jonas-Org line C,2012-03-29T07:21:22.000000
+1160,Completed-Closed,Jonas-Org line C,2012-03-30T09:02:03.000000
+1166,Accepted-In Progress,Tapan-Org line C,2012-03-05T09:11:17.000000
+1166,Accepted-Wait,Tapan-Org line C,2012-03-14T09:36:57.000000
+1166,Completed-Closed,Tapan-Org line C,2012-05-08T06:28:25.000000
+1167,Accepted-In Progress,Devashish-Org line C,2012-03-05T09:51:06.000000
+1167,Accepted-Wait,Devashish-Org line C,2012-03-05T09:53:28.000000
+1167,Completed-Closed,Devashish-Org line C,2012-03-28T09:11:31.000000
+1168,Accepted-In Progress,Aparna-Org line A2,2012-03-05T15:45:27.000000
+1168,Completed-Closed,Aparna-Org line A2,2012-03-26T16:35:33.000000
+1169,Accepted-In Progress,Jörgen-Org line C,2012-03-05T15:28:53.000000
+1169,Completed-Closed,Jörgen-Org line C,2012-03-29T13:12:42.000000
+1178,Accepted-In Progress,Ewa-Org line G3,2012-03-06T10:16:37.000000
+1178,Completed-Closed,Ewa-Org line G3,2012-03-06T11:51:23.000000
+1187,Accepted-In Progress,Akanksha-Org line A2,2012-03-07T10:43:04.000000
+1187,Queued-Awaiting Assignment,Akanksha-Org line A2,2012-03-07T10:56:18.000000
+1187,Queued-Awaiting Assignment,Gunnar-Org line C,2012-03-09T10:11:37.000000
+1187,Accepted-In Progress,Gunnar-Org line C,2012-03-20T09:16:42.000000
+1187,Completed-Closed,Gunnar-Org line C,2012-03-20T10:16:46.000000
+1188,Accepted-In Progress,Hineesh-Org line C,2012-03-07T13:15:19.000000
+1188,Completed-Closed,Hineesh-Org line C,2012-03-09T07:57:30.000000
+1188,Accepted-In Progress,Hineesh-Org line C,2012-03-26T11:48:52.000000
+1188,Completed-Closed,Hineesh-Org line C,2012-03-26T11:49:58.000000
+1188,Accepted-In Progress,Hineesh-Org line C,2012-03-28T11:46:45.000000
+1188,Accepted-In Progress,Hineesh-Org line C,2012-03-28T11:48:55.000000
+1188,Completed-Closed,Hineesh-Org line C,2012-03-28T11:48:56.000000
+1188,Accepted-In Progress,Hineesh-Org line C,2012-03-28T12:00:52.000000
+1188,Completed-Closed,Hineesh-Org line C,2012-03-28T15:42:57.000000
+1192,Accepted-In Progress,Per-Erik-Org line C,2012-03-07T21:03:37.000000
+1192,Accepted-In Progress,Per-Erik-Org line C,2012-03-09T16:24:35.000000
+1192,Accepted-Wait,Per-Erik-Org line C,2012-03-28T14:20:21.000000
+1192,Accepted-In Progress,Per-Erik-Org line C,2012-05-03T07:33:48.000000
+1192,Completed-Closed,Per-Erik-Org line C,2012-05-03T07:33:57.000000
+1203,Accepted-In Progress,Pratap-Org line C,2012-03-09T12:22:13.000000
+1203,Accepted-Wait,Pratap-Org line C,2012-03-09T12:22:30.000000
+1203,Accepted-Assigned,Pratap-Org line C,2012-03-12T10:37:16.000000
+1203,Accepted-In Progress,Suman-Org line C,2012-03-12T10:38:06.000000
+1203,Completed-Closed,Suman-Org line C,2012-03-14T08:43:52.000000
+1205,Accepted-In Progress,Suzanne-Org line V2,2012-03-09T17:44:11.000000
+1205,Completed-Closed,Suzanne-Org line V2,2012-04-11T08:59:01.000000
+1211,Accepted-In Progress,Ewa-Org line G3,2012-03-12T12:59:51.000000
+1211,Completed-Closed,Ewa-Org line G3,2012-03-12T13:01:20.000000
+1213,Accepted-In Progress,Robert-Org line C,2012-03-13T10:04:03.000000
+1213,Queued-Awaiting Assignment,Robert-Org line C,2012-03-13T10:05:43.000000
+1213,Accepted-In Progress,Alam-Org line C,2012-03-17T09:24:47.000000
+1213,Queued-Awaiting Assignment,Robert-Org line C,2012-03-17T09:34:44.000000
+1213,Accepted-In Progress,Alam-Org line C,2012-03-17T09:34:45.000000
+1213,Accepted-In Progress,Hineesh-Org line C,2012-03-19T03:43:04.000000
+1213,Accepted-Wait,Hineesh-Org line C,2012-03-19T03:44:40.000000
+1213,Completed-Closed,Hineesh-Org line C,2012-04-12T12:43:49.000000
+1217,Accepted-In Progress,Ryouhei-Org line C,2012-03-13T15:35:26.000000
+1217,Accepted-Wait,Ryouhei-Org line C,2012-03-13T15:37:53.000000
+1217,Completed-Closed,Ryouhei-Org line C,2012-04-10T02:48:53.000000
+1219,Accepted-In Progress,Himmath-Org line C,2012-03-13T16:04:13.000000
+1219,Completed-Closed,Himmath-Org line C,2012-03-13T16:42:38.000000
+1223,Accepted-In Progress,Samira-Org line G4,2012-03-14T10:56:15.000000
+1223,Completed-Closed,Samira-Org line G4,2012-04-23T13:52:14.000000
+1226,Accepted-In Progress,Peter-Org line C,2012-03-14T12:34:17.000000
+1226,Accepted-In Progress,Reinier-Org line V7n,2012-03-14T12:35:08.000000
+1226,Queued-Awaiting Assignment,Peter-Org line C,2012-03-14T12:54:02.000000
+1226,Accepted-In Progress,Reinier-Org line V7n,2012-03-14T12:54:03.000000
+1226,Completed-Closed,Reinier-Org line V7n,2012-03-14T13:21:23.000000
+1228,Accepted-In Progress,Maria-Org line A2,2012-03-14T15:04:35.000000
+1228,Completed-Closed,Maria-Org line A2,2012-03-16T09:45:58.000000
+1229,Accepted-In Progress,Agneta-Org line A2,2012-03-15T09:15:22.000000
+1229,Queued-Awaiting Assignment,Agneta-Org line A2,2012-03-15T09:34:49.000000
+1229,Accepted-In Progress,Lars-Org line A2,2012-03-28T11:37:19.000000
+1229,Completed-Closed,Lars-Org line A2,2012-03-28T11:38:51.000000
+1230,Accepted-In Progress,Andreas-Org line V2,2012-03-15T13:04:08.000000
+1230,Accepted-In Progress,Andreas-Org line V2,2012-03-20T11:29:34.000000
+1230,Queued-Awaiting Assignment,Anna-Org line V2,2012-03-20T11:30:03.000000
+1230,Accepted-In Progress,Andreas-Org line V2,2012-03-20T11:30:24.000000
+1230,Queued-Awaiting Assignment,Anna-Org line V2,2012-03-20T11:31:16.000000
+1230,Accepted-In Progress,Andreas-Org line V2,2012-03-20T11:31:30.000000
+1230,Accepted-In Progress,Andreas-Org line V2,2012-03-20T11:32:00.000000
+1230,Completed-Closed,Andreas-Org line V2,2012-05-16T13:17:58.000000
+1231,Accepted-In Progress,Martin-Org line C,2012-03-15T14:13:24.000000
+1231,Queued-Awaiting Assignment,Martin-Org line C,2012-03-15T14:17:08.000000
+1231,Accepted-In Progress,Michael-Org line C,2012-03-15T14:43:05.000000
+1231,Accepted-Assigned,Martin-Org line C,2012-03-15T14:51:42.000000
+1231,Accepted-In Progress,Martin-Org line C,2012-04-10T12:52:27.000000
+1231,Completed-Closed,Martin-Org line C,2012-04-10T12:53:04.000000
+1232,Accepted-In Progress,Manoj-Org line C,2012-03-15T14:52:30.000000
+1232,Completed-Closed,Manoj-Org line C,2012-03-15T14:55:20.000000
+1234,Accepted-In Progress,Lars-Org line G4,2012-03-15T19:21:59.000000
+1234,Completed-Closed,Lars-Org line G4,2012-04-11T13:28:54.000000
+1236,Accepted-In Progress,Tamara-Org line C,2012-03-16T07:48:29.000000
+1236,Accepted-Wait,Tamara-Org line C,2012-03-16T07:49:23.000000
+1236,Completed-Closed,Tamara-Org line C,2012-03-16T07:51:06.000000
+1261,Accepted-In Progress,Ulf-Org line C,2012-03-22T11:38:52.000000
+1261,Completed-Closed,Ulf-Org line C,2012-04-15T11:58:11.000000
+1262,Accepted-In Progress,Krzysztof-Org line A2,2012-03-23T03:02:26.000000
+1262,Accepted-Assigned,Krzysztof-Org line A2,2012-03-23T03:05:55.000000
+1262,Accepted-In Progress,Krzysztof-Org line A2,2012-03-26T11:38:36.000000
+1262,Accepted-Wait,Krzysztof-Org line A2,2012-03-28T10:23:39.000000
+1262,Completed-Closed,Krzysztof-Org line A2,2012-04-10T07:50:05.000000
+1271,Accepted-In Progress,Santosh-Org line C,2012-03-26T10:06:58.000000
+1271,Completed-Closed,Santosh-Org line C,2012-05-09T11:53:42.000000
+1277,Accepted-In Progress,Hans-Org line C,2012-03-26T16:22:17.000000
+1277,Completed-Closed,Hans-Org line C,2012-03-27T13:39:06.000000
+1280,Queued-Awaiting Assignment,Amit-Org line C,2012-03-27T11:16:57.000000
+1280,Accepted-In Progress,Sreelesh-Org line C,2012-03-28T14:34:35.000000
+1280,Queued-Awaiting Assignment,Mikael-Org line C,2012-03-28T14:53:26.000000
+1280,Accepted-In Progress,Peter-Org line C,2012-03-29T07:59:32.000000
+1280,Accepted-In Progress,Jonas-Org line C,2012-03-29T08:02:18.000000
+1280,Queued-Awaiting Assignment,Vinodhkumar-Org line C,2012-03-29T08:02:48.000000
+1280,Accepted-In Progress,Jörgen-Org line C,2012-03-29T09:46:21.000000
+1280,Queued-Awaiting Assignment,Nicolas-Org line C,2012-03-29T09:48:41.000000
+1280,Accepted-In Progress,Nicolas-Org line C,2012-03-29T11:04:52.000000
+1280,Queued-Awaiting Assignment,Nicolas-Org line C,2012-03-29T11:05:15.000000
+1280,Accepted-In Progress,Joakim-Org line C,2012-04-13T14:25:14.000000
+1280,Completed-Closed,Joakim-Org line C,2012-04-13T14:43:51.000000
+1283,Accepted-In Progress,John-Org line C,2012-03-27T14:12:29.000000
+1283,Queued-Awaiting Assignment,John-Org line C,2012-03-27T14:18:11.000000
+1283,Accepted-In Progress,John-Org line C,2012-03-28T13:14:49.000000
+1283,Completed-Closed,John-Org line C,2012-03-28T13:14:54.000000
+1290,Accepted-In Progress,Jörgen-Org line C,2012-03-28T15:06:47.000000
+1290,Completed-Closed,Jörgen-Org line C,2012-05-09T06:56:41.000000
+1293,Accepted-In Progress,Anders-Org line A2,2012-03-29T07:16:34.000000
+1293,Accepted-Wait,Anders-Org line A2,2012-03-29T07:22:32.000000
+1293,Queued-Awaiting Assignment,Anders-Org line A2,2012-03-29T09:25:11.000000
+1293,Accepted-In Progress,Rafal-Org line A2,2012-03-29T13:48:03.000000
+1293,Accepted-Wait,Rafal-Org line A2,2012-04-11T10:03:24.000000
+1293,Completed-Closed,Rafal-Org line A2,2012-04-11T10:33:19.000000
+1309,Accepted-In Progress,Marijn-Org line A2,2012-04-02T09:50:09.000000
+1309,Accepted-In Progress,Marijn-Org line A2,2012-04-06T13:10:37.000000
+1309,Completed-Closed,Marijn-Org line A2,2012-04-06T13:11:52.000000
+1311,Accepted-In Progress,Patrik-Org line C,2012-04-02T21:34:44.000000
+1311,Completed-Closed,Patrik-Org line C,2012-05-02T13:23:07.000000
+1326,Accepted-In Progress,Tomas-Org line V2,2012-04-05T07:25:57.000000
+1326,Completed-Closed,Tomas-Org line V2,2012-04-08T18:33:23.000000
+1333,Accepted-In Progress,Allan-Org line C,2012-04-06T05:39:22.000000
+1333,Completed-Closed,Allan-Org line C,2012-04-06T05:42:16.000000
+1343,Accepted-In Progress,Martin-Org line C,2012-04-10T12:13:57.000000
+1343,Completed-Closed,Martin-Org line C,2012-04-10T12:18:10.000000
+1343,Accepted-In Progress,Martin-Org line C,2012-04-13T08:32:19.000000
+1343,Completed-Closed,Martin-Org line C,2012-04-23T12:37:54.000000
+1346,Accepted-In Progress,Gunilla-Org line A2,2012-04-10T15:46:49.000000
+1346,Queued-Awaiting Assignment,Gunilla-Org line A2,2012-04-10T15:54:09.000000
+1346,Accepted-In Progress,Ola-Org line A2,2012-04-11T08:36:14.000000
+1346,Completed-Closed,Ola-Org line A2,2012-04-19T08:02:37.000000
+1353,Accepted-In Progress,Ewa-Org line G3,2012-04-13T10:30:07.000000
+1353,Completed-Closed,Ewa-Org line G3,2012-04-13T10:32:34.000000
+1354,Accepted-In Progress,Mariusz-Org line A2,2012-04-13T10:19:48.000000
+1354,Completed-Closed,Mariusz-Org line A2,2012-05-31T09:10:27.000000
+1355,Accepted-In Progress,Ewa-Org line G3,2012-04-13T14:11:31.000000
+1355,Completed-Closed,Ewa-Org line G3,2012-04-13T14:12:14.000000
+1358,Accepted-In Progress,Murali-Org line B,2012-04-13T15:58:57.000000
+1358,Completed-Closed,Murali-Org line B,2012-04-19T10:58:02.000000
+1359,Accepted-In Progress,Florent-Org line C,2012-04-16T10:15:04.000000
+1359,Completed-Closed,Florent-Org line C,2012-04-16T10:17:25.000000
+1375,Accepted-In Progress,Ewa-Org line G3,2012-04-18T12:25:44.000000
+1375,Completed-Closed,Ewa-Org line G3,2012-04-18T12:26:55.000000
+1377,Accepted-In Progress,Anson-Org line A2,2012-04-19T03:54:27.000000
+1377,Queued-Awaiting Assignment,Anson-Org line A2,2012-04-19T05:58:07.000000
+1377,Accepted-In Progress,Anson-Org line A2,2012-05-24T03:31:28.000000
+1377,Completed-Closed,Anson-Org line A2,2012-05-24T03:31:54.000000
+1378,Accepted-In Progress,Edward-Org line C,2012-04-18T21:31:13.000000
+1378,Accepted-Wait,Edward-Org line C,2012-04-19T17:51:03.000000
+1378,Completed-Closed,Edward-Org line C,2012-04-23T14:52:04.000000
+1380,Accepted-In Progress,Lars-Org line C,2012-04-19T11:36:37.000000
+1380,Accepted-Wait,Lars-Org line C,2012-04-19T11:37:20.000000
+1380,Completed-Closed,Lars-Org line C,2012-05-24T09:41:39.000000
+1385,Accepted-In Progress,Stephen-Org line C,2012-04-20T16:13:58.000000
+1385,Queued-Awaiting Assignment,Stephen-Org line C,2012-04-20T16:26:35.000000
+1385,Accepted-In Progress,Stephen-Org line C,2012-04-23T18:26:56.000000
+1385,Completed-Closed,Stephen-Org line C,2012-05-14T12:51:02.000000
+1389,Accepted-In Progress,Pai-Org line C,2012-04-23T14:04:18.000000
+1389,Completed-Closed,Pai-Org line C,2012-05-18T10:11:18.000000
+1400,Accepted-In Progress,--Org line C,2012-04-25T14:51:48.000000
+1400,Queued-Awaiting Assignment,--Org line C,2012-04-25T15:01:56.000000
+1400,Accepted-In Progress,Anith-Org line C,2012-04-25T15:06:02.000000
+1400,Accepted-In Progress,Hemanth-Org line C,2012-04-25T15:08:42.000000
+1400,Accepted-Assigned,Rajkishore-Org line C,2012-04-25T16:05:30.000000
+1400,Accepted-In Progress,Rajkishore-Org line C,2012-05-22T12:24:08.000000
+1400,Completed-Closed,Rajkishore-Org line C,2012-05-22T12:24:42.000000
+1406,Accepted-In Progress,Prasad-Org line C,2012-04-27T04:41:52.000000
+1406,Queued-Awaiting Assignment,Prasad-Org line C,2012-04-27T04:45:17.000000
+1406,Accepted-In Progress,Varun-Org line C,2012-04-27T06:33:50.000000
+1406,Completed-Closed,Varun-Org line C,2012-04-27T11:44:06.000000
+1408,Accepted-In Progress,Bjarne-Org line C,2012-04-27T12:34:05.000000
+1408,Completed-Closed,Bjarne-Org line C,2012-05-08T13:02:28.000000
+1409,Accepted-In Progress,Niklas-Org line C,2012-04-28T10:17:13.000000
+1409,Accepted-Assigned,Niklas-Org line C,2012-04-28T10:19:06.000000
+1409,Accepted-In Progress,Niklas-Org line C,2012-05-04T05:46:07.000000
+1409,Completed-Closed,Niklas-Org line C,2012-05-04T05:48:07.000000
+1415,Accepted-In Progress,Sivakumar-Org line C,2012-04-30T08:27:14.000000
+1415,Completed-Closed,Sivakumar-Org line C,2012-05-28T08:20:49.000000
+1423,Accepted-In Progress,Viktoria-Org line A2,2012-05-03T15:00:53.000000
+1423,Queued-Awaiting Assignment,Viktoria-Org line A2,2012-05-03T16:35:20.000000
+1423,Queued-Awaiting Assignment,Peter-Org line C,2012-05-04T09:35:45.000000
+1423,Accepted-In Progress,Peter-Org line C,2012-05-06T17:27:57.000000
+1423,Accepted-In Progress,Peter-Org line C,2012-05-08T11:51:42.000000
+1423,Queued-Awaiting Assignment,Praveen-Org line C,2012-05-08T12:24:52.000000
+1423,Queued-Awaiting Assignment,Martin-Org line C,2012-05-10T12:25:04.000000
+1423,Accepted-In Progress,Pascal-Org line C,2012-05-11T08:41:18.000000
+1423,Completed-Closed,Pascal-Org line C,2012-05-16T13:22:25.000000
+1423,Accepted-In Progress,Pascal-Org line C,2012-05-29T11:10:03.000000
+1423,Completed-Closed,Pascal-Org line C,2012-05-29T11:17:45.000000
+1425,Accepted-In Progress,John-Org line C,2012-05-04T13:38:12.000000
+1425,Completed-Closed,John-Org line C,2012-05-09T13:49:54.000000
+1426,Accepted-In Progress,Fredrik-Org line A2,2012-05-07T03:38:25.000000
+1426,Accepted-Assigned,Fredrik-Org line A2,2012-05-07T03:40:04.000000
+1426,Accepted-In Progress,Stefan-Org line A2,2012-05-07T13:56:16.000000
+1426,Completed-Closed,Stefan-Org line A2,2012-05-11T10:30:49.000000
+1431,Accepted-In Progress,Summy-Org line C,2012-05-07T16:56:41.000000
+1431,Accepted-In Progress,Summy-Org line C,2012-05-08T11:58:31.000000
+1431,Accepted-In Progress,Summy-Org line C,2012-05-08T12:19:47.000000
+1431,Accepted-Wait,Summy-Org line C,2012-05-08T12:23:42.000000
+1431,Accepted-In Progress,Summy-Org line C,2012-05-08T15:29:34.000000
+1431,Completed-Closed,Summy-Org line C,2012-05-08T15:29:59.000000
+1439,Accepted-In Progress,Lars-Org line C,2012-05-10T14:53:26.000000
+1439,Completed-Closed,Lars-Org line C,2012-05-31T14:19:08.000000
+1441,Accepted-In Progress,Ewa-Org line G3,2012-05-11T10:32:41.000000
+1441,Completed-Closed,Ewa-Org line G3,2012-05-11T10:35:47.000000
+1447,Accepted-In Progress,Rakesh-Org line C,2012-05-14T16:27:12.000000
+1447,Completed-Closed,Rakesh-Org line C,2012-05-14T16:33:42.000000
+1453,Accepted-In Progress,Ewa-Org line G3,2012-05-15T15:35:05.000000
+1453,Completed-Closed,Ewa-Org line G3,2012-05-15T15:38:18.000000
+1461,Accepted-In Progress,Els-Org line C,2012-05-16T13:14:24.000000
+1461,Queued-Awaiting Assignment,Els-Org line C,2012-05-16T13:25:43.000000
+1461,Accepted-In Progress,Els-Org line C,2012-05-16T13:26:28.000000
+1461,Accepted-Assigned,Hilde-Org line C,2012-05-16T13:26:48.000000
+1461,Accepted-Wait,Hilde-Org line C,2012-05-16T16:11:06.000000
+1461,Completed-Closed,Hilde-Org line C,2012-05-22T12:26:12.000000
+1462,Accepted-In Progress,Ewa-Org line G3,2012-05-16T15:58:10.000000
+1462,Completed-Closed,Ewa-Org line G3,2012-05-17T14:46:59.000000
+1467,Accepted-In Progress,Charlotta-Org line G4,2012-05-18T20:02:06.000000
+1467,Completed-Closed,Charlotta-Org line G4,2012-05-24T07:36:08.000000
+1468,Accepted-In Progress,Ashwani-Org line C,2012-05-19T13:21:09.000000
+1468,Completed-Closed,Ashwani-Org line C,2012-05-19T13:53:02.000000
+1471,Accepted-In Progress,Reine-Org line G4,2012-05-22T00:19:54.000000
+1471,Completed-Closed,Reine-Org line G4,2012-05-31T07:38:22.000000
+1486,Accepted-In Progress,Ewa-Org line G3,2012-05-31T18:07:59.000000
+1486,Completed-Closed,Ewa-Org line G3,2012-05-31T18:09:21.000000

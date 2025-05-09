@@ -1,0 +1,3386 @@
+caseid,task,user,end_timestamp
+3660,Assign seriousness,Value 1,2012-03-06T14:52:52.000000
+3660,Take in charge ticket,Value 4,2012-03-07T09:28:56.000000
+3660,Resolve ticket,Value 4,2012-03-12T11:28:42.000000
+3660,Closed,Value 5,2012-04-13T13:00:22.000000
+3661,Assign seriousness,Value 1,2011-09-27T09:53:57.000000
+3661,Assign seriousness,Value 1,2011-09-28T09:14:19.000000
+3661,Take in charge ticket,Value 2,2011-09-28T11:34:59.000000
+3661,Resolve ticket,Value 17,2011-09-28T12:04:33.000000
+3661,Closed,Value 5,2011-10-28T10:00:28.000000
+3663,Assign seriousness,Value 2,2010-05-11T11:05:51.000000
+3663,Take in charge ticket,Value 2,2010-05-11T11:06:08.000000
+3663,Resolve ticket,Value 2,2010-05-11T12:16:23.000000
+3663,Closed,Value 5,2010-06-24T11:10:24.000000
+3664,Assign seriousness,Value 1,2012-06-05T09:16:18.000000
+3664,Take in charge ticket,Value 4,2012-06-06T04:17:21.000000
+3664,Resolve ticket,Value 4,2012-06-06T09:53:22.000000
+3664,Closed,Value 5,2012-07-06T09:20:22.000000
+3665,Assign seriousness,Value 1,2012-07-17T11:16:05.000000
+3665,Resolve ticket,Value 1,2012-07-17T11:16:29.000000
+3665,Closed,Value 5,2012-09-08T11:20:41.000000
+3667,Assign seriousness,Value 1,2012-04-10T05:56:32.000000
+3667,Take in charge ticket,Value 4,2012-04-10T06:27:27.000000
+3667,Resolve ticket,Value 4,2012-04-10T07:53:28.000000
+3667,Closed,Value 5,2012-05-26T06:00:20.000000
+3669,Assign seriousness,Value 9,2013-08-06T06:26:09.000000
+3669,Take in charge ticket,Value 9,2013-08-06T09:53:55.000000
+3669,Wait,Value 9,2013-08-12T11:15:13.000000
+3669,Wait,Value 9,2013-08-14T11:20:00.000000
+3669,Resolve ticket,Value 9,2013-08-23T09:54:41.000000
+3669,Closed,Value 3,2013-09-07T09:54:50.000000
+3670,Assign seriousness,Value 1,2013-04-03T11:30:49.000000
+3670,Take in charge ticket,Value 12,2013-04-04T04:51:20.000000
+3670,Wait,Value 16,2013-04-10T12:03:12.000000
+3670,Resolve ticket,Value 16,2013-04-23T07:24:22.000000
+3670,Closed,Value 3,2013-05-08T07:24:36.000000
+3671,Assign seriousness,Value 8,2011-02-15T05:58:48.000000
+3671,Take in charge ticket,Value 8,2011-02-15T06:03:48.000000
+3671,Resolve ticket,Value 8,2011-02-15T06:05:32.000000
+3671,Closed,Value 5,2011-04-08T13:00:31.000000
+3672,Assign seriousness,Value 14,2010-11-23T09:14:21.000000
+3672,Take in charge ticket,Value 14,2010-11-23T09:14:41.000000
+3672,Resolve ticket,Value 14,2010-11-23T09:14:58.000000
+3672,Take in charge ticket,Value 14,2010-11-25T07:13:24.000000
+3672,Resolve ticket,Value 14,2010-12-14T12:26:48.000000
+3672,Closed,Value 5,2011-01-13T12:27:07.000000
+3673,Assign seriousness,Value 1,2012-04-02T11:36:46.000000
+3673,Take in charge ticket,Value 9,2012-04-03T07:51:10.000000
+3673,Take in charge ticket,Value 9,2012-04-06T05:45:53.000000
+3673,Resolve ticket,Value 10,2012-04-13T08:01:59.000000
+3673,Closed,Value 5,2012-05-03T11:40:23.000000
+3674,Assign seriousness,Value 13,2012-06-20T11:36:38.000000
+3674,Take in charge ticket,Value 9,2012-06-21T10:37:00.000000
+3674,Wait,Value 9,2012-06-21T10:37:26.000000
+3674,Resolve ticket,Value 9,2012-06-25T05:41:57.000000
+3674,Closed,Value 5,2012-08-04T06:50:18.000000
+3675,Assign seriousness,Value 6,2010-12-02T07:52:55.000000
+3675,Take in charge ticket,Value 6,2010-12-02T08:10:31.000000
+3675,Resolve ticket,Value 6,2010-12-02T08:11:37.000000
+3675,Closed,Value 5,2011-01-05T08:00:52.000000
+3676,Assign seriousness,Value 2,2010-09-03T04:13:54.000000
+3676,Take in charge ticket,Value 2,2010-09-10T12:23:23.000000
+3676,Resolve ticket,Value 2,2010-09-15T06:08:00.000000
+3676,Closed,Value 5,2010-10-30T06:08:31.000000
+3677,Assign seriousness,Value 2,2011-09-15T06:32:13.000000
+3677,Take in charge ticket,Value 2,2011-09-15T06:32:46.000000
+3677,Resolve ticket,Value 2,2011-09-15T07:17:38.000000
+3677,Closed,Value 5,2011-11-02T08:40:24.000000
+3678,Assign seriousness,Value 1,2012-06-11T04:12:31.000000
+3678,Take in charge ticket,Value 2,2012-06-20T10:45:36.000000
+3678,Wait,Value 2,2012-06-25T12:30:13.000000
+3678,Resolve ticket,Value 2,2012-06-26T04:06:00.000000
+3678,Closed,Value 5,2012-07-12T05:00:23.000000
+3680,Assign seriousness,Value 2,2010-04-12T04:41:13.000000
+3680,Take in charge ticket,Value 2,2010-04-12T04:41:21.000000
+3680,Resolve ticket,Value 2,2010-04-23T05:13:13.000000
+3680,Closed,Value 5,2010-05-28T04:51:36.000000
+3682,Assign seriousness,Value 2,2010-12-16T09:06:41.000000
+3682,Take in charge ticket,Value 2,2010-12-16T09:07:00.000000
+3682,Resolve ticket,Value 2,2010-12-16T09:18:31.000000
+3682,Closed,Value 5,2011-02-03T09:10:51.000000
+3683,Assign seriousness,Value 13,2012-07-19T04:32:21.000000
+3683,Take in charge ticket,Value 13,2012-07-19T04:32:34.000000
+3683,Resolve ticket,Value 13,2012-07-19T05:25:47.000000
+3683,Closed,Value 5,2012-09-05T04:41:21.000000
+3684,Assign seriousness,Value 1,2012-01-11T08:39:13.000000
+3684,Take in charge ticket,Value 9,2012-01-16T07:45:21.000000
+3684,Wait,Value 9,2012-01-18T07:01:39.000000
+3684,Resolve ticket,Value 9,2012-01-19T07:23:43.000000
+3684,Closed,Value 5,2012-02-14T09:00:29.000000
+3685,Assign seriousness,Value 1,2012-02-10T12:52:23.000000
+3685,Take in charge ticket,Value 6,2012-02-13T06:07:40.000000
+3685,Resolve ticket,Value 16,2012-02-28T10:13:54.000000
+3685,Closed,Value 5,2012-03-14T10:14:05.000000
+3686,Assign seriousness,Value 2,2010-11-22T09:08:42.000000
+3686,Take in charge ticket,Value 2,2010-11-22T12:54:42.000000
+3686,Resolve ticket,Value 2,2010-11-22T14:32:25.000000
+3686,Closed,Value 5,2010-12-24T09:10:27.000000
+3687,Assign seriousness,Value 1,2012-04-13T04:59:44.000000
+3687,Resolve ticket,Value 1,2012-04-13T05:00:59.000000
+3687,Resolve ticket,Value 1,2012-04-13T05:01:00.000000
+3687,Closed,Value 5,2012-05-23T05:00:35.000000
+3688,Assign seriousness,Value 8,2011-03-28T08:01:04.000000
+3688,Take in charge ticket,Value 8,2011-03-28T08:01:50.000000
+3688,Resolve ticket,Value 2,2011-03-28T13:24:12.000000
+3688,Closed,Value 5,2011-04-28T08:00:22.000000
+3689,Assign seriousness,Value 1,2012-05-09T06:18:27.000000
+3689,Take in charge ticket,Value 12,2012-05-10T04:15:17.000000
+3689,Resolve ticket,Value 12,2012-05-10T04:25:20.000000
+3689,Closed,Value 5,2012-06-22T06:20:32.000000
+3690,Assign seriousness,Value 1,2011-09-30T05:48:55.000000
+3690,Take in charge ticket,Value 9,2011-09-30T10:46:24.000000
+3690,Resolve ticket,Value 9,2011-10-06T04:58:26.000000
+3690,Closed,Value 5,2011-11-02T07:50:20.000000
+3692,Assign seriousness,Value 9,2010-10-07T12:03:31.000000
+3692,Take in charge ticket,Value 9,2010-10-08T10:59:09.000000
+3692,Resolve ticket,Value 9,2010-10-08T11:14:23.000000
+3692,Closed,Value 5,2010-11-20T14:10:36.000000
+3694,Assign seriousness,Value 1,2011-09-26T11:57:23.000000
+3694,Take in charge ticket,Value 13,2011-09-30T04:42:17.000000
+3694,Wait,Value 13,2011-10-06T10:32:24.000000
+3694,Resolve ticket,Value 13,2011-10-11T07:08:18.000000
+3694,Closed,Value 5,2011-11-01T11:30:07.000000
+3695,Assign seriousness,Value 1,2013-02-01T06:25:36.000000
+3695,Take in charge ticket,Value 9,2013-03-11T06:50:30.000000
+3695,Resolve ticket,Value 9,2013-03-11T07:59:42.000000
+3695,Closed,Value 3,2013-03-26T07:59:59.000000
+3696,Assign seriousness,Value 2,2013-07-10T07:59:08.000000
+3696,Take in charge ticket,Value 12,2013-07-29T04:58:37.000000
+3696,Resolve ticket,Value 12,2013-08-01T12:31:25.000000
+3696,Closed,Value 3,2013-08-16T12:31:43.000000
+3697,Assign seriousness,Value 13,2012-09-03T12:52:09.000000
+3697,Take in charge ticket,Value 3,2012-09-06T04:19:03.000000
+3697,Wait,Value 2,2012-09-06T11:56:16.000000
+3697,Resolve ticket,Value 2,2012-10-12T06:16:02.000000
+3697,Closed,Value 3,2012-10-27T06:16:12.000000
+3698,Assign seriousness,Value 2,2010-04-21T12:42:16.000000
+3698,Take in charge ticket,Value 2,2010-04-22T06:24:30.000000
+3698,Wait,Value 2,2010-04-23T04:22:48.000000
+3698,Take in charge ticket,Value 2,2010-04-28T07:17:11.000000
+3698,Wait,Value 2,2010-04-28T08:04:00.000000
+3698,Take in charge ticket,Value 2,2010-05-11T07:01:21.000000
+3698,Resolve ticket,Value 2,2010-05-11T07:01:26.000000
+3698,Closed,Value 5,2010-05-26T07:01:40.000000
+3699,Assign seriousness,Value 13,2012-07-20T12:36:36.000000
+3699,Take in charge ticket,Value 6,2012-07-24T04:13:51.000000
+3699,Resolve ticket,Value 6,2012-07-26T10:23:24.000000
+3699,Closed,Value 5,2012-09-02T12:40:50.000000
+3700,Assign seriousness,Value 16,2010-04-02T04:21:01.000000
+3700,Assign seriousness,Value 16,2010-04-02T04:26:37.000000
+3700,Take in charge ticket,Value 16,2010-05-04T05:33:59.000000
+3700,Resolve ticket,Value 16,2010-05-04T05:57:35.000000
+3700,Resolve ticket,Value 16,2010-05-04T05:57:50.000000
+3700,Resolve ticket,Value 16,2010-05-04T05:57:54.000000
+3700,Closed,Value 5,2010-05-19T05:58:23.000000
+3702,Assign seriousness,Value 13,2011-04-14T12:43:26.000000
+3702,Take in charge ticket,Value 2,2011-04-26T05:16:40.000000
+3702,Wait,Value 12,2011-04-26T10:36:40.000000
+3702,Resolve ticket,Value 12,2011-05-19T10:14:01.000000
+3702,Closed,Value 5,2011-06-03T10:14:12.000000
+3706,Assign seriousness,Value 1,2012-03-15T11:24:42.000000
+3706,Take in charge ticket,Value 6,2012-03-16T06:13:04.000000
+3706,Resolve ticket,Value 6,2012-04-06T10:09:45.000000
+3706,Closed,Value 5,2012-04-21T10:10:04.000000
+3707,Assign seriousness,Value 1,2012-01-25T06:22:50.000000
+3707,Take in charge ticket,Value 1,2012-01-25T06:23:06.000000
+3707,Resolve ticket,Value 1,2012-01-25T09:18:13.000000
+3707,Closed,Value 5,2012-03-23T06:30:38.000000
+3709,Assign seriousness,Value 14,2013-10-28T06:40:10.000000
+3709,Take in charge ticket,Value 2,2013-10-28T07:40:12.000000
+3709,Wait,Value 2,2013-10-29T06:26:53.000000
+3709,Resolve ticket,Value 10,2013-11-22T15:31:39.000000
+3709,Closed,Value 3,2013-12-07T15:31:56.000000
+3713,Assign seriousness,Value 1,2012-01-13T11:19:41.000000
+3713,Take in charge ticket,Value 1,2012-01-13T11:21:36.000000
+3713,Resolve ticket,Value 1,2012-01-13T11:30:55.000000
+3713,Closed,Value 5,2012-02-17T11:21:42.000000
+3714,Assign seriousness,Value 13,2011-09-01T10:53:36.000000
+3714,Take in charge ticket,Value 10,2011-09-05T06:52:38.000000
+3714,Resolve ticket,Value 2,2011-09-29T13:06:37.000000
+3714,Closed,Value 5,2011-10-14T13:06:55.000000
+3715,Assign seriousness,Value 19,2010-06-29T09:42:13.000000
+3715,Take in charge ticket,Value 19,2010-07-29T09:35:09.000000
+3715,Resolve ticket,Value 19,2010-07-29T10:07:48.000000
+3715,Closed,Value 5,2010-08-13T10:07:57.000000
+3716,Assign seriousness,Value 9,2012-01-10T09:06:29.000000
+3716,Take in charge ticket,Value 9,2012-01-10T09:06:39.000000
+3716,Resolve ticket,Value 2,2012-01-10T09:44:15.000000
+3716,Closed,Value 5,2012-02-16T09:10:36.000000
+3718,Assign seriousness,Value 15,2010-05-17T07:00:48.000000
+3718,Take in charge ticket,Value 2,2010-05-17T10:07:05.000000
+3718,Resolve ticket,Value 2,2010-05-17T10:18:24.000000
+3718,Closed,Value 5,2010-06-18T07:10:19.000000
+3719,Assign seriousness,Value 8,2011-02-18T08:02:32.000000
+3719,Take in charge ticket,Value 11,2011-02-18T08:25:52.000000
+3719,Resolve ticket,Value 11,2011-02-18T08:31:02.000000
+3719,Closed,Value 5,2011-04-03T06:10:50.000000
+3720,Assign seriousness,Value 1,2011-10-10T05:45:13.000000
+3720,Take in charge ticket,Value 4,2011-10-13T04:15:48.000000
+3720,Resolve ticket,Value 2,2011-10-14T12:06:01.000000
+3720,Closed,Value 5,2011-12-08T07:50:57.000000
+3721,Assign seriousness,Value 9,2013-08-06T10:07:36.000000
+3721,Take in charge ticket,Value 1,2013-08-21T05:59:16.000000
+3721,Require upgrade,Value 1,2013-08-22T09:50:45.000000
+3721,Resolve ticket,Value 1,2013-08-22T10:23:25.000000
+3721,Closed,Value 3,2013-09-06T10:23:39.000000
+3722,Assign seriousness,Value 8,2011-04-13T06:04:48.000000
+3722,Take in charge ticket,Value 8,2011-04-13T06:05:12.000000
+3722,Resolve ticket,Value 8,2011-04-13T06:05:17.000000
+3722,Closed,Value 5,2011-05-27T06:10:36.000000
+3723,Assign seriousness,Value 1,2012-10-10T09:23:01.000000
+3723,Take in charge ticket,Value 4,2012-10-18T07:15:24.000000
+3723,Require upgrade,Value 2,2012-10-26T06:16:08.000000
+3723,Resolve ticket,Value 2,2012-11-14T07:46:02.000000
+3723,Closed,Value 3,2012-11-29T07:46:21.000000
+3724,Assign seriousness,Value 8,2011-06-30T11:58:30.000000
+3724,Assign seriousness,Value 8,2011-06-30T11:58:50.000000
+3724,Take in charge ticket,Value 9,2011-07-05T06:27:24.000000
+3724,Resolve ticket,Value 9,2011-07-19T10:37:46.000000
+3724,Closed,Value 5,2011-08-18T10:38:06.000000
+3725,Assign seriousness,Value 14,2013-06-20T04:32:10.000000
+3725,Take in charge ticket,Value 1,2013-07-01T09:21:12.000000
+3725,Wait,Value 1,2013-07-01T09:44:59.000000
+3725,Resolve ticket,Value 1,2013-07-23T06:38:45.000000
+3725,Closed,Value 3,2013-08-07T06:39:00.000000
+3726,Assign seriousness,Value 2,2013-02-01T09:21:07.000000
+3726,Take in charge ticket,Value 2,2013-02-01T09:28:14.000000
+3726,Wait,Value 2,2013-02-06T07:04:31.000000
+3726,Resolve ticket,Value 2,2013-03-13T06:24:50.000000
+3726,Closed,Value 3,2013-03-28T06:25:02.000000
+3729,Assign seriousness,Value 4,2012-08-02T06:31:42.000000
+3729,Take in charge ticket,Value 4,2012-08-02T07:54:41.000000
+3729,Resolve ticket,Value 4,2012-08-02T07:58:14.000000
+3729,Closed,Value 5,2012-09-06T06:40:24.000000
+3730,Assign seriousness,Value 6,2010-10-28T10:21:47.000000
+3730,Take in charge ticket,Value 2,2010-11-03T12:03:12.000000
+3730,Wait,Value 2,2010-11-05T12:01:41.000000
+3730,Take in charge ticket,Value 2,2010-11-10T06:42:38.000000
+3730,Resolve ticket,Value 2,2010-11-10T06:43:13.000000
+3730,Closed,Value 5,2010-12-11T07:11:16.000000
+3731,Assign seriousness,Value 1,2012-07-03T05:57:53.000000
+3731,Resolve ticket,Value 1,2012-07-03T05:59:52.000000
+3731,Resolve ticket,Value 1,2012-07-03T05:59:53.000000
+3731,Closed,Value 5,2012-08-03T06:00:14.000000
+3732,Assign seriousness,Value 2,2010-03-29T11:15:18.000000
+3732,Take in charge ticket,Value 2,2010-04-12T12:55:44.000000
+3732,Resolve ticket,Value 2,2010-04-12T12:56:47.000000
+3732,Closed,Value 5,2010-04-29T11:20:21.000000
+3733,Assign seriousness,Value 1,2012-09-07T04:20:40.000000
+3733,Take in charge ticket,Value 3,2012-09-07T07:10:52.000000
+3733,Wait,Value 13,2012-09-14T11:06:25.000000
+3733,Resolve ticket,Value 13,2012-10-12T06:24:03.000000
+3733,Closed,Value 3,2012-10-27T06:24:12.000000
+3734,Assign seriousness,Value 4,2012-06-19T07:30:43.000000
+3734,Take in charge ticket,Value 4,2012-06-19T07:32:43.000000
+3734,Resolve ticket,Value 4,2012-06-19T10:18:30.000000
+3734,Resolve ticket,Value 4,2012-06-19T10:18:31.000000
+3734,Closed,Value 5,2012-07-20T07:40:50.000000
+3735,Assign seriousness,Value 8,2011-02-24T06:35:04.000000
+3735,Take in charge ticket,Value 8,2011-02-24T06:35:18.000000
+3735,Resolve ticket,Value 8,2011-02-24T06:36:53.000000
+3735,Closed,Value 5,2011-04-09T04:40:24.000000
+3736,Assign seriousness,Value 4,2013-02-25T08:07:40.000000
+3736,Take in charge ticket,Value 4,2013-03-05T06:01:19.000000
+3736,Require upgrade,Value 4,2013-03-05T07:58:10.000000
+3736,Resolve ticket,Value 1,2013-03-21T07:41:21.000000
+3736,Closed,Value 3,2013-04-05T05:41:33.000000
+3737,Assign seriousness,Value 1,2011-10-05T12:11:55.000000
+3737,Take in charge ticket,Value 2,2011-10-10T04:27:02.000000
+3737,Resolve ticket,Value 2,2011-10-10T04:43:44.000000
+3737,Closed,Value 5,2011-11-05T14:20:18.000000
+3738,Assign seriousness,Value 8,2011-06-30T05:01:02.000000
+3738,Assign seriousness,Value 8,2011-06-30T05:50:35.000000
+3738,Assign seriousness,Value 13,2011-07-01T04:30:04.000000
+3738,Take in charge ticket,Value 13,2011-07-04T08:00:28.000000
+3738,Resolve ticket,Value 13,2011-07-04T08:02:07.000000
+3738,Closed,Value 5,2011-08-02T05:10:22.000000
+3740,Assign seriousness,Value 1,2012-09-03T13:17:42.000000
+3740,Take in charge ticket,Value 1,2012-09-10T07:36:32.000000
+3740,Wait,Value 1,2012-09-10T07:50:47.000000
+3740,Resolve ticket,Value 2,2012-10-12T06:19:53.000000
+3740,Closed,Value 3,2012-10-27T06:20:02.000000
+3741,Assign seriousness,Value 2,2010-11-11T07:07:43.000000
+3741,Take in charge ticket,Value 11,2010-11-11T07:09:06.000000
+3741,Resolve ticket,Value 11,2010-11-11T07:11:07.000000
+3741,Closed,Value 5,2010-12-16T07:10:53.000000
+3743,Assign seriousness,Value 1,2011-09-21T11:51:23.000000
+3743,Take in charge ticket,Value 9,2011-09-27T05:46:32.000000
+3743,Resolve ticket,Value 9,2011-09-27T05:52:36.000000
+3743,Closed,Value 5,2011-10-22T12:00:23.000000
+3745,Assign seriousness,Value 1,2011-11-11T08:35:35.000000
+3745,Take in charge ticket,Value 2,2011-11-15T12:54:29.000000
+3745,Wait,Value 2,2011-11-16T08:55:17.000000
+3745,Resolve ticket,Value 2,2011-11-17T09:36:55.000000
+3745,Closed,Value 5,2011-12-22T09:20:36.000000
+3746,Insert ticket,Value 1,2013-01-04T07:55:16.000000
+3746,Wait,Value 2,2013-02-05T14:21:53.000000
+3746,Wait,Value 2,2013-02-07T13:15:03.000000
+3747,Assign seriousness,Value 4,2012-08-03T04:59:29.000000
+3747,Resolve ticket,Value 4,2012-08-03T05:00:00.000000
+3747,Resolve ticket,Value 4,2012-08-03T05:00:01.000000
+3747,Closed,Value 5,2012-09-09T05:00:32.000000
+3748,Assign seriousness,Value 1,2012-03-07T08:56:15.000000
+3748,Resolve ticket,Value 1,2012-03-07T09:07:03.000000
+3748,Closed,Value 5,2012-04-07T07:02:08.000000
+3749,Assign seriousness,Value 1,2012-05-18T09:25:33.000000
+3749,Take in charge ticket,Value 1,2012-05-18T11:28:25.000000
+3749,Resolve ticket,Value 2,2012-05-23T05:41:39.000000
+3749,Closed,Value 5,2012-06-20T09:30:26.000000
+3753,Assign seriousness,Value 1,2011-10-11T10:11:31.000000
+3753,Take in charge ticket,Value 1,2011-10-11T12:58:24.000000
+3753,Resolve ticket,Value 1,2011-10-13T09:50:43.000000
+3753,Closed,Value 5,2011-11-11T12:20:58.000000
+3754,Assign seriousness,Value 2,2010-02-04T06:20:45.000000
+3754,Assign seriousness,Value 2,2010-02-04T06:21:00.000000
+3754,Take in charge ticket,Value 2,2010-02-16T08:20:28.000000
+3754,Wait,Value 2,2010-02-16T08:20:37.000000
+3754,Take in charge ticket,Value 2,2010-02-17T06:45:28.000000
+3754,Resolve ticket,Value 2,2010-02-17T09:34:58.000000
+3754,Closed,Value 5,2010-04-03T07:35:20.000000
+3755,Assign seriousness,Value 1,2012-05-10T10:11:09.000000
+3755,Take in charge ticket,Value 17,2012-05-10T10:16:47.000000
+3755,Resolve ticket,Value 17,2012-05-14T08:21:05.000000
+3755,Closed,Value 5,2012-06-23T10:20:36.000000
+3756,Assign seriousness,Value 18,2013-11-28T14:25:45.000000
+3756,Take in charge ticket,Value 2,2013-12-02T06:56:40.000000
+3756,Require upgrade,Value 1,2013-12-16T14:08:31.000000
+3756,Wait,Value 1,2013-12-17T08:58:27.000000
+3756,Resolve ticket,Value 1,2013-12-17T12:58:10.000000
+3756,Closed,Value 3,2014-01-01T12:58:26.000000
+3757,Assign seriousness,Value 13,2011-04-11T07:09:37.000000
+3757,Take in charge ticket,Value 13,2011-04-11T07:12:44.000000
+3757,Resolve ticket,Value 15,2011-05-16T09:43:01.000000
+3757,Closed,Value 5,2011-05-31T09:43:18.000000
+3758,Assign seriousness,Value 8,2011-05-04T09:27:32.000000
+3758,Take in charge ticket,Value 8,2011-05-04T09:28:11.000000
+3758,Wait,Value 7,2011-05-04T09:49:06.000000
+3758,Take in charge ticket,Value 7,2011-05-04T09:54:54.000000
+3758,Wait,Value 7,2011-05-04T09:55:13.000000
+3758,Take in charge ticket,Value 13,2011-05-05T06:28:54.000000
+3758,Resolve ticket,Value 13,2011-05-05T06:29:03.000000
+3758,Take in charge ticket,Value 9,2011-05-20T05:17:37.000000
+3758,Wait,Value 9,2011-05-20T06:32:06.000000
+3758,Take in charge ticket,Value 9,2011-06-07T12:47:10.000000
+3758,Resolve ticket,Value 9,2011-06-07T12:47:21.000000
+3758,Closed,Value 5,2011-06-30T07:51:13.000000
+3759,Assign seriousness,Value 8,2011-02-16T08:19:31.000000
+3759,Take in charge ticket,Value 2,2011-02-21T05:59:20.000000
+3759,Resolve ticket,Value 8,2011-03-01T14:19:24.000000
+3759,Closed,Value 5,2011-04-03T06:22:00.000000
+3760,Assign seriousness,Value 14,2013-06-18T09:18:19.000000
+3760,Take in charge ticket,Value 2,2013-07-29T04:57:56.000000
+3760,Resolve ticket,Value 12,2013-08-01T12:29:16.000000
+3760,Closed,Value 3,2013-08-16T12:29:33.000000
+3761,Assign seriousness,Value 9,2010-08-06T04:48:37.000000
+3761,Take in charge ticket,Value 12,2010-08-06T06:53:24.000000
+3761,Resolve ticket,Value 12,2010-08-06T06:53:33.000000
+3761,Take in charge ticket,Value 12,2010-08-06T06:53:56.000000
+3761,Wait,Value 12,2010-08-06T06:54:03.000000
+3761,Take in charge ticket,Value 12,2010-08-10T05:52:58.000000
+3761,Resolve ticket,Value 12,2010-08-10T05:53:25.000000
+3761,Closed,Value 5,2010-09-18T04:50:37.000000
+3762,Assign seriousness,Value 2,2013-02-11T12:16:15.000000
+3762,Assign seriousness,Value 2,2013-02-11T12:16:34.000000
+3762,Take in charge ticket,Value 2,2013-02-21T06:01:14.000000
+3762,Resolve ticket,Value 2,2013-03-06T11:25:08.000000
+3762,Closed,Value 3,2013-03-21T11:25:23.000000
+3763,Assign seriousness,Value 1,2012-04-19T06:16:11.000000
+3763,Take in charge ticket,Value 1,2012-04-19T06:16:39.000000
+3763,Resolve ticket,Value 1,2012-04-19T06:42:45.000000
+3763,Resolve ticket,Value 1,2012-04-19T06:42:46.000000
+3763,Closed,Value 5,2012-05-24T06:20:40.000000
+3764,Assign seriousness,Value 2,2010-06-04T11:09:37.000000
+3764,Assign seriousness,Value 2,2010-06-04T11:10:17.000000
+3764,Assign seriousness,Value 2,2010-06-17T11:00:15.000000
+3764,Take in charge ticket,Value 2,2010-06-17T11:00:22.000000
+3764,Wait,Value 2,2010-06-17T11:08:38.000000
+3764,Take in charge ticket,Value 2,2010-06-22T10:32:55.000000
+3764,Resolve ticket,Value 2,2010-06-22T10:40:05.000000
+3764,Closed,Value 5,2010-07-07T10:40:15.000000
+3766,Assign seriousness,Value 1,2013-02-12T06:00:38.000000
+3766,Take in charge ticket,Value 1,2013-02-27T13:09:14.000000
+3766,Require upgrade,Value 2,2013-02-27T14:13:50.000000
+3766,Resolve ticket,Value 1,2013-02-28T13:15:39.000000
+3766,Closed,Value 3,2013-03-15T13:15:52.000000
+3767,Assign seriousness,Value 4,2012-02-01T06:30:27.000000
+3767,Take in charge ticket,Value 2,2012-02-09T15:05:23.000000
+3767,Resolve ticket,Value 2,2012-02-15T08:07:50.000000
+3767,Closed,Value 5,2012-03-16T08:08:15.000000
+3768,Assign seriousness,Value 1,2012-03-06T09:21:35.000000
+3768,Take in charge ticket,Value 1,2012-03-06T09:46:41.000000
+3768,Resolve ticket,Value 1,2012-03-06T11:39:02.000000
+3768,Closed,Value 5,2012-04-28T07:30:31.000000
+3769,Assign seriousness,Value 13,2011-03-09T06:23:24.000000
+3769,Take in charge ticket,Value 13,2011-03-09T06:24:17.000000
+3769,Resolve ticket,Value 13,2011-03-09T06:25:38.000000
+3769,Closed,Value 5,2011-04-28T04:30:33.000000
+3770,Assign seriousness,Value 2,2010-02-19T14:10:34.000000
+3770,Assign seriousness,Value 2,2010-02-19T14:11:03.000000
+3770,Take in charge ticket,Value 2,2010-02-19T14:11:11.000000
+3770,Resolve ticket,Value 2,2010-02-22T06:49:09.000000
+3770,Closed,Value 5,2010-03-24T14:20:18.000000
+3771,Assign seriousness,Value 2,2010-12-09T14:44:19.000000
+3771,Take in charge ticket,Value 2,2010-12-09T14:45:48.000000
+3771,Resolve ticket,Value 2,2011-01-18T09:44:03.000000
+3771,Closed,Value 5,2011-02-02T09:44:21.000000
+3772,Assign seriousness,Value 13,2012-08-07T09:54:13.000000
+3772,Take in charge ticket,Value 13,2012-08-07T09:54:21.000000
+3772,Resolve ticket,Value 13,2012-08-13T09:39:32.000000
+3772,Closed,Value 5,2012-09-12T10:00:35.000000
+3774,Assign seriousness,Value 4,2012-08-14T05:35:18.000000
+3774,Take in charge ticket,Value 4,2012-08-14T05:51:59.000000
+3774,Resolve ticket,Value 4,2012-08-14T05:58:31.000000
+3774,Closed,Value 5,2012-09-15T05:40:29.000000
+3775,Assign seriousness,Value 2,2012-02-03T06:38:06.000000
+3775,Take in charge ticket,Value 2,2012-02-03T06:38:15.000000
+3775,Resolve ticket,Value 2,2012-02-03T08:48:08.000000
+3775,Closed,Value 5,2012-03-14T06:40:26.000000
+3776,Assign seriousness,Value 1,2012-10-04T12:38:32.000000
+3776,Take in charge ticket,Value 1,2012-10-08T11:24:24.000000
+3776,Wait,Value 1,2012-10-22T05:48:50.000000
+3776,Take in charge ticket,Value 1,2012-10-22T10:34:44.000000
+3776,Wait,Value 1,2012-10-22T10:44:54.000000
+3776,Resolve ticket,Value 13,2012-10-22T12:51:06.000000
+3776,Closed,Value 3,2012-11-06T14:51:25.000000
+3777,Assign seriousness,Value 8,2011-03-28T05:34:58.000000
+3777,Take in charge ticket,Value 8,2011-03-28T05:35:13.000000
+3777,Take in charge ticket,Value 8,2011-03-28T05:35:50.000000
+3777,Resolve ticket,Value 2,2011-03-30T12:03:11.000000
+3777,Closed,Value 5,2011-04-28T05:40:26.000000
+3778,Assign seriousness,Value 2,2010-11-29T14:09:19.000000
+3778,Take in charge ticket,Value 2,2010-11-29T14:19:59.000000
+3778,Resolve ticket,Value 2,2010-11-29T14:20:51.000000
+3778,Closed,Value 5,2010-12-31T14:10:28.000000
+3779,Assign seriousness,Value 8,2011-06-07T09:15:58.000000
+3779,Take in charge ticket,Value 8,2011-06-07T09:16:33.000000
+3779,Resolve ticket,Value 2,2011-06-08T05:50:52.000000
+3779,Closed,Value 5,2011-07-23T09:20:44.000000
+3781,Assign seriousness,Value 8,2011-05-17T10:37:49.000000
+3781,Take in charge ticket,Value 8,2011-05-17T10:38:11.000000
+3781,Resolve ticket,Value 8,2011-05-17T12:22:43.000000
+3781,Closed,Value 5,2011-06-30T10:40:58.000000
+3782,Assign seriousness,Value 9,2010-09-23T12:51:11.000000
+3782,Take in charge ticket,Value 7,2010-09-24T07:31:55.000000
+3782,Wait,Value 7,2010-09-24T07:32:06.000000
+3782,Wait,Value 2,2010-09-24T10:19:12.000000
+3782,Take in charge ticket,Value 7,2010-09-27T07:50:53.000000
+3782,Resolve ticket,Value 7,2010-09-27T07:51:32.000000
+3782,Closed,Value 5,2010-10-29T11:40:28.000000
+3784,Assign seriousness,Value 8,2011-03-07T07:06:21.000000
+3784,Take in charge ticket,Value 12,2011-03-07T07:47:27.000000
+3784,Wait,Value 12,2011-03-10T11:58:31.000000
+3784,Wait,Value 2,2011-03-15T09:44:02.000000
+3784,Resolve ticket,Value 12,2011-03-31T12:16:01.000000
+3784,Closed,Value 5,2011-04-15T12:16:18.000000
+3785,Assign seriousness,Value 13,2011-02-21T06:46:49.000000
+3785,Take in charge ticket,Value 16,2011-02-22T14:11:01.000000
+3785,Resolve ticket,Value 16,2011-02-22T14:15:25.000000
+3785,Closed,Value 5,2011-04-06T04:50:42.000000
+3787,Assign seriousness,Value 1,2013-03-05T14:13:11.000000
+3787,Take in charge ticket,Value 2,2013-03-13T06:10:23.000000
+3787,Wait,Value 2,2013-03-13T09:49:45.000000
+3787,Resolve ticket,Value 2,2013-04-08T06:54:24.000000
+3787,Closed,Value 3,2013-04-23T06:54:39.000000
+3788,Assign seriousness,Value 1,2012-01-26T14:30:04.000000
+3788,Take in charge ticket,Value 1,2012-01-27T12:06:47.000000
+3788,Resolve ticket,Value 1,2012-02-06T11:24:46.000000
+3788,Closed,Value 5,2012-02-28T14:40:28.000000
+3789,Assign seriousness,Value 13,2011-11-17T14:09:39.000000
+3789,Take in charge ticket,Value 13,2011-11-18T06:17:32.000000
+3789,Wait,Value 2,2011-11-18T14:06:41.000000
+3789,Resolve ticket,Value 13,2011-12-02T11:32:28.000000
+3789,Closed,Value 5,2012-01-03T11:46:47.000000
+3790,Take in charge ticket,Value 1,2013-09-20T07:16:35.000000
+3790,Resolve ticket,Value 2,2013-10-08T04:25:49.000000
+3790,Resolve ticket,Value 2,2013-10-08T04:25:50.000000
+3790,Closed,Value 3,2013-10-23T04:26:08.000000
+3791,Assign seriousness,Value 14,2013-05-07T05:37:08.000000
+3791,Take in charge ticket,Value 9,2013-05-22T07:47:33.000000
+3791,Wait,Value 9,2013-05-22T11:26:04.000000
+3791,Take in charge ticket,Value 9,2013-05-23T07:35:40.000000
+3791,Resolve ticket,Value 9,2013-05-23T07:35:55.000000
+3791,Closed,Value 3,2013-06-07T07:36:12.000000
+3793,Insert ticket,Value 12,2010-04-07T12:18:14.000000
+3793,Assign seriousness,Value 12,2010-04-07T12:18:34.000000
+3793,Take in charge ticket,Value 12,2010-04-07T12:39:32.000000
+3793,Resolve ticket,Value 12,2010-04-09T12:14:37.000000
+3793,Closed,Value 5,2010-05-14T12:20:47.000000
+3794,Assign seriousness,Value 4,2012-04-05T10:17:34.000000
+3794,Take in charge ticket,Value 13,2012-04-06T11:25:08.000000
+3794,Resolve ticket,Value 1,2012-05-04T07:39:43.000000
+3794,Closed,Value 5,2012-05-19T07:39:59.000000
+3795,Assign seriousness,Value 8,2011-04-27T07:35:49.000000
+3795,Take in charge ticket,Value 8,2011-04-27T07:36:00.000000
+3795,Take in charge ticket,Value 8,2011-04-27T07:36:51.000000
+3795,Take in charge ticket,Value 13,2011-05-04T08:15:54.000000
+3795,Resolve ticket,Value 13,2011-05-09T05:57:40.000000
+3795,Closed,Value 5,2011-05-28T07:40:53.000000
+3796,Assign seriousness,Value 1,2013-03-19T12:17:58.000000
+3796,Take in charge ticket,Value 2,2013-04-22T06:55:45.000000
+3796,Resolve ticket,Value 9,2013-04-22T06:56:31.000000
+3796,Closed,Value 3,2013-05-07T06:56:44.000000
+3797,Assign seriousness,Value 1,2012-04-19T04:11:35.000000
+3797,Take in charge ticket,Value 13,2012-04-19T10:36:15.000000
+3797,Take in charge ticket,Value 1,2012-04-19T12:36:46.000000
+3797,Resolve ticket,Value 13,2012-04-20T08:01:03.000000
+3797,Closed,Value 5,2012-05-22T04:20:25.000000
+3798,Assign seriousness,Value 14,2013-05-29T08:10:53.000000
+3798,Wait,Value 2,2013-05-31T04:07:30.000000
+3798,Resolve ticket,Value 9,2013-06-18T12:59:23.000000
+3798,Resolve ticket,Value 9,2013-06-18T12:59:24.000000
+3798,Closed,Value 3,2013-07-03T12:59:34.000000
+3800,Assign seriousness,Value 4,2012-08-08T08:07:12.000000
+3800,Wait,Value 13,2012-08-13T10:06:37.000000
+3800,Resolve ticket,Value 4,2012-08-27T07:50:56.000000
+3800,Closed,Value 3,2012-09-11T07:51:13.000000
+3801,Assign seriousness,Value 8,2011-02-18T09:17:32.000000
+3801,Take in charge ticket,Value 16,2011-02-18T15:47:39.000000
+3801,Resolve ticket,Value 16,2011-02-18T15:55:57.000000
+3801,Closed,Value 5,2011-04-03T07:20:41.000000
+3802,Assign seriousness,Value 1,2012-06-12T11:07:49.000000
+3802,Take in charge ticket,Value 12,2012-06-14T08:06:09.000000
+3802,Resolve ticket,Value 12,2012-06-14T09:45:13.000000
+3802,Closed,Value 5,2012-07-26T11:10:36.000000
+3803,Assign seriousness,Value 14,2013-05-13T13:10:19.000000
+3803,Take in charge ticket,Value 9,2013-05-28T09:39:38.000000
+3803,Wait,Value 9,2013-05-29T06:13:55.000000
+3803,Resolve ticket,Value 9,2013-06-03T12:33:25.000000
+3803,Closed,Value 3,2013-06-18T12:33:39.000000
+3804,Assign seriousness,Value 1,2012-08-03T05:51:46.000000
+3804,Take in charge ticket,Value 1,2012-08-03T05:51:56.000000
+3804,Resolve ticket,Value 1,2012-08-03T06:01:31.000000
+3804,Closed,Value 5,2012-09-08T06:00:32.000000
+3805,Assign seriousness,Value 1,2013-03-19T15:13:29.000000
+3805,Assign seriousness,Value 9,2013-04-04T04:44:08.000000
+3805,Take in charge ticket,Value 9,2013-04-04T04:44:14.000000
+3805,Resolve ticket,Value 9,2013-04-04T08:02:03.000000
+3805,Closed,Value 3,2013-04-19T08:02:25.000000
+3806,Assign seriousness,Value 1,2012-12-12T11:26:34.000000
+3806,Take in charge ticket,Value 9,2012-12-20T06:35:05.000000
+3806,Wait,Value 9,2012-12-20T07:49:29.000000
+3806,Resolve ticket,Value 9,2012-12-28T11:50:32.000000
+3806,Closed,Value 3,2013-01-12T11:50:53.000000
+3807,Assign seriousness,Value 2,2010-12-07T13:39:13.000000
+3807,Take in charge ticket,Value 2,2010-12-07T13:40:16.000000
+3807,Resolve ticket,Value 2,2010-12-28T09:35:39.000000
+3807,Closed,Value 5,2011-01-27T09:36:05.000000
+3810,Assign seriousness,Value 11,2010-08-13T06:14:03.000000
+3810,Take in charge ticket,Value 11,2010-08-13T06:24:35.000000
+3810,Resolve ticket,Value 11,2010-09-03T08:51:45.000000
+3810,Closed,Value 5,2010-09-18T08:52:10.000000
+3811,Assign seriousness,Value 1,2012-03-07T08:58:25.000000
+3811,Take in charge ticket,Value 13,2012-03-08T11:54:04.000000
+3811,Resolve ticket,Value 13,2012-03-09T12:46:32.000000
+3811,Closed,Value 5,2012-04-07T07:01:09.000000
+3812,Assign seriousness,Value 8,2011-03-10T09:06:41.000000
+3812,Assign seriousness,Value 8,2011-03-10T09:08:14.000000
+3812,Take in charge ticket,Value 8,2011-03-10T09:15:07.000000
+3812,Resolve ticket,Value 2,2011-03-10T12:21:58.000000
+3812,Closed,Value 5,2011-04-12T07:12:18.000000
+3813,Assign seriousness,Value 1,2012-07-24T06:31:05.000000
+3813,Take in charge ticket,Value 4,2012-07-24T09:13:56.000000
+3813,Resolve ticket,Value 4,2012-07-24T11:28:24.000000
+3813,Closed,Value 5,2012-09-01T05:14:01.000000
+3817,Assign seriousness,Value 8,2011-03-03T13:43:57.000000
+3817,Take in charge ticket,Value 8,2011-03-03T13:45:10.000000
+3817,Wait,Value 2,2011-03-10T12:35:18.000000
+3817,Take in charge ticket,Value 2,2011-03-15T11:25:35.000000
+3817,Resolve ticket,Value 2,2011-03-15T11:25:48.000000
+3817,Take in charge ticket,Value 8,2011-03-21T08:01:10.000000
+3817,Resolve ticket,Value 2,2011-03-24T07:19:04.000000
+3817,Closed,Value 5,2011-04-08T05:19:10.000000
+3818,Assign seriousness,Value 8,2011-05-18T05:45:27.000000
+3818,Take in charge ticket,Value 8,2011-05-18T05:45:53.000000
+3818,Resolve ticket,Value 9,2011-05-18T13:06:48.000000
+3818,Closed,Value 5,2011-07-16T05:50:42.000000
+3821,Assign seriousness,Value 2,2011-07-14T09:22:44.000000
+3821,Take in charge ticket,Value 2,2011-07-14T11:06:11.000000
+3821,Resolve ticket,Value 2,2011-07-14T11:18:17.000000
+3821,Take in charge ticket,Value 2,2011-07-14T12:45:47.000000
+3821,Resolve ticket,Value 2,2011-07-15T09:18:51.000000
+3821,Closed,Value 5,2011-08-16T09:30:19.000000
+3822,Assign seriousness,Value 2,2011-01-18T12:23:46.000000
+3822,Take in charge ticket,Value 12,2011-01-18T12:36:54.000000
+3822,Resolve ticket,Value 12,2011-01-18T12:46:57.000000
+3822,Closed,Value 5,2011-02-18T12:30:27.000000
+3823,Assign seriousness,Value 13,2012-07-19T07:45:18.000000
+3823,Take in charge ticket,Value 13,2012-07-23T11:27:42.000000
+3823,Resolve ticket,Value 13,2012-07-25T09:52:04.000000
+3823,Closed,Value 5,2012-09-09T07:50:32.000000
+3824,Assign seriousness,Value 9,2010-07-08T05:09:12.000000
+3824,Take in charge ticket,Value 2,2010-07-29T06:44:27.000000
+3824,Resolve ticket,Value 2,2010-07-29T06:46:20.000000
+3824,Closed,Value 5,2010-08-13T06:46:28.000000
+3825,Assign seriousness,Value 8,2011-02-09T07:35:37.000000
+3825,Take in charge ticket,Value 2,2011-02-18T12:38:36.000000
+3825,Resolve ticket,Value 2,2011-02-18T12:55:32.000000
+3825,Closed,Value 5,2011-04-03T04:18:10.000000
+3826,Assign seriousness,Value 2,2010-10-13T13:01:54.000000
+3826,Assign seriousness,Value 2,2010-10-15T04:41:52.000000
+3826,Assign seriousness,Value 2,2010-10-15T04:41:52.000000
+3826,Take in charge ticket,Value 2,2010-10-15T04:41:58.000000
+3826,Wait,Value 7,2010-10-15T07:25:42.000000
+3826,Take in charge ticket,Value 2,2010-10-19T07:01:19.000000
+3826,Wait,Value 2,2010-10-19T07:01:28.000000
+3826,Take in charge ticket,Value 7,2010-10-20T12:04:42.000000
+3826,Resolve ticket,Value 7,2010-10-20T12:04:57.000000
+3826,Closed,Value 5,2010-11-18T10:00:32.000000
+3827,Assign seriousness,Value 13,2011-07-13T06:58:55.000000
+3827,Take in charge ticket,Value 16,2011-07-14T06:03:02.000000
+3827,Resolve ticket,Value 16,2011-07-14T06:03:17.000000
+3827,Closed,Value 5,2011-08-26T07:00:37.000000
+3829,Assign seriousness,Value 1,2011-10-04T06:16:43.000000
+3829,Take in charge ticket,Value 12,2011-10-04T09:41:01.000000
+3829,Resolve ticket,Value 12,2011-10-04T09:50:41.000000
+3829,Closed,Value 5,2011-11-17T08:21:14.000000
+3830,Assign seriousness,Value 1,2012-05-17T04:35:33.000000
+3830,Take in charge ticket,Value 1,2012-05-17T04:36:25.000000
+3830,Resolve ticket,Value 1,2012-05-18T06:33:27.000000
+3830,Closed,Value 5,2012-06-19T04:40:59.000000
+3831,Assign seriousness,Value 12,2011-09-05T11:43:09.000000
+3831,Take in charge ticket,Value 12,2011-09-09T09:28:49.000000
+3831,Resolve ticket,Value 7,2011-09-23T08:05:04.000000
+3831,Closed,Value 5,2011-10-13T09:57:24.000000
+3832,Assign seriousness,Value 1,2012-01-09T07:55:51.000000
+3832,Take in charge ticket,Value 2,2012-01-16T06:38:28.000000
+3832,Resolve ticket,Value 2,2012-01-31T07:34:24.000000
+3832,Closed,Value 5,2012-02-15T07:34:44.000000
+3833,Assign seriousness,Value 2,2011-12-19T08:00:55.000000
+3833,Take in charge ticket,Value 2,2011-12-19T08:01:06.000000
+3833,Resolve ticket,Value 1,2011-12-20T11:51:22.000000
+3833,Closed,Value 5,2012-02-03T08:10:42.000000
+3834,Assign seriousness,Value 8,2011-05-16T06:25:43.000000
+3834,Take in charge ticket,Value 8,2011-05-16T06:26:52.000000
+3834,Resolve ticket,Value 9,2011-05-16T10:04:16.000000
+3834,Closed,Value 5,2011-07-01T06:30:33.000000
+3835,Assign seriousness,Value 8,2011-06-27T06:45:32.000000
+3835,Assign seriousness,Value 8,2011-06-27T06:45:52.000000
+3835,Take in charge ticket,Value 2,2011-06-29T12:26:53.000000
+3835,Resolve ticket,Value 2,2011-06-29T12:33:37.000000
+3835,Closed,Value 5,2011-08-12T06:50:54.000000
+3836,Assign seriousness,Value 7,2010-10-04T05:31:15.000000
+3836,Take in charge ticket,Value 2,2010-10-05T12:08:21.000000
+3836,Resolve ticket,Value 2,2010-10-05T12:09:00.000000
+3836,Closed,Value 5,2010-11-04T07:40:25.000000
+3837,Assign seriousness,Value 1,2012-03-14T09:32:41.000000
+3837,Take in charge ticket,Value 1,2012-03-14T09:32:51.000000
+3837,Resolve ticket,Value 1,2012-03-14T11:40:38.000000
+3837,Closed,Value 5,2012-04-14T07:40:27.000000
+3838,Assign seriousness,Value 8,2011-04-26T06:08:03.000000
+3838,Take in charge ticket,Value 8,2011-04-26T06:13:06.000000
+3838,Wait,Value 2,2011-04-26T06:18:33.000000
+3838,Take in charge ticket,Value 2,2011-04-26T10:39:17.000000
+3838,Resolve ticket,Value 2,2011-04-26T12:20:46.000000
+3838,Closed,Value 5,2011-06-10T12:21:19.000000
+3840,Assign seriousness,Value 1,2012-05-09T11:13:40.000000
+3840,Take in charge ticket,Value 1,2012-05-09T11:13:49.000000
+3840,Resolve ticket,Value 1,2012-05-09T11:37:29.000000
+3840,Closed,Value 5,2012-06-09T11:20:24.000000
+3841,Assign seriousness,Value 10,2012-10-04T04:18:43.000000
+3841,Take in charge ticket,Value 10,2012-10-04T04:19:53.000000
+3841,Wait,Value 1,2012-11-07T12:46:33.000000
+3841,Resolve ticket,Value 1,2012-11-09T11:45:19.000000
+3841,Closed,Value 3,2012-11-24T11:45:35.000000
+3843,Assign seriousness,Value 8,2011-06-07T11:25:54.000000
+3843,Take in charge ticket,Value 8,2011-06-07T11:26:14.000000
+3843,Take in charge ticket,Value 8,2011-06-07T11:41:58.000000
+3843,Resolve ticket,Value 10,2011-06-13T13:15:26.000000
+3843,Closed,Value 5,2011-07-08T11:30:31.000000
+3844,Assign seriousness,Value 1,2012-02-10T08:01:32.000000
+3844,Take in charge ticket,Value 9,2012-02-10T12:19:12.000000
+3844,Wait,Value 9,2012-02-13T07:57:14.000000
+3844,Resolve ticket,Value 9,2012-02-15T14:43:38.000000
+3844,Closed,Value 5,2012-03-23T15:00:31.000000
+3845,Assign seriousness,Value 9,2013-04-11T08:06:13.000000
+3845,Take in charge ticket,Value 9,2013-04-29T04:58:49.000000
+3845,Wait,Value 9,2013-04-29T05:29:49.000000
+3845,Resolve ticket,Value 9,2013-04-30T12:01:23.000000
+3845,Closed,Value 3,2013-05-15T12:01:37.000000
+3847,Assign seriousness,Value 1,2012-07-27T11:50:44.000000
+3847,Take in charge ticket,Value 13,2012-07-31T11:36:19.000000
+3847,Resolve ticket,Value 13,2012-08-06T05:58:07.000000
+3847,Closed,Value 5,2012-09-13T12:00:47.000000
+3848,Assign seriousness,Value 2,2010-10-19T09:48:46.000000
+3848,Take in charge ticket,Value 2,2010-10-19T10:10:38.000000
+3848,Resolve ticket,Value 2,2010-10-20T04:52:31.000000
+3848,Closed,Value 5,2010-11-20T11:51:55.000000
+3851,Assign seriousness,Value 1,2013-08-19T06:06:42.000000
+3851,Take in charge ticket,Value 2,2013-09-04T12:26:15.000000
+3851,Wait,Value 14,2013-09-05T06:43:56.000000
+3851,Resolve ticket,Value 14,2013-09-10T07:00:17.000000
+3851,Closed,Value 3,2013-09-25T07:00:36.000000
+3852,Assign seriousness,Value 1,2012-05-11T04:50:25.000000
+3852,Wait,Value 6,2012-05-11T09:14:20.000000
+3852,Resolve ticket,Value 6,2012-05-22T04:08:08.000000
+3852,Closed,Value 5,2012-06-20T04:10:19.000000
+3853,Assign seriousness,Value 8,2011-06-27T12:22:36.000000
+3853,Assign seriousness,Value 8,2011-06-27T12:31:36.000000
+3853,Assign seriousness,Value 2,2011-07-05T04:35:49.000000
+3853,Take in charge ticket,Value 7,2011-07-13T06:41:54.000000
+3853,Wait,Value 7,2011-07-13T06:42:05.000000
+3853,Take in charge ticket,Value 7,2011-07-19T13:11:18.000000
+3853,Resolve ticket,Value 7,2011-07-19T13:11:29.000000
+3853,Closed,Value 5,2011-08-03T13:11:46.000000
+3854,Assign seriousness,Value 1,2012-05-03T09:46:00.000000
+3854,Resolve ticket,Value 1,2012-05-03T10:09:05.000000
+3854,Closed,Value 5,2012-06-05T09:50:30.000000
+3856,Assign seriousness,Value 1,2013-03-13T15:27:23.000000
+3856,Resolve ticket,Value 1,2013-03-29T08:28:24.000000
+3856,Closed,Value 3,2013-04-13T06:28:47.000000
+3857,Assign seriousness,Value 15,2010-11-29T06:58:09.000000
+3857,Take in charge ticket,Value 14,2010-11-29T07:58:26.000000
+3857,Resolve ticket,Value 14,2010-11-29T11:51:46.000000
+3857,Closed,Value 5,2010-12-31T07:00:25.000000
+3858,Assign seriousness,Value 1,2011-09-27T11:30:09.000000
+3858,Take in charge ticket,Value 15,2011-09-29T11:44:34.000000
+3858,Resolve ticket,Value 15,2011-09-29T12:06:25.000000
+3858,Closed,Value 5,2011-11-10T13:40:36.000000
+3859,Assign seriousness,Value 1,2011-11-08T13:49:42.000000
+3859,Take in charge ticket,Value 10,2011-11-10T11:39:53.000000
+3859,Resolve ticket,Value 4,2011-11-15T12:22:10.000000
+3859,Take in charge ticket,Value 10,2011-11-18T07:38:45.000000
+3859,Resolve ticket,Value 4,2011-11-18T09:39:52.000000
+3859,Closed,Value 5,2011-12-18T09:40:11.000000
+3860,Assign seriousness,Value 8,2010-12-20T06:50:49.000000
+3860,Take in charge ticket,Value 7,2010-12-20T10:02:22.000000
+3860,Resolve ticket,Value 7,2010-12-20T10:03:42.000000
+3860,Closed,Value 5,2011-01-26T07:00:31.000000
+3861,Assign seriousness,Value 9,2011-07-19T06:12:51.000000
+3861,Take in charge ticket,Value 9,2011-07-19T06:13:14.000000
+3861,Resolve ticket,Value 9,2011-07-19T09:18:53.000000
+3861,Closed,Value 5,2011-09-03T06:20:39.000000
+3863,Assign seriousness,Value 1,2011-09-29T06:43:28.000000
+3863,Take in charge ticket,Value 1,2011-09-29T07:00:34.000000
+3863,Resolve ticket,Value 1,2011-09-29T10:05:04.000000
+3863,Closed,Value 5,2011-11-16T08:51:25.000000
+3864,Assign seriousness,Value 14,2010-06-23T11:35:52.000000
+3864,Take in charge ticket,Value 2,2010-06-23T12:07:38.000000
+3864,Resolve ticket,Value 2,2010-06-28T10:25:55.000000
+3864,Closed,Value 5,2010-08-08T11:40:28.000000
+3867,Assign seriousness,Value 1,2012-06-12T12:20:01.000000
+3867,Take in charge ticket,Value 13,2012-06-13T07:35:07.000000
+3867,Wait,Value 13,2012-06-26T10:36:43.000000
+3867,Resolve ticket,Value 13,2012-06-29T10:27:09.000000
+3867,Closed,Value 5,2012-07-18T12:20:37.000000
+3868,Assign seriousness,Value 8,2010-12-06T12:36:06.000000
+3868,Take in charge ticket,Value 14,2010-12-17T08:46:27.000000
+3868,Resolve ticket,Value 14,2011-01-12T13:04:59.000000
+3868,Closed,Value 5,2011-01-27T13:05:15.000000
+3869,Assign seriousness,Value 13,2011-09-02T10:35:01.000000
+3869,Take in charge ticket,Value 10,2011-09-07T13:39:55.000000
+3869,Wait,Value 12,2011-09-08T12:11:02.000000
+3869,Wait,Value 2,2011-09-16T07:41:01.000000
+3869,Resolve ticket,Value 12,2011-09-21T06:41:53.000000
+3869,Closed,Value 5,2011-10-08T09:50:51.000000
+3870,Assign seriousness,Value 9,2010-08-02T05:25:40.000000
+3870,Take in charge ticket,Value 9,2010-08-02T05:26:17.000000
+3870,Wait,Value 9,2010-08-02T05:26:40.000000
+3870,Take in charge ticket,Value 9,2010-08-02T05:49:52.000000
+3870,Resolve ticket,Value 9,2010-08-02T05:50:14.000000
+3870,Closed,Value 5,2010-09-19T05:30:59.000000
+3871,Assign seriousness,Value 2,2011-06-09T11:53:06.000000
+3871,Take in charge ticket,Value 2,2011-06-09T11:53:18.000000
+3871,Resolve ticket,Value 2,2011-06-09T12:29:33.000000
+3871,Closed,Value 5,2011-07-27T12:00:57.000000
+3872,Assign seriousness,Value 1,2011-11-28T12:07:27.000000
+3872,Take in charge ticket,Value 6,2011-11-29T05:58:51.000000
+3872,Resolve ticket,Value 17,2011-12-28T13:37:26.000000
+3872,Closed,Value 5,2012-01-12T13:37:53.000000
+3873,Assign seriousness,Value 13,2012-12-28T14:19:35.000000
+3873,Take in charge ticket,Value 9,2013-01-24T10:47:45.000000
+3873,Wait,Value 9,2013-01-24T12:16:03.000000
+3873,Resolve ticket,Value 9,2013-01-24T12:25:44.000000
+3873,Closed,Value 3,2013-02-08T12:25:59.000000
+3874,Assign seriousness,Value 7,2010-11-10T14:56:35.000000
+3874,Take in charge ticket,Value 2,2010-11-15T07:21:25.000000
+3874,Resolve ticket,Value 2,2010-11-15T07:21:43.000000
+3874,Closed,Value 5,2010-12-26T15:00:38.000000
+3875,Assign seriousness,Value 9,2012-10-08T05:36:14.000000
+3875,Take in charge ticket,Value 2,2012-10-22T05:38:30.000000
+3875,Resolve ticket,Value 2,2012-10-24T03:58:44.000000
+3875,Closed,Value 3,2012-11-08T05:58:59.000000
+3877,Assign seriousness,Value 8,2011-01-05T14:52:01.000000
+3877,Take in charge ticket,Value 8,2011-01-05T14:53:04.000000
+3877,Resolve ticket,Value 8,2011-01-05T14:54:54.000000
+3877,Closed,Value 5,2011-02-18T15:00:37.000000
+3879,Assign seriousness,Value 8,2011-04-28T08:36:40.000000
+3879,Take in charge ticket,Value 13,2011-04-28T12:52:37.000000
+3879,Wait,Value 13,2011-05-02T05:30:19.000000
+3879,Take in charge ticket,Value 13,2011-05-09T10:21:55.000000
+3879,Resolve ticket,Value 13,2011-05-09T10:22:14.000000
+3879,Closed,Value 5,2011-06-09T13:02:44.000000
+3880,Assign seriousness,Value 1,2012-03-27T10:06:26.000000
+3880,Take in charge ticket,Value 13,2012-03-28T06:55:47.000000
+3880,Resolve ticket,Value 13,2012-04-03T12:05:03.000000
+3880,Closed,Value 5,2012-04-27T10:10:22.000000
+3881,Assign seriousness,Value 1,2011-12-01T14:47:08.000000
+3881,Take in charge ticket,Value 13,2011-12-02T14:29:46.000000
+3881,Wait,Value 13,2011-12-12T13:52:41.000000
+3881,Resolve ticket,Value 13,2011-12-14T13:52:02.000000
+3881,Closed,Value 5,2012-01-05T14:50:11.000000
+3882,Assign seriousness,Value 1,2012-06-21T12:51:10.000000
+3882,Resolve ticket,Value 1,2012-06-21T12:52:05.000000
+3882,Resolve ticket,Value 1,2012-06-21T12:52:16.000000
+3882,Closed,Value 5,2012-07-29T13:00:43.000000
+3883,Assign seriousness,Value 1,2011-09-22T06:15:12.000000
+3883,Take in charge ticket,Value 16,2011-09-26T04:29:21.000000
+3883,Resolve ticket,Value 16,2011-09-26T06:14:14.000000
+3883,Closed,Value 5,2011-11-20T08:20:35.000000
+3884,Assign seriousness,Value 13,2011-07-07T04:28:31.000000
+3884,Resolve ticket,Value 13,2011-07-07T06:10:50.000000
+3884,Closed,Value 5,2011-08-09T04:30:23.000000
+3885,Insert ticket,Value 5,2010-03-31T04:46:16.000000
+3885,Assign seriousness,Value 2,2010-03-31T06:18:40.000000
+3885,Take in charge ticket,Value 16,2010-03-31T07:51:30.000000
+3885,Resolve ticket,Value 16,2010-03-31T08:00:57.000000
+3885,Closed,Value 5,2010-05-08T04:50:37.000000
+3888,Assign seriousness,Value 13,2010-12-27T11:46:04.000000
+3888,Assign seriousness,Value 2,2011-01-21T12:31:53.000000
+3888,Take in charge ticket,Value 2,2011-01-21T12:32:04.000000
+3888,Resolve ticket,Value 9,2011-01-26T07:06:41.000000
+3888,Closed,Value 5,2011-02-10T07:06:54.000000
+3889,Assign seriousness,Value 9,2012-01-20T12:08:14.000000
+3889,Take in charge ticket,Value 9,2012-01-25T09:46:19.000000
+3889,Resolve ticket,Value 9,2012-03-02T08:40:59.000000
+3889,Closed,Value 5,2012-03-17T08:41:18.000000
+3890,Assign seriousness,Value 9,2010-10-07T12:56:55.000000
+3890,Take in charge ticket,Value 9,2010-10-07T12:57:26.000000
+3890,Resolve ticket,Value 9,2010-10-08T05:44:11.000000
+3890,Closed,Value 5,2010-11-20T15:00:35.000000
+3891,Assign seriousness,Value 7,2010-09-20T12:58:57.000000
+3891,Take in charge ticket,Value 14,2010-09-22T04:43:46.000000
+3891,Resolve ticket,Value 14,2010-09-22T04:44:01.000000
+3891,Closed,Value 5,2010-10-21T13:00:45.000000
+3892,Take in charge ticket,Value 1,2012-11-07T14:07:45.000000
+3892,Wait,Value 1,2012-11-13T06:31:55.000000
+3892,Take in charge ticket,Value 1,2012-11-13T08:26:24.000000
+3892,Wait,Value 1,2012-11-13T13:20:45.000000
+3892,Resolve ticket,Value 1,2012-11-28T06:50:30.000000
+3892,Closed,Value 3,2012-12-13T06:50:49.000000
+3893,Assign seriousness,Value 8,2011-04-19T06:07:12.000000
+3893,Take in charge ticket,Value 8,2011-04-19T06:07:42.000000
+3893,Resolve ticket,Value 6,2011-04-19T09:58:39.000000
+3893,Closed,Value 5,2011-06-10T06:10:28.000000
+3894,Assign seriousness,Value 8,2011-05-20T05:49:52.000000
+3894,Take in charge ticket,Value 9,2011-05-20T05:53:45.000000
+3894,Wait,Value 9,2011-05-20T09:32:08.000000
+3894,Take in charge ticket,Value 2,2011-05-30T10:20:30.000000
+3894,Resolve ticket,Value 2,2011-05-30T10:20:38.000000
+3894,Closed,Value 5,2011-06-22T06:30:25.000000
+3895,Assign seriousness,Value 8,2011-05-27T10:05:23.000000
+3895,Take in charge ticket,Value 8,2011-05-27T10:05:49.000000
+3895,Resolve ticket,Value 9,2011-05-30T07:10:26.000000
+3895,Closed,Value 5,2011-07-14T10:10:31.000000
+3896,Assign seriousness,Value 2,2010-01-29T08:14:43.000000
+3896,Take in charge ticket,Value 2,2010-01-29T08:14:56.000000
+3896,Resolve ticket,Value 2,2010-01-29T08:15:02.000000
+3896,Closed,Value 5,2010-03-03T08:20:47.000000
+3898,Insert ticket,Value 5,2010-03-29T09:50:18.000000
+3898,Assign seriousness,Value 2,2010-03-29T10:38:36.000000
+3898,Take in charge ticket,Value 16,2010-03-29T12:42:27.000000
+3898,Resolve ticket,Value 12,2010-03-29T13:29:55.000000
+3898,Closed,Value 5,2010-05-14T10:00:41.000000
+3899,Assign seriousness,Value 9,2012-04-04T06:39:57.000000
+3899,Take in charge ticket,Value 6,2012-04-04T09:39:31.000000
+3899,Resolve ticket,Value 6,2012-04-04T10:06:48.000000
+3899,Closed,Value 5,2012-06-02T06:40:36.000000
+3900,Assign seriousness,Value 6,2011-09-16T04:35:57.000000
+3900,Take in charge ticket,Value 6,2011-09-16T06:03:22.000000
+3900,Resolve ticket,Value 6,2011-09-16T06:20:11.000000
+3900,Closed,Value 5,2011-11-05T06:40:22.000000
+3901,Assign seriousness,Value 9,2011-07-08T11:17:10.000000
+3901,Assign seriousness,Value 2,2011-07-13T06:15:33.000000
+3901,Take in charge ticket,Value 7,2011-07-13T09:27:47.000000
+3901,Resolve ticket,Value 7,2011-07-13T09:29:32.000000
+3901,Closed,Value 5,2011-08-21T11:20:33.000000
+3902,Assign seriousness,Value 7,2010-09-20T09:59:33.000000
+3902,Take in charge ticket,Value 7,2010-09-20T11:03:37.000000
+3902,Resolve ticket,Value 7,2010-09-20T11:03:46.000000
+3902,Closed,Value 5,2010-11-03T12:00:30.000000
+3903,Assign seriousness,Value 18,2013-11-13T11:40:36.000000
+3903,Take in charge ticket,Value 20,2013-11-21T07:31:08.000000
+3903,Require upgrade,Value 2,2013-11-21T11:08:17.000000
+3903,Resolve ticket,Value 2,2013-12-18T06:31:51.000000
+3903,Resolve ticket,Value 2,2013-12-18T06:31:51.000000
+3903,Closed,Value 3,2014-01-02T06:32:07.000000
+3904,Assign seriousness,Value 1,2011-11-03T12:18:03.000000
+3904,Wait,Value 1,2011-11-04T13:30:03.000000
+3904,Resolve ticket,Value 1,2011-11-08T09:51:28.000000
+3904,Closed,Value 5,2011-12-23T08:50:25.000000
+3906,Assign seriousness,Value 7,2010-09-15T07:52:41.000000
+3906,Take in charge ticket,Value 2,2010-09-16T06:04:46.000000
+3906,Wait,Value 2,2010-09-16T06:06:45.000000
+3906,Take in charge ticket,Value 9,2010-09-16T07:57:45.000000
+3906,Resolve ticket,Value 9,2010-09-16T12:39:30.000000
+3906,Closed,Value 5,2010-10-31T12:50:48.000000
+3907,Assign seriousness,Value 1,2012-05-10T07:02:57.000000
+3907,Take in charge ticket,Value 1,2012-05-10T07:03:06.000000
+3907,Resolve ticket,Value 1,2012-05-10T07:18:16.000000
+3907,Closed,Value 5,2012-06-12T07:10:34.000000
+3908,Assign seriousness,Value 2,2011-06-16T10:11:20.000000
+3908,Take in charge ticket,Value 2,2011-06-16T10:11:33.000000
+3908,Resolve ticket,Value 2,2011-06-16T10:17:04.000000
+3908,Closed,Value 5,2011-07-19T10:20:38.000000
+3909,Assign seriousness,Value 13,2011-08-22T04:52:03.000000
+3909,Take in charge ticket,Value 13,2011-08-22T04:52:12.000000
+3909,Resolve ticket,Value 13,2011-08-23T06:19:56.000000
+3909,Closed,Value 5,2011-10-05T05:00:49.000000
+3910,Assign seriousness,Value 1,2011-10-12T06:02:12.000000
+3910,Take in charge ticket,Value 9,2011-10-14T09:44:09.000000
+3910,Wait,Value 9,2011-10-18T06:06:10.000000
+3910,Resolve ticket,Value 9,2011-10-27T05:41:26.000000
+3910,Closed,Value 5,2011-12-08T07:50:37.000000
+3911,Assign seriousness,Value 8,2011-05-25T12:56:19.000000
+3911,Take in charge ticket,Value 8,2011-05-25T12:56:45.000000
+3911,Wait,Value 6,2011-06-10T11:03:46.000000
+3911,Wait,Value 6,2011-06-10T11:03:47.000000
+3911,Take in charge ticket,Value 6,2011-06-10T11:04:09.000000
+3911,Wait,Value 9,2011-06-10T12:41:55.000000
+3911,Take in charge ticket,Value 9,2011-06-14T09:36:18.000000
+3911,Create SW anomaly,Value 9,2011-06-14T09:36:36.000000
+3911,Resolve ticket,Value 9,2011-06-14T12:07:39.000000
+3911,Closed,Value 5,2011-07-14T12:10:21.000000
+3912,Assign seriousness,Value 2,2010-11-30T15:09:16.000000
+3912,Take in charge ticket,Value 2,2010-12-06T06:08:44.000000
+3912,Resolve ticket,Value 2,2010-12-06T14:31:43.000000
+3912,Closed,Value 5,2011-01-01T15:00:34.000000
+3913,Assign seriousness,Value 14,2010-11-29T11:49:51.000000
+3913,Take in charge ticket,Value 2,2010-11-29T14:55:13.000000
+3913,Resolve ticket,Value 2,2010-11-30T12:09:23.000000
+3913,Closed,Value 5,2010-12-31T11:50:38.000000
+3914,Assign seriousness,Value 8,2011-04-19T11:08:37.000000
+3914,Take in charge ticket,Value 8,2011-04-19T12:00:39.000000
+3914,Resolve ticket,Value 8,2011-04-19T12:01:41.000000
+3914,Closed,Value 5,2011-06-04T11:10:25.000000
+3916,Assign seriousness,Value 8,2010-12-23T08:15:45.000000
+3916,Take in charge ticket,Value 7,2010-12-29T07:19:43.000000
+3916,Resolve ticket,Value 7,2010-12-29T07:21:03.000000
+3916,Closed,Value 5,2011-02-05T08:20:29.000000
+3918,Assign seriousness,Value 8,2011-01-05T13:46:10.000000
+3918,Take in charge ticket,Value 12,2011-01-13T14:39:32.000000
+3918,Resolve ticket,Value 12,2011-01-13T14:43:03.000000
+3918,Resolve ticket,Value 12,2011-01-13T14:43:03.000000
+3918,Closed,Value 5,2011-03-05T13:50:32.000000
+3920,Assign seriousness,Value 9,2012-02-15T07:14:20.000000
+3920,Resolve ticket,Value 9,2012-02-15T07:15:47.000000
+3920,Closed,Value 5,2012-03-24T07:20:32.000000
+3921,Assign seriousness,Value 1,2011-11-18T11:33:44.000000
+3921,Resolve ticket,Value 1,2011-11-18T12:35:55.000000
+3921,Wait,Value 1,2011-11-21T08:42:07.000000
+3921,Wait,Value 1,2011-11-21T08:42:08.000000
+3921,Resolve ticket,Value 6,2011-11-28T07:30:49.000000
+3921,Closed,Value 5,2012-01-01T11:40:38.000000
+3922,Assign seriousness,Value 8,2011-04-21T10:31:13.000000
+3922,Take in charge ticket,Value 8,2011-04-21T10:33:02.000000
+3922,Resolve ticket,Value 13,2011-04-26T11:22:32.000000
+3922,Closed,Value 5,2011-05-24T10:40:25.000000
+3923,Assign seriousness,Value 1,2012-05-23T04:56:57.000000
+3923,Take in charge ticket,Value 1,2012-05-23T04:57:05.000000
+3923,Resolve ticket,Value 1,2012-05-25T09:31:15.000000
+3923,Resolve ticket,Value 1,2012-05-25T09:31:15.000000
+3923,Closed,Value 5,2012-06-27T05:01:06.000000
+3924,Assign seriousness,Value 14,2013-05-03T11:30:03.000000
+3924,Assign seriousness,Value 2,2013-05-06T04:21:22.000000
+3924,Resolve ticket,Value 2,2013-05-21T04:07:07.000000
+3924,Closed,Value 3,2013-06-05T04:07:29.000000
+3925,Take in charge ticket,Value 13,2012-01-25T07:28:06.000000
+3925,Resolve ticket,Value 13,2012-01-25T11:57:09.000000
+3925,Closed,Value 5,2012-02-25T07:30:36.000000
+3926,Assign seriousness,Value 14,2013-05-17T09:17:46.000000
+3926,Resolve ticket,Value 14,2013-06-05T08:02:43.000000
+3926,Closed,Value 3,2013-06-20T08:03:02.000000
+3927,Assign seriousness,Value 4,2012-07-18T07:29:48.000000
+3927,Take in charge ticket,Value 4,2012-07-18T10:16:28.000000
+3927,Resolve ticket,Value 4,2012-07-18T10:17:22.000000
+3927,Closed,Value 5,2012-09-02T07:30:17.000000
+3928,Assign seriousness,Value 13,2011-09-12T05:26:28.000000
+3928,Take in charge ticket,Value 10,2011-09-12T06:11:47.000000
+3928,Resolve ticket,Value 10,2011-09-12T14:04:15.000000
+3928,Closed,Value 5,2011-10-20T05:30:08.000000
+3929,Assign seriousness,Value 1,2012-12-20T14:39:59.000000
+3929,Take in charge ticket,Value 1,2013-01-07T06:12:28.000000
+3929,Resolve ticket,Value 1,2013-01-07T09:22:37.000000
+3929,Closed,Value 3,2013-01-22T09:22:55.000000
+3930,Assign seriousness,Value 13,2011-07-06T07:04:33.000000
+3930,Resolve ticket,Value 13,2011-07-07T05:27:35.000000
+3930,Closed,Value 5,2011-08-06T07:10:22.000000
+3931,Assign seriousness,Value 4,2013-08-09T05:25:24.000000
+3931,Take in charge ticket,Value 2,2013-08-26T06:03:17.000000
+3931,Resolve ticket,Value 2,2013-08-26T06:50:05.000000
+3931,Closed,Value 3,2013-09-10T06:50:25.000000
+3932,Assign seriousness,Value 9,2012-02-10T13:14:48.000000
+3932,Take in charge ticket,Value 6,2012-02-13T06:08:00.000000
+3932,Take in charge ticket,Value 6,2012-02-17T06:40:51.000000
+3932,Take in charge ticket,Value 6,2012-02-17T06:40:51.000000
+3932,Resolve ticket,Value 16,2012-02-28T10:20:01.000000
+3932,Closed,Value 5,2012-03-14T10:20:15.000000
+3933,Assign seriousness,Value 2,2010-01-14T07:10:48.000000
+3933,Assign seriousness,Value 2,2010-01-14T07:11:02.000000
+3933,Take in charge ticket,Value 15,2010-01-20T07:15:20.000000
+3933,Resolve ticket,Value 15,2010-01-20T07:26:05.000000
+3933,Closed,Value 5,2010-03-06T07:26:32.000000
+3934,Assign seriousness,Value 1,2011-11-08T13:52:09.000000
+3934,Take in charge ticket,Value 1,2011-11-08T13:52:23.000000
+3934,Resolve ticket,Value 1,2011-11-08T14:20:00.000000
+3934,Closed,Value 5,2011-12-09T14:01:08.000000
+3935,Assign seriousness,Value 8,2011-01-21T12:01:30.000000
+3935,Take in charge ticket,Value 6,2011-01-24T07:36:07.000000
+3935,Resolve ticket,Value 6,2011-01-26T07:52:05.000000
+3935,Closed,Value 5,2011-03-06T12:11:02.000000
+3936,Assign seriousness,Value 1,2012-02-10T12:32:25.000000
+3936,Take in charge ticket,Value 2,2012-02-15T09:29:00.000000
+3936,Resolve ticket,Value 2,2012-02-15T12:22:40.000000
+3936,Closed,Value 5,2012-03-14T12:40:35.000000
+3937,Assign seriousness,Value 1,2012-06-08T09:10:27.000000
+3937,Take in charge ticket,Value 2,2012-06-15T12:19:48.000000
+3937,Resolve ticket,Value 2,2012-06-26T04:40:00.000000
+3937,Closed,Value 5,2012-07-11T09:20:47.000000
+3938,Assign seriousness,Value 8,2011-01-11T08:42:26.000000
+3938,Take in charge ticket,Value 2,2011-01-11T09:16:26.000000
+3938,Take in charge ticket,Value 2,2011-01-11T09:16:56.000000
+3938,Take in charge ticket,Value 2,2011-01-18T06:14:59.000000
+3938,Resolve ticket,Value 8,2011-01-21T13:23:44.000000
+3938,Closed,Value 5,2011-02-11T08:50:20.000000
+3939,Assign seriousness,Value 1,2013-11-04T12:55:31.000000
+3939,Take in charge ticket,Value 1,2013-11-04T12:55:52.000000
+3939,Resolve ticket,Value 1,2013-12-19T14:28:28.000000
+3940,Assign seriousness,Value 1,2012-03-29T10:55:12.000000
+3940,Take in charge ticket,Value 1,2012-03-29T10:55:42.000000
+3940,Wait,Value 2,2012-04-10T06:28:01.000000
+3940,Resolve ticket,Value 9,2012-04-20T10:23:29.000000
+3940,Closed,Value 5,2012-05-27T05:00:23.000000
+3942,Assign seriousness,Value 1,2012-07-18T12:08:39.000000
+3942,Take in charge ticket,Value 13,2012-07-18T12:10:24.000000
+3942,Resolve ticket,Value 13,2012-07-23T07:10:59.000000
+3942,Closed,Value 5,2012-09-02T12:10:47.000000
+3943,Assign seriousness,Value 13,2011-01-11T14:49:26.000000
+3943,Take in charge ticket,Value 2,2011-01-12T06:10:04.000000
+3943,Resolve ticket,Value 2,2011-01-13T11:42:11.000000
+3943,Closed,Value 5,2011-02-11T14:50:26.000000
+3944,Assign seriousness,Value 1,2011-10-05T07:15:43.000000
+3944,Take in charge ticket,Value 9,2011-10-07T09:38:54.000000
+3944,Resolve ticket,Value 9,2011-10-07T12:14:52.000000
+3944,Closed,Value 5,2011-11-20T09:27:14.000000
+3945,Assign seriousness,Value 19,2010-07-01T05:33:32.000000
+3945,Take in charge ticket,Value 2,2010-07-12T06:25:59.000000
+3945,Wait,Value 2,2010-07-14T11:04:12.000000
+3945,Take in charge ticket,Value 2,2010-07-21T05:23:02.000000
+3945,Resolve ticket,Value 2,2010-07-21T05:23:11.000000
+3945,Closed,Value 5,2010-08-05T05:23:24.000000
+3946,Assign seriousness,Value 1,2011-10-28T07:58:43.000000
+3946,Take in charge ticket,Value 9,2011-10-31T13:40:46.000000
+3946,Resolve ticket,Value 9,2011-11-04T06:38:52.000000
+3946,Closed,Value 5,2011-12-11T10:00:33.000000
+3948,Assign seriousness,Value 2,2012-01-09T11:27:05.000000
+3948,Take in charge ticket,Value 10,2012-01-20T16:28:06.000000
+3948,Resolve ticket,Value 10,2012-01-23T11:29:16.000000
+3948,Closed,Value 5,2012-02-09T11:30:46.000000
+3949,Assign seriousness,Value 1,2011-12-30T06:51:21.000000
+3949,Take in charge ticket,Value 1,2011-12-30T07:23:53.000000
+3949,Resolve ticket,Value 1,2011-12-30T07:24:52.000000
+3949,Closed,Value 5,2012-02-16T07:00:36.000000
+3950,Assign seriousness,Value 1,2012-06-20T04:58:24.000000
+3950,Take in charge ticket,Value 9,2012-06-20T12:13:24.000000
+3950,Wait,Value 9,2012-06-25T06:55:10.000000
+3950,Take in charge ticket,Value 1,2012-06-25T12:38:31.000000
+3950,Wait,Value 1,2012-06-25T12:38:56.000000
+3950,Resolve ticket,Value 1,2012-06-26T07:31:12.000000
+3950,Closed,Value 5,2012-07-24T05:40:16.000000
+3951,Assign seriousness,Value 1,2012-04-12T12:57:01.000000
+3951,Take in charge ticket,Value 6,2012-04-13T04:19:06.000000
+3951,Resolve ticket,Value 6,2012-04-13T04:54:34.000000
+3951,Closed,Value 5,2012-05-26T13:00:45.000000
+3952,Assign seriousness,Value 4,2012-05-21T12:31:36.000000
+3952,Take in charge ticket,Value 4,2012-05-21T12:31:58.000000
+3952,Resolve ticket,Value 4,2012-05-22T04:27:36.000000
+3952,Closed,Value 5,2012-06-28T12:41:08.000000
+3953,Assign seriousness,Value 1,2012-06-26T04:01:34.000000
+3953,Take in charge ticket,Value 9,2012-07-03T04:45:32.000000
+3953,Resolve ticket,Value 9,2012-07-03T05:04:59.000000
+3953,Closed,Value 5,2012-07-27T04:10:52.000000
+3954,Assign seriousness,Value 13,2012-10-18T10:36:34.000000
+3954,Take in charge ticket,Value 2,2012-10-19T06:32:46.000000
+3954,Wait,Value 1,2012-11-05T07:59:59.000000
+3954,Resolve ticket,Value 2,2012-11-09T09:04:54.000000
+3954,Closed,Value 3,2012-11-24T09:05:16.000000
+3955,Assign seriousness,Value 9,2012-03-14T08:48:38.000000
+3955,Take in charge ticket,Value 9,2012-03-14T08:50:36.000000
+3955,Resolve ticket,Value 9,2012-03-14T09:17:02.000000
+3955,Closed,Value 5,2012-04-29T06:51:34.000000
+3956,Assign seriousness,Value 14,2013-04-19T11:03:02.000000
+3956,Take in charge ticket,Value 2,2013-05-30T12:11:41.000000
+3956,Resolve ticket,Value 4,2013-05-31T10:36:30.000000
+3956,Closed,Value 3,2013-06-15T10:36:44.000000
+3957,Assign seriousness,Value 1,2012-05-11T09:07:38.000000
+3957,Take in charge ticket,Value 1,2012-05-11T09:08:40.000000
+3957,Resolve ticket,Value 13,2012-05-31T05:15:29.000000
+3957,Closed,Value 5,2012-06-30T05:16:01.000000
+3958,Assign seriousness,Value 14,2010-09-03T12:49:04.000000
+3958,Take in charge ticket,Value 14,2010-09-03T12:49:19.000000
+3958,Wait,Value 14,2010-09-03T12:50:08.000000
+3958,Take in charge ticket,Value 5,2010-09-13T07:58:22.000000
+3958,Wait,Value 5,2010-09-13T07:58:31.000000
+3958,Take in charge ticket,Value 14,2010-09-21T04:52:04.000000
+3958,Resolve ticket,Value 14,2010-09-21T04:52:18.000000
+3958,Closed,Value 5,2010-10-06T04:52:39.000000
+3959,Assign seriousness,Value 9,2012-01-17T09:12:49.000000
+3959,Take in charge ticket,Value 9,2012-01-17T09:13:09.000000
+3959,Take in charge ticket,Value 9,2012-02-08T12:55:58.000000
+3959,Resolve ticket,Value 9,2012-02-10T12:01:52.000000
+3959,Closed,Value 5,2012-02-25T12:02:07.000000
+3960,Assign seriousness,Value 18,2013-09-19T10:51:23.000000
+3960,Take in charge ticket,Value 2,2013-10-01T09:31:36.000000
+3960,Wait,Value 2,2013-10-07T04:18:35.000000
+3960,Resolve ticket,Value 2,2013-10-18T12:14:36.000000
+3960,Closed,Value 3,2013-11-02T14:14:57.000000
+3962,Insert ticket,Value 15,2011-07-13T06:48:50.000000
+3962,Assign seriousness,Value 15,2011-07-13T06:49:35.000000
+3962,Assign seriousness,Value 15,2011-07-13T06:49:39.000000
+3962,Take in charge ticket,Value 16,2011-07-13T06:52:31.000000
+3962,Resolve ticket,Value 16,2011-07-13T07:55:27.000000
+3962,Closed,Value 5,2011-08-13T06:50:28.000000
+3964,Assign seriousness,Value 13,2012-01-19T09:18:39.000000
+3964,Take in charge ticket,Value 1,2012-01-25T08:56:28.000000
+3964,Wait,Value 1,2012-01-30T07:22:53.000000
+3964,Take in charge ticket,Value 1,2012-01-30T11:58:02.000000
+3964,Wait,Value 1,2012-01-30T12:16:45.000000
+3964,Resolve ticket,Value 2,2012-02-13T07:00:09.000000
+3964,Closed,Value 5,2012-03-06T08:40:25.000000
+3965,Assign seriousness,Value 1,2011-09-16T06:12:06.000000
+3965,Take in charge ticket,Value 2,2011-09-21T04:13:14.000000
+3965,Resolve ticket,Value 1,2011-09-23T06:21:56.000000
+3965,Resolve ticket,Value 1,2011-09-23T06:22:14.000000
+3965,Closed,Value 5,2011-10-26T06:20:30.000000
+3965,Closed,Value 5,2011-10-26T06:20:30.000000
+3966,Assign seriousness,Value 8,2011-05-10T06:42:08.000000
+3966,Take in charge ticket,Value 8,2011-05-10T06:42:57.000000
+3966,Wait,Value 2,2011-05-12T05:49:06.000000
+3966,Take in charge ticket,Value 2,2011-06-03T09:53:14.000000
+3966,Resolve ticket,Value 2,2011-06-03T09:53:23.000000
+3966,Closed,Value 5,2011-07-02T11:00:21.000000
+3967,Assign seriousness,Value 1,2011-12-07T09:31:32.000000
+3967,Take in charge ticket,Value 13,2011-12-07T09:41:28.000000
+3967,Resolve ticket,Value 13,2011-12-07T15:02:54.000000
+3967,Closed,Value 5,2012-01-07T09:40:36.000000
+3968,Assign seriousness,Value 1,2012-04-10T07:47:37.000000
+3968,Take in charge ticket,Value 1,2012-04-10T07:47:47.000000
+3968,Resolve ticket,Value 1,2012-04-11T04:32:15.000000
+3968,Resolve ticket,Value 1,2012-04-11T04:32:15.000000
+3968,Closed,Value 5,2012-05-11T07:50:14.000000
+3969,Assign seriousness,Value 8,2011-02-18T13:52:46.000000
+3969,Take in charge ticket,Value 8,2011-02-18T13:54:04.000000
+3969,Resolve ticket,Value 13,2011-02-18T14:24:58.000000
+3969,Closed,Value 5,2011-04-03T12:02:01.000000
+3970,Assign seriousness,Value 1,2011-11-17T14:09:50.000000
+3970,Take in charge ticket,Value 10,2011-11-21T09:19:59.000000
+3970,Resolve ticket,Value 12,2011-11-29T07:47:42.000000
+3970,Closed,Value 5,2011-12-20T14:10:28.000000
+3971,Assign seriousness,Value 14,2010-11-26T08:23:53.000000
+3971,Take in charge ticket,Value 14,2010-11-26T08:24:22.000000
+3971,Wait,Value 14,2010-11-26T14:26:37.000000
+3971,Take in charge ticket,Value 14,2010-12-06T11:11:34.000000
+3971,Resolve ticket,Value 14,2010-12-06T11:11:45.000000
+3971,Closed,Value 5,2010-12-28T08:30:32.000000
+3973,Assign seriousness,Value 4,2013-03-06T12:38:46.000000
+3973,Take in charge ticket,Value 2,2013-03-21T11:38:08.000000
+3973,Wait,Value 9,2013-03-21T12:09:32.000000
+3973,Resolve ticket,Value 9,2013-03-22T10:01:57.000000
+3973,Closed,Value 3,2013-04-06T08:02:15.000000
+3974,Assign seriousness,Value 2,2012-02-14T08:21:51.000000
+3974,Take in charge ticket,Value 2,2012-02-14T08:22:10.000000
+3974,Resolve ticket,Value 2,2012-02-14T09:32:51.000000
+3974,Closed,Value 5,2012-03-16T08:30:16.000000
+3975,Assign seriousness,Value 2,2010-03-24T13:28:51.000000
+3975,Take in charge ticket,Value 2,2010-04-13T06:30:07.000000
+3975,Resolve ticket,Value 2,2010-04-13T06:30:12.000000
+3975,Closed,Value 5,2010-05-13T06:30:29.000000
+3976,Assign seriousness,Value 1,2011-12-28T11:21:10.000000
+3976,Resolve ticket,Value 1,2011-12-28T11:23:28.000000
+3976,Closed,Value 5,2012-01-28T11:30:15.000000
+3977,Assign seriousness,Value 9,2010-07-26T07:02:35.000000
+3977,Take in charge ticket,Value 9,2010-07-26T10:31:59.000000
+3977,Resolve ticket,Value 9,2010-07-26T10:32:11.000000
+3977,Closed,Value 5,2010-09-02T07:11:00.000000
+3978,Assign seriousness,Value 1,2012-07-20T07:19:26.000000
+3978,Take in charge ticket,Value 4,2012-07-26T12:34:07.000000
+3978,Resolve ticket,Value 4,2012-08-28T07:19:09.000000
+3978,Closed,Value 3,2012-09-12T07:19:25.000000
+3979,Take in charge ticket,Value 6,2012-01-03T07:33:43.000000
+3979,Wait,Value 6,2012-01-10T13:30:11.000000
+3979,Resolve ticket,Value 6,2012-01-10T15:07:40.000000
+3979,Closed,Value 5,2012-02-08T15:00:34.000000
+3981,Assign seriousness,Value 1,2012-11-14T12:33:17.000000
+3981,Take in charge ticket,Value 2,2012-11-15T11:33:28.000000
+3981,Take in charge ticket,Value 12,2012-11-15T11:33:59.000000
+3981,Wait,Value 12,2012-11-16T09:37:21.000000
+3981,Resolve ticket,Value 12,2012-12-14T12:20:49.000000
+3981,Closed,Value 3,2012-12-29T12:21:03.000000
+3982,Assign seriousness,Value 8,2011-02-25T14:54:09.000000
+3982,Take in charge ticket,Value 2,2011-02-28T09:00:58.000000
+3982,Resolve ticket,Value 2,2011-02-28T10:01:29.000000
+3982,Closed,Value 5,2011-04-01T13:00:29.000000
+3983,Assign seriousness,Value 1,2012-03-28T06:02:20.000000
+3983,Take in charge ticket,Value 4,2012-03-28T06:49:03.000000
+3983,Wait,Value 4,2012-03-30T04:52:33.000000
+3983,Resolve ticket,Value 4,2012-04-16T05:48:18.000000
+3983,Closed,Value 5,2012-05-02T07:01:40.000000
+3984,Assign seriousness,Value 1,2012-05-15T05:39:10.000000
+3984,Take in charge ticket,Value 1,2012-05-15T05:39:18.000000
+3984,Require upgrade,Value 1,2012-05-15T12:46:35.000000
+3984,Resolve ticket,Value 1,2012-06-01T09:07:34.000000
+3984,Closed,Value 5,2012-06-16T09:07:48.000000
+3985,Assign seriousness,Value 1,2011-11-10T07:20:49.000000
+3985,Take in charge ticket,Value 1,2011-11-10T07:21:08.000000
+3985,Resolve ticket,Value 2,2011-12-13T14:45:19.000000
+3985,Resolve ticket,Value 2,2011-12-13T14:45:20.000000
+3985,Closed,Value 5,2011-12-28T14:45:31.000000
+3986,Assign seriousness,Value 1,2011-10-07T05:30:01.000000
+3986,Take in charge ticket,Value 13,2011-10-07T11:08:34.000000
+3986,Resolve ticket,Value 2,2011-10-14T05:03:04.000000
+3986,Resolve ticket,Value 2,2011-10-14T05:03:04.000000
+3986,Closed,Value 5,2011-11-09T07:40:28.000000
+3987,Assign seriousness,Value 8,2011-06-30T12:05:37.000000
+3987,Assign seriousness,Value 8,2011-06-30T12:05:53.000000
+3987,Take in charge ticket,Value 13,2011-07-05T07:38:12.000000
+3987,Resolve ticket,Value 13,2011-07-05T09:14:52.000000
+3987,Closed,Value 5,2011-08-02T12:10:24.000000
+3988,Assign seriousness,Value 13,2012-06-15T11:58:32.000000
+3988,Take in charge ticket,Value 4,2012-06-15T12:35:08.000000
+3988,Resolve ticket,Value 4,2012-06-18T07:34:55.000000
+3988,Closed,Value 5,2012-07-18T12:00:37.000000
+3989,Assign seriousness,Value 1,2013-08-30T12:22:29.000000
+3989,Take in charge ticket,Value 2,2013-09-10T07:02:15.000000
+3989,Wait,Value 1,2013-09-17T04:29:12.000000
+3989,Take in charge ticket,Value 1,2013-09-26T05:09:19.000000
+3989,Require upgrade,Value 1,2013-09-30T07:41:33.000000
+3989,Resolve ticket,Value 1,2013-10-04T12:03:32.000000
+3989,Closed,Value 3,2013-10-19T12:03:53.000000
+3990,Assign seriousness,Value 8,2011-02-02T12:17:34.000000
+3990,Take in charge ticket,Value 8,2011-02-04T12:48:04.000000
+3990,Wait,Value 8,2011-02-08T12:55:03.000000
+3990,Take in charge ticket,Value 8,2011-02-17T07:18:28.000000
+3990,Resolve ticket,Value 8,2011-02-17T07:18:39.000000
+3990,Closed,Value 5,2011-03-31T04:40:56.000000
+3991,Assign seriousness,Value 16,2010-05-03T08:18:49.000000
+3991,Take in charge ticket,Value 16,2010-05-03T08:20:03.000000
+3991,Wait,Value 16,2010-05-03T08:29:31.000000
+3991,Take in charge ticket,Value 16,2010-05-03T09:15:04.000000
+3991,Resolve ticket,Value 16,2010-05-03T09:15:12.000000
+3991,Closed,Value 5,2010-06-16T08:00:37.000000
+3992,Assign seriousness,Value 8,2011-05-25T06:48:18.000000
+3992,Take in charge ticket,Value 8,2011-05-25T06:48:43.000000
+3992,Resolve ticket,Value 15,2011-05-30T12:04:34.000000
+3992,Closed,Value 5,2011-07-01T06:50:37.000000
+3993,Assign seriousness,Value 14,2013-08-02T11:10:16.000000
+3993,Take in charge ticket,Value 9,2013-08-16T06:17:37.000000
+3993,Wait,Value 9,2013-08-20T06:27:37.000000
+3993,Resolve ticket,Value 9,2013-09-12T06:58:26.000000
+3993,Closed,Value 3,2013-09-27T06:58:40.000000
+3994,Assign seriousness,Value 8,2011-05-24T05:27:52.000000
+3994,Take in charge ticket,Value 8,2011-05-24T05:28:14.000000
+3994,Wait,Value 9,2011-05-27T11:02:35.000000
+3994,Take in charge ticket,Value 2,2011-06-03T10:21:28.000000
+3994,Resolve ticket,Value 2,2011-06-03T10:21:36.000000
+3994,Closed,Value 5,2011-07-01T04:50:37.000000
+3995,Assign seriousness,Value 4,2012-07-23T11:02:04.000000
+3995,Take in charge ticket,Value 4,2012-07-23T12:04:26.000000
+3995,Resolve ticket,Value 4,2012-08-27T12:52:11.000000
+3995,Closed,Value 3,2012-09-11T12:52:24.000000
+3996,Assign seriousness,Value 8,2011-01-17T08:10:54.000000
+3996,Take in charge ticket,Value 2,2011-01-20T09:01:42.000000
+3996,Resolve ticket,Value 2,2011-02-28T07:40:39.000000
+3996,Closed,Value 5,2011-03-15T07:40:57.000000
+3997,Assign seriousness,Value 14,2013-10-10T12:46:50.000000
+3997,Assign seriousness,Value 9,2013-10-11T04:17:05.000000
+3997,Assign seriousness,Value 20,2013-10-17T04:07:11.000000
+3997,Take in charge ticket,Value 20,2013-10-17T04:07:18.000000
+3997,Wait,Value 20,2013-10-31T13:09:21.000000
+3997,Resolve ticket,Value 20,2013-11-13T13:54:10.000000
+3997,Closed,Value 3,2013-11-28T13:54:28.000000
+3998,Assign seriousness,Value 8,2011-04-13T11:43:16.000000
+3998,Take in charge ticket,Value 8,2011-04-13T11:44:19.000000
+3998,Resolve ticket,Value 2,2011-04-14T10:56:33.000000
+3998,Closed,Value 5,2011-06-11T11:52:37.000000
+4000,Assign seriousness,Value 1,2012-01-04T06:34:18.000000
+4000,Take in charge ticket,Value 1,2012-01-04T06:34:29.000000
+4000,Resolve ticket,Value 1,2012-01-04T07:17:14.000000
+4000,Closed,Value 5,2012-02-11T06:40:36.000000
+4001,Assign seriousness,Value 13,2012-09-20T11:10:58.000000
+4001,Assign seriousness,Value 13,2012-09-20T11:11:56.000000
+4001,Take in charge ticket,Value 2,2012-09-21T10:52:10.000000
+4001,Wait,Value 4,2012-09-27T04:37:43.000000
+4001,Resolve ticket,Value 4,2012-10-12T05:57:20.000000
+4001,Closed,Value 3,2012-10-27T05:57:32.000000
+4002,Assign seriousness,Value 1,2012-05-15T12:30:10.000000
+4002,Resolve ticket,Value 1,2012-05-16T04:06:18.000000
+4002,Closed,Value 5,2012-06-15T12:41:31.000000
+4003,Insert ticket,Value 12,2010-12-01T11:42:59.000000
+4003,Assign seriousness,Value 2,2010-12-02T12:07:33.000000
+4003,Take in charge ticket,Value 2,2010-12-02T12:07:41.000000
+4003,Resolve ticket,Value 2,2010-12-02T12:08:33.000000
+4003,Closed,Value 5,2011-01-01T12:08:51.000000
+4004,Assign seriousness,Value 1,2012-11-16T13:18:49.000000
+4004,Take in charge ticket,Value 2,2012-11-30T14:15:38.000000
+4004,Resolve ticket,Value 9,2012-12-03T06:53:51.000000
+4004,Closed,Value 3,2012-12-18T06:54:06.000000
+4005,Assign seriousness,Value 13,2011-08-31T11:09:49.000000
+4005,Take in charge ticket,Value 13,2011-09-01T11:52:37.000000
+4005,Resolve ticket,Value 15,2011-09-02T04:18:38.000000
+4005,Closed,Value 5,2011-10-01T11:10:35.000000
+4007,Assign seriousness,Value 4,2012-08-08T04:26:16.000000
+4007,Take in charge ticket,Value 4,2012-08-08T05:00:42.000000
+4007,Resolve ticket,Value 4,2012-08-09T10:29:31.000000
+4007,Closed,Value 5,2012-09-08T10:30:02.000000
+4009,Assign seriousness,Value 2,2011-07-01T07:24:56.000000
+4009,Assign seriousness,Value 13,2011-07-01T07:38:06.000000
+4009,Take in charge ticket,Value 13,2011-07-04T06:02:11.000000
+4009,Resolve ticket,Value 13,2011-07-04T07:43:18.000000
+4009,Closed,Value 5,2011-08-03T07:30:46.000000
+4010,Assign seriousness,Value 6,2011-09-26T09:50:47.000000
+4010,Take in charge ticket,Value 6,2011-09-26T09:51:45.000000
+4010,Resolve ticket,Value 6,2011-09-26T09:57:39.000000
+4010,Closed,Value 5,2011-11-09T12:01:25.000000
+4012,Assign seriousness,Value 1,2011-09-20T04:40:54.000000
+4012,Take in charge ticket,Value 9,2011-09-26T10:33:44.000000
+4012,Resolve ticket,Value 9,2011-09-27T12:12:04.000000
+4012,Closed,Value 5,2011-11-05T06:50:27.000000
+4013,Assign seriousness,Value 8,2011-03-24T12:41:51.000000
+4013,Take in charge ticket,Value 8,2011-03-24T12:42:08.000000
+4013,Resolve ticket,Value 8,2011-03-25T07:19:15.000000
+4013,Closed,Value 5,2011-04-28T10:50:37.000000
+4014,Assign seriousness,Value 2,2011-11-25T12:33:54.000000
+4014,Take in charge ticket,Value 2,2011-11-25T12:47:48.000000
+4014,Wait,Value 2,2011-11-29T12:47:35.000000
+4014,Resolve ticket,Value 2,2011-12-02T14:25:57.000000
+4014,Closed,Value 5,2012-01-07T14:20:26.000000
+4015,Assign seriousness,Value 9,2011-07-11T10:49:19.000000
+4015,Take in charge ticket,Value 11,2011-07-12T04:52:08.000000
+4015,Resolve ticket,Value 11,2011-07-12T05:16:03.000000
+4015,Closed,Value 5,2011-08-13T10:50:59.000000
+4016,Assign seriousness,Value 1,2012-04-12T12:45:56.000000
+4016,Take in charge ticket,Value 2,2012-04-16T04:07:02.000000
+4016,Wait,Value 2,2012-04-20T07:41:40.000000
+4016,Resolve ticket,Value 2,2012-05-14T11:53:25.000000
+4016,Closed,Value 5,2012-05-30T07:00:36.000000
+4018,Assign seriousness,Value 1,2011-12-22T14:48:48.000000
+4018,Take in charge ticket,Value 6,2011-12-27T06:30:02.000000
+4018,Resolve ticket,Value 17,2011-12-29T06:36:13.000000
+4018,Closed,Value 5,2012-02-04T14:50:24.000000
+4019,Assign seriousness,Value 13,2011-03-30T05:29:32.000000
+4019,Take in charge ticket,Value 13,2011-03-30T05:30:43.000000
+4019,Resolve ticket,Value 2,2011-03-30T10:13:43.000000
+4019,Closed,Value 5,2011-05-19T05:30:32.000000
+4021,Assign seriousness,Value 14,2013-10-29T06:36:22.000000
+4021,Take in charge ticket,Value 9,2013-10-29T13:18:49.000000
+4021,Wait,Value 9,2013-10-30T08:15:59.000000
+4021,Resolve ticket,Value 9,2013-11-18T14:31:08.000000
+4021,Closed,Value 3,2013-12-03T14:31:27.000000
+4022,Assign seriousness,Value 13,2012-07-25T12:40:43.000000
+4022,Take in charge ticket,Value 13,2012-07-27T07:55:05.000000
+4022,Resolve ticket,Value 13,2012-08-09T10:58:25.000000
+4022,Closed,Value 5,2012-09-08T10:58:51.000000
+4023,Assign seriousness,Value 1,2012-09-14T04:17:52.000000
+4023,Take in charge ticket,Value 1,2012-09-14T04:18:18.000000
+4023,Resolve ticket,Value 2,2012-10-02T11:25:04.000000
+4023,Resolve ticket,Value 2,2012-10-02T11:25:04.000000
+4023,Closed,Value 3,2012-10-17T11:25:18.000000
+4024,Assign seriousness,Value 8,2011-01-28T07:01:13.000000
+4024,Take in charge ticket,Value 2,2011-01-28T11:49:49.000000
+4024,Resolve ticket,Value 2,2011-01-31T06:58:40.000000
+4024,Closed,Value 5,2011-03-13T07:11:05.000000
+4025,Assign seriousness,Value 9,2012-04-03T10:08:32.000000
+4025,Take in charge ticket,Value 10,2012-04-03T10:45:33.000000
+4025,Resolve ticket,Value 10,2012-04-03T10:47:22.000000
+4025,Take in charge ticket,Value 10,2012-04-03T11:15:02.000000
+4025,Resolve ticket,Value 10,2012-04-03T13:07:28.000000
+4025,Closed,Value 5,2012-05-25T10:10:28.000000
+4026,Assign seriousness,Value 4,2012-01-16T08:53:01.000000
+4026,Take in charge ticket,Value 4,2012-01-16T08:59:51.000000
+4026,Resolve ticket,Value 4,2012-01-16T14:37:54.000000
+4026,Resolve ticket,Value 4,2012-01-16T14:37:55.000000
+4026,Closed,Value 5,2012-02-16T09:00:57.000000
+4027,Assign seriousness,Value 8,2011-03-03T07:50:46.000000
+4027,Take in charge ticket,Value 2,2011-03-22T07:19:41.000000
+4027,Resolve ticket,Value 2,2011-03-22T13:41:22.000000
+4027,Closed,Value 5,2011-04-21T11:41:42.000000
+4028,Assign seriousness,Value 13,2012-06-04T10:18:30.000000
+4028,Assign seriousness,Value 4,2012-06-04T10:30:53.000000
+4028,Take in charge ticket,Value 6,2012-06-05T03:58:08.000000
+4028,Resolve ticket,Value 6,2012-06-06T12:16:24.000000
+4028,Closed,Value 5,2012-07-18T10:21:22.000000
+4029,Assign seriousness,Value 13,2012-09-24T04:37:21.000000
+4029,Take in charge ticket,Value 13,2012-09-25T04:11:43.000000
+4029,Resolve ticket,Value 13,2012-10-26T07:32:20.000000
+4029,Closed,Value 3,2012-11-10T09:32:39.000000
+4030,Assign seriousness,Value 13,2012-09-04T12:47:56.000000
+4030,Take in charge ticket,Value 13,2012-09-05T06:53:57.000000
+4030,Create SW anomaly,Value 13,2012-09-05T07:07:42.000000
+4030,Require upgrade,Value 2,2012-10-18T05:33:48.000000
+4030,Resolve ticket,Value 13,2012-10-19T06:02:02.000000
+4030,Closed,Value 3,2012-11-03T08:02:21.000000
+4031,Assign seriousness,Value 14,2013-04-24T06:05:18.000000
+4031,Take in charge ticket,Value 2,2013-04-24T06:32:46.000000
+4031,Wait,Value 4,2013-05-08T09:45:32.000000
+4031,Resolve ticket,Value 4,2013-05-16T09:28:25.000000
+4031,Closed,Value 3,2013-05-31T09:28:42.000000
+4032,Assign seriousness,Value 9,2012-01-20T12:25:53.000000
+4032,Take in charge ticket,Value 9,2012-01-20T12:26:12.000000
+4032,Resolve ticket,Value 9,2012-02-01T13:22:25.000000
+4032,Closed,Value 5,2012-02-22T12:30:19.000000
+4033,Assign seriousness,Value 1,2012-12-18T12:44:59.000000
+4033,Take in charge ticket,Value 1,2013-01-03T06:34:01.000000
+4033,Require upgrade,Value 1,2013-01-03T06:37:43.000000
+4033,Resolve ticket,Value 1,2013-01-14T12:38:27.000000
+4033,Closed,Value 3,2013-01-29T12:38:44.000000
+4034,Assign seriousness,Value 14,2013-08-26T12:23:16.000000
+4034,Take in charge ticket,Value 2,2013-08-27T04:07:04.000000
+4034,Resolve ticket,Value 4,2013-09-12T10:45:07.000000
+4034,Closed,Value 3,2013-09-27T10:45:20.000000
+4036,Assign seriousness,Value 9,2010-09-24T07:47:17.000000
+4036,Take in charge ticket,Value 2,2010-09-24T12:16:20.000000
+4036,Wait,Value 2,2010-09-27T10:41:58.000000
+4036,Wait,Value 2,2010-09-28T05:49:02.000000
+4036,Take in charge ticket,Value 2,2010-10-04T05:49:45.000000
+4036,Resolve ticket,Value 2,2010-10-04T05:50:02.000000
+4036,Closed,Value 5,2010-11-18T07:50:29.000000
+4037,Assign seriousness,Value 4,2012-06-13T10:55:36.000000
+4037,Take in charge ticket,Value 4,2012-06-14T04:07:06.000000
+4037,Wait,Value 10,2012-06-15T04:16:27.000000
+4037,Resolve ticket,Value 10,2012-07-02T06:41:04.000000
+4037,Closed,Value 5,2012-07-18T04:30:21.000000
+4039,Assign seriousness,Value 1,2012-04-20T10:48:18.000000
+4039,Take in charge ticket,Value 13,2012-04-27T07:48:24.000000
+4039,Resolve ticket,Value 13,2012-05-03T07:11:09.000000
+4039,Closed,Value 5,2012-05-23T10:50:20.000000
+4040,Assign seriousness,Value 1,2011-10-06T07:16:56.000000
+4040,Take in charge ticket,Value 13,2011-10-11T10:11:42.000000
+4040,Wait,Value 9,2011-10-13T11:29:37.000000
+4040,Resolve ticket,Value 9,2011-10-17T12:21:14.000000
+4040,Closed,Value 5,2011-11-10T11:20:25.000000
+4041,Assign seriousness,Value 8,2011-03-30T07:44:58.000000
+4041,Take in charge ticket,Value 8,2011-03-30T07:45:26.000000
+4041,Resolve ticket,Value 8,2011-04-04T05:35:45.000000
+4041,Closed,Value 5,2011-05-06T07:50:29.000000
+4044,Assign seriousness,Value 13,2011-09-01T11:32:33.000000
+4044,Take in charge ticket,Value 10,2011-09-05T07:32:40.000000
+4044,Wait,Value 10,2011-09-05T09:35:10.000000
+4044,Resolve ticket,Value 2,2011-09-15T07:43:36.000000
+4044,Closed,Value 5,2011-10-21T10:50:36.000000
+4045,Assign seriousness,Value 8,2011-03-01T13:22:55.000000
+4045,Take in charge ticket,Value 8,2011-03-01T13:23:19.000000
+4045,Take in charge ticket,Value 8,2011-03-01T13:23:50.000000
+4045,Wait,Value 2,2011-03-09T13:28:22.000000
+4045,Take in charge ticket,Value 9,2011-03-18T08:57:44.000000
+4045,Resolve ticket,Value 9,2011-03-18T08:58:27.000000
+4045,Closed,Value 5,2011-04-12T07:02:18.000000
+4046,Assign seriousness,Value 8,2011-03-25T15:11:16.000000
+4046,Take in charge ticket,Value 8,2011-03-25T15:11:53.000000
+4046,Resolve ticket,Value 2,2011-04-05T10:04:16.000000
+4046,Take in charge ticket,Value 2,2011-04-22T05:10:57.000000
+4046,Resolve ticket,Value 2,2011-04-22T06:11:36.000000
+4046,Closed,Value 5,2011-05-07T06:11:55.000000
+4047,Assign seriousness,Value 1,2012-06-08T05:31:56.000000
+4047,Take in charge ticket,Value 1,2012-06-08T05:32:05.000000
+4047,Resolve ticket,Value 1,2012-06-08T05:40:26.000000
+4047,Closed,Value 5,2012-07-26T05:40:43.000000
+4048,Assign seriousness,Value 13,2012-07-26T12:18:26.000000
+4048,Take in charge ticket,Value 13,2012-07-26T12:18:35.000000
+4048,Resolve ticket,Value 13,2012-07-27T07:46:28.000000
+4048,Closed,Value 5,2012-09-12T12:20:55.000000
+4050,Assign seriousness,Value 1,2012-01-09T08:49:13.000000
+4050,Take in charge ticket,Value 4,2012-01-10T06:42:03.000000
+4050,Resolve ticket,Value 2,2012-01-10T12:59:48.000000
+4050,Closed,Value 5,2012-03-01T08:50:31.000000
+4051,Assign seriousness,Value 4,2011-12-02T07:52:07.000000
+4051,Take in charge ticket,Value 9,2011-12-05T06:15:04.000000
+4051,Wait,Value 9,2011-12-05T06:32:43.000000
+4051,Resolve ticket,Value 9,2011-12-12T07:34:29.000000
+4051,Closed,Value 5,2012-01-04T08:00:58.000000
+4053,Assign seriousness,Value 1,2011-12-20T12:30:10.000000
+4053,Take in charge ticket,Value 13,2011-12-22T12:41:31.000000
+4053,Resolve ticket,Value 13,2012-01-03T07:17:57.000000
+4053,Closed,Value 5,2012-02-02T07:18:26.000000
+4054,Assign seriousness,Value 14,2013-06-19T05:14:16.000000
+4054,Assign seriousness,Value 14,2013-06-19T05:14:40.000000
+4054,Take in charge ticket,Value 16,2013-07-01T05:55:12.000000
+4054,Wait,Value 16,2013-07-01T11:51:10.000000
+4054,Wait,Value 12,2013-08-01T12:37:21.000000
+4055,Assign seriousness,Value 1,2012-03-05T06:10:32.000000
+4055,Take in charge ticket,Value 13,2012-03-06T14:54:43.000000
+4055,Wait,Value 13,2012-03-08T12:18:54.000000
+4055,Resolve ticket,Value 13,2012-03-20T08:54:02.000000
+4055,Closed,Value 5,2012-04-14T11:00:12.000000
+4056,Assign seriousness,Value 2,2013-02-20T08:04:37.000000
+4056,Wait,Value 2,2013-02-20T08:06:32.000000
+4056,Assign seriousness,Value 1,2013-02-21T06:18:56.000000
+4056,Assign seriousness,Value 1,2013-02-21T06:19:02.000000
+4056,Take in charge ticket,Value 2,2013-03-26T08:27:20.000000
+4056,Resolve ticket,Value 9,2013-03-26T12:39:50.000000
+4056,Closed,Value 3,2013-04-10T10:40:13.000000
+4057,Assign seriousness,Value 1,2012-06-20T04:49:20.000000
+4057,Take in charge ticket,Value 1,2012-06-20T04:49:37.000000
+4057,Resolve ticket,Value 1,2012-06-26T05:43:45.000000
+4057,Closed,Value 5,2012-08-05T04:50:42.000000
+4058,Assign seriousness,Value 1,2013-02-12T12:11:11.000000
+4058,Wait,Value 1,2013-02-14T09:42:21.000000
+4058,Wait,Value 9,2013-03-29T06:04:45.000000
+4058,Resolve ticket,Value 9,2013-03-29T07:02:44.000000
+4058,Closed,Value 3,2013-04-13T05:02:57.000000
+4059,Assign seriousness,Value 2,2010-10-14T10:53:13.000000
+4059,Take in charge ticket,Value 14,2010-10-15T10:02:36.000000
+4059,Wait,Value 12,2010-10-28T12:12:55.000000
+4059,Wait,Value 12,2010-10-28T12:12:55.000000
+4059,Take in charge ticket,Value 12,2010-10-29T10:42:01.000000
+4059,Resolve ticket,Value 2,2010-11-04T06:48:12.000000
+4059,Closed,Value 5,2010-12-04T06:48:57.000000
+4060,Assign seriousness,Value 14,2013-07-11T13:07:01.000000
+4060,Take in charge ticket,Value 2,2013-07-30T04:19:58.000000
+4060,Wait,Value 2,2013-07-30T07:34:53.000000
+4060,Wait,Value 2,2013-07-31T07:41:23.000000
+4060,Wait,Value 9,2013-08-14T09:22:27.000000
+4060,Resolve ticket,Value 9,2013-08-14T10:33:56.000000
+4060,Closed,Value 3,2013-08-29T10:34:15.000000
+4061,Assign seriousness,Value 1,2011-12-05T14:00:57.000000
+4061,Take in charge ticket,Value 1,2011-12-06T06:17:04.000000
+4061,Resolve ticket,Value 1,2011-12-12T12:49:16.000000
+4061,Closed,Value 5,2012-01-05T14:10:21.000000
+4063,Assign seriousness,Value 1,2012-07-31T11:33:16.000000
+4063,Take in charge ticket,Value 13,2012-07-31T12:24:46.000000
+4063,Resolve ticket,Value 13,2012-08-07T12:52:51.000000
+4063,Closed,Value 5,2012-09-06T12:53:18.000000
+4065,Assign seriousness,Value 1,2011-12-07T09:06:05.000000
+4065,Take in charge ticket,Value 4,2011-12-09T08:32:22.000000
+4065,Resolve ticket,Value 1,2011-12-13T12:22:01.000000
+4065,Closed,Value 5,2012-01-14T09:10:25.000000
+4066,Assign seriousness,Value 13,2011-04-14T10:47:16.000000
+4066,Take in charge ticket,Value 6,2011-04-14T13:11:57.000000
+4066,Resolve ticket,Value 6,2011-04-15T13:10:51.000000
+4066,Closed,Value 5,2011-05-17T10:50:40.000000
+4067,Assign seriousness,Value 1,2012-06-01T07:32:53.000000
+4067,Take in charge ticket,Value 1,2012-06-01T07:33:15.000000
+4067,Wait,Value 1,2012-06-01T09:43:57.000000
+4067,Resolve ticket,Value 1,2012-06-26T07:29:03.000000
+4067,Closed,Value 5,2012-07-19T06:20:33.000000
+4069,Assign seriousness,Value 8,2011-05-18T09:24:34.000000
+4069,Take in charge ticket,Value 8,2011-05-18T09:24:56.000000
+4069,Resolve ticket,Value 13,2011-05-19T07:51:17.000000
+4069,Closed,Value 5,2011-06-25T09:32:01.000000
+4070,Assign seriousness,Value 1,2013-11-07T06:20:59.000000
+4070,Take in charge ticket,Value 2,2013-11-29T07:10:50.000000
+4070,Resolve ticket,Value 2,2013-12-02T14:14:22.000000
+4070,Closed,Value 3,2013-12-17T14:14:40.000000
+4071,Assign seriousness,Value 7,2010-09-03T06:30:10.000000
+4071,Take in charge ticket,Value 16,2010-09-08T06:23:34.000000
+4071,Resolve ticket,Value 16,2010-09-08T06:24:25.000000
+4071,Closed,Value 5,2010-10-06T06:40:39.000000
+4072,Assign seriousness,Value 1,2012-05-15T04:08:40.000000
+4072,Take in charge ticket,Value 2,2012-05-15T05:01:25.000000
+4072,Resolve ticket,Value 2,2012-05-15T05:29:12.000000
+4072,Closed,Value 5,2012-06-15T04:10:59.000000
+4073,Assign seriousness,Value 1,2011-09-26T12:22:22.000000
+4073,Take in charge ticket,Value 2,2011-09-26T12:55:24.000000
+4073,Resolve ticket,Value 2,2011-09-27T07:16:11.000000
+4073,Closed,Value 5,2011-11-09T14:30:22.000000
+4074,Assign seriousness,Value 1,2011-12-01T13:29:00.000000
+4074,Take in charge ticket,Value 6,2011-12-01T13:50:17.000000
+4074,Resolve ticket,Value 6,2011-12-05T06:10:24.000000
+4074,Closed,Value 5,2012-01-15T00:02:25.000000
+4075,Assign seriousness,Value 1,2012-01-11T08:42:25.000000
+4075,Take in charge ticket,Value 1,2012-01-11T12:15:21.000000
+4075,Resolve ticket,Value 1,2012-01-11T12:21:45.000000
+4075,Closed,Value 5,2012-02-11T08:51:03.000000
+4076,Assign seriousness,Value 1,2012-02-29T11:58:38.000000
+4076,Take in charge ticket,Value 4,2012-02-29T13:33:17.000000
+4076,Resolve ticket,Value 4,2012-02-29T13:50:29.000000
+4076,Closed,Value 5,2012-04-07T10:00:29.000000
+4077,Assign seriousness,Value 4,2011-12-02T07:59:10.000000
+4077,Take in charge ticket,Value 2,2011-12-02T08:52:24.000000
+4077,Resolve ticket,Value 2,2011-12-02T09:23:36.000000
+4077,Closed,Value 5,2012-01-04T08:00:46.000000
+4079,Assign seriousness,Value 8,2011-05-16T05:10:57.000000
+4079,Take in charge ticket,Value 2,2011-05-20T07:35:25.000000
+4079,Wait,Value 12,2011-05-20T07:47:49.000000
+4079,Resolve ticket,Value 12,2011-05-24T06:29:19.000000
+4079,Closed,Value 5,2011-06-17T13:00:21.000000
+4080,Assign seriousness,Value 4,2012-02-15T07:15:32.000000
+4080,Take in charge ticket,Value 4,2012-02-15T09:48:09.000000
+4080,Resolve ticket,Value 2,2012-02-29T09:19:14.000000
+4080,Closed,Value 5,2012-03-17T07:20:49.000000
+4081,Assign seriousness,Value 4,2011-10-26T12:51:42.000000
+4081,Take in charge ticket,Value 9,2011-10-31T13:19:03.000000
+4081,Wait,Value 9,2011-11-07T06:44:52.000000
+4081,Resolve ticket,Value 9,2011-11-21T06:21:23.000000
+4081,Closed,Value 5,2011-12-06T06:21:36.000000
+4082,Assign seriousness,Value 9,2011-08-26T04:17:43.000000
+4082,Resolve ticket,Value 9,2011-08-26T04:26:10.000000
+4082,Closed,Value 5,2011-09-28T04:20:19.000000
+4083,Assign seriousness,Value 1,2012-07-18T07:53:53.000000
+4083,Take in charge ticket,Value 6,2012-07-18T12:54:24.000000
+4083,Wait,Value 6,2012-07-25T04:59:53.000000
+4083,Resolve ticket,Value 13,2012-08-02T13:07:16.000000
+4083,Closed,Value 5,2012-09-01T13:07:36.000000
+4084,Assign seriousness,Value 9,2012-06-04T07:55:16.000000
+4084,Take in charge ticket,Value 9,2012-06-04T07:55:37.000000
+4084,Resolve ticket,Value 2,2012-06-05T04:36:27.000000
+4084,Closed,Value 5,2012-07-07T08:00:36.000000
+4085,Assign seriousness,Value 1,2013-02-21T09:41:39.000000
+4085,Take in charge ticket,Value 2,2013-03-11T06:11:39.000000
+4085,Wait,Value 9,2013-03-11T08:03:58.000000
+4085,Resolve ticket,Value 9,2013-03-13T08:59:16.000000
+4085,Closed,Value 3,2013-03-28T08:59:33.000000
+4086,Assign seriousness,Value 2,2013-02-14T13:55:56.000000
+4086,Resolve ticket,Value 1,2013-03-18T13:57:40.000000
+4086,Closed,Value 3,2013-04-02T11:58:00.000000
+4087,Assign seriousness,Value 9,2010-12-15T12:49:07.000000
+4087,Take in charge ticket,Value 14,2010-12-17T08:42:59.000000
+4087,Resolve ticket,Value 14,2010-12-30T11:37:37.000000
+4087,Closed,Value 5,2011-01-29T11:37:57.000000
+4090,Assign seriousness,Value 14,2013-10-22T06:26:52.000000
+4090,Take in charge ticket,Value 2,2013-10-25T11:34:04.000000
+4090,Take in charge ticket,Value 2,2013-11-05T06:01:40.000000
+4090,Resolve ticket,Value 2,2013-11-28T09:45:37.000000
+4090,Closed,Value 3,2013-12-13T09:45:53.000000
+4091,Assign seriousness,Value 14,2013-10-03T08:05:24.000000
+4091,Take in charge ticket,Value 18,2013-10-08T04:16:56.000000
+4091,Wait,Value 18,2013-10-11T06:21:47.000000
+4091,Resolve ticket,Value 18,2013-10-31T06:26:16.000000
+4091,Closed,Value 3,2013-11-15T06:26:35.000000
+4092,Assign seriousness,Value 2,2012-01-30T09:32:58.000000
+4092,Resolve ticket,Value 2,2012-01-30T09:33:23.000000
+4092,Closed,Value 5,2012-03-14T09:40:25.000000
+4093,Assign seriousness,Value 2,2010-04-28T12:50:51.000000
+4093,Take in charge ticket,Value 10,2010-05-06T04:29:22.000000
+4093,Resolve ticket,Value 10,2010-05-20T04:50:14.000000
+4093,Closed,Value 5,2010-06-04T04:50:32.000000
+4094,Assign seriousness,Value 1,2012-05-31T11:44:00.000000
+4094,Take in charge ticket,Value 6,2012-05-31T13:25:59.000000
+4094,Resolve ticket,Value 17,2012-06-01T07:40:39.000000
+4094,Closed,Value 5,2012-07-14T11:50:25.000000
+4095,Assign seriousness,Value 9,2010-12-14T14:44:33.000000
+4095,Take in charge ticket,Value 2,2010-12-17T09:20:18.000000
+4095,Resolve ticket,Value 2,2010-12-21T07:11:52.000000
+4095,Closed,Value 5,2011-02-11T14:50:36.000000
+4096,Assign seriousness,Value 8,2011-05-18T04:07:11.000000
+4096,Take in charge ticket,Value 12,2011-05-18T12:17:52.000000
+4096,Resolve ticket,Value 12,2011-05-19T10:13:15.000000
+4096,Closed,Value 5,2011-06-24T11:49:49.000000
+4097,Assign seriousness,Value 8,2011-06-09T07:42:40.000000
+4097,Take in charge ticket,Value 8,2011-06-09T09:48:08.000000
+4097,Resolve ticket,Value 12,2011-06-17T05:50:28.000000
+4097,Closed,Value 5,2011-07-12T07:51:04.000000
+4098,Assign seriousness,Value 1,2012-07-16T04:02:05.000000
+4098,Take in charge ticket,Value 1,2012-07-16T04:02:21.000000
+4098,Wait,Value 1,2012-07-17T10:16:36.000000
+4098,Resolve ticket,Value 1,2012-07-18T12:44:22.000000
+4098,Closed,Value 5,2012-09-01T06:40:21.000000
+4099,Assign seriousness,Value 2,2012-12-21T09:19:13.000000
+4099,Take in charge ticket,Value 4,2013-01-02T11:34:46.000000
+4099,Wait,Value 1,2013-01-07T09:29:05.000000
+4099,Take in charge ticket,Value 1,2013-01-07T11:15:40.000000
+4099,Wait,Value 1,2013-01-07T14:40:47.000000
+4099,Resolve ticket,Value 1,2013-01-08T07:01:01.000000
+4099,Closed,Value 3,2013-01-23T07:01:16.000000
+4100,Assign seriousness,Value 9,2011-07-29T07:45:34.000000
+4100,Take in charge ticket,Value 9,2011-07-29T09:29:41.000000
+4100,Resolve ticket,Value 10,2011-07-29T10:12:05.000000
+4100,Closed,Value 5,2011-09-22T07:50:19.000000
+4101,Assign seriousness,Value 13,2011-08-23T04:55:39.000000
+4101,Take in charge ticket,Value 13,2011-08-23T04:55:46.000000
+4101,Resolve ticket,Value 13,2011-08-24T12:44:28.000000
+4101,Closed,Value 5,2011-10-10T05:00:42.000000
+4104,Assign seriousness,Value 1,2012-05-29T10:05:16.000000
+4104,Take in charge ticket,Value 1,2012-05-29T10:37:40.000000
+4104,Resolve ticket,Value 1,2012-05-29T12:20:39.000000
+4104,Closed,Value 5,2012-07-06T10:10:44.000000
+4105,Assign seriousness,Value 8,2011-05-10T07:41:18.000000
+4105,Take in charge ticket,Value 13,2011-05-11T10:53:50.000000
+4105,Wait,Value 13,2011-06-09T06:37:51.000000
+4105,Take in charge ticket,Value 13,2011-06-21T06:41:50.000000
+4105,Resolve ticket,Value 13,2011-06-21T06:45:58.000000
+4105,Closed,Value 5,2011-07-06T06:46:19.000000
+4107,Assign seriousness,Value 1,2012-07-30T04:06:46.000000
+4107,Take in charge ticket,Value 1,2012-07-30T04:07:07.000000
+4107,Wait,Value 1,2012-07-30T05:48:00.000000
+4107,Resolve ticket,Value 4,2012-07-31T07:05:46.000000
+4107,Closed,Value 5,2012-09-02T05:30:17.000000
+4108,Take in charge ticket,Value 4,2011-12-14T07:47:44.000000
+4108,Resolve ticket,Value 4,2011-12-14T07:48:59.000000
+4108,Closed,Value 5,2012-02-02T07:50:48.000000
+4109,Assign seriousness,Value 14,2013-11-14T14:54:23.000000
+4109,Take in charge ticket,Value 18,2013-11-28T14:03:26.000000
+4109,Wait,Value 18,2013-11-29T08:07:27.000000
+4109,Resolve ticket,Value 18,2013-12-10T13:43:41.000000
+4109,Closed,Value 3,2013-12-25T13:43:56.000000
+4110,Assign seriousness,Value 14,2010-12-01T14:39:51.000000
+4110,Take in charge ticket,Value 6,2010-12-02T15:41:33.000000
+4110,Resolve ticket,Value 6,2010-12-02T15:44:15.000000
+4110,Resolve ticket,Value 6,2010-12-02T15:44:15.000000
+4110,Closed,Value 5,2011-01-15T14:40:37.000000
+4111,Assign seriousness,Value 8,2011-04-29T07:42:14.000000
+4111,Take in charge ticket,Value 8,2011-04-29T07:42:26.000000
+4111,Take in charge ticket,Value 8,2011-04-29T09:55:58.000000
+4111,Resolve ticket,Value 10,2011-05-17T04:14:04.000000
+4111,Closed,Value 5,2011-06-01T04:14:17.000000
+4112,Assign seriousness,Value 13,2011-09-22T05:10:27.000000
+4112,Resolve ticket,Value 13,2011-09-26T04:42:40.000000
+4112,Closed,Value 5,2011-10-25T05:20:28.000000
+4113,Assign seriousness,Value 13,2011-02-15T11:52:41.000000
+4113,Take in charge ticket,Value 13,2011-02-15T11:52:52.000000
+4113,Resolve ticket,Value 13,2011-02-15T11:53:29.000000
+4113,Closed,Value 5,2011-04-02T11:15:17.000000
+4115,Assign seriousness,Value 8,2011-04-19T07:22:36.000000
+4115,Take in charge ticket,Value 8,2011-04-19T07:22:53.000000
+4115,Resolve ticket,Value 8,2011-04-22T05:04:16.000000
+4115,Closed,Value 5,2011-06-04T07:30:31.000000
+4117,Assign seriousness,Value 9,2010-12-10T06:15:43.000000
+4117,Take in charge ticket,Value 6,2010-12-13T06:25:39.000000
+4117,Resolve ticket,Value 6,2010-12-14T08:40:45.000000
+4117,Take in charge ticket,Value 6,2010-12-15T14:41:37.000000
+4117,Wait,Value 16,2010-12-16T08:49:48.000000
+4117,Take in charge ticket,Value 6,2011-01-04T14:04:05.000000
+4117,Resolve ticket,Value 6,2011-01-04T14:35:10.000000
+4117,Closed,Value 5,2011-01-19T14:35:23.000000
+4118,Assign seriousness,Value 1,2012-06-05T12:26:52.000000
+4118,Take in charge ticket,Value 2,2012-06-06T04:01:41.000000
+4118,Resolve ticket,Value 2,2012-06-07T11:54:06.000000
+4118,Closed,Value 5,2012-07-06T12:30:23.000000
+4119,Assign seriousness,Value 8,2011-03-10T08:32:42.000000
+4119,Take in charge ticket,Value 8,2011-03-10T08:33:29.000000
+4119,Wait,Value 9,2011-03-10T09:16:12.000000
+4119,Take in charge ticket,Value 9,2011-03-14T06:25:15.000000
+4119,Wait,Value 9,2011-03-18T11:47:25.000000
+4119,Take in charge ticket,Value 9,2011-03-25T12:51:06.000000
+4119,Resolve ticket,Value 9,2011-03-25T12:51:20.000000
+4119,Closed,Value 5,2011-04-21T05:00:42.000000
+4122,Assign seriousness,Value 2,2010-04-01T06:36:02.000000
+4122,Take in charge ticket,Value 2,2010-04-29T05:55:35.000000
+4122,Wait,Value 2,2010-04-29T06:38:26.000000
+4122,Take in charge ticket,Value 2,2010-04-29T10:39:58.000000
+4122,Resolve ticket,Value 2,2010-04-29T11:26:41.000000
+4122,Closed,Value 5,2010-05-14T11:26:52.000000
+4124,Assign seriousness,Value 1,2012-07-20T07:02:52.000000
+4124,Take in charge ticket,Value 13,2012-07-23T04:24:50.000000
+4124,Resolve ticket,Value 13,2012-07-24T12:24:35.000000
+4124,Closed,Value 5,2012-09-06T07:12:38.000000
+4125,Assign seriousness,Value 1,2012-03-28T09:28:37.000000
+4125,Take in charge ticket,Value 1,2012-03-28T09:28:47.000000
+4125,Resolve ticket,Value 1,2012-03-28T12:32:57.000000
+4125,Resolve ticket,Value 1,2012-03-28T12:32:57.000000
+4125,Closed,Value 5,2012-04-28T09:30:17.000000
+4126,Assign seriousness,Value 9,2010-12-14T09:45:17.000000
+4126,Take in charge ticket,Value 6,2010-12-15T14:15:20.000000
+4126,Resolve ticket,Value 6,2010-12-15T14:33:13.000000
+4126,Closed,Value 5,2011-01-27T09:50:51.000000
+4128,Take in charge ticket,Value 13,2012-01-23T06:40:34.000000
+4128,Resolve ticket,Value 9,2012-01-31T15:03:03.000000
+4128,Closed,Value 5,2012-02-23T06:50:25.000000
+4129,Assign seriousness,Value 9,2013-10-31T07:25:26.000000
+4129,Take in charge ticket,Value 18,2013-12-11T09:18:01.000000
+4129,Resolve ticket,Value 18,2013-12-11T12:48:08.000000
+4129,Closed,Value 3,2013-12-26T12:48:27.000000
+4130,Assign seriousness,Value 18,2013-11-28T07:39:07.000000
+4130,Take in charge ticket,Value 18,2013-11-28T08:19:04.000000
+4130,Resolve ticket,Value 18,2013-12-16T06:58:25.000000
+4130,Closed,Value 3,2013-12-31T06:58:44.000000
+4131,Assign seriousness,Value 18,2013-11-25T09:01:44.000000
+4131,Take in charge ticket,Value 2,2013-11-25T09:59:03.000000
+4131,Wait,Value 1,2013-11-25T11:47:37.000000
+4131,Resolve ticket,Value 1,2013-12-19T11:20:46.000000
+4131,Closed,Value 3,2014-01-03T11:20:58.000000
+4132,Assign seriousness,Value 9,2012-01-13T14:31:55.000000
+4132,Take in charge ticket,Value 6,2012-01-16T06:37:03.000000
+4132,Resolve ticket,Value 16,2012-01-16T13:39:17.000000
+4132,Closed,Value 5,2012-03-12T14:40:46.000000
+4133,Assign seriousness,Value 8,2011-03-22T06:27:05.000000
+4133,Take in charge ticket,Value 2,2011-03-25T09:28:43.000000
+4133,Resolve ticket,Value 2,2011-04-08T10:41:15.000000
+4133,Closed,Value 5,2011-04-23T10:41:31.000000
+4134,Assign seriousness,Value 8,2011-06-23T11:43:37.000000
+4134,Assign seriousness,Value 8,2011-06-23T11:44:01.000000
+4134,Take in charge ticket,Value 8,2011-06-23T11:48:10.000000
+4134,Resolve ticket,Value 15,2011-06-23T12:13:17.000000
+4134,Closed,Value 5,2011-07-26T11:50:24.000000
+4135,Insert ticket,Value 15,2010-03-04T14:49:18.000000
+4135,Assign seriousness,Value 15,2010-03-08T11:59:35.000000
+4135,Take in charge ticket,Value 15,2010-03-08T12:00:06.000000
+4135,Resolve ticket,Value 15,2010-03-08T12:00:16.000000
+4135,Closed,Value 5,2010-04-06T12:50:21.000000
+4136,Assign seriousness,Value 2,2011-10-25T12:13:58.000000
+4136,Take in charge ticket,Value 2,2011-10-25T12:58:55.000000
+4136,Resolve ticket,Value 2,2011-10-26T06:54:46.000000
+4136,Closed,Value 5,2011-12-10T14:20:56.000000
+4137,Assign seriousness,Value 13,2011-04-06T12:35:49.000000
+4137,Take in charge ticket,Value 13,2011-04-06T12:36:04.000000
+4137,Wait,Value 13,2011-04-07T12:41:23.000000
+4137,Take in charge ticket,Value 2,2011-04-13T05:49:14.000000
+4137,Resolve ticket,Value 2,2011-04-13T05:49:22.000000
+4137,Closed,Value 5,2011-05-28T05:50:26.000000
+4139,Assign seriousness,Value 8,2010-12-29T09:10:05.000000
+4139,Take in charge ticket,Value 2,2011-01-10T09:35:05.000000
+4139,Resolve ticket,Value 2,2011-01-18T09:01:45.000000
+4139,Closed,Value 5,2011-02-02T09:02:01.000000
+4141,Assign seriousness,Value 1,2013-01-21T06:08:20.000000
+4141,Take in charge ticket,Value 1,2013-01-28T14:05:48.000000
+4141,Resolve ticket,Value 1,2013-02-15T06:05:19.000000
+4141,Resolve ticket,Value 1,2013-02-15T06:05:20.000000
+4141,Closed,Value 3,2013-03-02T06:05:34.000000
+4142,Assign seriousness,Value 4,2011-10-17T10:39:19.000000
+4142,Resolve ticket,Value 4,2011-10-18T04:27:07.000000
+4142,Closed,Value 5,2011-11-24T12:40:49.000000
+4143,Assign seriousness,Value 8,2011-04-04T10:06:22.000000
+4143,Take in charge ticket,Value 8,2011-04-04T10:06:59.000000
+4143,Resolve ticket,Value 13,2011-04-04T11:28:46.000000
+4143,Closed,Value 5,2011-05-05T10:10:38.000000
+4144,Assign seriousness,Value 1,2013-04-05T13:13:54.000000
+4144,Take in charge ticket,Value 2,2013-04-15T12:05:20.000000
+4144,Resolve ticket,Value 4,2013-04-23T07:34:43.000000
+4144,Closed,Value 3,2013-05-08T07:34:56.000000
+4145,Assign seriousness,Value 8,2011-06-14T04:11:34.000000
+4145,Take in charge ticket,Value 8,2011-06-14T04:22:14.000000
+4145,Wait,Value 11,2011-06-16T12:20:04.000000
+4145,Take in charge ticket,Value 11,2011-06-17T10:19:03.000000
+4145,Resolve ticket,Value 11,2011-06-17T10:20:01.000000
+4145,Closed,Value 5,2011-07-15T11:20:39.000000
+4146,Assign seriousness,Value 8,2010-12-23T06:52:03.000000
+4146,Take in charge ticket,Value 9,2010-12-28T14:34:13.000000
+4146,Wait,Value 9,2010-12-28T14:43:35.000000
+4146,Take in charge ticket,Value 9,2011-01-10T06:29:01.000000
+4146,Resolve ticket,Value 9,2011-01-10T06:29:39.000000
+4146,Closed,Value 5,2011-01-25T06:29:53.000000
+4147,Assign seriousness,Value 2,2010-03-19T13:46:29.000000
+4147,Assign seriousness,Value 2,2010-03-19T13:46:50.000000
+4147,Take in charge ticket,Value 2,2010-03-19T13:47:09.000000
+4147,Resolve ticket,Value 15,2010-04-20T05:27:07.000000
+4147,Closed,Value 5,2010-05-05T05:27:22.000000
+4148,Assign seriousness,Value 1,2011-09-16T04:04:39.000000
+4148,Take in charge ticket,Value 10,2011-09-16T04:18:12.000000
+4148,Resolve ticket,Value 10,2011-09-16T12:04:46.000000
+4148,Closed,Value 5,2011-11-10T06:10:45.000000
+4149,Assign seriousness,Value 7,2010-09-03T05:49:02.000000
+4149,Take in charge ticket,Value 2,2010-09-09T07:01:32.000000
+4149,Resolve ticket,Value 2,2010-09-09T07:12:29.000000
+4149,Closed,Value 5,2010-10-21T05:50:25.000000
+4150,Assign seriousness,Value 6,2010-12-31T07:41:03.000000
+4150,Take in charge ticket,Value 6,2010-12-31T07:41:44.000000
+4150,Resolve ticket,Value 6,2010-12-31T07:42:08.000000
+4150,Closed,Value 5,2011-02-13T07:50:37.000000
+4151,Insert ticket,Value 6,2010-04-28T04:59:40.000000
+4151,Assign seriousness,Value 2,2010-04-28T05:04:25.000000
+4151,Take in charge ticket,Value 2,2010-04-29T10:32:50.000000
+4151,Resolve ticket,Value 2,2010-04-29T10:39:49.000000
+4151,Closed,Value 5,2010-05-29T05:01:22.000000
+4152,Assign seriousness,Value 1,2012-07-27T11:39:25.000000
+4152,Take in charge ticket,Value 16,2012-07-30T05:07:05.000000
+4152,Resolve ticket,Value 16,2012-07-30T05:09:30.000000
+4152,Closed,Value 5,2012-09-09T11:41:03.000000
+4153,Assign seriousness,Value 1,2012-07-11T12:35:34.000000
+4153,Take in charge ticket,Value 13,2012-07-12T05:10:08.000000
+4153,Resolve ticket,Value 13,2012-07-18T05:23:38.000000
+4153,Closed,Value 5,2012-08-11T12:40:19.000000
+4154,Assign seriousness,Value 12,2011-09-01T04:15:15.000000
+4154,Take in charge ticket,Value 12,2011-09-01T04:15:49.000000
+4154,Resolve ticket,Value 12,2011-09-13T04:50:31.000000
+4154,Closed,Value 5,2011-10-15T04:20:46.000000
+4155,Assign seriousness,Value 2,2010-03-24T09:24:08.000000
+4155,Take in charge ticket,Value 2,2010-03-24T09:24:16.000000
+4155,Resolve ticket,Value 2,2010-04-14T11:51:34.000000
+4155,Closed,Value 5,2010-04-29T11:51:50.000000
+4156,Assign seriousness,Value 2,2010-11-16T09:53:46.000000
+4156,Take in charge ticket,Value 12,2010-11-16T12:22:57.000000
+4156,Resolve ticket,Value 12,2010-11-17T07:05:25.000000
+4156,Closed,Value 5,2011-01-01T10:00:41.000000
+4157,Assign seriousness,Value 1,2012-01-30T14:21:12.000000
+4157,Take in charge ticket,Value 1,2012-01-30T14:21:21.000000
+4157,Resolve ticket,Value 1,2012-01-30T14:26:10.000000
+4157,Closed,Value 5,2012-03-14T14:30:35.000000
+4158,Assign seriousness,Value 8,2011-03-31T12:49:16.000000
+4158,Take in charge ticket,Value 8,2011-03-31T12:50:04.000000
+4158,Resolve ticket,Value 8,2011-04-22T04:57:10.000000
+4158,Closed,Value 5,2011-05-07T04:57:27.000000
+4160,Assign seriousness,Value 1,2011-12-27T08:15:56.000000
+4160,Take in charge ticket,Value 6,2011-12-27T12:02:18.000000
+4160,Wait,Value 6,2011-12-27T13:02:37.000000
+4160,Take in charge ticket,Value 6,2012-01-12T06:25:56.000000
+4160,Resolve ticket,Value 6,2012-01-12T06:42:41.000000
+4160,Closed,Value 5,2012-02-11T06:43:08.000000
+4162,Assign seriousness,Value 1,2012-09-27T11:03:27.000000
+4162,Take in charge ticket,Value 1,2012-09-27T11:04:02.000000
+4162,Create SW anomaly,Value 1,2012-09-28T07:14:14.000000
+4162,Resolve ticket,Value 1,2012-11-05T14:41:28.000000
+4162,Closed,Value 3,2012-11-20T14:41:39.000000
+4163,Assign seriousness,Value 1,2011-11-08T08:47:18.000000
+4163,Take in charge ticket,Value 13,2011-11-11T11:31:56.000000
+4163,Wait,Value 13,2011-11-22T07:56:15.000000
+4163,Resolve ticket,Value 2,2011-11-25T09:37:22.000000
+4163,Resolve ticket,Value 2,2011-11-25T09:37:25.000000
+4163,Closed,Value 5,2011-12-14T11:30:32.000000
+4164,Assign seriousness,Value 18,2013-10-24T07:09:08.000000
+4164,Take in charge ticket,Value 20,2013-10-25T10:04:07.000000
+4164,Wait,Value 20,2013-10-28T06:26:23.000000
+4164,Resolve ticket,Value 20,2013-11-11T07:35:03.000000
+4164,Closed,Value 3,2013-11-26T07:35:14.000000
+4165,Assign seriousness,Value 2,2010-04-19T12:41:52.000000
+4165,Take in charge ticket,Value 12,2010-04-20T04:20:23.000000
+4165,Resolve ticket,Value 12,2010-04-22T11:28:57.000000
+4165,Closed,Value 5,2010-05-20T12:50:37.000000
+4168,Assign seriousness,Value 8,2011-01-26T07:10:07.000000
+4168,Take in charge ticket,Value 2,2011-01-27T07:10:56.000000
+4168,Wait,Value 2,2011-02-16T12:45:12.000000
+4168,Take in charge ticket,Value 2,2011-02-18T07:09:12.000000
+4168,Resolve ticket,Value 2,2011-02-18T07:14:21.000000
+4168,Closed,Value 5,2011-03-08T06:18:04.000000
+4169,Assign seriousness,Value 9,2012-02-15T09:15:29.000000
+4169,Resolve ticket,Value 9,2012-02-15T09:16:08.000000
+4169,Closed,Value 5,2012-03-17T09:20:59.000000
+4170,Assign seriousness,Value 4,2013-03-06T13:05:09.000000
+4170,Take in charge ticket,Value 9,2013-03-22T06:58:01.000000
+4170,Resolve ticket,Value 9,2013-03-22T07:34:16.000000
+4170,Closed,Value 3,2013-04-06T05:34:35.000000
+4172,Take in charge ticket,Value 1,2013-07-16T12:55:55.000000
+4172,Wait,Value 1,2013-07-18T06:10:39.000000
+4172,Take in charge ticket,Value 1,2013-07-24T11:57:05.000000
+4172,Wait,Value 1,2013-08-02T07:29:29.000000
+4172,Resolve ticket,Value 1,2013-08-19T12:26:03.000000
+4172,Closed,Value 3,2013-09-03T12:26:23.000000
+4174,Assign seriousness,Value 1,2012-05-29T12:22:37.000000
+4174,Take in charge ticket,Value 6,2012-05-30T04:16:49.000000
+4174,Resolve ticket,Value 6,2012-06-01T04:55:25.000000
+4174,Closed,Value 5,2012-07-12T12:30:20.000000
+4175,Assign seriousness,Value 1,2012-03-22T06:46:45.000000
+4175,Take in charge ticket,Value 1,2012-03-22T06:48:01.000000
+4175,Resolve ticket,Value 13,2012-03-23T06:35:03.000000
+4175,Closed,Value 5,2012-05-09T04:50:29.000000
+4176,Assign seriousness,Value 2,2011-06-29T07:00:04.000000
+4176,Assign seriousness,Value 2,2011-06-29T07:07:21.000000
+4176,Take in charge ticket,Value 17,2011-06-29T08:13:16.000000
+4176,Resolve ticket,Value 17,2011-06-29T08:13:58.000000
+4176,Closed,Value 5,2011-08-27T07:10:24.000000
+4177,Assign seriousness,Value 8,2011-03-22T14:38:53.000000
+4177,Take in charge ticket,Value 8,2011-03-22T14:45:16.000000
+4177,Wait,Value 2,2011-03-31T04:19:40.000000
+4177,Wait,Value 2,2011-03-31T04:20:00.000000
+4177,Take in charge ticket,Value 2,2011-04-20T06:32:46.000000
+4177,Resolve ticket,Value 2,2011-04-20T06:32:52.000000
+4177,Closed,Value 5,2011-05-05T06:33:04.000000
+4178,Assign seriousness,Value 1,2011-09-15T10:33:25.000000
+4178,Take in charge ticket,Value 13,2011-09-21T04:45:49.000000
+4178,Resolve ticket,Value 13,2011-09-29T07:05:34.000000
+4178,Closed,Value 5,2011-11-02T12:41:02.000000
+4179,Assign seriousness,Value 1,2012-10-17T06:24:20.000000
+4179,Take in charge ticket,Value 2,2012-11-07T06:45:41.000000
+4179,Wait,Value 9,2012-11-08T06:29:11.000000
+4179,Take in charge ticket,Value 9,2012-11-08T06:29:42.000000
+4179,Wait,Value 9,2012-11-15T11:53:50.000000
+4179,Resolve ticket,Value 9,2012-11-29T09:31:28.000000
+4179,Closed,Value 3,2012-12-14T09:31:39.000000
+4180,Assign seriousness,Value 14,2013-07-11T13:13:23.000000
+4180,Take in charge ticket,Value 2,2013-07-17T10:26:22.000000
+4180,Wait,Value 1,2013-07-18T10:09:29.000000
+4180,Resolve ticket,Value 1,2013-08-01T12:21:54.000000
+4180,Closed,Value 3,2013-08-16T12:22:13.000000
+4181,Assign seriousness,Value 13,2011-04-14T12:54:28.000000
+4181,Assign seriousness,Value 13,2011-04-14T12:54:46.000000
+4181,Wait,Value 11,2011-04-15T07:41:19.000000
+4181,Take in charge ticket,Value 2,2011-04-27T07:30:04.000000
+4181,Wait,Value 2,2011-04-27T07:30:13.000000
+4181,Take in charge ticket,Value 11,2011-05-06T06:42:13.000000
+4181,Resolve ticket,Value 11,2011-05-06T06:42:28.000000
+4181,Closed,Value 5,2011-05-21T06:42:52.000000
+4182,Assign seriousness,Value 14,2010-10-19T11:29:56.000000
+4182,Take in charge ticket,Value 7,2010-11-12T11:52:11.000000
+4182,Resolve ticket,Value 7,2010-11-12T11:52:18.000000
+4182,Closed,Value 5,2010-11-27T11:52:29.000000
+4183,Take in charge ticket,Value 1,2012-05-21T04:22:45.000000
+4183,Resolve ticket,Value 16,2012-05-31T09:47:04.000000
+4183,Closed,Value 5,2012-07-04T04:30:22.000000
+4185,Assign seriousness,Value 1,2012-01-26T06:48:31.000000
+4185,Take in charge ticket,Value 1,2012-01-26T06:48:55.000000
+4185,Resolve ticket,Value 1,2012-01-26T12:37:16.000000
+4185,Closed,Value 5,2012-02-28T06:50:28.000000
+4186,Take in charge ticket,Value 1,2012-02-07T11:29:09.000000
+4186,Resolve ticket,Value 9,2012-02-14T14:38:48.000000
+4186,Closed,Value 5,2012-03-22T11:30:29.000000
+4187,Assign seriousness,Value 1,2013-02-01T12:19:43.000000
+4187,Take in charge ticket,Value 1,2013-02-01T15:02:24.000000
+4187,Resolve ticket,Value 10,2013-02-27T08:49:16.000000
+4187,Closed,Value 3,2013-03-14T08:49:30.000000
+4188,Assign seriousness,Value 8,2011-03-07T09:59:06.000000
+4188,Take in charge ticket,Value 8,2011-03-07T09:59:47.000000
+4188,Wait,Value 13,2011-03-22T12:12:53.000000
+4188,Take in charge ticket,Value 13,2011-03-23T07:32:23.000000
+4188,Resolve ticket,Value 13,2011-03-23T07:32:35.000000
+4188,Closed,Value 5,2011-04-07T05:32:42.000000
+4189,Assign seriousness,Value 8,2011-02-28T12:24:57.000000
+4189,Take in charge ticket,Value 8,2011-02-28T12:27:14.000000
+4189,Resolve ticket,Value 16,2011-03-01T07:39:56.000000
+4189,Closed,Value 5,2011-04-02T11:15:17.000000
+4190,Assign seriousness,Value 1,2011-12-07T06:15:35.000000
+4190,Take in charge ticket,Value 6,2011-12-07T11:40:40.000000
+4190,Resolve ticket,Value 6,2012-01-18T14:41:22.000000
+4190,Closed,Value 5,2012-02-02T14:41:38.000000
+4191,Assign seriousness,Value 8,2011-05-10T04:37:28.000000
+4191,Take in charge ticket,Value 8,2011-05-10T04:37:56.000000
+4191,Resolve ticket,Value 9,2011-05-10T05:29:58.000000
+4191,Closed,Value 5,2011-06-10T04:40:24.000000
+4192,Assign seriousness,Value 4,2013-02-13T11:41:45.000000
+4192,Take in charge ticket,Value 2,2013-03-01T07:23:38.000000
+4192,Wait,Value 2,2013-03-01T08:14:20.000000
+4192,Resolve ticket,Value 2,2013-03-01T14:01:20.000000
+4192,Closed,Value 3,2013-03-16T14:01:36.000000
+4193,Assign seriousness,Value 1,2012-06-28T07:33:25.000000
+4193,Take in charge ticket,Value 1,2012-06-28T07:33:35.000000
+4193,Resolve ticket,Value 1,2012-06-29T05:14:35.000000
+4193,Closed,Value 5,2012-08-15T07:40:43.000000
+4194,Assign seriousness,Value 2,2010-04-08T07:00:27.000000
+4194,Wait,Value 12,2010-04-09T12:48:44.000000
+4194,Take in charge ticket,Value 2,2010-04-14T06:54:27.000000
+4194,Resolve ticket,Value 12,2010-04-21T06:43:37.000000
+4194,Closed,Value 5,2010-05-11T07:10:37.000000
+4195,Assign seriousness,Value 1,2012-07-24T11:31:53.000000
+4195,Take in charge ticket,Value 13,2012-07-27T10:45:57.000000
+4195,Resolve ticket,Value 15,2012-07-31T10:02:18.000000
+4195,Closed,Value 5,2012-09-01T05:14:21.000000
+4196,Assign seriousness,Value 1,2012-07-09T11:27:30.000000
+4196,Assign seriousness,Value 2,2012-07-09T11:36:07.000000
+4196,Resolve ticket,Value 2,2012-07-10T04:46:40.000000
+4196,Closed,Value 5,2012-09-01T05:13:01.000000
+4197,Assign seriousness,Value 2,2012-06-13T08:06:38.000000
+4197,Take in charge ticket,Value 9,2012-06-14T07:08:56.000000
+4197,Resolve ticket,Value 9,2012-06-14T12:17:01.000000
+4197,Closed,Value 5,2012-07-29T08:00:32.000000
+4199,Assign seriousness,Value 1,2013-02-28T12:39:25.000000
+4199,Take in charge ticket,Value 1,2013-02-28T12:40:06.000000
+4199,Wait,Value 1,2013-03-04T07:21:14.000000
+4199,Resolve ticket,Value 9,2013-04-04T06:57:06.000000
+4199,Resolve ticket,Value 9,2013-04-04T06:57:07.000000
+4199,Closed,Value 3,2013-04-19T06:57:25.000000
+4200,Assign seriousness,Value 1,2012-02-23T08:31:43.000000
+4200,Take in charge ticket,Value 4,2012-02-23T11:41:39.000000
+4200,Resolve ticket,Value 4,2012-02-23T12:58:27.000000
+4200,Closed,Value 5,2012-03-27T06:40:12.000000
+4201,Assign seriousness,Value 8,2011-03-14T08:33:46.000000
+4201,Take in charge ticket,Value 8,2011-03-14T08:34:09.000000
+4201,Resolve ticket,Value 2,2011-03-28T06:21:11.000000
+4201,Closed,Value 5,2011-04-14T06:40:13.000000
+4202,Assign seriousness,Value 8,2011-05-19T05:54:36.000000
+4202,Take in charge ticket,Value 8,2011-05-19T05:54:58.000000
+4202,Resolve ticket,Value 13,2011-05-19T07:52:30.000000
+4202,Closed,Value 5,2011-07-06T06:00:31.000000
+4203,Assign seriousness,Value 2,2012-06-26T05:46:53.000000
+4203,Take in charge ticket,Value 13,2012-06-26T05:47:39.000000
+4203,Resolve ticket,Value 13,2012-06-26T10:05:58.000000
+4203,Closed,Value 2,2012-08-24T12:42:30.000000
+4204,Assign seriousness,Value 1,2012-01-20T15:05:24.000000
+4204,Take in charge ticket,Value 6,2012-01-23T06:18:28.000000
+4204,Wait,Value 12,2012-02-01T09:15:21.000000
+4204,Take in charge ticket,Value 12,2012-02-15T14:18:43.000000
+4204,Resolve ticket,Value 12,2012-02-27T07:19:36.000000
+4204,Closed,Value 5,2012-03-13T07:19:48.000000
+4205,Insert ticket,Value 14,2010-09-17T06:48:33.000000
+4205,Assign seriousness,Value 14,2010-09-17T06:48:59.000000
+4205,Take in charge ticket,Value 14,2010-09-17T06:49:26.000000
+4205,Resolve ticket,Value 14,2010-09-17T06:49:39.000000
+4205,Closed,Value 5,2010-10-31T08:50:57.000000
+4206,Assign seriousness,Value 19,2010-09-14T10:39:29.000000
+4206,Take in charge ticket,Value 11,2010-09-22T11:58:57.000000
+4206,Resolve ticket,Value 11,2010-09-22T12:21:30.000000
+4206,Closed,Value 5,2010-11-12T12:40:31.000000
+4207,Assign seriousness,Value 2,2010-04-13T07:17:23.000000
+4207,Take in charge ticket,Value 2,2010-04-14T04:25:56.000000
+4207,Resolve ticket,Value 2,2010-04-14T05:31:36.000000
+4207,Closed,Value 5,2010-05-14T07:20:26.000000
+4208,Assign seriousness,Value 14,2013-06-10T08:01:41.000000
+4208,Take in charge ticket,Value 2,2013-06-25T09:58:50.000000
+4208,Wait,Value 2,2013-06-28T04:09:55.000000
+4208,Resolve ticket,Value 2,2013-07-19T09:59:45.000000
+4208,Closed,Value 3,2013-08-03T10:00:04.000000
+4209,Assign seriousness,Value 6,2010-08-18T07:21:47.000000
+4209,Assign seriousness,Value 2,2010-08-30T12:41:05.000000
+4209,Take in charge ticket,Value 11,2010-09-03T09:07:46.000000
+4209,Resolve ticket,Value 11,2010-09-03T09:11:02.000000
+4209,Closed,Value 5,2010-09-18T09:11:24.000000
+4211,Assign seriousness,Value 8,2011-02-24T06:14:49.000000
+4211,Take in charge ticket,Value 13,2011-02-24T14:08:38.000000
+4211,Resolve ticket,Value 14,2011-03-09T14:47:31.000000
+4211,Closed,Value 5,2011-04-09T04:20:51.000000
+4212,Assign seriousness,Value 1,2011-09-22T04:27:13.000000
+4212,Take in charge ticket,Value 13,2011-09-22T13:00:11.000000
+4212,Resolve ticket,Value 1,2011-09-23T06:55:01.000000
+4212,Closed,Value 5,2011-10-27T04:30:37.000000
+4213,Assign seriousness,Value 1,2012-05-02T06:10:42.000000
+4213,Take in charge ticket,Value 6,2012-05-02T06:32:04.000000
+4213,Resolve ticket,Value 6,2012-05-02T07:01:58.000000
+4213,Closed,Value 5,2012-06-15T06:20:40.000000
+4217,Assign seriousness,Value 13,2011-01-13T08:59:41.000000
+4217,Assign seriousness,Value 2,2011-01-27T06:24:52.000000
+4217,Take in charge ticket,Value 2,2011-01-27T06:24:59.000000
+4217,Wait,Value 9,2011-02-04T11:41:14.000000
+4217,Take in charge ticket,Value 9,2011-02-10T07:17:14.000000
+4217,Resolve ticket,Value 9,2011-02-10T07:17:37.000000
+4217,Closed,Value 5,2011-03-12T07:18:05.000000
+4218,Assign seriousness,Value 1,2011-11-21T08:49:42.000000
+4218,Take in charge ticket,Value 13,2011-11-25T08:51:52.000000
+4218,Resolve ticket,Value 13,2011-11-28T13:05:51.000000
+4218,Closed,Value 5,2012-01-06T08:50:25.000000
+4219,Assign seriousness,Value 1,2012-01-18T13:15:19.000000
+4219,Take in charge ticket,Value 1,2012-01-18T13:35:14.000000
+4219,Wait,Value 1,2012-01-23T11:42:27.000000
+4219,Take in charge ticket,Value 1,2012-01-23T13:29:34.000000
+4219,Resolve ticket,Value 2,2012-02-07T06:15:11.000000
+4219,Closed,Value 5,2012-03-08T06:15:32.000000
+4220,Assign seriousness,Value 8,2011-05-11T05:58:44.000000
+4220,Take in charge ticket,Value 8,2011-05-11T05:59:25.000000
+4220,Wait,Value 9,2011-05-13T10:38:00.000000
+4220,Take in charge ticket,Value 9,2011-05-16T04:25:37.000000
+4220,Resolve ticket,Value 9,2011-05-16T04:57:25.000000
+4220,Closed,Value 5,2011-06-11T09:51:09.000000
+4221,Take in charge ticket,Value 1,2013-02-01T14:05:23.000000
+4221,Wait,Value 1,2013-02-19T13:29:49.000000
+4221,Resolve ticket,Value 9,2013-02-27T12:48:35.000000
+4221,Closed,Value 3,2013-03-14T12:48:50.000000
+4223,Assign seriousness,Value 8,2011-06-14T04:42:12.000000
+4223,Take in charge ticket,Value 8,2011-06-14T04:42:37.000000
+4223,Wait,Value 13,2011-06-21T07:25:39.000000
+4223,Take in charge ticket,Value 13,2011-07-20T05:46:01.000000
+4223,Resolve ticket,Value 13,2011-07-20T06:06:53.000000
+4223,Closed,Value 5,2011-08-04T06:07:05.000000
+4225,Assign seriousness,Value 4,2012-04-11T11:09:22.000000
+4225,Take in charge ticket,Value 4,2012-04-11T11:09:45.000000
+4225,Resolve ticket,Value 13,2012-04-12T07:31:37.000000
+4225,Closed,Value 5,2012-05-12T11:10:23.000000
+4226,Assign seriousness,Value 1,2012-05-02T09:43:52.000000
+4226,Take in charge ticket,Value 13,2012-05-02T10:51:25.000000
+4226,Resolve ticket,Value 13,2012-05-03T13:20:08.000000
+4226,Closed,Value 5,2012-06-02T09:55:06.000000
+4227,Assign seriousness,Value 4,2012-01-10T13:07:34.000000
+4227,Take in charge ticket,Value 4,2012-01-10T13:08:08.000000
+4227,Resolve ticket,Value 4,2012-01-30T11:23:42.000000
+4227,Closed,Value 5,2012-02-29T11:24:04.000000
+4228,Assign seriousness,Value 13,2012-04-03T09:38:03.000000
+4228,Take in charge ticket,Value 13,2012-04-03T09:38:14.000000
+4228,Resolve ticket,Value 13,2012-04-04T05:11:46.000000
+4228,Closed,Value 5,2012-05-19T09:40:37.000000
+4229,Assign seriousness,Value 1,2012-07-04T06:05:34.000000
+4229,Take in charge ticket,Value 1,2012-07-04T06:05:42.000000
+4229,Resolve ticket,Value 1,2012-07-04T11:54:55.000000
+4229,Closed,Value 5,2012-08-11T06:10:34.000000
+4230,Assign seriousness,Value 4,2012-06-12T05:17:18.000000
+4230,Take in charge ticket,Value 4,2012-06-12T07:16:12.000000
+4230,Resolve ticket,Value 4,2012-06-19T07:42:18.000000
+4230,Closed,Value 5,2012-07-20T05:20:20.000000
+4231,Take in charge ticket,Value 2,2013-11-26T14:38:11.000000
+4231,Wait,Value 2,2013-11-26T14:44:30.000000
+4231,Resolve ticket,Value 2,2013-12-19T07:56:09.000000
+4231,Closed,Value 3,2014-01-03T07:56:28.000000
+4232,Assign seriousness,Value 1,2012-07-20T07:23:19.000000
+4232,Take in charge ticket,Value 1,2012-07-20T07:23:35.000000
+4232,Resolve ticket,Value 13,2012-07-20T12:10:14.000000
+4232,Closed,Value 5,2012-09-06T07:30:48.000000
+4233,Assign seriousness,Value 2,2011-11-14T08:02:37.000000
+4233,Take in charge ticket,Value 2,2011-11-14T08:03:08.000000
+4233,Resolve ticket,Value 13,2011-11-15T07:10:16.000000
+4233,Closed,Value 5,2011-12-22T08:10:36.000000
+4234,Assign seriousness,Value 8,2011-06-30T04:47:02.000000
+4234,Assign seriousness,Value 8,2011-06-30T04:47:19.000000
+4234,Take in charge ticket,Value 13,2011-06-30T10:15:00.000000
+4234,Resolve ticket,Value 13,2011-07-01T10:11:32.000000
+4234,Closed,Value 5,2011-08-04T04:50:31.000000
+4235,Assign seriousness,Value 7,2010-07-21T05:06:02.000000
+4235,Take in charge ticket,Value 2,2010-07-26T05:59:00.000000
+4235,Resolve ticket,Value 2,2010-07-26T05:59:39.000000
+4235,Closed,Value 5,2010-09-05T05:11:01.000000
+4236,Assign seriousness,Value 1,2013-04-05T05:30:22.000000
+4236,Take in charge ticket,Value 2,2013-04-30T10:27:21.000000
+4236,Resolve ticket,Value 9,2013-04-30T10:32:43.000000
+4236,Closed,Value 3,2013-05-15T10:32:57.000000
+4237,Assign seriousness,Value 12,2010-09-28T05:44:18.000000
+4237,Assign seriousness,Value 2,2010-09-28T05:48:12.000000
+4237,Take in charge ticket,Value 6,2010-09-28T06:24:04.000000
+4237,Resolve ticket,Value 6,2010-09-28T06:24:28.000000
+4237,Closed,Value 5,2010-11-26T07:50:40.000000
+4238,Assign seriousness,Value 13,2013-01-07T07:15:55.000000
+4238,Take in charge ticket,Value 2,2013-02-05T11:55:35.000000
+4238,Resolve ticket,Value 2,2013-02-06T15:05:51.000000
+4238,Closed,Value 3,2013-02-21T15:06:09.000000
+4239,Assign seriousness,Value 2,2011-04-06T04:44:20.000000
+4239,Take in charge ticket,Value 2,2011-04-06T04:44:43.000000
+4239,Resolve ticket,Value 2,2011-04-06T05:02:11.000000
+4239,Closed,Value 5,2011-05-31T06:29:20.000000
+4242,Assign seriousness,Value 1,2012-03-30T09:16:06.000000
+4242,Take in charge ticket,Value 1,2012-04-17T09:22:14.000000
+4242,Wait,Value 1,2012-04-17T11:41:56.000000
+4242,Take in charge ticket,Value 1,2012-04-18T09:47:40.000000
+4242,Resolve ticket,Value 1,2012-04-20T07:11:40.000000
+4242,Closed,Value 5,2012-05-20T07:19:01.000000
+4244,Assign seriousness,Value 2,2011-07-15T07:12:16.000000
+4244,Take in charge ticket,Value 2,2011-07-15T07:13:23.000000
+4244,Resolve ticket,Value 2,2011-07-15T09:18:21.000000
+4244,Closed,Value 5,2011-08-17T07:20:29.000000
+4245,Assign seriousness,Value 1,2012-03-14T06:38:29.000000
+4245,Take in charge ticket,Value 1,2012-03-14T06:38:41.000000
+4245,Resolve ticket,Value 1,2012-03-14T11:26:29.000000
+4245,Resolve ticket,Value 1,2012-03-14T11:26:29.000000
+4245,Closed,Value 5,2012-04-14T04:40:46.000000
+4246,Assign seriousness,Value 8,2011-03-01T08:45:35.000000
+4246,Take in charge ticket,Value 6,2011-03-01T09:17:58.000000
+4246,Wait,Value 6,2011-03-02T15:30:39.000000
+4246,Wait,Value 6,2011-03-02T15:30:41.000000
+4246,Take in charge ticket,Value 6,2011-03-11T13:41:46.000000
+4246,Resolve ticket,Value 6,2011-03-11T13:42:12.000000
+4246,Closed,Value 5,2011-04-10T11:42:34.000000
+4247,Assign seriousness,Value 1,2013-11-06T08:47:35.000000
+4247,Assign seriousness,Value 1,2013-11-06T08:48:53.000000
+4247,Assign seriousness,Value 2,2013-11-22T06:00:08.000000
+4247,Take in charge ticket,Value 11,2013-11-25T06:18:07.000000
+4247,Resolve ticket,Value 11,2013-11-25T06:57:19.000000
+4247,Closed,Value 3,2013-12-10T06:57:37.000000
+4248,Assign seriousness,Value 8,2011-06-07T04:34:53.000000
+4248,Take in charge ticket,Value 8,2011-06-07T04:35:14.000000
+4248,Wait,Value 2,2011-07-08T05:44:58.000000
+4248,Resolve ticket,Value 2,2011-07-12T04:00:36.000000
+4248,Closed,Value 5,2011-07-27T04:01:03.000000
+4249,Assign seriousness,Value 1,2012-07-23T04:52:47.000000
+4249,Resolve ticket,Value 13,2012-07-23T07:15:27.000000
+4249,Resolve ticket,Value 13,2012-07-23T07:20:33.000000
+4249,Closed,Value 5,2012-09-07T05:00:29.000000
+4250,Assign seriousness,Value 13,2013-01-21T09:27:16.000000
+4250,Take in charge ticket,Value 2,2013-01-22T10:00:35.000000
+4250,Resolve ticket,Value 1,2013-02-06T06:22:55.000000
+4250,Closed,Value 3,2013-02-21T06:23:09.000000
+4251,Assign seriousness,Value 2,2010-05-28T09:43:28.000000
+4251,Take in charge ticket,Value 2,2010-05-28T09:43:46.000000
+4251,Resolve ticket,Value 6,2010-05-28T13:35:02.000000
+4251,Closed,Value 5,2010-07-14T09:50:17.000000
+4252,Assign seriousness,Value 15,2010-06-08T09:59:46.000000
+4252,Take in charge ticket,Value 12,2010-06-10T04:20:57.000000
+4252,Wait,Value 12,2010-06-10T04:22:51.000000
+4252,Take in charge ticket,Value 12,2010-06-14T10:01:25.000000
+4252,Resolve ticket,Value 12,2010-06-14T10:01:35.000000
+4252,Closed,Value 5,2010-07-09T10:00:21.000000
+4254,Assign seriousness,Value 1,2012-04-06T12:00:32.000000
+4254,Resolve ticket,Value 1,2012-04-06T12:16:02.000000
+4254,Closed,Value 5,2012-05-11T12:11:57.000000
+4255,Assign seriousness,Value 2,2012-04-24T12:31:51.000000
+4255,Take in charge ticket,Value 6,2012-04-26T05:09:15.000000
+4255,Resolve ticket,Value 17,2012-04-26T05:27:23.000000
+4255,Closed,Value 5,2012-06-22T12:40:48.000000
+4256,Assign seriousness,Value 2,2010-02-22T12:02:29.000000
+4256,Take in charge ticket,Value 2,2010-02-22T12:02:39.000000
+4256,Resolve ticket,Value 2,2010-03-09T14:17:19.000000
+4256,Closed,Value 5,2010-03-25T12:10:31.000000
+4257,Assign seriousness,Value 9,2012-10-15T13:02:28.000000
+4257,Take in charge ticket,Value 3,2012-10-16T03:51:20.000000
+4257,Wait,Value 2,2012-10-16T04:48:44.000000
+4257,Resolve ticket,Value 2,2012-11-06T07:57:59.000000
+4257,Closed,Value 3,2012-11-21T07:58:10.000000
+4258,Assign seriousness,Value 15,2010-03-15T13:42:39.000000
+4258,Assign seriousness,Value 2,2010-03-15T13:50:35.000000
+4258,Take in charge ticket,Value 15,2010-03-16T08:53:17.000000
+4258,Resolve ticket,Value 15,2010-03-16T08:53:29.000000
+4258,Resolve ticket,Value 21,2010-03-24T06:23:18.000000
+4258,Closed,Value 5,2010-04-28T11:50:24.000000
+4259,Assign seriousness,Value 4,2011-11-02T06:20:14.000000
+4259,Take in charge ticket,Value 4,2011-11-02T06:20:41.000000
+4259,Resolve ticket,Value 4,2011-11-02T07:49:41.000000
+4259,Closed,Value 5,2011-12-07T06:30:27.000000
+4261,Assign seriousness,Value 8,2011-05-12T07:00:48.000000
+4261,Take in charge ticket,Value 8,2011-05-12T07:01:22.000000
+4261,Resolve ticket,Value 17,2011-05-16T07:28:31.000000
+4261,Closed,Value 5,2011-06-25T07:11:25.000000
+4262,Assign seriousness,Value 13,2011-08-22T07:13:17.000000
+4262,Take in charge ticket,Value 13,2011-08-22T10:41:16.000000
+4262,Wait,Value 13,2011-08-23T10:41:21.000000
+4262,Resolve ticket,Value 13,2011-08-24T11:23:14.000000
+4262,Closed,Value 5,2011-09-23T08:00:18.000000
+4263,Insert ticket,Value 14,2010-10-18T09:21:06.000000
+4263,Assign seriousness,Value 14,2010-10-18T09:21:35.000000
+4263,Take in charge ticket,Value 14,2010-10-18T09:27:51.000000
+4263,Resolve ticket,Value 2,2010-11-05T15:07:01.000000
+4263,Closed,Value 5,2010-11-20T15:07:15.000000
+4265,Assign seriousness,Value 16,2010-07-28T06:38:37.000000
+4265,Take in charge ticket,Value 16,2010-07-28T06:50:44.000000
+4265,Wait,Value 16,2010-07-28T06:51:16.000000
+4265,Take in charge ticket,Value 6,2010-08-30T10:31:04.000000
+4265,Resolve ticket,Value 6,2010-08-30T10:31:33.000000
+4265,Closed,Value 5,2010-09-14T10:31:53.000000
+4266,Assign seriousness,Value 1,2012-03-21T11:43:53.000000
+4266,Take in charge ticket,Value 1,2012-03-21T14:23:56.000000
+4266,Resolve ticket,Value 1,2012-03-22T09:09:33.000000
+4266,Resolve ticket,Value 1,2012-03-22T09:09:34.000000
+4266,Closed,Value 5,2012-04-28T09:50:31.000000
+4268,Assign seriousness,Value 4,2011-11-29T07:47:09.000000
+4268,Take in charge ticket,Value 6,2011-12-01T07:11:46.000000
+4268,Resolve ticket,Value 17,2011-12-06T09:20:18.000000
+4268,Closed,Value 5,2012-01-12T07:50:28.000000
+4269,Assign seriousness,Value 6,2011-09-13T10:05:34.000000
+4269,Take in charge ticket,Value 6,2011-09-13T11:07:39.000000
+4269,Resolve ticket,Value 6,2011-09-19T09:07:26.000000
+4269,Closed,Value 5,2011-11-11T12:10:28.000000
+4270,Assign seriousness,Value 8,2011-01-25T11:15:31.000000
+4270,Take in charge ticket,Value 8,2011-01-25T11:15:58.000000
+4270,Resolve ticket,Value 15,2011-02-14T09:48:42.000000
+4270,Closed,Value 5,2011-03-01T09:48:59.000000
+4272,Assign seriousness,Value 1,2012-05-02T09:29:25.000000
+4272,Take in charge ticket,Value 4,2012-05-04T11:01:53.000000
+4272,Resolve ticket,Value 4,2012-05-08T10:59:59.000000
+4272,Closed,Value 5,2012-06-02T09:30:15.000000
+4273,Assign seriousness,Value 1,2012-04-30T07:02:19.000000
+4273,Take in charge ticket,Value 1,2012-04-30T07:05:16.000000
+4273,Resolve ticket,Value 1,2012-04-30T09:03:28.000000
+4273,Closed,Value 5,2012-05-31T07:10:48.000000
+4274,Assign seriousness,Value 1,2011-12-20T07:49:57.000000
+4274,Take in charge ticket,Value 2,2011-12-20T09:37:14.000000
+4274,Resolve ticket,Value 2,2011-12-20T09:43:09.000000
+4274,Closed,Value 5,2012-01-27T07:50:47.000000
+4275,Assign seriousness,Value 1,2011-11-24T06:48:59.000000
+4275,Take in charge ticket,Value 4,2011-11-29T09:55:52.000000
+4275,Resolve ticket,Value 4,2011-12-01T06:56:02.000000
+4275,Closed,Value 5,2012-01-11T06:50:53.000000
+4276,Assign seriousness,Value 8,2011-01-10T07:08:37.000000
+4276,Assign seriousness,Value 8,2011-01-10T13:19:52.000000
+4276,Assign seriousness,Value 15,2011-01-12T13:58:03.000000
+4276,Take in charge ticket,Value 15,2011-01-12T13:58:14.000000
+4276,Resolve ticket,Value 15,2011-01-13T11:45:11.000000
+4276,Closed,Value 5,2011-02-23T07:11:13.000000
+4277,Assign seriousness,Value 1,2011-10-11T07:28:46.000000
+4277,Take in charge ticket,Value 4,2011-10-12T12:08:05.000000
+4277,Resolve ticket,Value 4,2011-10-12T12:22:23.000000
+4277,Closed,Value 5,2011-11-24T09:30:24.000000
+4278,Assign seriousness,Value 19,2010-07-28T07:06:11.000000
+4278,Take in charge ticket,Value 19,2010-07-28T07:06:21.000000
+4278,Resolve ticket,Value 19,2010-07-28T07:06:33.000000
+4278,Take in charge ticket,Value 19,2010-07-28T11:10:53.000000
+4278,Wait,Value 19,2010-07-28T11:18:04.000000
+4278,Take in charge ticket,Value 19,2010-08-23T10:28:45.000000
+4278,Resolve ticket,Value 19,2010-08-23T10:28:52.000000
+4278,Closed,Value 5,2010-09-07T10:29:07.000000
+4279,Assign seriousness,Value 1,2013-01-25T14:42:32.000000
+4279,Take in charge ticket,Value 2,2013-02-06T15:08:42.000000
+4279,Resolve ticket,Value 2,2013-02-13T07:00:01.000000
+4279,Closed,Value 3,2013-02-28T07:00:10.000000
+4281,Assign seriousness,Value 1,2012-07-31T08:01:15.000000
+4281,Resolve ticket,Value 1,2012-07-31T08:02:02.000000
+4281,Closed,Value 5,2012-09-07T08:00:40.000000
+4282,Assign seriousness,Value 8,2011-05-05T12:58:43.000000
+4282,Take in charge ticket,Value 8,2011-05-05T12:59:14.000000
+4282,Wait,Value 9,2011-05-06T10:33:21.000000
+4282,Take in charge ticket,Value 9,2011-06-09T12:24:23.000000
+4282,Resolve ticket,Value 9,2011-06-09T12:24:36.000000
+4282,Closed,Value 5,2011-06-24T12:24:53.000000
+4284,Assign seriousness,Value 1,2013-03-15T06:46:36.000000
+4284,Create SW anomaly,Value 1,2013-03-18T11:20:54.000000
+4284,Take in charge ticket,Value 2,2013-03-18T11:32:28.000000
+4284,Create SW anomaly,Value 1,2013-03-18T11:32:39.000000
+4284,Require upgrade,Value 2,2013-03-22T07:08:41.000000
+4284,VERIFIED,Value 2,2013-03-22T08:08:40.000000
+4284,DUPLICATE,Value 2,2013-03-22T08:08:40.000000
+4284,Resolve ticket,Value 14,2013-04-19T10:24:54.000000
+4284,Closed,Value 3,2013-05-04T10:25:10.000000
+4285,Assign seriousness,Value 4,2012-02-01T11:17:35.000000
+4285,Take in charge ticket,Value 10,2012-02-02T11:43:52.000000
+4285,Resolve ticket,Value 10,2012-02-08T12:25:08.000000
+4285,Closed,Value 5,2012-03-10T11:20:59.000000
+4286,Assign seriousness,Value 9,2010-07-08T04:38:34.000000
+4286,Take in charge ticket,Value 16,2010-08-03T06:17:48.000000
+4286,Resolve ticket,Value 6,2010-08-03T09:23:10.000000
+4286,Closed,Value 5,2010-08-18T09:23:26.000000
+4287,Assign seriousness,Value 12,2010-08-04T05:30:30.000000
+4287,Take in charge ticket,Value 17,2010-08-04T09:45:34.000000
+4287,Resolve ticket,Value 17,2010-08-04T10:21:00.000000
+4287,Closed,Value 5,2010-09-10T05:40:20.000000
+4289,Assign seriousness,Value 1,2011-09-28T09:08:34.000000
+4289,Take in charge ticket,Value 2,2011-09-28T10:51:37.000000
+4289,Resolve ticket,Value 2,2011-09-29T13:34:20.000000
+4289,Closed,Value 5,2011-11-04T11:10:22.000000
+4291,Assign seriousness,Value 1,2011-09-28T04:12:44.000000
+4291,Take in charge ticket,Value 16,2011-09-28T05:28:27.000000
+4291,Resolve ticket,Value 16,2011-09-28T12:53:27.000000
+4291,Closed,Value 5,2011-10-29T04:20:31.000000
+4292,Resolve ticket,Value 13,2012-02-10T09:42:26.000000
+4292,Closed,Value 2,2012-04-10T06:32:49.000000
+4293,Assign seriousness,Value 8,2011-05-26T05:10:00.000000
+4293,Take in charge ticket,Value 8,2011-05-26T05:10:21.000000
+4293,Resolve ticket,Value 13,2011-05-26T06:28:15.000000
+4293,Closed,Value 5,2011-07-03T05:10:42.000000
+4294,Assign seriousness,Value 1,2012-07-26T07:30:53.000000
+4294,Take in charge ticket,Value 4,2012-07-26T12:13:57.000000
+4294,Resolve ticket,Value 4,2012-07-31T06:29:21.000000
+4294,Closed,Value 5,2012-09-02T07:40:27.000000
+4295,Assign seriousness,Value 1,2011-11-16T08:53:41.000000
+4295,Resolve ticket,Value 1,2011-11-17T13:43:26.000000
+4295,Closed,Value 5,2011-12-17T09:02:13.000000
+4296,Assign seriousness,Value 1,2012-01-12T12:19:54.000000
+4296,Take in charge ticket,Value 1,2012-01-12T14:58:23.000000
+4296,Resolve ticket,Value 1,2012-01-13T07:50:13.000000
+4296,Resolve ticket,Value 1,2012-01-13T07:50:13.000000
+4296,Closed,Value 5,2012-02-14T12:20:23.000000
+4297,Assign seriousness,Value 13,2011-08-30T11:08:50.000000
+4297,Take in charge ticket,Value 13,2011-08-31T06:55:37.000000
+4297,Wait,Value 13,2011-09-15T10:54:02.000000
+4297,Resolve ticket,Value 13,2011-09-22T09:34:45.000000
+4297,Closed,Value 5,2011-10-07T09:50:29.000000
+4298,Assign seriousness,Value 1,2012-01-03T14:07:37.000000
+4298,Take in charge ticket,Value 4,2012-01-04T08:29:40.000000
+4298,Resolve ticket,Value 4,2012-01-04T08:47:56.000000
+4298,Closed,Value 5,2012-02-10T14:10:24.000000
+4299,Assign seriousness,Value 4,2012-01-17T07:46:11.000000
+4299,Take in charge ticket,Value 10,2012-01-17T09:39:18.000000
+4299,Resolve ticket,Value 10,2012-01-30T14:03:09.000000
+4299,Closed,Value 5,2012-02-17T07:50:35.000000
+4300,Assign seriousness,Value 1,2013-03-22T07:57:06.000000
+4300,Take in charge ticket,Value 2,2013-04-09T04:13:06.000000
+4300,Wait,Value 4,2013-04-09T04:47:39.000000
+4300,Resolve ticket,Value 4,2013-04-10T10:36:07.000000
+4300,Closed,Value 3,2013-04-25T10:36:20.000000
+4301,Assign seriousness,Value 2,2011-05-31T11:03:05.000000
+4301,Take in charge ticket,Value 2,2011-05-31T11:03:15.000000
+4301,Wait,Value 2,2011-06-15T05:03:55.000000
+4301,Take in charge ticket,Value 2,2011-06-21T12:31:03.000000
+4301,Resolve ticket,Value 2,2011-06-21T12:35:58.000000
+4301,Closed,Value 5,2011-07-21T12:36:28.000000
+4303,Assign seriousness,Value 2,2010-03-11T13:15:54.000000
+4303,Assign seriousness,Value 2,2010-04-23T04:44:51.000000
+4303,Take in charge ticket,Value 2,2010-04-23T04:44:59.000000
+4303,Resolve ticket,Value 2,2010-04-23T04:45:04.000000
+4303,Closed,Value 5,2010-05-08T04:45:21.000000
+4304,Assign seriousness,Value 11,2011-01-04T06:53:30.000000
+4304,Assign seriousness,Value 2,2011-01-11T13:13:25.000000
+4304,Take in charge ticket,Value 11,2011-01-21T12:23:17.000000
+4304,Resolve ticket,Value 11,2011-01-21T12:23:23.000000
+4304,Closed,Value 5,2011-02-20T12:23:42.000000
+4306,Assign seriousness,Value 1,2012-04-26T09:46:58.000000
+4306,Take in charge ticket,Value 10,2012-04-26T10:03:20.000000
+4306,Resolve ticket,Value 4,2012-05-11T12:42:41.000000
+4306,Closed,Value 5,2012-05-29T09:50:40.000000
+4307,Assign seriousness,Value 4,2011-11-23T09:31:14.000000
+4307,Take in charge ticket,Value 4,2011-11-23T09:32:01.000000
+4307,Resolve ticket,Value 4,2011-11-23T11:13:50.000000
+4307,Closed,Value 5,2011-12-28T09:40:21.000000
+4308,Assign seriousness,Value 1,2011-12-14T11:18:21.000000
+4308,Take in charge ticket,Value 13,2011-12-16T07:08:43.000000
+4308,Wait,Value 13,2011-12-16T07:38:42.000000
+4308,Take in charge ticket,Value 13,2011-12-23T13:56:44.000000
+4308,Resolve ticket,Value 13,2012-01-11T12:45:19.000000
+4308,Closed,Value 5,2012-01-26T12:45:30.000000
+4311,Assign seriousness,Value 1,2012-12-04T06:22:05.000000
+4311,Take in charge ticket,Value 2,2012-12-05T11:38:24.000000
+4311,Require upgrade,Value 2,2012-12-06T15:00:53.000000
+4311,Wait,Value 2,2012-12-10T06:20:39.000000
+4311,Resolve ticket,Value 2,2013-01-11T08:54:50.000000
+4311,Closed,Value 3,2013-01-26T08:55:10.000000
+4312,Assign seriousness,Value 4,2011-11-16T09:05:40.000000
+4312,Take in charge ticket,Value 9,2011-11-16T14:07:45.000000
+4312,Wait,Value 9,2011-11-21T07:41:10.000000
+4312,Resolve ticket,Value 9,2011-12-02T11:31:44.000000
+4312,Closed,Value 5,2012-01-06T13:00:25.000000
+4313,Assign seriousness,Value 9,2010-09-09T13:05:39.000000
+4313,Assign seriousness,Value 2,2010-09-13T10:43:14.000000
+4313,Take in charge ticket,Value 2,2010-09-13T10:43:21.000000
+4313,Resolve ticket,Value 2,2010-09-13T10:43:40.000000
+4313,Closed,Value 5,2010-10-23T13:00:34.000000
+4314,Assign seriousness,Value 1,2012-01-10T13:01:36.000000
+4314,Resolve ticket,Value 1,2012-01-10T13:58:08.000000
+4314,Closed,Value 5,2012-02-25T13:10:39.000000
+4315,Assign seriousness,Value 1,2012-01-16T12:05:59.000000
+4315,Take in charge ticket,Value 1,2012-01-23T09:59:24.000000
+4315,Resolve ticket,Value 1,2012-01-27T08:16:12.000000
+4315,Closed,Value 5,2012-02-16T12:10:29.000000
+4316,Assign seriousness,Value 9,2011-08-12T11:34:43.000000
+4316,Take in charge ticket,Value 2,2011-08-29T07:16:10.000000
+4316,Resolve ticket,Value 2,2011-08-29T07:17:20.000000
+4316,Closed,Value 5,2011-09-29T11:40:29.000000
+4317,Assign seriousness,Value 4,2011-11-10T14:56:38.000000
+4317,Take in charge ticket,Value 4,2011-11-11T09:07:07.000000
+4317,Resolve ticket,Value 4,2011-11-16T07:25:50.000000
+4317,Closed,Value 5,2011-12-13T15:00:20.000000
+4319,Assign seriousness,Value 1,2011-11-24T08:09:21.000000
+4319,Take in charge ticket,Value 12,2011-11-24T12:20:25.000000
+4319,Resolve ticket,Value 12,2011-11-24T12:23:50.000000
+4319,Closed,Value 5,2012-01-07T08:10:26.000000
+4320,Assign seriousness,Value 2,2010-02-05T09:15:48.000000
+4320,Take in charge ticket,Value 2,2010-02-12T09:14:18.000000
+4320,Resolve ticket,Value 2,2010-02-24T15:09:08.000000
+4320,Closed,Value 5,2010-03-11T15:09:42.000000
+4321,Assign seriousness,Value 13,2012-02-16T14:49:17.000000
+4321,Take in charge ticket,Value 13,2012-02-22T15:14:56.000000
+4321,Resolve ticket,Value 2,2012-02-28T08:24:47.000000
+4321,Closed,Value 5,2012-03-20T14:50:20.000000
+4322,Assign seriousness,Value 1,2012-02-22T12:21:08.000000
+4322,Take in charge ticket,Value 2,2012-02-23T09:37:08.000000
+4322,Resolve ticket,Value 2,2012-02-27T07:17:35.000000
+4322,Closed,Value 5,2012-03-24T12:30:28.000000
+4323,Assign seriousness,Value 1,2012-07-26T07:16:27.000000
+4323,Take in charge ticket,Value 13,2012-07-26T07:51:00.000000
+4323,Take in charge ticket,Value 13,2012-07-26T07:51:58.000000
+4323,Wait,Value 13,2012-07-30T12:20:39.000000
+4323,Resolve ticket,Value 13,2012-08-02T09:11:08.000000
+4323,Closed,Value 5,2012-09-15T04:20:29.000000
+4324,Assign seriousness,Value 1,2012-09-25T12:52:31.000000
+4324,Take in charge ticket,Value 3,2012-09-28T07:39:23.000000
+4324,Resolve ticket,Value 2,2012-10-17T05:16:18.000000
+4324,Closed,Value 3,2012-11-01T07:16:38.000000
+4325,Assign seriousness,Value 14,2013-09-25T10:32:38.000000
+4325,Take in charge ticket,Value 14,2013-09-25T10:33:02.000000
+4325,Wait,Value 14,2013-09-25T11:29:45.000000
+4325,Resolve ticket,Value 14,2013-10-21T12:09:58.000000
+4325,Closed,Value 3,2013-11-05T14:10:14.000000
+4326,Assign seriousness,Value 4,2012-01-31T07:02:08.000000
+4326,Take in charge ticket,Value 4,2012-01-31T07:03:04.000000
+4326,Wait,Value 4,2012-02-08T14:01:24.000000
+4326,Resolve ticket,Value 4,2012-02-13T06:59:31.000000
+4326,Closed,Value 5,2012-03-06T09:01:45.000000
+4329,Assign seriousness,Value 1,2012-06-07T11:20:07.000000
+4329,Take in charge ticket,Value 2,2012-06-20T10:56:21.000000
+4329,Resolve ticket,Value 1,2012-06-26T06:03:05.000000
+4329,Closed,Value 5,2012-07-11T06:03:18.000000
+4330,Assign seriousness,Value 2,2010-10-14T05:35:49.000000
+4330,Assign seriousness,Value 2,2010-10-14T05:36:10.000000
+4330,Take in charge ticket,Value 2,2010-10-14T05:36:18.000000
+4330,Resolve ticket,Value 2,2010-10-15T03:54:51.000000
+4330,Closed,Value 5,2010-11-17T07:40:40.000000
+4333,Assign seriousness,Value 1,2012-03-08T07:52:53.000000
+4333,Assign seriousness,Value 2,2012-03-09T13:02:58.000000
+4333,Resolve ticket,Value 2,2012-03-09T13:38:51.000000
+4333,Closed,Value 5,2012-04-25T06:00:31.000000
+4334,Assign seriousness,Value 1,2011-12-30T14:06:55.000000
+4334,Take in charge ticket,Value 9,2012-01-03T06:52:43.000000
+4334,Resolve ticket,Value 9,2012-01-16T11:58:08.000000
+4334,Closed,Value 5,2012-01-31T11:58:22.000000
+4335,Assign seriousness,Value 14,2010-11-18T13:05:54.000000
+4335,Take in charge ticket,Value 2,2010-11-18T13:27:06.000000
+4335,Wait,Value 2,2010-11-19T06:38:23.000000
+4335,Take in charge ticket,Value 2,2010-11-23T09:32:32.000000
+4335,Resolve ticket,Value 2,2010-11-23T09:32:51.000000
+4335,Closed,Value 5,2010-12-26T07:11:49.000000
+4336,Assign seriousness,Value 6,2011-11-08T07:18:10.000000
+4336,Take in charge ticket,Value 6,2011-11-08T07:22:35.000000
+4336,Resolve ticket,Value 6,2011-12-05T14:33:12.000000
+4336,Closed,Value 5,2011-12-20T14:33:29.000000
+4338,Assign seriousness,Value 7,2010-10-06T09:56:02.000000
+4338,Take in charge ticket,Value 2,2010-10-07T06:02:04.000000
+4338,Resolve ticket,Value 2,2010-10-07T10:54:11.000000
+4338,Take in charge ticket,Value 2,2010-11-18T07:33:11.000000
+4338,Resolve ticket,Value 2,2010-11-18T12:29:38.000000
+4338,Resolve ticket,Value 2,2010-11-18T12:29:38.000000
+4338,Closed,Value 5,2010-12-03T12:29:47.000000
+4339,Assign seriousness,Value 4,2013-02-13T12:48:56.000000
+4339,Take in charge ticket,Value 2,2013-02-18T14:41:56.000000
+4339,Wait,Value 2,2013-02-20T06:55:13.000000
+4339,Resolve ticket,Value 2,2013-03-01T14:26:18.000000
+4339,Closed,Value 3,2013-03-16T14:26:36.000000
+4340,Assign seriousness,Value 1,2012-07-04T05:19:43.000000
+4340,Take in charge ticket,Value 1,2012-07-09T09:33:08.000000
+4340,Resolve ticket,Value 1,2012-07-10T06:04:54.000000
+4340,Closed,Value 5,2012-08-04T05:20:27.000000
+4341,Assign seriousness,Value 2,2011-08-29T05:20:58.000000
+4341,Take in charge ticket,Value 16,2011-09-01T07:00:46.000000
+4341,Resolve ticket,Value 16,2011-09-01T11:25:19.000000
+4341,Resolve ticket,Value 16,2011-09-01T11:25:19.000000
+4341,Closed,Value 5,2011-10-27T05:30:52.000000
+4342,Assign seriousness,Value 1,2012-04-04T12:32:35.000000
+4342,Take in charge ticket,Value 1,2012-04-04T12:32:55.000000
+4342,Resolve ticket,Value 1,2012-04-05T04:48:31.000000
+4342,Closed,Value 5,2012-05-05T12:40:23.000000
+4343,Assign seriousness,Value 14,2010-11-11T06:44:45.000000
+4343,Assign seriousness,Value 2,2010-11-11T07:10:45.000000
+4343,Take in charge ticket,Value 2,2010-11-18T13:32:05.000000
+4343,Take in charge ticket,Value 2,2010-11-23T14:27:56.000000
+4343,Resolve ticket,Value 7,2010-11-30T12:41:44.000000
+4343,Closed,Value 5,2010-12-30T12:42:08.000000
+4344,Assign seriousness,Value 1,2012-07-20T04:23:06.000000
+4344,Take in charge ticket,Value 13,2012-07-20T05:02:06.000000
+4344,Resolve ticket,Value 1,2012-07-20T11:19:15.000000
+4344,Closed,Value 5,2012-09-06T04:30:53.000000
+4347,Assign seriousness,Value 14,2013-10-03T04:22:55.000000
+4347,Take in charge ticket,Value 2,2013-10-04T06:08:21.000000
+4347,Wait,Value 2,2013-10-07T10:20:44.000000
+4347,Wait,Value 2,2013-10-09T04:36:41.000000
+4347,Resolve ticket,Value 2,2013-11-08T07:26:35.000000
+4347,Closed,Value 3,2013-11-23T07:26:49.000000
+4348,Assign seriousness,Value 1,2012-03-22T12:36:48.000000
+4348,Take in charge ticket,Value 9,2012-03-26T08:55:24.000000
+4348,Wait,Value 9,2012-03-26T10:15:21.000000
+4348,Resolve ticket,Value 9,2012-03-28T07:55:14.000000
+4348,Closed,Value 5,2012-05-11T09:20:15.000000
+4349,Assign seriousness,Value 2,2010-01-21T06:49:07.000000
+4349,Take in charge ticket,Value 2,2010-02-19T08:43:41.000000
+4349,Resolve ticket,Value 2,2010-02-19T08:43:47.000000
+4349,Closed,Value 5,2010-03-21T08:44:31.000000
+4350,Assign seriousness,Value 14,2010-07-07T11:29:57.000000
+4350,Take in charge ticket,Value 2,2010-07-26T11:23:55.000000
+4350,Resolve ticket,Value 2,2010-07-26T11:24:29.000000
+4350,Closed,Value 5,2010-08-25T11:24:47.000000
+4351,Assign seriousness,Value 2,2010-07-13T05:45:52.000000
+4351,Take in charge ticket,Value 2,2010-07-13T05:48:07.000000
+4351,Resolve ticket,Value 2,2010-07-13T10:07:59.000000
+4351,Closed,Value 5,2010-08-13T05:50:28.000000
+4352,Assign seriousness,Value 9,2012-03-01T14:56:30.000000
+4352,Take in charge ticket,Value 6,2012-03-07T06:32:42.000000
+4352,Resolve ticket,Value 17,2012-03-07T07:15:49.000000
+4352,Closed,Value 5,2012-04-03T13:00:28.000000
+4353,Assign seriousness,Value 1,2012-03-12T06:18:06.000000
+4353,Take in charge ticket,Value 1,2012-03-12T06:18:20.000000
+4353,Resolve ticket,Value 1,2012-03-12T06:50:00.000000
+4353,Resolve ticket,Value 1,2012-03-12T06:50:01.000000
+4353,Closed,Value 5,2012-04-28T04:20:35.000000
+4354,Assign seriousness,Value 1,2012-04-27T04:46:55.000000
+4354,Take in charge ticket,Value 1,2012-04-27T04:47:43.000000
+4354,Wait,Value 1,2012-05-08T12:36:24.000000
+4354,Resolve ticket,Value 1,2012-05-10T10:13:39.000000
+4354,Closed,Value 5,2012-05-31T11:30:16.000000
+4355,Assign seriousness,Value 2,2011-05-31T10:34:43.000000
+4355,Take in charge ticket,Value 10,2011-06-07T09:34:53.000000
+4355,Resolve ticket,Value 9,2011-06-07T10:24:45.000000
+4355,Closed,Value 5,2011-07-23T10:40:57.000000
+4358,Assign seriousness,Value 1,2012-07-05T05:30:32.000000
+4358,Take in charge ticket,Value 6,2012-07-05T06:25:45.000000
+4358,Resolve ticket,Value 6,2012-07-05T06:44:46.000000
+4358,Closed,Value 5,2012-09-02T05:40:27.000000
+4361,Assign seriousness,Value 7,2010-11-11T08:03:44.000000
+4361,Take in charge ticket,Value 7,2010-11-11T08:05:19.000000
+4361,Resolve ticket,Value 7,2010-11-11T08:05:27.000000
+4361,Closed,Value 5,2010-12-14T08:10:30.000000
+4362,Assign seriousness,Value 2,2011-03-07T07:09:57.000000
+4362,Take in charge ticket,Value 2,2011-03-07T07:10:06.000000
+4362,Resolve ticket,Value 2,2011-03-08T07:37:41.000000
+4362,Closed,Value 5,2011-04-14T05:10:42.000000
+4366,Assign seriousness,Value 1,2012-02-27T09:50:44.000000
+4366,Take in charge ticket,Value 6,2012-02-27T11:41:41.000000
+4366,Wait,Value 12,2012-02-28T15:09:42.000000
+4366,Resolve ticket,Value 12,2012-03-19T06:29:33.000000
+4366,Closed,Value 5,2012-04-03T04:29:45.000000
+4367,Assign seriousness,Value 1,2013-02-01T09:07:48.000000
+4367,Require upgrade,Value 4,2013-02-19T06:46:03.000000
+4367,Resolve ticket,Value 4,2013-02-19T08:33:21.000000
+4367,Closed,Value 3,2013-03-06T08:33:27.000000
+4368,Insert ticket,Value 12,2010-04-07T12:30:47.000000
+4368,Assign seriousness,Value 12,2010-04-07T12:31:32.000000
+4368,Take in charge ticket,Value 12,2010-04-07T12:37:17.000000
+4368,Resolve ticket,Value 12,2010-04-09T12:16:50.000000
+4368,Closed,Value 5,2010-05-14T12:40:25.000000
+4370,Assign seriousness,Value 16,2010-02-09T06:31:47.000000
+4370,Take in charge ticket,Value 16,2010-02-09T06:35:12.000000
+4370,Wait,Value 16,2010-02-09T06:35:26.000000
+4370,Wait,Value 2,2010-02-09T06:36:27.000000
+4370,Take in charge ticket,Value 11,2010-02-19T06:31:40.000000
+4370,Resolve ticket,Value 11,2010-02-19T06:32:00.000000
+4370,Closed,Value 5,2010-04-09T04:40:43.000000
+4371,Assign seriousness,Value 1,2011-10-12T10:52:40.000000
+4371,Take in charge ticket,Value 6,2011-10-13T06:31:47.000000
+4371,Resolve ticket,Value 6,2011-10-13T09:49:59.000000
+4371,Closed,Value 5,2011-11-27T13:00:19.000000
+4372,Assign seriousness,Value 1,2012-07-27T10:04:28.000000
+4372,Resolve ticket,Value 1,2012-07-27T10:05:46.000000
+4372,Resolve ticket,Value 1,2012-07-27T10:05:46.000000
+4372,Closed,Value 5,2012-09-05T10:10:22.000000
+4374,Assign seriousness,Value 1,2012-02-22T12:33:06.000000
+4374,Take in charge ticket,Value 1,2012-02-22T12:33:15.000000
+4374,Resolve ticket,Value 1,2012-02-24T12:42:24.000000
+4374,Closed,Value 5,2012-03-24T12:41:59.000000
+4375,Assign seriousness,Value 2,2010-04-22T04:26:21.000000
+4375,Take in charge ticket,Value 2,2010-05-17T12:39:01.000000
+4375,Resolve ticket,Value 2,2010-05-17T12:39:10.000000
+4375,Closed,Value 5,2010-06-16T12:39:30.000000
+4376,Assign seriousness,Value 7,2010-09-20T09:56:21.000000
+4376,Take in charge ticket,Value 11,2010-09-22T12:27:25.000000
+4376,Resolve ticket,Value 11,2010-09-22T12:27:30.000000
+4376,Closed,Value 5,2010-11-03T12:00:20.000000
+4377,Assign seriousness,Value 1,2011-09-23T05:17:21.000000
+4377,Take in charge ticket,Value 13,2011-09-28T07:11:21.000000
+4377,Wait,Value 13,2011-10-07T06:09:27.000000
+4377,Resolve ticket,Value 2,2011-10-31T14:41:48.000000
+4377,Closed,Value 5,2011-11-17T14:00:30.000000
+4378,Assign seriousness,Value 1,2012-03-26T12:17:58.000000
+4378,Take in charge ticket,Value 13,2012-03-27T05:41:06.000000
+4378,Wait,Value 13,2012-03-27T05:42:51.000000
+4378,Take in charge ticket,Value 13,2012-03-28T04:20:47.000000
+4378,Wait,Value 13,2012-03-28T04:44:04.000000
+4378,Resolve ticket,Value 13,2012-04-12T12:00:28.000000
+4378,Closed,Value 5,2012-04-27T12:00:45.000000
+4379,Assign seriousness,Value 8,2011-04-26T04:58:29.000000
+4379,Take in charge ticket,Value 10,2011-04-26T05:23:14.000000
+4379,Resolve ticket,Value 10,2011-04-26T05:30:12.000000
+4379,Closed,Value 5,2011-06-03T05:00:31.000000
+4380,Assign seriousness,Value 1,2012-06-08T05:10:29.000000
+4380,Take in charge ticket,Value 2,2012-06-08T09:49:28.000000
+4380,Resolve ticket,Value 2,2012-06-12T07:43:27.000000
+4380,Closed,Value 5,2012-07-11T05:20:37.000000
+4382,Assign seriousness,Value 8,2011-05-27T10:12:00.000000
+4382,Take in charge ticket,Value 6,2011-06-10T11:05:35.000000
+4382,Resolve ticket,Value 9,2011-06-14T09:52:51.000000
+4382,Closed,Value 5,2011-06-29T09:53:13.000000
+4383,Assign seriousness,Value 1,2012-11-14T14:58:19.000000
+4383,Take in charge ticket,Value 13,2012-11-15T09:54:48.000000
+4383,Resolve ticket,Value 12,2012-11-30T06:37:17.000000
+4383,Closed,Value 3,2012-12-15T06:37:33.000000
+4384,Assign seriousness,Value 13,2011-03-24T09:51:56.000000
+4384,Take in charge ticket,Value 13,2011-03-24T09:52:11.000000
+4384,Resolve ticket,Value 13,2011-03-24T12:01:26.000000
+4384,Closed,Value 5,2011-04-26T08:00:50.000000
+4386,Assign seriousness,Value 1,2013-02-21T08:33:01.000000
+4386,Take in charge ticket,Value 2,2013-03-11T06:11:19.000000
+4386,Resolve ticket,Value 9,2013-03-11T06:24:08.000000
+4386,Closed,Value 3,2013-03-26T06:24:20.000000
+4387,Assign seriousness,Value 1,2013-03-01T13:52:47.000000
+4387,Take in charge ticket,Value 2,2013-03-25T07:26:48.000000
+4387,Resolve ticket,Value 4,2013-03-27T09:29:49.000000
+4387,Closed,Value 3,2013-04-11T07:30:04.000000
+4388,Assign seriousness,Value 14,2013-05-31T05:54:38.000000
+4388,Take in charge ticket,Value 4,2013-06-14T12:09:56.000000
+4388,Wait,Value 9,2013-06-17T04:09:53.000000
+4388,Resolve ticket,Value 9,2013-06-26T05:28:05.000000
+4388,Closed,Value 3,2013-07-11T05:28:16.000000
+4389,Assign seriousness,Value 1,2011-11-14T08:49:02.000000
+4389,Take in charge ticket,Value 9,2011-11-16T11:34:14.000000
+4389,Wait,Value 9,2011-11-16T11:37:12.000000
+4389,Resolve ticket,Value 9,2011-11-18T07:10:41.000000
+4389,Closed,Value 5,2011-12-16T14:31:47.000000
+4390,Assign seriousness,Value 8,2011-04-08T05:15:32.000000
+4390,Take in charge ticket,Value 8,2011-04-08T11:50:49.000000
+4390,Resolve ticket,Value 8,2011-04-08T11:54:52.000000
+4390,Take in charge ticket,Value 2,2011-04-20T09:58:47.000000
+4390,Resolve ticket,Value 21,2011-04-26T07:24:52.000000
+4390,Closed,Value 5,2011-05-11T07:25:06.000000
+4391,Assign seriousness,Value 1,2012-07-31T11:35:02.000000
+4391,Take in charge ticket,Value 13,2012-07-31T12:24:57.000000
+4391,Resolve ticket,Value 13,2012-08-02T09:08:43.000000
+4391,Closed,Value 5,2012-09-07T11:41:50.000000
+4392,Assign seriousness,Value 1,2013-07-16T11:19:52.000000
+4392,Take in charge ticket,Value 1,2013-07-23T05:59:56.000000
+4392,Wait,Value 1,2013-07-24T05:11:00.000000
+4392,Resolve ticket,Value 1,2013-08-19T12:22:57.000000
+4392,Closed,Value 3,2013-09-03T12:23:13.000000
+4393,Assign seriousness,Value 7,2010-09-07T06:09:52.000000
+4393,Assign seriousness,Value 7,2010-09-07T06:10:08.000000
+4393,Take in charge ticket,Value 12,2010-09-08T13:17:13.000000
+4393,Resolve ticket,Value 12,2010-09-08T13:21:08.000000
+4393,Closed,Value 5,2010-10-21T06:10:20.000000
+4394,Assign seriousness,Value 14,2013-06-18T13:09:06.000000
+4394,Take in charge ticket,Value 9,2013-06-19T12:18:47.000000
+4394,Wait,Value 9,2013-06-25T09:23:10.000000
+4394,Resolve ticket,Value 9,2013-07-09T10:27:03.000000
+4394,Closed,Value 3,2013-07-24T10:27:18.000000
+4395,Assign seriousness,Value 13,2011-02-16T14:50:33.000000
+4395,Take in charge ticket,Value 13,2011-02-16T14:50:49.000000
+4395,Resolve ticket,Value 13,2011-02-16T14:51:44.000000
+4395,Closed,Value 5,2011-04-16T13:00:34.000000
+4396,Insert ticket,Value 14,2010-09-15T04:20:34.000000
+4396,Assign seriousness,Value 14,2010-09-15T04:21:23.000000
+4396,Take in charge ticket,Value 14,2010-09-15T04:21:35.000000
+4396,Resolve ticket,Value 14,2010-09-15T04:21:55.000000
+4396,Closed,Value 5,2010-10-29T04:30:37.000000
+4397,Assign seriousness,Value 1,2012-01-13T06:20:49.000000
+4397,Assign seriousness,Value 1,2012-01-13T06:35:41.000000
+4397,Take in charge ticket,Value 16,2012-01-13T06:39:33.000000
+4397,Resolve ticket,Value 16,2012-01-16T07:09:34.000000
+4397,Closed,Value 5,2012-03-12T06:30:55.000000
+4398,Assign seriousness,Value 8,2011-01-05T08:39:43.000000
+4398,Assign seriousness,Value 2,2011-01-10T13:17:11.000000
+4398,Take in charge ticket,Value 2,2011-01-10T13:17:17.000000
+4398,Resolve ticket,Value 14,2011-01-21T07:34:44.000000
+4398,Closed,Value 5,2011-02-05T07:34:55.000000
+4399,Assign seriousness,Value 4,2012-02-08T11:07:57.000000
+4399,Take in charge ticket,Value 2,2012-02-15T14:43:00.000000
+4399,Create SW anomaly,Value 2,2012-02-16T08:41:39.000000
+4399,Resolve SW anomaly,Value 2,2012-02-16T08:41:50.000000
+4399,Resolve SW anomaly,Value 9,2012-02-17T06:25:51.000000
+4399,Resolve ticket,Value 9,2012-03-09T08:39:17.000000
+4399,Closed,Value 5,2012-03-24T10:00:22.000000
+4400,Assign seriousness,Value 2,2010-11-24T07:11:36.000000
+4400,Take in charge ticket,Value 2,2010-11-24T07:12:33.000000
+4400,Resolve ticket,Value 2,2010-11-24T07:13:41.000000
+4400,Closed,Value 5,2011-01-12T07:20:27.000000
+4402,Take in charge ticket,Value 1,2013-05-17T04:16:39.000000
+4402,Wait,Value 1,2013-05-24T12:06:33.000000
+4402,Resolve ticket,Value 1,2013-06-03T05:12:02.000000
+4402,Closed,Value 3,2013-06-18T05:12:18.000000
+4404,Assign seriousness,Value 1,2012-04-26T06:28:36.000000
+4404,Take in charge ticket,Value 13,2012-04-27T05:00:29.000000
+4404,Resolve ticket,Value 13,2012-05-09T12:39:26.000000
+4404,Closed,Value 5,2012-05-29T06:30:27.000000
+4405,Assign seriousness,Value 1,2013-04-03T06:02:16.000000
+4405,Take in charge ticket,Value 9,2013-04-26T06:30:53.000000
+4405,Resolve ticket,Value 9,2013-04-26T06:33:04.000000
+4405,Closed,Value 3,2013-05-11T06:33:21.000000
+4409,Assign seriousness,Value 1,2013-04-22T12:34:28.000000
+4409,Take in charge ticket,Value 1,2013-04-30T04:14:40.000000
+4409,Wait,Value 1,2013-04-30T11:25:44.000000
+4409,Resolve ticket,Value 2,2013-05-16T11:28:24.000000
+4409,Closed,Value 3,2013-05-31T11:28:43.000000
+4410,Insert ticket,Value 15,2010-03-08T09:52:47.000000
+4410,Assign seriousness,Value 2,2010-03-08T09:56:49.000000
+4410,Take in charge ticket,Value 15,2010-03-15T08:17:38.000000
+4410,Resolve ticket,Value 15,2010-03-15T08:21:22.000000
+4410,Closed,Value 5,2010-04-21T08:00:30.000000
+4412,Assign seriousness,Value 8,2011-03-31T11:36:11.000000
+4412,Take in charge ticket,Value 8,2011-03-31T11:46:00.000000
+4412,Resolve ticket,Value 9,2011-04-13T10:51:51.000000
+4412,Closed,Value 5,2011-05-03T11:40:21.000000
+4413,Assign seriousness,Value 1,2013-04-23T07:11:02.000000
+4413,Take in charge ticket,Value 2,2013-05-09T05:47:53.000000
+4413,Resolve ticket,Value 2,2013-05-09T11:49:38.000000
+4413,Closed,Value 3,2013-05-24T11:49:51.000000
+4414,Assign seriousness,Value 8,2011-02-24T15:01:50.000000
+4414,Take in charge ticket,Value 8,2011-02-24T15:03:45.000000
+4414,Resolve ticket,Value 9,2011-03-04T08:02:13.000000
+4414,Closed,Value 5,2011-04-09T13:00:27.000000
+4415,Take in charge ticket,Value 1,2011-12-21T08:30:57.000000
+4415,Resolve ticket,Value 13,2011-12-27T09:40:28.000000
+4415,Closed,Value 5,2012-02-05T08:41:06.000000
+4416,Assign seriousness,Value 14,2010-12-03T12:03:28.000000
+4416,Take in charge ticket,Value 2,2010-12-06T06:19:24.000000
+4416,Resolve ticket,Value 2,2010-12-10T07:43:17.000000
+4416,Closed,Value 5,2011-01-19T12:10:24.000000
+4417,Assign seriousness,Value 7,2010-10-26T11:50:16.000000
+4417,Take in charge ticket,Value 7,2010-10-26T11:50:38.000000
+4417,Resolve ticket,Value 7,2010-10-26T11:51:09.000000
+4417,Closed,Value 5,2010-11-27T14:00:18.000000
+4418,Assign seriousness,Value 13,2012-05-07T05:53:48.000000
+4418,Take in charge ticket,Value 13,2012-05-07T05:54:02.000000
+4418,Resolve ticket,Value 13,2012-05-07T07:19:00.000000
+4418,Closed,Value 5,2012-06-20T06:00:23.000000
+4420,Assign seriousness,Value 6,2011-09-09T05:08:04.000000
+4420,Take in charge ticket,Value 9,2011-09-26T10:42:33.000000
+4420,Resolve ticket,Value 9,2011-09-27T06:37:32.000000
+4420,Closed,Value 5,2011-10-12T06:37:44.000000
+4421,Assign seriousness,Value 18,2013-09-04T12:52:10.000000
+4421,Take in charge ticket,Value 2,2013-09-09T04:47:54.000000
+4421,Wait,Value 2,2013-09-10T05:44:04.000000
+4421,Resolve ticket,Value 2,2013-09-20T05:11:18.000000
+4421,Closed,Value 3,2013-10-05T05:11:28.000000
+4422,Assign seriousness,Value 9,2012-05-14T09:54:35.000000
+4422,Take in charge ticket,Value 9,2012-05-14T10:05:09.000000
+4422,Wait,Value 9,2012-05-21T11:47:00.000000
+4422,Resolve ticket,Value 9,2012-05-22T04:11:30.000000
+4422,Closed,Value 5,2012-06-14T11:30:17.000000
+4423,Assign seriousness,Value 2,2010-05-26T04:25:32.000000
+4423,Take in charge ticket,Value 2,2010-05-26T04:25:49.000000
+4423,Resolve ticket,Value 2,2010-05-26T05:36:58.000000
+4423,Closed,Value 5,2010-07-10T04:30:25.000000
+4424,Assign seriousness,Value 1,2012-04-19T07:51:11.000000
+4424,Take in charge ticket,Value 13,2012-04-23T04:37:41.000000
+4424,Resolve ticket,Value 13,2012-04-23T11:32:42.000000
+4424,Closed,Value 5,2012-05-22T08:00:37.000000
+4425,Assign seriousness,Value 1,2012-06-12T13:12:48.000000
+4425,Take in charge ticket,Value 9,2012-06-15T04:27:33.000000
+4425,Wait,Value 9,2012-06-15T07:00:52.000000
+4425,Resolve ticket,Value 9,2012-06-18T06:42:02.000000
+4425,Closed,Value 5,2012-07-14T12:40:24.000000
+4426,Assign seriousness,Value 4,2011-10-26T07:40:48.000000
+4426,Take in charge ticket,Value 6,2011-10-26T09:14:20.000000
+4426,Resolve ticket,Value 6,2011-11-08T07:01:20.000000
+4426,Closed,Value 5,2011-12-24T09:50:59.000000
+4427,Assign seriousness,Value 8,2011-01-13T15:03:47.000000
+4427,Assign seriousness,Value 2,2011-01-28T15:43:23.000000
+4427,Take in charge ticket,Value 2,2011-01-28T15:43:29.000000
+4427,Take in charge ticket,Value 9,2011-02-04T14:50:59.000000
+4427,Resolve ticket,Value 9,2011-02-04T14:52:44.000000
+4427,Closed,Value 5,2011-02-19T14:52:57.000000
+4428,Assign seriousness,Value 2,2010-04-12T04:51:54.000000
+4428,Take in charge ticket,Value 16,2010-05-04T06:14:26.000000
+4428,Resolve ticket,Value 16,2010-05-04T06:28:55.000000
+4428,Closed,Value 5,2010-05-19T06:29:09.000000
+4429,Assign seriousness,Value 1,2011-10-14T09:26:39.000000
+4429,Take in charge ticket,Value 6,2011-10-17T04:08:06.000000
+4429,Resolve ticket,Value 6,2011-10-17T09:08:53.000000
+4429,Closed,Value 5,2011-12-12T11:30:47.000000
+4430,Assign seriousness,Value 2,2010-02-10T06:52:42.000000
+4430,Take in charge ticket,Value 2,2010-02-22T07:06:59.000000
+4430,Wait,Value 2,2010-02-22T07:43:38.000000
+4430,Take in charge ticket,Value 2,2010-03-10T06:17:55.000000
+4430,Resolve ticket,Value 2,2010-03-10T06:18:00.000000
+4430,Closed,Value 5,2010-04-09T04:18:19.000000
+4431,Assign seriousness,Value 8,2011-01-11T12:41:04.000000
+4431,Take in charge ticket,Value 2,2011-01-13T11:42:36.000000
+4431,Resolve ticket,Value 2,2011-01-13T11:44:09.000000
+4431,Closed,Value 5,2011-02-11T12:50:25.000000
+4432,Assign seriousness,Value 1,2012-01-17T14:04:58.000000
+4432,Take in charge ticket,Value 9,2012-01-18T11:40:33.000000
+4432,Resolve ticket,Value 9,2012-01-26T14:15:21.000000
+4432,Closed,Value 5,2012-02-17T14:10:26.000000
+4436,Assign seriousness,Value 1,2011-11-14T12:35:55.000000
+4436,Take in charge ticket,Value 9,2011-11-17T14:58:30.000000
+4436,Wait,Value 9,2011-11-17T14:59:03.000000
+4436,Resolve ticket,Value 9,2011-11-25T07:30:07.000000
+4436,Take in charge ticket,Value 9,2011-11-28T11:50:35.000000
+4436,Wait,Value 9,2011-11-28T11:59:00.000000
+4436,Resolve ticket,Value 9,2011-12-07T11:41:18.000000
+4436,Closed,Value 5,2012-01-06T14:20:25.000000
+4437,Assign seriousness,Value 2,2010-04-13T05:01:03.000000
+4437,Take in charge ticket,Value 2,2010-05-12T10:41:21.000000
+4437,Resolve ticket,Value 2,2010-05-12T10:41:25.000000
+4437,Closed,Value 5,2010-06-11T10:41:50.000000
+4438,Assign seriousness,Value 2,2010-12-13T07:04:49.000000
+4438,Take in charge ticket,Value 2,2010-12-13T07:05:47.000000
+4438,Resolve ticket,Value 2,2010-12-13T14:43:00.000000
+4438,Closed,Value 5,2011-01-13T07:10:27.000000
+4439,Assign seriousness,Value 1,2012-03-21T14:26:16.000000
+4439,Take in charge ticket,Value 1,2012-03-21T14:26:28.000000
+4439,Resolve ticket,Value 1,2012-03-26T12:25:08.000000
+4439,Closed,Value 5,2012-04-21T12:30:26.000000
+4440,Assign seriousness,Value 2,2010-11-08T11:54:27.000000
+4440,Take in charge ticket,Value 2,2010-11-08T11:56:37.000000
+4440,Resolve ticket,Value 2,2010-11-08T11:59:37.000000
+4440,Closed,Value 5,2011-01-06T12:01:15.000000
+4441,Assign seriousness,Value 12,2011-09-05T12:03:00.000000
+4441,Assign seriousness,Value 12,2011-09-06T12:55:56.000000
+4441,Assign seriousness,Value 12,2011-09-06T12:55:57.000000
+4441,Take in charge ticket,Value 2,2011-09-19T07:48:25.000000
+4441,Resolve ticket,Value 2,2011-09-26T11:06:31.000000
+4441,Closed,Value 5,2011-10-26T11:06:53.000000
+4442,Assign seriousness,Value 1,2013-01-03T13:40:10.000000
+4442,Take in charge ticket,Value 13,2013-01-28T08:57:23.000000
+4442,Resolve ticket,Value 2,2013-02-08T11:17:42.000000
+4442,Closed,Value 3,2013-02-23T11:17:52.000000
+4444,Assign seriousness,Value 1,2012-05-24T06:42:53.000000
+4444,Take in charge ticket,Value 2,2012-05-25T09:49:51.000000
+4444,Wait,Value 2,2012-05-25T09:55:45.000000
+4444,Resolve ticket,Value 2,2012-06-01T04:02:59.000000
+4444,Closed,Value 5,2012-06-30T11:00:28.000000
+4445,Assign seriousness,Value 1,2011-11-22T08:21:43.000000
+4445,Take in charge ticket,Value 2,2011-11-29T08:36:04.000000
+4445,Resolve ticket,Value 2,2011-12-13T13:25:11.000000
+4445,Closed,Value 5,2011-12-28T13:25:22.000000
+4446,Assign seriousness,Value 8,2011-01-10T10:00:18.000000
+4446,Take in charge ticket,Value 17,2011-01-14T14:34:23.000000
+4446,Resolve ticket,Value 17,2011-01-14T14:34:32.000000
+4446,Closed,Value 5,2011-02-23T10:00:55.000000
+4447,Assign seriousness,Value 14,2010-09-24T04:57:49.000000
+4447,Assign seriousness,Value 7,2010-09-24T10:43:51.000000
+4447,Wait,Value 7,2010-09-24T10:44:52.000000
+4447,Take in charge ticket,Value 14,2010-10-04T07:48:54.000000
+4447,Resolve ticket,Value 14,2010-10-04T07:49:08.000000
+4447,Closed,Value 5,2010-11-03T09:49:30.000000
+4448,Assign seriousness,Value 1,2012-04-05T11:35:31.000000
+4448,Take in charge ticket,Value 4,2012-04-06T05:51:18.000000
+4448,Resolve ticket,Value 4,2012-04-11T06:12:13.000000
+4448,Closed,Value 5,2012-05-08T11:40:14.000000
+4450,Assign seriousness,Value 13,2012-07-26T13:00:23.000000
+4450,Take in charge ticket,Value 4,2012-07-27T07:24:17.000000
+4450,Resolve ticket,Value 4,2012-07-27T12:34:09.000000
+4450,Closed,Value 5,2012-09-02T13:00:17.000000
+4451,Assign seriousness,Value 13,2012-04-16T05:52:21.000000
+4451,Take in charge ticket,Value 13,2012-04-17T06:58:19.000000
+4451,Wait,Value 13,2012-04-18T11:58:19.000000
+4451,Take in charge ticket,Value 1,2012-04-30T10:27:43.000000
+4451,Wait,Value 1,2012-04-30T10:28:49.000000
+4451,Resolve ticket,Value 1,2012-05-09T05:57:23.000000
+4451,Resolve ticket,Value 1,2012-05-09T05:57:26.000000
+4451,Closed,Value 5,2012-05-29T10:00:17.000000
+4454,Assign seriousness,Value 13,2012-06-11T09:58:53.000000
+4454,Take in charge ticket,Value 13,2012-06-11T09:59:02.000000
+4454,Resolve ticket,Value 13,2012-06-13T04:47:21.000000
+4454,Closed,Value 5,2012-07-19T10:00:23.000000
+4455,Assign seriousness,Value 1,2011-09-27T10:21:18.000000
+4455,Take in charge ticket,Value 2,2011-09-29T09:21:29.000000
+4455,Wait,Value 10,2011-10-11T07:51:15.000000
+4455,Wait,Value 2,2011-10-11T12:30:30.000000
+4455,Resolve ticket,Value 2,2011-10-12T04:42:27.000000
+4455,Closed,Value 5,2011-10-28T11:40:18.000000
+4457,Assign seriousness,Value 2,2010-10-04T06:20:47.000000
+4457,Assign seriousness,Value 2,2010-10-04T06:21:28.000000
+4457,Take in charge ticket,Value 2,2010-10-04T06:53:48.000000
+4457,Resolve ticket,Value 7,2010-10-06T07:38:21.000000
+4457,Closed,Value 5,2010-11-17T08:31:57.000000
+4458,Assign seriousness,Value 1,2013-02-26T14:56:03.000000
+4458,Take in charge ticket,Value 2,2013-03-13T14:41:09.000000
+4458,Resolve ticket,Value 4,2013-03-14T13:26:52.000000
+4458,Closed,Value 3,2013-03-29T13:27:15.000000
+4459,Assign seriousness,Value 9,2010-09-24T12:59:41.000000
+4459,Take in charge ticket,Value 6,2010-09-27T04:01:43.000000
+4459,Wait,Value 6,2010-10-04T10:05:25.000000
+4459,Wait,Value 2,2010-10-07T06:33:55.000000
+4459,Take in charge ticket,Value 2,2010-10-12T12:13:49.000000
+4459,Wait,Value 2,2010-10-12T12:14:00.000000
+4459,Take in charge ticket,Value 2,2010-10-12T12:14:12.000000
+4459,Resolve ticket,Value 2,2010-10-12T12:15:24.000000
+4459,Closed,Value 5,2010-10-27T12:15:42.000000
+4460,Assign seriousness,Value 8,2011-06-07T05:02:07.000000
+4460,Take in charge ticket,Value 8,2011-06-07T05:02:22.000000
+4460,Resolve ticket,Value 8,2011-06-08T04:28:41.000000
+4460,Closed,Value 5,2011-08-05T05:10:44.000000
+4461,Assign seriousness,Value 1,2012-04-17T11:32:30.000000
+4461,Take in charge ticket,Value 13,2012-04-18T09:38:18.000000
+4461,Resolve ticket,Value 13,2012-04-20T12:29:20.000000
+4461,Closed,Value 5,2012-05-18T11:40:09.000000
+4462,Assign seriousness,Value 4,2011-11-14T07:17:44.000000
+4462,Resolve ticket,Value 4,2011-11-14T07:57:23.000000
+4462,Closed,Value 5,2011-12-15T07:20:17.000000
+4463,Assign seriousness,Value 14,2013-08-02T11:27:32.000000
+4463,Take in charge ticket,Value 14,2013-08-02T11:47:03.000000
+4463,Wait,Value 9,2013-08-16T06:18:15.000000
+4463,Wait,Value 9,2013-08-16T06:18:16.000000
+4463,Resolve ticket,Value 9,2013-08-19T06:20:10.000000
+4463,Closed,Value 3,2013-09-03T06:20:23.000000
+4464,Assign seriousness,Value 14,2010-11-10T14:32:22.000000
+4464,Take in charge ticket,Value 2,2010-11-11T06:40:24.000000
+4464,Resolve ticket,Value 14,2010-11-12T08:04:52.000000
+4464,Resolve ticket,Value 14,2010-11-12T08:34:49.000000
+4464,Take in charge ticket,Value 14,2010-11-12T09:10:27.000000
+4464,Resolve ticket,Value 2,2010-11-23T09:22:41.000000
+4464,Closed,Value 5,2010-12-11T14:40:11.000000
+4466,Assign seriousness,Value 1,2012-03-16T11:08:31.000000
+4466,Take in charge ticket,Value 1,2012-03-16T11:08:41.000000
+4466,Resolve ticket,Value 1,2012-03-16T11:43:24.000000
+4466,Closed,Value 5,2012-04-18T09:10:22.000000
+4468,Assign seriousness,Value 2,2010-02-09T12:31:28.000000
+4468,Take in charge ticket,Value 2,2010-02-09T12:31:46.000000
+4468,Create SW anomaly,Value 2,2010-02-09T12:32:02.000000
+4468,Resolve ticket,Value 2,2010-03-22T14:18:31.000000
+4468,Take in charge ticket,Value 2,2010-03-22T14:18:50.000000
+4468,Create SW anomaly,Value 2,2010-03-22T14:18:56.000000
+4468,Resolve ticket,Value 2,2010-03-22T14:22:09.000000
+4468,Closed,Value 5,2010-04-06T12:22:17.000000
+4469,Insert ticket,Value 12,2010-05-07T10:02:21.000000
+4469,Assign seriousness,Value 12,2010-05-07T10:02:34.000000
+4469,Take in charge ticket,Value 6,2010-05-24T07:26:28.000000
+4469,Resolve ticket,Value 12,2010-05-25T12:35:44.000000
+4469,Closed,Value 5,2010-06-09T12:35:56.000000
+4470,Assign seriousness,Value 2,2010-03-16T05:59:03.000000
+4470,Take in charge ticket,Value 12,2010-03-17T07:02:03.000000
+4470,Resolve ticket,Value 12,2010-03-17T07:49:51.000000
+4470,Closed,Value 5,2010-04-21T13:00:28.000000
+4471,Assign seriousness,Value 8,2011-02-28T11:17:29.000000
+4471,Take in charge ticket,Value 2,2011-03-25T09:53:05.000000
+4471,Wait,Value 2,2011-03-25T09:55:12.000000
+4471,Take in charge ticket,Value 2,2011-03-25T13:06:50.000000
+4471,Resolve ticket,Value 2,2011-03-25T13:07:01.000000
+4471,Closed,Value 5,2011-04-09T11:07:15.000000
+4472,Assign seriousness,Value 1,2012-07-31T04:21:57.000000
+4472,Resolve ticket,Value 4,2012-08-02T12:24:42.000000
+4472,Resolve ticket,Value 4,2012-08-02T12:25:31.000000
+4472,Closed,Value 5,2012-09-15T04:30:39.000000
+4474,Insert ticket,Value 7,2010-11-10T15:05:25.000000
+4474,Assign seriousness,Value 2,2010-11-11T06:03:32.000000
+4474,Take in charge ticket,Value 2,2010-11-15T08:39:09.000000
+4474,Resolve ticket,Value 2,2010-11-15T08:40:28.000000
+4474,Closed,Value 5,2010-12-26T15:00:49.000000
+4476,Assign seriousness,Value 2,2011-07-19T10:08:41.000000
+4476,Assign seriousness,Value 10,2011-07-19T10:17:50.000000
+4476,Take in charge ticket,Value 7,2011-07-19T11:54:43.000000
+4476,Resolve ticket,Value 7,2011-07-19T11:54:58.000000
+4476,Closed,Value 5,2011-09-03T10:10:41.000000
+4477,Assign seriousness,Value 4,2013-02-18T12:22:02.000000
+4477,Take in charge ticket,Value 9,2013-03-06T11:20:11.000000
+4477,Resolve ticket,Value 9,2013-03-06T11:34:38.000000
+4477,Closed,Value 3,2013-03-21T11:34:53.000000
+4478,Assign seriousness,Value 9,2010-09-27T12:32:23.000000
+4478,Take in charge ticket,Value 6,2010-09-28T08:06:59.000000
+4478,Wait,Value 6,2010-10-29T07:46:07.000000
+4478,Take in charge ticket,Value 6,2010-11-05T09:46:33.000000
+4478,Resolve ticket,Value 6,2010-11-05T09:46:45.000000
+4478,Closed,Value 5,2010-11-20T09:47:05.000000
+4479,Assign seriousness,Value 8,2011-04-13T04:25:37.000000
+4479,Take in charge ticket,Value 8,2011-04-13T04:26:34.000000
+4479,Resolve ticket,Value 8,2011-04-20T04:56:07.000000
+4479,Closed,Value 5,2011-05-21T04:31:00.000000
+4480,Assign seriousness,Value 2,2012-02-06T07:17:46.000000
+4480,Take in charge ticket,Value 10,2012-02-06T07:20:42.000000
+4480,Resolve ticket,Value 4,2012-02-06T07:53:59.000000
+4480,Closed,Value 5,2012-03-25T05:21:25.000000
+4482,Assign seriousness,Value 1,2012-07-31T07:59:06.000000
+4482,Take in charge ticket,Value 13,2012-07-31T09:08:38.000000
+4482,Resolve ticket,Value 13,2012-08-03T04:58:46.000000
+4482,Closed,Value 5,2012-09-02T04:59:07.000000
+4483,Assign seriousness,Value 18,2013-10-09T09:17:32.000000
+4483,Take in charge ticket,Value 2,2013-10-10T04:59:00.000000
+4483,Take in charge ticket,Value 2,2013-10-14T04:10:36.000000
+4483,Resolve ticket,Value 2,2013-10-25T04:10:56.000000
+4483,Closed,Value 3,2013-11-09T06:11:11.000000
+4484,Assign seriousness,Value 9,2010-12-10T14:41:58.000000
+4484,Assign seriousness,Value 9,2010-12-13T08:42:47.000000
+4484,Take in charge ticket,Value 2,2010-12-15T08:42:06.000000
+4484,Resolve ticket,Value 2,2010-12-15T12:11:55.000000
+4484,Closed,Value 5,2011-01-27T14:50:25.000000
+4485,Assign seriousness,Value 9,2010-11-11T11:50:41.000000
+4485,Take in charge ticket,Value 9,2010-11-11T11:56:18.000000
+4485,Resolve ticket,Value 9,2010-11-12T13:39:09.000000
+4485,Closed,Value 5,2010-12-25T12:00:23.000000
+4486,Assign seriousness,Value 1,2012-01-24T11:40:05.000000
+4486,Take in charge ticket,Value 17,2012-01-24T11:51:17.000000
+4486,Resolve ticket,Value 17,2012-01-24T11:51:39.000000
+4486,Closed,Value 5,2012-03-08T11:50:38.000000
+4487,Assign seriousness,Value 8,2011-01-04T08:00:58.000000
+4487,Take in charge ticket,Value 6,2011-01-10T08:36:33.000000
+4487,Resolve ticket,Value 6,2011-01-11T06:45:19.000000
+4487,Closed,Value 5,2011-02-17T08:10:42.000000
+4489,Assign seriousness,Value 2,2010-09-07T07:15:00.000000
+4489,Take in charge ticket,Value 9,2010-09-17T07:44:37.000000
+4489,Resolve ticket,Value 9,2010-09-17T07:57:30.000000
+4489,Closed,Value 5,2010-11-05T09:20:52.000000
+4492,Assign seriousness,Value 2,2010-03-09T08:09:33.000000
+4492,Take in charge ticket,Value 2,2010-03-09T08:09:44.000000
+4492,Resolve ticket,Value 2,2010-03-18T07:27:56.000000
+4492,Closed,Value 5,2010-05-02T05:28:46.000000
+4493,Assign seriousness,Value 2,2010-04-20T11:40:01.000000
+4493,Take in charge ticket,Value 2,2010-04-30T12:53:17.000000
+4493,Resolve ticket,Value 2,2010-05-04T12:25:52.000000
+4493,Closed,Value 5,2010-05-21T11:50:26.000000
+4494,Assign seriousness,Value 2,2010-04-09T04:55:35.000000
+4494,Take in charge ticket,Value 2,2010-04-12T12:40:09.000000
+4494,Resolve ticket,Value 2,2010-05-10T07:53:25.000000
+4494,Closed,Value 5,2010-05-25T07:53:40.000000
+4496,Assign seriousness,Value 4,2011-12-02T09:12:53.000000
+4496,Resolve ticket,Value 9,2011-12-02T12:23:34.000000
+4496,Resolve ticket,Value 9,2011-12-02T12:23:34.000000
+4496,Closed,Value 5,2012-01-06T09:20:44.000000
+4497,Assign seriousness,Value 2,2010-07-21T10:02:01.000000
+4497,Take in charge ticket,Value 2,2010-07-22T10:43:43.000000
+4497,Wait,Value 2,2010-07-22T10:44:15.000000
+4497,Take in charge ticket,Value 2,2010-07-26T06:07:02.000000
+4497,Resolve ticket,Value 2,2010-07-26T06:32:30.000000
+4497,Closed,Value 5,2010-08-21T10:10:29.000000
+4498,Assign seriousness,Value 14,2010-09-16T13:32:39.000000
+4498,Take in charge ticket,Value 14,2010-09-16T13:32:56.000000
+4498,Resolve ticket,Value 14,2010-09-21T05:37:41.000000
+4498,Closed,Value 5,2010-10-30T13:00:37.000000
+4499,Assign seriousness,Value 7,2010-09-03T05:51:50.000000
+4499,Take in charge ticket,Value 2,2010-09-03T06:02:39.000000
+4499,Resolve ticket,Value 2,2010-09-03T07:55:39.000000
+4499,Closed,Value 5,2010-10-13T06:00:30.000000
+4501,Assign seriousness,Value 8,2011-02-14T12:15:17.000000
+4501,Take in charge ticket,Value 9,2011-02-15T06:26:51.000000
+4501,Resolve ticket,Value 2,2011-03-07T14:52:38.000000
+4501,Closed,Value 5,2011-04-06T12:52:56.000000
+4503,Assign seriousness,Value 1,2012-07-25T04:02:54.000000
+4503,Take in charge ticket,Value 4,2012-07-30T06:39:04.000000
+4503,Resolve ticket,Value 13,2012-08-02T12:14:07.000000
+4503,Closed,Value 5,2012-09-09T04:10:33.000000
+4504,Assign seriousness,Value 1,2013-01-18T06:06:23.000000
+4504,Take in charge ticket,Value 1,2013-02-04T05:55:28.000000
+4504,Resolve ticket,Value 1,2013-02-04T12:39:39.000000
+4504,Closed,Value 3,2013-02-19T12:39:56.000000
+4505,Assign seriousness,Value 1,2012-02-28T09:33:55.000000
+4505,Take in charge ticket,Value 12,2012-02-28T15:09:58.000000
+4505,Resolve ticket,Value 12,2012-02-28T15:12:09.000000
+4505,Closed,Value 5,2012-04-27T07:40:41.000000
+4506,Assign seriousness,Value 2,2012-02-16T09:01:24.000000
+4506,Resolve ticket,Value 2,2012-02-16T09:02:10.000000
+4506,Closed,Value 5,2012-03-31T07:11:41.000000
+4507,Assign seriousness,Value 8,2011-01-12T12:31:23.000000
+4507,Assign seriousness,Value 2,2011-01-28T15:42:22.000000
+4507,Take in charge ticket,Value 2,2011-01-28T15:42:28.000000
+4507,Resolve ticket,Value 7,2011-01-31T06:41:02.000000
+4507,Closed,Value 5,2011-02-15T06:41:22.000000
+4508,Assign seriousness,Value 1,2012-06-12T11:00:09.000000
+4508,Take in charge ticket,Value 1,2012-06-12T11:00:30.000000
+4508,Resolve ticket,Value 9,2012-06-14T07:59:12.000000
+4508,Resolve ticket,Value 9,2012-06-14T07:59:12.000000
+4508,Closed,Value 5,2012-07-26T11:10:44.000000
+4509,Assign seriousness,Value 2,2010-04-22T11:44:36.000000
+4509,Take in charge ticket,Value 2,2010-05-21T04:27:03.000000
+4509,Resolve ticket,Value 2,2010-05-25T13:25:45.000000
+4509,Closed,Value 5,2010-06-09T13:25:56.000000
+4510,Assign seriousness,Value 8,2011-05-16T09:24:53.000000
+4510,Take in charge ticket,Value 8,2011-05-16T09:25:23.000000
+4510,Wait,Value 13,2011-05-16T11:13:05.000000
+4510,Take in charge ticket,Value 13,2011-05-17T09:35:23.000000
+4510,Resolve ticket,Value 13,2011-05-17T09:35:32.000000
+4510,Closed,Value 5,2011-07-02T06:50:53.000000
+4511,Assign seriousness,Value 1,2012-06-27T04:44:09.000000
+4511,Take in charge ticket,Value 1,2012-06-27T04:44:39.000000
+4511,Require upgrade,Value 2,2012-07-10T07:43:02.000000
+4511,Resolve ticket,Value 2,2012-07-12T06:30:44.000000
+4511,Closed,Value 5,2012-08-11T06:30:59.000000
+4512,Assign seriousness,Value 1,2012-07-26T04:12:09.000000
+4512,Take in charge ticket,Value 6,2012-07-26T04:18:26.000000
+4512,Wait,Value 6,2012-07-27T04:10:11.000000
+4512,Resolve ticket,Value 12,2012-08-07T05:58:49.000000
+4512,Closed,Value 5,2012-09-06T05:59:03.000000
+4513,Assign seriousness,Value 1,2013-01-18T07:40:01.000000
+4513,Take in charge ticket,Value 1,2013-01-18T07:42:57.000000
+4513,Wait,Value 13,2013-01-28T08:58:24.000000
+4513,Wait,Value 13,2013-01-28T08:58:25.000000
+4513,Resolve ticket,Value 1,2013-02-11T07:12:36.000000
+4513,Closed,Value 3,2013-02-26T07:12:57.000000
+4515,Assign seriousness,Value 15,2010-03-03T09:38:08.000000
+4515,Take in charge ticket,Value 15,2010-03-03T09:41:15.000000
+4515,Resolve ticket,Value 15,2010-03-03T09:49:35.000000
+4515,Closed,Value 5,2010-05-02T07:50:25.000000
+4516,Assign seriousness,Value 9,2011-07-20T13:05:12.000000
+4516,Take in charge ticket,Value 9,2011-07-25T10:11:06.000000
+4516,Wait,Value 9,2011-07-25T10:14:05.000000
+4516,Resolve ticket,Value 9,2011-08-19T11:18:03.000000
+4516,Closed,Value 5,2011-09-03T11:18:22.000000
+4517,Assign seriousness,Value 8,2011-04-20T09:44:50.000000
+4517,Take in charge ticket,Value 8,2011-04-20T09:55:31.000000
+4517,Resolve ticket,Value 6,2011-04-20T11:28:14.000000
+4517,Closed,Value 5,2011-06-11T09:50:54.000000
+4518,Assign seriousness,Value 1,2011-11-18T11:37:44.000000
+4518,Take in charge ticket,Value 6,2011-11-18T12:29:56.000000
+4518,Resolve ticket,Value 6,2011-11-18T12:41:05.000000
+4518,Closed,Value 5,2012-01-01T11:40:29.000000
+4520,Assign seriousness,Value 2,2011-09-27T07:35:27.000000
+4520,Assign seriousness,Value 9,2011-09-27T08:02:40.000000
+4520,Take in charge ticket,Value 9,2011-09-27T10:41:23.000000
+4520,Resolve ticket,Value 9,2011-09-28T12:45:10.000000
+4520,Closed,Value 5,2011-11-12T09:40:32.000000
+4521,Assign seriousness,Value 8,2011-05-13T10:25:53.000000
+4521,Take in charge ticket,Value 8,2011-05-13T10:27:33.000000
+4521,Resolve ticket,Value 13,2011-05-17T10:10:26.000000
+4521,Closed,Value 5,2011-06-30T10:31:05.000000
+4523,Assign seriousness,Value 2,2010-10-19T10:43:32.000000
+4523,Wait,Value 7,2010-10-20T11:17:59.000000
+4523,Take in charge ticket,Value 2,2010-10-20T13:05:24.000000
+4523,Wait,Value 2,2010-10-20T13:05:45.000000
+4523,Take in charge ticket,Value 7,2010-10-21T10:51:06.000000
+4523,Resolve ticket,Value 7,2010-10-21T10:52:58.000000
+4523,Closed,Value 5,2010-11-20T12:53:25.000000
+4524,Assign seriousness,Value 1,2013-04-03T04:21:02.000000
+4524,Take in charge ticket,Value 2,2013-04-10T04:51:56.000000
+4524,Resolve ticket,Value 4,2013-05-06T07:30:22.000000
+4524,Closed,Value 3,2013-05-21T07:30:36.000000
+4525,Assign seriousness,Value 1,2011-09-26T07:27:14.000000
+4525,Take in charge ticket,Value 1,2011-09-29T10:54:32.000000
+4525,Resolve ticket,Value 1,2011-09-30T06:09:23.000000
+4525,Closed,Value 5,2011-10-27T07:30:27.000000
+4528,Assign seriousness,Value 4,2011-11-16T09:15:00.000000
+4528,Take in charge ticket,Value 4,2011-11-18T13:08:39.000000
+4528,Wait,Value 4,2011-11-24T09:31:13.000000
+4528,Resolve ticket,Value 4,2011-12-13T12:50:21.000000
+4528,Closed,Value 5,2011-12-28T12:50:32.000000
+4529,Assign seriousness,Value 2,2010-03-11T09:21:24.000000
+4529,Take in charge ticket,Value 2,2010-03-11T09:21:40.000000
+4529,Resolve ticket,Value 2,2010-03-11T09:21:45.000000
+4529,Closed,Value 5,2010-04-13T07:30:20.000000
+4531,Assign seriousness,Value 1,2011-10-03T09:23:27.000000
+4531,Take in charge ticket,Value 2,2011-10-04T10:03:28.000000
+4531,Resolve ticket,Value 2,2011-10-04T10:40:52.000000
+4531,Closed,Value 5,2011-11-25T11:30:24.000000
+4532,Assign seriousness,Value 13,2011-02-21T13:20:50.000000
+4532,Take in charge ticket,Value 13,2011-02-21T13:21:46.000000
+4532,Resolve ticket,Value 13,2011-03-08T09:13:06.000000
+4532,Closed,Value 5,2011-04-22T07:13:34.000000
+4533,Assign seriousness,Value 13,2011-07-06T12:06:20.000000
+4533,Take in charge ticket,Value 13,2011-07-06T12:06:38.000000
+4533,Resolve ticket,Value 13,2011-07-06T12:06:53.000000
+4533,Closed,Value 5,2011-08-06T12:10:23.000000
+4534,Assign seriousness,Value 4,2012-02-13T13:14:30.000000
+4534,Take in charge ticket,Value 13,2012-02-14T09:48:30.000000
+4534,Wait,Value 13,2012-02-22T06:53:28.000000
+4534,Take in charge ticket,Value 13,2012-03-02T08:56:58.000000
+4534,Resolve ticket,Value 13,2012-03-02T11:52:02.000000
+4534,Closed,Value 5,2012-04-11T04:21:24.000000
+4535,Assign seriousness,Value 9,2012-12-10T09:39:28.000000
+4535,Take in charge ticket,Value 4,2012-12-12T14:22:08.000000
+4535,Resolve ticket,Value 4,2013-01-15T14:51:44.000000
+4535,Closed,Value 3,2013-01-30T14:51:56.000000
+4536,Assign seriousness,Value 1,2012-02-27T14:31:32.000000
+4536,Take in charge ticket,Value 6,2012-02-28T06:52:59.000000
+4536,Resolve ticket,Value 1,2012-02-29T06:25:13.000000
+4536,Resolve ticket,Value 1,2012-02-29T06:25:14.000000
+4536,Closed,Value 5,2012-04-11T12:40:27.000000
+4537,Assign seriousness,Value 13,2011-07-06T12:31:20.000000
+4537,Take in charge ticket,Value 10,2011-07-19T05:01:01.000000
+4537,Resolve ticket,Value 13,2011-07-21T07:13:44.000000
+4537,Closed,Value 5,2011-08-18T12:40:36.000000
+4538,Assign seriousness,Value 14,2013-06-11T09:21:07.000000
+4538,Take in charge ticket,Value 2,2013-06-25T07:51:45.000000
+4538,Wait,Value 4,2013-06-27T07:08:58.000000
+4538,Resolve ticket,Value 4,2013-07-16T05:28:58.000000
+4538,Closed,Value 3,2013-07-31T05:29:09.000000
+4540,Assign seriousness,Value 4,2013-02-25T11:51:42.000000
+4540,Take in charge ticket,Value 4,2013-03-13T07:19:08.000000
+4540,Resolve ticket,Value 4,2013-03-13T08:31:35.000000
+4540,Closed,Value 3,2013-03-28T08:31:52.000000
+4541,Assign seriousness,Value 9,2013-02-04T06:05:18.000000
+4541,Take in charge ticket,Value 2,2013-02-07T06:15:18.000000
+4541,Resolve ticket,Value 2,2013-03-06T13:33:17.000000
+4541,Closed,Value 3,2013-03-21T13:33:33.000000
+4542,Assign seriousness,Value 9,2010-09-24T07:37:58.000000
+4542,Take in charge ticket,Value 6,2010-09-28T07:27:26.000000
+4542,Wait,Value 12,2010-09-29T06:57:47.000000
+4542,Take in charge ticket,Value 12,2010-10-01T06:01:24.000000
+4542,Resolve ticket,Value 12,2010-10-01T06:54:21.000000
+4542,Closed,Value 5,2010-11-15T08:54:59.000000
+4546,Assign seriousness,Value 1,2011-10-11T12:52:13.000000
+4546,Assign seriousness,Value 2,2011-10-11T12:59:18.000000
+4546,Take in charge ticket,Value 6,2011-10-14T04:30:59.000000
+4546,Resolve ticket,Value 17,2011-10-14T07:13:37.000000
+4546,Closed,Value 5,2011-11-11T15:00:52.000000
+4547,Assign seriousness,Value 2,2013-04-02T09:26:52.000000
+4547,Take in charge ticket,Value 10,2013-04-05T13:14:03.000000
+4547,Resolve ticket,Value 10,2013-05-10T06:30:24.000000
+4547,Closed,Value 3,2013-05-25T06:30:42.000000
+4548,Assign seriousness,Value 4,2012-05-08T08:00:01.000000
+4548,Take in charge ticket,Value 1,2012-05-10T12:53:22.000000
+4548,Resolve ticket,Value 1,2012-05-10T12:55:29.000000
+4548,Closed,Value 5,2012-06-08T08:00:32.000000
+4550,Assign seriousness,Value 13,2012-07-25T12:38:49.000000
+4550,Take in charge ticket,Value 13,2012-07-26T05:16:10.000000
+4550,Resolve ticket,Value 13,2012-07-30T09:07:10.000000
+4550,Closed,Value 5,2012-09-09T12:40:32.000000
+4552,Assign seriousness,Value 8,2011-01-05T14:37:24.000000
+4552,Assign seriousness,Value 2,2011-01-17T14:17:14.000000
+4552,Take in charge ticket,Value 2,2011-01-17T14:17:19.000000
+4552,Resolve ticket,Value 13,2011-01-28T08:34:14.000000
+4552,Closed,Value 5,2011-02-12T08:34:34.000000
+4553,Assign seriousness,Value 1,2012-03-05T08:14:32.000000
+4553,Take in charge ticket,Value 6,2012-03-05T11:29:12.000000
+4553,Resolve ticket,Value 12,2012-03-05T14:52:14.000000
+4553,Resolve ticket,Value 12,2012-03-05T14:52:15.000000
+4553,Closed,Value 5,2012-04-18T06:20:32.000000
+4555,Assign seriousness,Value 9,2010-09-24T11:36:43.000000
+4555,Take in charge ticket,Value 9,2010-09-24T11:36:57.000000
+4555,Wait,Value 9,2010-09-24T11:59:26.000000
+4555,Take in charge ticket,Value 14,2010-10-20T11:53:10.000000
+4555,Resolve ticket,Value 9,2010-10-22T08:02:38.000000
+4555,Closed,Value 5,2010-11-06T10:02:55.000000
+4556,Assign seriousness,Value 1,2011-10-05T12:20:09.000000
+4556,Assign seriousness,Value 1,2011-10-05T12:23:42.000000
+4556,Take in charge ticket,Value 17,2011-10-05T12:24:50.000000
+4556,Resolve ticket,Value 17,2011-10-06T05:10:06.000000
+4556,Closed,Value 5,2011-11-18T14:30:31.000000
+4557,Assign seriousness,Value 1,2013-09-24T04:31:20.000000
+4557,Take in charge ticket,Value 1,2013-09-24T04:31:53.000000
+4557,Resolve ticket,Value 1,2013-10-18T12:33:59.000000
+4557,Closed,Value 3,2013-11-02T14:34:17.000000
+4561,Assign seriousness,Value 1,2011-11-11T08:56:00.000000
+4561,Take in charge ticket,Value 1,2011-11-11T09:16:00.000000
+4561,Resolve ticket,Value 1,2011-11-11T09:34:23.000000
+4561,Closed,Value 5,2011-12-29T09:00:34.000000
+4562,Assign seriousness,Value 13,2012-03-08T09:10:56.000000
+4562,Resolve ticket,Value 13,2012-03-08T09:11:48.000000
+4562,Closed,Value 5,2012-04-10T07:20:47.000000
+4563,Take in charge ticket,Value 1,2013-01-28T13:11:17.000000
+4563,Resolve ticket,Value 1,2013-02-15T06:07:20.000000
+4563,Closed,Value 3,2013-03-02T06:07:34.000000
+4564,Assign seriousness,Value 19,2010-08-25T04:23:31.000000
+4564,Take in charge ticket,Value 17,2010-08-25T07:54:48.000000
+4564,Resolve ticket,Value 17,2010-08-25T07:56:21.000000
+4564,Closed,Value 5,2010-10-08T04:30:39.000000
+4566,Assign seriousness,Value 2,2010-04-19T09:49:41.000000
+4566,Take in charge ticket,Value 2,2010-04-21T06:03:49.000000
+4566,Resolve ticket,Value 2,2010-04-21T09:29:17.000000
+4566,Take in charge ticket,Value 2,2010-04-21T11:21:45.000000
+4566,Resolve ticket,Value 2,2010-04-22T05:03:28.000000
+4566,Closed,Value 5,2010-06-04T09:51:21.000000
+4567,Assign seriousness,Value 13,2013-01-21T13:09:45.000000
+4567,Take in charge ticket,Value 2,2013-02-07T14:27:28.000000
+4567,Wait,Value 9,2013-02-18T06:07:33.000000
+4567,Resolve ticket,Value 9,2013-02-18T08:30:18.000000
+4567,Closed,Value 3,2013-03-05T08:30:29.000000
+4570,Assign seriousness,Value 13,2012-06-18T07:46:34.000000
+4570,Take in charge ticket,Value 6,2012-06-19T04:27:20.000000
+4570,Resolve ticket,Value 6,2012-06-20T05:09:59.000000
+4570,Closed,Value 5,2012-08-02T05:13:12.000000
+4571,Assign seriousness,Value 8,2011-05-13T09:28:23.000000
+4571,Take in charge ticket,Value 8,2011-05-13T09:29:05.000000
+4571,Wait,Value 6,2011-05-18T04:02:46.000000
+4571,Take in charge ticket,Value 11,2011-06-07T04:36:50.000000
+4571,Resolve ticket,Value 11,2011-06-07T04:36:56.000000
+4571,Closed,Value 5,2011-07-06T09:33:34.000000
+4572,Assign seriousness,Value 12,2010-08-11T09:32:48.000000
+4572,Take in charge ticket,Value 2,2010-09-02T05:04:35.000000
+4572,Resolve ticket,Value 2,2010-09-02T05:05:33.000000
+4572,Closed,Value 5,2010-09-17T05:05:46.000000
+4573,Assign seriousness,Value 8,2011-03-14T09:11:23.000000
+4573,Take in charge ticket,Value 8,2011-03-14T09:15:18.000000
+4573,Wait,Value 2,2011-03-28T05:41:55.000000
+4573,Take in charge ticket,Value 2,2011-03-30T07:22:37.000000
+4573,Resolve ticket,Value 2,2011-03-30T07:22:49.000000
+4573,Closed,Value 5,2011-04-16T10:00:24.000000
+4574,Assign seriousness,Value 9,2011-02-07T14:49:00.000000
+4574,Take in charge ticket,Value 8,2011-02-08T14:04:33.000000
+4574,Resolve ticket,Value 2,2011-02-18T12:37:11.000000
+4574,Closed,Value 5,2011-04-02T11:15:26.000000
+4575,Assign seriousness,Value 8,2011-05-25T05:48:31.000000
+4575,Take in charge ticket,Value 8,2011-05-25T05:49:01.000000
+4575,Wait,Value 6,2011-05-26T06:53:17.000000
+4575,Take in charge ticket,Value 6,2011-07-01T05:04:12.000000
+4575,Resolve ticket,Value 6,2011-07-01T05:14:34.000000
+4575,Closed,Value 5,2011-07-16T05:14:45.000000
+4576,Assign seriousness,Value 8,2010-12-23T11:51:43.000000
+4576,Take in charge ticket,Value 6,2010-12-27T06:09:54.000000
+4576,Resolve ticket,Value 6,2011-01-14T07:31:54.000000
+4576,Closed,Value 5,2011-01-29T07:32:10.000000
+4578,Assign seriousness,Value 9,2012-11-30T09:57:13.000000
+4578,Take in charge ticket,Value 2,2012-11-30T09:57:38.000000
+4578,Wait,Value 9,2012-12-04T07:55:27.000000
+4578,Resolve ticket,Value 9,2012-12-20T14:51:35.000000
+4578,Closed,Value 3,2013-01-04T14:51:50.000000
+4579,Assign seriousness,Value 1,2013-02-12T14:06:37.000000
+4579,Take in charge ticket,Value 12,2013-02-25T09:37:20.000000
+4579,Resolve ticket,Value 12,2013-03-14T14:24:30.000000
+4579,Closed,Value 3,2013-03-29T14:24:45.000000

@@ -1,0 +1,1766 @@
+caseid,task,user,end_timestamp
+0,Confirmation of receipt,Resource21,2011-10-11T11:45:40.276000
+0,T02 Check confirmation of receipt,Resource10,2011-10-12T06:26:25.398000
+0,T03 Adjust confirmation of receipt,Resource21,2011-11-24T14:36:51.302000
+0,T02 Check confirmation of receipt,Resource21,2011-11-24T14:37:16.553000
+2,Confirmation of receipt,Resource03,2011-10-18T13:53:19.732000
+2,T02 Check confirmation of receipt,Resource03,2011-10-18T13:53:38.108000
+2,T04 Determine confirmation of receipt,Resource03,2011-10-18T13:53:53.778000
+2,T05 Print and send confirmation of receipt,Resource03,2011-10-18T13:54:06.717000
+2,T06 Determine necessity of stop advice,Resource03,2011-10-18T13:54:24.121000
+2,T10 Determine necessity to stop indication,Resource03,2011-10-18T13:57:18.847000
+6,Confirmation of receipt,Resource03,2011-10-24T13:00:50.433000
+6,T06 Determine necessity of stop advice,Resource03,2011-10-24T13:01:21.907000
+6,T10 Determine necessity to stop indication,Resource03,2011-10-24T13:01:44.536000
+6,T02 Check confirmation of receipt,Resource03,2011-10-24T13:01:59.826000
+6,T04 Determine confirmation of receipt,Resource03,2011-10-24T13:02:16.227000
+6,T05 Print and send confirmation of receipt,Resource03,2011-10-24T13:02:32.399000
+7,Confirmation of receipt,admin2,2011-10-18T11:34:39.087000
+9,Confirmation of receipt,Resource22,2011-11-22T12:46:36.256000
+9,T02 Check confirmation of receipt,Resource22,2011-11-22T12:48:39.989000
+9,T04 Determine confirmation of receipt,Resource22,2011-11-22T12:49:21.982000
+9,T05 Print and send confirmation of receipt,Resource22,2011-11-22T12:52:51.629000
+9,T06 Determine necessity of stop advice,Resource22,2011-11-22T12:57:59.101000
+9,T10 Determine necessity to stop indication,Resource22,2011-11-22T12:59:50.916000
+25,Confirmation of receipt,Resource03,2011-10-26T09:44:51.917000
+25,T02 Check confirmation of receipt,Resource03,2011-10-26T09:45:23.672000
+25,T04 Determine confirmation of receipt,Resource03,2011-10-26T09:45:54.899000
+25,T05 Print and send confirmation of receipt,Resource03,2011-10-26T09:46:16.939000
+25,T06 Determine necessity of stop advice,Resource03,2011-10-26T09:46:40.098000
+25,T10 Determine necessity to stop indication,Resource03,2011-10-26T09:47:15.161000
+27,Confirmation of receipt,Resource02,2011-11-15T06:20:14.205000
+27,T02 Check confirmation of receipt,Resource02,2011-11-15T06:20:38.880000
+27,T04 Determine confirmation of receipt,Resource02,2011-11-15T06:21:00.327000
+27,T05 Print and send confirmation of receipt,Resource02,2011-11-15T06:21:22.524000
+27,T06 Determine necessity of stop advice,Resource02,2011-11-15T06:42:16.335000
+27,T10 Determine necessity to stop indication,Resource02,2011-11-15T06:42:43.828000
+33,Confirmation of receipt,Resource12,2011-12-08T13:52:51.432000
+33,T02 Check confirmation of receipt,Resource12,2011-12-08T13:53:26.952000
+33,T04 Determine confirmation of receipt,Resource12,2011-12-08T13:53:55.363000
+33,T06 Determine necessity of stop advice,Resource12,2011-12-08T13:55:00.037000
+33,T10 Determine necessity to stop indication,Resource12,2011-12-08T13:55:37.151000
+33,T05 Print and send confirmation of receipt,admin1,2011-12-14T12:36:32.274000
+45,Confirmation of receipt,Resource03,2011-11-07T14:41:35.421000
+45,T06 Determine necessity of stop advice,Resource03,2011-11-07T14:42:00.650000
+45,T02 Check confirmation of receipt,Resource03,2011-11-07T14:42:25.734000
+45,T04 Determine confirmation of receipt,Resource03,2011-11-07T14:42:53.160000
+45,T05 Print and send confirmation of receipt,Resource03,2011-11-07T14:43:09.610000
+45,T10 Determine necessity to stop indication,Resource03,2011-11-07T14:43:33.300000
+47,Confirmation of receipt,Resource23,2011-11-11T10:26:45.553000
+47,T02 Check confirmation of receipt,Resource23,2011-11-11T10:27:13.213000
+47,T04 Determine confirmation of receipt,Resource23,2011-11-11T10:27:35.312000
+47,T05 Print and send confirmation of receipt,Resource23,2011-11-11T10:28:32.859000
+47,T06 Determine necessity of stop advice,Resource23,2011-11-11T10:28:54.141000
+47,T10 Determine necessity to stop indication,Resource23,2011-11-11T10:29:22.728000
+52,Confirmation of receipt,Resource14,2011-11-29T11:27:58.006000
+52,T02 Check confirmation of receipt,Resource14,2011-11-29T11:29:42.082000
+52,T04 Determine confirmation of receipt,Resource14,2011-11-29T11:30:24.691000
+52,T05 Print and send confirmation of receipt,Resource14,2011-11-29T11:30:47.253000
+52,T06 Determine necessity of stop advice,Resource14,2011-11-29T11:41:42.876000
+52,T10 Determine necessity to stop indication,Resource14,2011-11-29T11:43:19.895000
+55,Confirmation of receipt,Resource14,2011-12-07T08:11:29.887000
+55,T06 Determine necessity of stop advice,Resource14,2011-12-07T09:01:02.208000
+55,T02 Check confirmation of receipt,Resource14,2011-12-07T09:04:22.794000
+55,T04 Determine confirmation of receipt,Resource14,2011-12-07T09:05:05.939000
+55,T05 Print and send confirmation of receipt,Resource14,2011-12-07T09:05:36.523000
+55,T10 Determine necessity to stop indication,Resource14,2011-12-07T09:16:31.803000
+57,Confirmation of receipt,Resource16,2011-12-07T11:16:57.518000
+57,T02 Check confirmation of receipt,Resource16,2011-12-07T11:20:41.121000
+57,T04 Determine confirmation of receipt,Resource16,2011-12-07T11:21:05.443000
+57,T05 Print and send confirmation of receipt,Resource16,2011-12-07T11:21:28.467000
+57,T06 Determine necessity of stop advice,Resource16,2011-12-07T11:21:51.193000
+57,T10 Determine necessity to stop indication,Resource16,2011-12-07T11:22:21.436000
+60,Confirmation of receipt,Resource12,2011-11-18T13:15:19.355000
+60,T02 Check confirmation of receipt,Resource12,2011-11-18T13:15:51.435000
+60,T04 Determine confirmation of receipt,Resource12,2011-11-18T13:17:30.382000
+60,T06 Determine necessity of stop advice,Resource12,2011-11-29T13:23:32.990000
+60,T05 Print and send confirmation of receipt,Resource27,2011-11-30T11:02:03.222000
+62,Confirmation of receipt,admin2,2011-12-09T09:19:25.642000
+66,Confirmation of receipt,Resource06,2011-11-10T10:33:31.398000
+66,T02 Check confirmation of receipt,Resource06,2011-11-10T10:37:51.725000
+66,T04 Determine confirmation of receipt,Resource06,2011-11-10T10:38:11.514000
+66,T05 Print and send confirmation of receipt,Resource06,2011-11-10T10:38:30.166000
+66,T06 Determine necessity of stop advice,Resource06,2011-11-10T10:39:49.369000
+66,T10 Determine necessity to stop indication,Resource06,2011-11-10T10:40:42.373000
+69,Confirmation of receipt,Resource03,2011-11-09T10:01:38.475000
+69,T02 Check confirmation of receipt,Resource03,2011-11-09T10:01:59.252000
+69,T04 Determine confirmation of receipt,Resource03,2011-11-09T10:02:18.044000
+69,T05 Print and send confirmation of receipt,Resource03,2011-11-09T10:02:37.096000
+69,T06 Determine necessity of stop advice,Resource03,2011-11-09T10:03:10.328000
+69,T10 Determine necessity to stop indication,Resource03,2011-11-09T10:03:41.390000
+71,Confirmation of receipt,admin2,2011-12-21T12:52:38.616000
+72,Confirmation of receipt,Resource03,2011-11-15T07:52:21.307000
+72,T02 Check confirmation of receipt,Resource03,2011-11-15T07:53:38.329000
+72,T04 Determine confirmation of receipt,Resource03,2011-11-15T07:54:00.462000
+72,T05 Print and send confirmation of receipt,Resource03,2011-11-15T07:54:14.252000
+72,T06 Determine necessity of stop advice,Resource03,2011-11-15T07:54:28.851000
+72,T10 Determine necessity to stop indication,Resource03,2011-11-15T07:54:50.336000
+77,Confirmation of receipt,Resource03,2011-11-10T14:10:55.045000
+77,T02 Check confirmation of receipt,Resource03,2011-11-10T14:11:15.596000
+77,T04 Determine confirmation of receipt,Resource03,2011-11-10T14:11:31.757000
+77,T05 Print and send confirmation of receipt,Resource03,2011-11-10T14:11:46.581000
+77,T06 Determine necessity of stop advice,Resource03,2011-11-10T14:12:02.898000
+77,T10 Determine necessity to stop indication,Resource03,2011-11-10T14:12:27.629000
+79,Confirmation of receipt,admin2,2011-11-07T07:48:39.290000
+80,Confirmation of receipt,Resource06,2011-11-09T10:29:46.788000
+80,T02 Check confirmation of receipt,Resource06,2011-11-09T10:30:08.582000
+80,T04 Determine confirmation of receipt,Resource06,2011-11-09T10:30:27.273000
+80,T05 Print and send confirmation of receipt,Resource06,2011-11-09T10:30:44.331000
+80,T06 Determine necessity of stop advice,Resource06,2011-11-09T10:31:04.655000
+80,T10 Determine necessity to stop indication,Resource06,2011-11-09T10:31:33.707000
+80,T11 Create document X request unlicensed,Resource06,2011-11-09T10:34:00.271000
+80,T12 Check document X request unlicensed,Resource06,2011-11-09T10:40:14.529000
+80,T14 Determine document X request unlicensed,Resource06,2011-11-09T10:40:39.482000
+80,T15 Print document X request unlicensed,admin1,2011-11-14T08:21:48.805000
+82,Confirmation of receipt,Resource14,2011-11-17T13:30:18.360000
+82,T02 Check confirmation of receipt,Resource14,2011-11-17T13:48:22.100000
+82,T04 Determine confirmation of receipt,Resource14,2011-11-17T13:49:24.984000
+82,T05 Print and send confirmation of receipt,Resource14,2011-11-17T13:49:44.706000
+82,T06 Determine necessity of stop advice,Resource14,2011-11-17T14:23:53.401000
+82,T10 Determine necessity to stop indication,Resource14,2011-11-17T14:24:32.419000
+84,Confirmation of receipt,Resource23,2011-11-25T10:17:52.239000
+84,T02 Check confirmation of receipt,Resource23,2011-11-25T10:18:56.984000
+84,T04 Determine confirmation of receipt,Resource23,2011-11-25T10:19:28.587000
+84,T05 Print and send confirmation of receipt,Resource23,2011-11-25T10:19:51.210000
+84,T06 Determine necessity of stop advice,Resource23,2011-11-25T10:22:40.036000
+84,T10 Determine necessity to stop indication,Resource23,2011-11-25T10:23:04.911000
+85,Confirmation of receipt,Resource03,2011-11-18T08:09:30.172000
+85,T02 Check confirmation of receipt,Resource03,2011-11-18T08:09:49.213000
+85,T04 Determine confirmation of receipt,Resource03,2011-11-18T08:18:08.748000
+85,T05 Print and send confirmation of receipt,Resource03,2011-11-18T08:18:24.008000
+85,T06 Determine necessity of stop advice,Resource03,2011-11-18T08:18:39.882000
+85,T10 Determine necessity to stop indication,Resource03,2011-11-18T08:19:13.974000
+85,T16 Report reasons to hold request,Resource03,2011-11-18T08:19:33.548000
+85,T17 Check report Y to stop indication,Resource03,2011-11-18T08:19:51.377000
+85,T19 Determine report Y to stop indication,Resource03,2011-11-18T08:21:19.608000
+85,T20 Print report Y to stop indication,Resource03,2011-11-18T08:21:34.851000
+90,Confirmation of receipt,Resource20,2011-11-22T14:03:05.355000
+90,T02 Check confirmation of receipt,Resource20,2011-11-22T14:03:37.543000
+90,T04 Determine confirmation of receipt,Resource20,2011-11-22T14:03:59.803000
+90,T05 Print and send confirmation of receipt,Resource20,2011-11-22T14:04:51.662000
+90,T06 Determine necessity of stop advice,Resource20,2011-11-22T14:09:28.407000
+90,T10 Determine necessity to stop indication,Resource20,2011-11-22T14:35:03.653000
+92,Confirmation of receipt,Resource06,2011-11-25T15:09:50.422000
+92,T02 Check confirmation of receipt,Resource06,2011-11-25T15:10:19.837000
+92,T04 Determine confirmation of receipt,Resource06,2011-11-25T15:10:39.345000
+92,T05 Print and send confirmation of receipt,Resource06,2011-11-25T15:10:54.528000
+92,T06 Determine necessity of stop advice,Resource06,2011-11-25T15:15:35.699000
+92,T10 Determine necessity to stop indication,Resource06,2011-11-25T15:15:57.008000
+94,Confirmation of receipt,Resource03,2011-11-17T15:42:14.396000
+94,T02 Check confirmation of receipt,Resource03,2011-11-17T15:42:35.975000
+94,T04 Determine confirmation of receipt,Resource03,2011-11-17T15:42:51.761000
+94,T05 Print and send confirmation of receipt,Resource03,2011-11-17T15:43:05.721000
+94,T06 Determine necessity of stop advice,Resource03,2011-11-17T15:43:24.256000
+94,T10 Determine necessity to stop indication,Resource03,2011-11-17T15:43:45.101000
+97,Confirmation of receipt,Resource03,2011-11-18T09:39:14.337000
+97,T02 Check confirmation of receipt,Resource03,2011-11-18T09:39:34.311000
+97,T04 Determine confirmation of receipt,Resource03,2011-11-18T09:58:40.012000
+97,T05 Print and send confirmation of receipt,Resource03,2011-11-18T10:13:53.173000
+97,T06 Determine necessity of stop advice,admin2,2011-11-18T10:14:23.398000
+102,Confirmation of receipt,Resource03,2011-11-22T08:52:39.368000
+102,T02 Check confirmation of receipt,Resource03,2011-11-22T08:53:28.689000
+102,T04 Determine confirmation of receipt,Resource03,2011-11-22T08:53:51.826000
+102,T05 Print and send confirmation of receipt,Resource03,2011-11-22T08:54:27.929000
+102,T06 Determine necessity of stop advice,Resource03,2011-11-22T08:55:09.933000
+102,T10 Determine necessity to stop indication,Resource03,2011-11-22T08:55:54.193000
+104,Confirmation of receipt,Resource03,2011-11-18T13:41:16.794000
+104,T02 Check confirmation of receipt,Resource03,2011-11-18T13:41:39.728000
+104,T04 Determine confirmation of receipt,Resource03,2011-11-18T13:41:55.081000
+104,T05 Print and send confirmation of receipt,Resource03,2011-11-18T13:42:12.895000
+104,T06 Determine necessity of stop advice,Resource03,2011-11-18T13:54:15.830000
+104,T10 Determine necessity to stop indication,Resource03,2011-11-18T14:01:23.990000
+105,Confirmation of receipt,Resource03,2011-11-18T14:22:24.611000
+105,T02 Check confirmation of receipt,Resource03,2011-11-18T14:22:42.192000
+105,T04 Determine confirmation of receipt,Resource03,2011-11-18T14:22:57.393000
+105,T05 Print and send confirmation of receipt,Resource03,2011-11-18T14:23:20.869000
+105,T06 Determine necessity of stop advice,Resource03,2011-11-18T14:23:34.611000
+105,T10 Determine necessity to stop indication,Resource03,2011-11-18T14:24:52.767000
+106,Confirmation of receipt,Resource13,2011-12-15T10:25:23.298000
+106,T02 Check confirmation of receipt,Resource13,2011-12-15T10:26:04.272000
+106,T04 Determine confirmation of receipt,Resource13,2011-12-15T10:26:41.370000
+106,T05 Print and send confirmation of receipt,Resource13,2011-12-15T10:27:17.646000
+106,T06 Determine necessity of stop advice,Resource13,2011-12-15T10:29:36.267000
+106,T10 Determine necessity to stop indication,Resource13,2011-12-15T10:30:06.832000
+110,Confirmation of receipt,Resource09,2011-12-22T11:44:26.417000
+110,T02 Check confirmation of receipt,Resource09,2011-12-22T11:45:02.538000
+110,T04 Determine confirmation of receipt,Resource09,2011-12-22T11:45:30.961000
+110,T06 Determine necessity of stop advice,Resource09,2011-12-22T11:46:05.225000
+110,T10 Determine necessity to stop indication,Resource09,2011-12-22T11:46:51.746000
+110,T05 Print and send confirmation of receipt,Resource09,2011-12-22T11:47:21.763000
+117,Confirmation of receipt,Resource09,2012-01-11T11:00:05.791000
+117,T06 Determine necessity of stop advice,Resource09,2012-01-11T11:00:53.694000
+117,T10 Determine necessity to stop indication,Resource09,2012-01-11T11:01:55.141000
+117,T02 Check confirmation of receipt,Resource09,2012-01-11T11:02:51.856000
+117,T04 Determine confirmation of receipt,Resource09,2012-01-11T11:04:31.551000
+117,T05 Print and send confirmation of receipt,Resource09,2012-01-11T11:05:14.491000
+118,Confirmation of receipt,Resource01,2011-11-24T13:48:48.674000
+118,T02 Check confirmation of receipt,Resource01,2011-11-24T13:49:31.532000
+118,T04 Determine confirmation of receipt,Resource01,2011-11-24T13:50:11.471000
+118,T05 Print and send confirmation of receipt,Resource01,2011-11-24T13:50:42.141000
+118,T06 Determine necessity of stop advice,Resource01,2011-11-24T13:50:57.458000
+118,T10 Determine necessity to stop indication,Resource01,2011-11-24T13:51:29.552000
+120,Confirmation of receipt,Resource09,2011-12-08T13:15:29.375000
+120,T02 Check confirmation of receipt,Resource09,2011-12-08T13:16:06.431000
+120,T04 Determine confirmation of receipt,Resource09,2011-12-08T13:16:42.668000
+120,T05 Print and send confirmation of receipt,Resource09,2011-12-08T13:17:07.988000
+120,T06 Determine necessity of stop advice,Resource09,2011-12-08T13:17:39.570000
+120,T10 Determine necessity to stop indication,Resource09,2011-12-08T13:40:56.319000
+125,Confirmation of receipt,Resource09,2011-12-15T13:42:52.507000
+125,T02 Check confirmation of receipt,Resource09,2011-12-15T13:45:08.364000
+125,T04 Determine confirmation of receipt,Resource09,2011-12-15T13:45:47.035000
+125,T05 Print and send confirmation of receipt,Resource09,2011-12-15T13:46:19.010000
+125,T06 Determine necessity of stop advice,Resource09,2011-12-15T13:46:49.392000
+125,T10 Determine necessity to stop indication,Resource09,2011-12-15T13:47:46.628000
+131,Confirmation of receipt,Resource06,2011-12-02T08:10:04.876000
+131,T02 Check confirmation of receipt,Resource06,2011-12-02T08:53:30.525000
+131,T04 Determine confirmation of receipt,Resource06,2011-12-02T08:54:36.749000
+131,T05 Print and send confirmation of receipt,Resource06,2011-12-02T08:55:02.061000
+131,T06 Determine necessity of stop advice,Resource06,2011-12-02T08:58:38.507000
+131,T10 Determine necessity to stop indication,Resource06,2011-12-02T08:59:01.611000
+133,Confirmation of receipt,Resource02,2012-01-16T09:05:19.539000
+133,T02 Check confirmation of receipt,Resource02,2012-01-16T09:27:20.523000
+133,T04 Determine confirmation of receipt,Resource02,2012-01-16T09:35:25.190000
+133,T05 Print and send confirmation of receipt,Resource02,2012-01-16T09:37:59.698000
+133,T06 Determine necessity of stop advice,Resource02,2012-01-16T09:39:51.238000
+133,T10 Determine necessity to stop indication,Resource02,2012-01-16T09:50:04.279000
+137,Confirmation of receipt,admin2,2011-12-02T07:29:50.103000
+142,Confirmation of receipt,Resource03,2011-12-07T13:45:21.482000
+142,T02 Check confirmation of receipt,Resource03,2011-12-07T13:46:27.071000
+142,T04 Determine confirmation of receipt,Resource03,2011-12-07T13:46:44.803000
+142,T05 Print and send confirmation of receipt,Resource03,2011-12-07T13:47:02.003000
+142,T06 Determine necessity of stop advice,Resource03,2011-12-07T13:47:22.169000
+142,T10 Determine necessity to stop indication,Resource03,2011-12-07T13:47:44.738000
+144,Confirmation of receipt,Resource09,2011-12-23T13:36:26.442000
+144,T06 Determine necessity of stop advice,Resource09,2011-12-23T13:38:23.853000
+144,T10 Determine necessity to stop indication,Resource09,2011-12-23T13:39:08.074000
+145,Confirmation of receipt,Resource04,2011-12-09T15:37:36.011000
+145,T02 Check confirmation of receipt,Resource04,2011-12-09T15:37:57.329000
+145,T04 Determine confirmation of receipt,Resource04,2011-12-09T15:38:15.458000
+145,T05 Print and send confirmation of receipt,Resource04,2011-12-09T15:38:31.683000
+145,T06 Determine necessity of stop advice,Resource04,2011-12-22T10:10:39.999000
+145,T10 Determine necessity to stop indication,Resource04,2011-12-22T10:11:38.505000
+148,Confirmation of receipt,Resource16,2011-12-07T10:27:27.810000
+148,T02 Check confirmation of receipt,Resource16,2011-12-07T10:27:59.544000
+148,T04 Determine confirmation of receipt,Resource16,2011-12-07T10:28:27.297000
+148,T05 Print and send confirmation of receipt,Resource16,2011-12-07T10:29:01.432000
+148,T06 Determine necessity of stop advice,Resource16,2011-12-07T10:29:25.305000
+148,T10 Determine necessity to stop indication,Resource16,2011-12-07T10:30:00.766000
+165,Confirmation of receipt,Resource13,2012-01-04T18:36:09.258000
+165,T06 Determine necessity of stop advice,Resource13,2012-01-04T18:37:33.931000
+165,T10 Determine necessity to stop indication,Resource13,2012-01-04T18:53:52.494000
+165,T16 Report reasons to hold request,Resource13,2012-01-04T18:54:44.634000
+165,T17 Check report Y to stop indication,Resource13,2012-01-04T18:55:41.647000
+165,T19 Determine report Y to stop indication,Resource13,2012-01-04T18:56:18.050000
+165,T20 Print report Y to stop indication,Resource13,2012-01-04T18:56:54.192000
+165,T02 Check confirmation of receipt,Resource13,2012-01-05T07:19:19.141000
+165,T04 Determine confirmation of receipt,Resource13,2012-01-05T11:47:06.479000
+165,T05 Print and send confirmation of receipt,Resource13,2012-01-05T11:47:44.454000
+172,Confirmation of receipt,Resource16,2011-12-21T07:41:50.337000
+172,T02 Check confirmation of receipt,Resource16,2011-12-21T07:42:49.661000
+172,T04 Determine confirmation of receipt,Resource16,2011-12-21T07:44:56.141000
+172,T05 Print and send confirmation of receipt,Resource16,2011-12-21T07:51:22.982000
+172,T06 Determine necessity of stop advice,Resource16,2011-12-21T07:52:15.331000
+172,T10 Determine necessity to stop indication,Resource16,2011-12-21T07:53:08.141000
+177,Confirmation of receipt,Resource14,2011-12-20T09:22:12.713000
+177,T02 Check confirmation of receipt,Resource14,2011-12-20T09:29:17.765000
+177,T04 Determine confirmation of receipt,Resource14,2011-12-20T10:03:39.353000
+177,T05 Print and send confirmation of receipt,Resource14,2011-12-20T10:04:13.923000
+177,T06 Determine necessity of stop advice,Resource14,2011-12-20T10:08:02.697000
+177,T10 Determine necessity to stop indication,Resource14,2011-12-20T10:11:21.148000
+181,Confirmation of receipt,Resource05,2012-01-03T15:02:18.024000
+181,T02 Check confirmation of receipt,Resource05,2012-01-05T07:40:10.511000
+181,T04 Determine confirmation of receipt,Resource05,2012-01-05T07:45:59.214000
+181,T05 Print and send confirmation of receipt,Resource05,2012-01-05T08:49:38.861000
+181,T06 Determine necessity of stop advice,Resource05,2012-01-05T08:51:36.497000
+181,T10 Determine necessity to stop indication,Resource05,2012-01-05T08:52:53.749000
+182,Confirmation of receipt,Resource05,2012-01-05T13:00:46.902000
+182,T02 Check confirmation of receipt,Resource05,2012-01-05T13:01:29.103000
+182,T04 Determine confirmation of receipt,Resource05,2012-01-05T13:05:58.518000
+182,T05 Print and send confirmation of receipt,Resource05,2012-01-05T13:06:28.934000
+182,T06 Determine necessity of stop advice,Resource05,2012-01-05T13:07:46.415000
+182,T10 Determine necessity to stop indication,Resource05,2012-01-05T13:09:51.300000
+183,Confirmation of receipt,Resource05,2012-01-17T06:29:45.807000
+183,T02 Check confirmation of receipt,Resource05,2012-01-17T06:30:21.486000
+183,T04 Determine confirmation of receipt,Resource05,2012-01-17T06:31:04.679000
+183,T05 Print and send confirmation of receipt,Resource05,2012-01-17T06:31:40.568000
+183,T06 Determine necessity of stop advice,Resource05,2012-01-17T06:32:09.582000
+183,T10 Determine necessity to stop indication,Resource05,2012-01-17T06:32:43.377000
+194,Confirmation of receipt,Resource07,2012-01-10T13:41:29.553000
+194,T02 Check confirmation of receipt,Resource07,2012-01-10T13:42:09.187000
+194,T04 Determine confirmation of receipt,Resource07,2012-01-10T13:42:36.740000
+194,T05 Print and send confirmation of receipt,Resource07,2012-01-10T13:43:18.047000
+194,T06 Determine necessity of stop advice,Resource07,2012-01-10T13:48:12.062000
+194,T10 Determine necessity to stop indication,Resource07,2012-01-10T13:48:58.604000
+204,Confirmation of receipt,Resource05,2012-01-23T14:39:28.185000
+204,T02 Check confirmation of receipt,Resource05,2012-01-23T14:40:01.303000
+204,T04 Determine confirmation of receipt,Resource05,2012-01-23T14:40:42.753000
+204,T05 Print and send confirmation of receipt,Resource05,2012-01-23T14:41:12.424000
+204,T06 Determine necessity of stop advice,Resource05,2012-01-23T14:42:10.417000
+204,T10 Determine necessity to stop indication,Resource05,2012-01-23T14:42:54.644000
+211,Confirmation of receipt,Resource08,2010-10-05T11:01:58.437000
+211,T06 Determine necessity of stop advice,Resource08,2010-10-05T11:07:35.391000
+211,T10 Determine necessity to stop indication,Resource08,2010-10-05T11:08:22.858000
+211,T02 Check confirmation of receipt,Resource24,2010-10-05T13:03:36.552000
+211,T03 Adjust confirmation of receipt,Resource08,2010-10-05T13:22:03.157000
+211,T02 Check confirmation of receipt,Resource24,2010-10-05T13:26:38.519000
+211,T04 Determine confirmation of receipt,Resource19,2010-10-06T07:12:49.541000
+211,T05 Print and send confirmation of receipt,Resource08,2010-10-07T13:16:55.755000
+212,Confirmation of receipt,Resource12,2010-10-18T07:24:27.073000
+212,T06 Determine necessity of stop advice,Resource12,2010-10-18T08:45:17.970000
+212,T02 Check confirmation of receipt,Resource26,2010-10-18T09:25:15.229000
+212,T03 Adjust confirmation of receipt,Resource12,2010-10-18T10:27:27.873000
+212,T02 Check confirmation of receipt,Resource24,2010-10-20T10:18:19.102000
+212,T07-5 Draft intern advice aspect 5,Resource12,2010-10-21T06:14:04.349000
+212,T06 Determine necessity of stop advice,Resource12,2010-10-21T06:36:37.616000
+212,T10 Determine necessity to stop indication,Resource12,2010-10-21T06:37:49.327000
+212,T03 Adjust confirmation of receipt,Resource12,2010-10-21T07:23:05.590000
+212,T02 Check confirmation of receipt,Resource24,2010-10-21T09:40:14.028000
+212,T03 Adjust confirmation of receipt,Resource12,2010-10-21T09:47:50.697000
+212,T02 Check confirmation of receipt,Resource24,2010-10-21T09:50:06.814000
+212,T04 Determine confirmation of receipt,Resource10,2010-10-22T11:21:52.847000
+212,T05 Print and send confirmation of receipt,Resource20,2010-10-25T09:52:01.185000
+213,Confirmation of receipt,Resource12,2010-11-01T09:37:56.964000
+213,T06 Determine necessity of stop advice,Resource12,2010-11-02T09:38:19.621000
+213,T02 Check confirmation of receipt,Resource12,2010-11-02T09:41:42.166000
+213,T04 Determine confirmation of receipt,Resource12,2010-11-02T09:42:47.991000
+213,T05 Print and send confirmation of receipt,Resource20,2010-11-03T07:46:54.881000
+213,T08 Draft and send request for advice,Resource12,2010-11-03T09:06:27.156000
+213,T07-5 Draft intern advice aspect 5,Resource12,2010-11-03T09:06:46.745000
+213,T09-4 Process or receive external advice from party 4,Resource12,2010-11-03T09:07:03.160000
+213,T06 Determine necessity of stop advice,Resource12,2010-11-03T09:07:47.559000
+213,T10 Determine necessity to stop indication,Resource12,2010-11-03T09:08:13.786000
+215,Confirmation of receipt,Resource02,2010-11-04T10:33:28.141000
+215,T02 Check confirmation of receipt,Resource24,2010-11-04T13:01:34.394000
+215,T06 Determine necessity of stop advice,Resource02,2010-11-04T13:59:41.086000
+215,T10 Determine necessity to stop indication,Resource02,2010-11-04T14:01:20.367000
+215,T03 Adjust confirmation of receipt,Resource02,2010-11-04T14:14:32.442000
+215,T02 Check confirmation of receipt,Resource24,2010-11-04T14:51:18.204000
+215,T03 Adjust confirmation of receipt,Resource02,2010-11-05T07:25:01.081000
+215,T02 Check confirmation of receipt,Resource24,2010-11-05T08:34:08.144000
+215,T04 Determine confirmation of receipt,Resource10,2010-11-11T14:04:26.194000
+215,T05 Print and send confirmation of receipt,admin1,2010-11-16T09:09:08.525000
+223,Confirmation of receipt,Resource04,2010-10-22T09:17:05.605000
+223,T06 Determine necessity of stop advice,Resource04,2010-10-22T09:23:44.282000
+223,T02 Check confirmation of receipt,Resource04,2010-10-22T09:23:58.873000
+223,T04 Determine confirmation of receipt,Resource04,2010-10-22T09:24:08.474000
+223,T10 Determine necessity to stop indication,Resource04,2010-10-22T09:30:31.019000
+223,T05 Print and send confirmation of receipt,Resource04,2010-10-22T09:34:43.024000
+226,Confirmation of receipt,Resource08,2010-10-26T07:18:14.992000
+226,T02 Check confirmation of receipt,Resource19,2010-10-26T13:51:51.369000
+226,T04 Determine confirmation of receipt,Resource19,2010-10-28T09:45:05.599000
+226,T05 Print and send confirmation of receipt,Resource20,2010-10-28T11:45:19.365000
+226,T06 Determine necessity of stop advice,Resource08,2010-11-02T13:38:22.827000
+226,T10 Determine necessity to stop indication,Resource08,2010-11-02T13:38:47.479000
+228,Confirmation of receipt,admin2,2010-10-26T13:28:43.424000
+235,Confirmation of receipt,Resource11,2010-11-01T11:16:04.360000
+235,T06 Determine necessity of stop advice,Resource11,2010-11-01T11:19:33.758000
+235,T10 Determine necessity to stop indication,Resource11,2010-11-01T11:21:48.593000
+235,T02 Check confirmation of receipt,Resource19,2010-11-01T11:40:15.155000
+235,T04 Determine confirmation of receipt,Resource19,2010-11-01T11:52:53.315000
+235,T05 Print and send confirmation of receipt,Resource20,2010-11-03T07:46:13.204000
+238,Confirmation of receipt,admin2,2010-12-20T11:10:34.164000
+248,Confirmation of receipt,Resource11,2010-11-08T08:58:52.315000
+248,T06 Determine necessity of stop advice,Resource11,2010-11-08T08:59:08.857000
+248,T10 Determine necessity to stop indication,Resource11,2010-11-08T08:59:43.904000
+248,T02 Check confirmation of receipt,Resource32,2010-11-25T14:51:46.498000
+248,T04 Determine confirmation of receipt,Resource10,2010-12-01T09:14:30.086000
+248,T05 Print and send confirmation of receipt,Resource07,2010-12-03T12:34:06.358000
+249,Confirmation of receipt,Resource08,2010-11-05T10:42:28.549000
+249,T02 Check confirmation of receipt,Resource24,2010-11-09T14:56:48.464000
+249,T04 Determine confirmation of receipt,Resource10,2010-11-12T13:48:36.475000
+249,T05 Print and send confirmation of receipt,admin1,2010-11-16T09:23:00.561000
+249,T06 Determine necessity of stop advice,Resource09,2010-11-17T11:06:19.161000
+249,T10 Determine necessity to stop indication,Resource09,2010-11-17T11:06:46.426000
+250,Confirmation of receipt,Resource08,2010-11-05T07:58:23.197000
+250,T02 Check confirmation of receipt,Resource24,2010-11-05T08:39:29.677000
+250,T03 Adjust confirmation of receipt,Resource08,2010-11-05T10:22:11.329000
+250,T02 Check confirmation of receipt,Resource24,2010-11-09T14:45:27.109000
+250,T04 Determine confirmation of receipt,Resource10,2010-11-12T14:02:26.576000
+250,T05 Print and send confirmation of receipt,admin1,2010-11-16T09:29:07.375000
+250,T06 Determine necessity of stop advice,Resource08,2010-11-18T11:24:28.715000
+250,T10 Determine necessity to stop indication,Resource08,2010-11-18T11:24:43.413000
+251,Confirmation of receipt,Resource05,2010-11-09T07:46:13.078000
+251,T06 Determine necessity of stop advice,Resource05,2010-11-09T07:49:59.813000
+251,T10 Determine necessity to stop indication,Resource05,2010-11-09T07:51:09.549000
+251,T02 Check confirmation of receipt,Resource24,2010-11-09T13:23:14.328000
+251,T04 Determine confirmation of receipt,Resource10,2010-11-12T13:52:24.857000
+251,T05 Print and send confirmation of receipt,admin1,2010-11-16T09:28:14.641000
+255,Confirmation of receipt,Resource05,2010-11-09T08:38:24.169000
+255,T06 Determine necessity of stop advice,Resource05,2010-11-09T08:39:15.034000
+255,T10 Determine necessity to stop indication,Resource05,2010-11-09T08:43:28.490000
+255,T02 Check confirmation of receipt,Resource24,2010-11-09T13:24:44.350000
+255,T04 Determine confirmation of receipt,Resource10,2010-11-12T13:54:10.595000
+255,T05 Print and send confirmation of receipt,admin1,2010-11-16T09:23:37.090000
+256,Confirmation of receipt,Resource08,2010-11-05T08:26:50.492000
+256,T02 Check confirmation of receipt,Resource24,2010-11-05T08:36:28.810000
+256,T03 Adjust confirmation of receipt,Resource08,2010-11-05T08:43:41.331000
+256,T02 Check confirmation of receipt,Resource24,2010-11-09T14:46:11.084000
+256,T04 Determine confirmation of receipt,Resource10,2010-11-12T13:58:23.296000
+256,T05 Print and send confirmation of receipt,admin1,2010-11-16T09:27:07.150000
+256,T06 Determine necessity of stop advice,Resource08,2010-11-16T15:09:30.900000
+256,T10 Determine necessity to stop indication,Resource08,2010-11-16T15:12:49.284000
+258,Confirmation of receipt,Resource02,2010-11-09T14:00:48.543000
+258,T02 Check confirmation of receipt,Resource24,2010-11-09T15:01:52.270000
+258,T06 Determine necessity of stop advice,Resource02,2010-11-09T15:02:46.641000
+258,T07-1 Draft intern advice aspect 1,Resource02,2010-11-09T15:04:00.213000
+258,T06 Determine necessity of stop advice,Resource02,2010-11-09T15:04:24.683000
+258,T04 Determine confirmation of receipt,Resource10,2010-11-12T14:04:23.485000
+258,T05 Print and send confirmation of receipt,admin1,2010-11-16T09:22:26.674000
+258,T10 Determine necessity to stop indication,Resource02,2010-12-08T10:54:32.200000
+273,Confirmation of receipt,Resource11,2010-12-02T07:11:39.624000
+273,T06 Determine necessity of stop advice,Resource11,2010-12-02T07:11:57.582000
+273,T10 Determine necessity to stop indication,Resource11,2010-12-02T07:13:55.406000
+273,T02 Check confirmation of receipt,Resource11,2010-12-02T07:20:08.769000
+273,T03 Adjust confirmation of receipt,Resource11,2010-12-02T07:21:46.572000
+273,T02 Check confirmation of receipt,Resource11,2010-12-02T07:27:20.046000
+273,T03 Adjust confirmation of receipt,Resource11,2010-12-02T07:27:39.920000
+273,T02 Check confirmation of receipt,Resource11,2010-12-02T07:28:03.007000
+273,T04 Determine confirmation of receipt,Resource11,2010-12-02T07:28:43.868000
+273,T03 Adjust confirmation of receipt,Resource11,2010-12-02T07:29:00.825000
+273,T02 Check confirmation of receipt,Resource11,2010-12-08T13:31:19.493000
+273,T04 Determine confirmation of receipt,Resource11,2010-12-08T13:36:17.802000
+273,T05 Print and send confirmation of receipt,admin1,2010-12-10T12:57:18.174000
+280,Confirmation of receipt,Resource11,2010-12-08T09:05:01.220000
+280,T06 Determine necessity of stop advice,Resource11,2010-12-08T09:05:22.642000
+280,T02 Check confirmation of receipt,Resource11,2010-12-08T09:07:08.958000
+280,T10 Determine necessity to stop indication,Resource11,2010-12-08T09:08:28.383000
+280,T04 Determine confirmation of receipt,Resource11,2010-12-08T09:52:20.092000
+280,T05 Print and send confirmation of receipt,admin1,2010-12-10T12:31:07.754000
+281,Confirmation of receipt,Resource07,2010-11-25T15:26:23.142000
+281,T06 Determine necessity of stop advice,Resource07,2010-11-25T15:26:41.545000
+281,T10 Determine necessity to stop indication,Resource07,2010-11-25T15:27:03.105000
+281,T02 Check confirmation of receipt,Resource07,2010-11-30T10:15:10.421000
+281,T04 Determine confirmation of receipt,Resource07,2010-11-30T10:33:21.851000
+281,T05 Print and send confirmation of receipt,Resource11,2010-11-30T11:26:33.377000
+300,Confirmation of receipt,Resource15,2010-11-23T11:25:37.551000
+300,T02 Check confirmation of receipt,Resource24,2010-11-26T07:58:13.474000
+300,T04 Determine confirmation of receipt,Resource15,2010-11-30T07:39:05.866000
+300,T06 Determine necessity of stop advice,Resource15,2010-11-30T07:40:11.604000
+300,T10 Determine necessity to stop indication,Resource15,2010-11-30T07:40:35.638000
+300,T05 Print and send confirmation of receipt,admin1,2010-12-06T14:16:35.712000
+302,Confirmation of receipt,Resource04,2010-11-19T09:27:47.282000
+302,T06 Determine necessity of stop advice,Resource04,2010-11-19T09:30:03.931000
+302,T10 Determine necessity to stop indication,Resource04,2010-11-19T09:30:25.507000
+302,T02 Check confirmation of receipt,Resource02,2010-11-19T09:33:50.591000
+302,T04 Determine confirmation of receipt,Resource04,2010-11-23T11:48:10.035000
+302,T05 Print and send confirmation of receipt,Resource04,2010-11-23T11:48:54.429000
+305,Confirmation of receipt,Resource11,2010-12-13T11:39:01.149000
+305,T06 Determine necessity of stop advice,Resource11,2010-12-13T11:39:41.069000
+305,T02 Check confirmation of receipt,Resource11,2010-12-13T11:51:14.991000
+305,T04 Determine confirmation of receipt,Resource11,2010-12-13T11:51:57.779000
+305,T05 Print and send confirmation of receipt,Resource11,2010-12-13T11:52:39.872000
+305,T10 Determine necessity to stop indication,Resource11,2010-12-13T11:53:15.462000
+307,Confirmation of receipt,Resource11,2010-12-15T07:38:28.119000
+307,T06 Determine necessity of stop advice,Resource11,2010-12-15T07:42:06.640000
+307,T10 Determine necessity to stop indication,Resource11,2010-12-15T07:44:09.988000
+307,T02 Check confirmation of receipt,Resource19,2010-12-15T07:58:06.213000
+307,T04 Determine confirmation of receipt,Resource11,2010-12-15T08:08:19.661000
+307,T05 Print and send confirmation of receipt,Resource11,2010-12-15T08:08:44.350000
+311,Confirmation of receipt,Resource11,2010-12-15T08:31:28.615000
+311,T06 Determine necessity of stop advice,Resource11,2010-12-15T08:32:15.833000
+311,T10 Determine necessity to stop indication,Resource11,2010-12-15T08:34:41.886000
+311,T02 Check confirmation of receipt,Resource19,2010-12-15T10:23:35.595000
+311,T04 Determine confirmation of receipt,Resource11,2010-12-15T14:02:22.927000
+311,T05 Print and send confirmation of receipt,admin1,2010-12-17T09:09:53.180000
+326,Confirmation of receipt,Resource15,2010-12-03T13:23:44.825000
+326,T02 Check confirmation of receipt,Resource15,2010-12-03T13:25:37.215000
+326,T04 Determine confirmation of receipt,Resource10,2010-12-03T13:54:23.415000
+326,T05 Print and send confirmation of receipt,admin1,2010-12-06T13:24:42.802000
+326,T06 Determine necessity of stop advice,Resource15,2010-12-08T08:43:34.084000
+326,T10 Determine necessity to stop indication,Resource15,2010-12-08T08:43:49.538000
+329,Confirmation of receipt,Resource01,2010-12-15T09:50:08.645000
+329,T02 Check confirmation of receipt,Resource01,2010-12-15T09:50:35.547000
+329,T06 Determine necessity of stop advice,Resource01,2010-12-15T09:51:42.943000
+329,T10 Determine necessity to stop indication,Resource01,2010-12-15T09:52:34.597000
+329,T04 Determine confirmation of receipt,Resource19,2010-12-16T08:39:16.015000
+329,T05 Print and send confirmation of receipt,admin1,2010-12-17T09:17:19.301000
+334,Confirmation of receipt,Resource02,2010-12-03T12:39:15.425000
+334,T02 Check confirmation of receipt,Resource04,2010-12-06T10:03:30.734000
+334,T04 Determine confirmation of receipt,Resource10,2010-12-06T10:52:41.561000
+334,T05 Print and send confirmation of receipt,admin1,2010-12-06T14:10:14.038000
+334,T06 Determine necessity of stop advice,Resource02,2010-12-07T13:32:16.240000
+334,T10 Determine necessity to stop indication,Resource02,2010-12-07T13:32:36.452000
+336,Confirmation of receipt,Resource02,2010-12-03T12:53:37.924000
+336,T02 Check confirmation of receipt,Resource04,2010-12-03T12:58:47.227000
+336,T04 Determine confirmation of receipt,Resource10,2010-12-03T13:47:50.288000
+336,T05 Print and send confirmation of receipt,admin1,2010-12-06T13:22:14.802000
+336,T06 Determine necessity of stop advice,Resource02,2010-12-16T10:18:58.845000
+336,T10 Determine necessity to stop indication,Resource02,2010-12-16T10:19:20.894000
+338,Confirmation of receipt,Resource12,2010-12-14T14:08:54.503000
+338,T02 Check confirmation of receipt,Resource10,2010-12-17T09:19:10.470000
+338,T04 Determine confirmation of receipt,Resource10,2010-12-17T09:21:30.318000
+338,T05 Print and send confirmation of receipt,admin1,2010-12-17T09:23:50.542000
+338,T06 Determine necessity of stop advice,Resource12,2010-12-28T11:48:43.961000
+338,T07-5 Draft intern advice aspect 5,Resource12,2011-01-13T14:04:16.192000
+338,T06 Determine necessity of stop advice,Resource12,2011-01-13T14:04:49.935000
+338,T10 Determine necessity to stop indication,Resource12,2011-01-31T10:01:18.270000
+338,T16 Report reasons to hold request,Resource12,2011-02-15T13:40:08.631000
+338,T17 Check report Y to stop indication,Resource12,2011-02-15T13:40:44.022000
+338,T19 Determine report Y to stop indication,Resource12,2011-02-15T13:43:16.487000
+338,T20 Print report Y to stop indication,Resource12,2011-02-15T13:43:43.912000
+347,Confirmation of receipt,Resource01,2010-12-14T11:24:35.032000
+347,T02 Check confirmation of receipt,Resource01,2010-12-14T11:24:50.979000
+347,T06 Determine necessity of stop advice,Resource01,2010-12-14T11:25:24.609000
+347,T10 Determine necessity to stop indication,Resource01,2010-12-14T11:26:08.036000
+347,T04 Determine confirmation of receipt,Resource19,2010-12-15T10:20:45.445000
+347,T05 Print and send confirmation of receipt,admin1,2010-12-15T13:18:04.905000
+349,Confirmation of receipt,Resource11,2010-12-15T13:03:12.375000
+349,T06 Determine necessity of stop advice,Resource11,2010-12-15T13:04:39.364000
+349,T10 Determine necessity to stop indication,Resource11,2010-12-15T13:08:19.176000
+349,T02 Check confirmation of receipt,Resource19,2010-12-16T08:59:33.212000
+349,T04 Determine confirmation of receipt,Resource10,2010-12-16T09:17:28.950000
+349,T05 Print and send confirmation of receipt,admin1,2010-12-17T09:22:12.235000
+357,Confirmation of receipt,Resource07,2010-12-06T09:16:34.347000
+357,T06 Determine necessity of stop advice,Resource07,2010-12-06T09:18:57.378000
+357,T02 Check confirmation of receipt,Resource07,2010-12-06T09:19:25.141000
+357,T04 Determine confirmation of receipt,Resource07,2010-12-06T09:19:40.450000
+357,T10 Determine necessity to stop indication,Resource07,2010-12-06T09:20:07.236000
+357,T05 Print and send confirmation of receipt,admin1,2010-12-06T13:42:01.490000
+359,Confirmation of receipt,Resource34,2010-12-10T13:42:47.518000
+359,T02 Check confirmation of receipt,Resource34,2010-12-10T13:44:09.214000
+359,T04 Determine confirmation of receipt,Resource34,2010-12-10T13:45:04.207000
+359,T05 Print and send confirmation of receipt,Resource34,2010-12-10T13:45:54.662000
+359,T06 Determine necessity of stop advice,Resource34,2010-12-10T13:46:56.741000
+359,T10 Determine necessity to stop indication,Resource34,2010-12-10T13:48:00.370000
+360,Confirmation of receipt,Resource02,2010-12-06T12:55:44.720000
+360,T02 Check confirmation of receipt,Resource02,2010-12-06T12:55:59.228000
+360,T04 Determine confirmation of receipt,Resource10,2010-12-07T07:17:59.224000
+360,T05 Print and send confirmation of receipt,admin1,2010-12-07T07:32:44.765000
+360,T06 Determine necessity of stop advice,admin2,2011-01-10T14:10:37.132000
+362,Confirmation of receipt,Resource12,2010-12-14T13:36:38.009000
+362,T02 Check confirmation of receipt,Resource10,2010-12-17T09:16:48.413000
+362,T04 Determine confirmation of receipt,Resource10,2010-12-17T09:29:29.517000
+362,T05 Print and send confirmation of receipt,admin1,2010-12-21T10:25:16.429000
+362,T06 Determine necessity of stop advice,Resource12,2011-09-16T09:44:54.556000
+362,T10 Determine necessity to stop indication,Resource12,2011-09-16T09:45:39.533000
+364,Confirmation of receipt,Resource07,2010-12-06T10:43:40.461000
+364,T02 Check confirmation of receipt,Resource07,2010-12-06T10:43:57.995000
+364,T04 Determine confirmation of receipt,Resource07,2010-12-06T10:44:11.319000
+364,T06 Determine necessity of stop advice,Resource07,2010-12-06T10:44:36.318000
+364,T10 Determine necessity to stop indication,Resource07,2010-12-06T10:44:56.579000
+364,T05 Print and send confirmation of receipt,admin1,2010-12-06T14:05:46.768000
+372,Confirmation of receipt,Resource01,2010-12-15T10:52:03.599000
+372,T02 Check confirmation of receipt,Resource01,2010-12-15T10:56:46.605000
+372,T04 Determine confirmation of receipt,Resource01,2010-12-15T10:58:21.887000
+372,T05 Print and send confirmation of receipt,Resource01,2010-12-15T10:59:52.331000
+372,T06 Determine necessity of stop advice,Resource01,2010-12-15T11:00:06.209000
+372,T10 Determine necessity to stop indication,Resource01,2010-12-15T11:00:32.199000
+373,Confirmation of receipt,Resource08,2010-12-09T14:58:25.494000
+373,T02 Check confirmation of receipt,Resource08,2010-12-09T14:58:39.802000
+373,T04 Determine confirmation of receipt,Resource10,2010-12-10T07:21:44.667000
+373,T05 Print and send confirmation of receipt,admin1,2010-12-10T13:03:12.340000
+373,T06 Determine necessity of stop advice,Resource08,2010-12-13T12:29:35.449000
+373,T10 Determine necessity to stop indication,Resource08,2010-12-14T08:32:26.216000
+386,Confirmation of receipt,Resource15,2010-12-24T14:41:15.271000
+386,T02 Check confirmation of receipt,Resource15,2010-12-24T14:50:46.154000
+386,T04 Determine confirmation of receipt,Resource10,2010-12-24T14:52:58.737000
+386,T05 Print and send confirmation of receipt,admin1,2010-12-30T12:10:44.088000
+386,T06 Determine necessity of stop advice,Resource15,2011-01-04T08:49:09.870000
+386,T10 Determine necessity to stop indication,Resource15,2011-01-04T08:49:28.293000
+388,Confirmation of receipt,Resource25,2010-12-14T13:18:22.511000
+388,T06 Determine necessity of stop advice,Resource25,2010-12-14T13:19:59.793000
+388,T07-2 Draft intern advice aspect 2,Resource25,2010-12-14T13:21:46.996000
+388,T08 Draft and send request for advice,Resource25,2010-12-14T13:23:12.190000
+388,T09-3 Process or receive external advice from party 3,Resource25,2010-12-14T13:23:26.150000
+388,T06 Determine necessity of stop advice,Resource25,2010-12-14T13:24:32.145000
+388,T07-2 Draft intern advice aspect 2,Resource25,2010-12-14T13:25:01.495000
+388,T06 Determine necessity of stop advice,Resource25,2010-12-14T13:25:20.301000
+388,T10 Determine necessity to stop indication,Resource25,2010-12-14T13:25:46.918000
+388,T02 Check confirmation of receipt,Resource25,2010-12-14T14:28:36.139000
+388,T04 Determine confirmation of receipt,Resource25,2010-12-14T14:28:58.029000
+388,T05 Print and send confirmation of receipt,Resource25,2010-12-14T14:29:17.828000
+389,Confirmation of receipt,Resource10,2010-12-17T09:13:44.427000
+389,T02 Check confirmation of receipt,Resource10,2010-12-17T09:29:12.335000
+389,T04 Determine confirmation of receipt,Resource10,2010-12-17T09:32:02.597000
+389,T06 Determine necessity of stop advice,Resource04,2010-12-17T13:33:12.157000
+389,T10 Determine necessity to stop indication,Resource04,2010-12-17T13:33:28.363000
+389,T05 Print and send confirmation of receipt,admin1,2010-12-21T09:24:37.017000
+404,Confirmation of receipt,Resource10,2010-12-17T09:21:46.261000
+404,T02 Check confirmation of receipt,Resource10,2010-12-17T09:27:55.552000
+404,T04 Determine confirmation of receipt,Resource10,2010-12-17T09:35:37.087000
+404,T06 Determine necessity of stop advice,Resource22,2010-12-27T08:39:54.086000
+404,T10 Determine necessity to stop indication,Resource22,2010-12-27T08:41:07.887000
+404,T05 Print and send confirmation of receipt,admin1,2010-12-30T12:07:07.218000
+408,Confirmation of receipt,Resource10,2010-12-17T09:23:24.758000
+408,T02 Check confirmation of receipt,Resource10,2010-12-17T09:36:30.956000
+408,T04 Determine confirmation of receipt,Resource10,2010-12-17T09:41:38.831000
+408,T06 Determine necessity of stop advice,Resource07,2010-12-24T15:07:05.547000
+408,T10 Determine necessity to stop indication,Resource07,2010-12-24T15:09:05.193000
+408,T05 Print and send confirmation of receipt,Resource07,2010-12-30T12:35:39.251000
+414,Confirmation of receipt,Resource07,2010-12-20T15:57:01.202000
+414,T02 Check confirmation of receipt,Resource19,2010-12-22T08:40:30.035000
+414,T04 Determine confirmation of receipt,Resource10,2010-12-22T08:47:15.917000
+414,T05 Print and send confirmation of receipt,admin1,2010-12-24T08:42:30.661000
+414,T06 Determine necessity of stop advice,Resource07,2010-12-24T14:18:12.487000
+414,T10 Determine necessity to stop indication,Resource07,2010-12-24T14:20:07.739000
+421,Confirmation of receipt,Resource07,2010-12-23T16:07:44.891000
+421,T02 Check confirmation of receipt,Resource19,2010-12-24T10:34:58.337000
+421,T04 Determine confirmation of receipt,Resource10,2010-12-24T11:00:23.682000
+421,T06 Determine necessity of stop advice,Resource07,2010-12-24T14:43:11.974000
+421,T10 Determine necessity to stop indication,Resource07,2010-12-24T14:45:07.747000
+421,T05 Print and send confirmation of receipt,Resource11,2010-12-29T10:24:54.895000
+434,Confirmation of receipt,Resource17,2011-01-10T09:28:15.346000
+434,T06 Determine necessity of stop advice,Resource17,2011-01-10T09:28:28.630000
+434,T10 Determine necessity to stop indication,Resource17,2011-01-10T09:28:47.739000
+434,T02 Check confirmation of receipt,Resource17,2011-01-10T09:29:22.672000
+434,T04 Determine confirmation of receipt,Resource10,2011-01-10T10:49:59.816000
+434,T05 Print and send confirmation of receipt,admin1,2011-01-11T12:27:46.315000
+436,Confirmation of receipt,Resource17,2011-01-10T11:15:38.509000
+436,T06 Determine necessity of stop advice,Resource17,2011-01-10T11:15:54.133000
+436,T10 Determine necessity to stop indication,Resource17,2011-01-10T11:16:06.257000
+436,T02 Check confirmation of receipt,Resource17,2011-01-10T11:18:14.442000
+436,T04 Determine confirmation of receipt,Resource10,2011-01-10T13:23:12.135000
+436,T05 Print and send confirmation of receipt,admin1,2011-01-11T12:25:53.817000
+440,Confirmation of receipt,Resource17,2011-01-07T14:54:09.192000
+440,T02 Check confirmation of receipt,Resource17,2011-01-07T14:54:38.491000
+440,T06 Determine necessity of stop advice,Resource17,2011-01-07T14:54:55.831000
+440,T10 Determine necessity to stop indication,Resource17,2011-01-07T14:55:12.717000
+440,T04 Determine confirmation of receipt,Resource10,2011-01-07T15:22:30.887000
+440,T05 Print and send confirmation of receipt,admin1,2011-01-11T10:41:24.562000
+445,Confirmation of receipt,Resource04,2011-01-03T09:31:34.480000
+445,T02 Check confirmation of receipt,Resource04,2011-01-03T09:32:13.490000
+445,T06 Determine necessity of stop advice,Resource04,2011-01-03T10:07:11.735000
+445,T10 Determine necessity to stop indication,Resource04,2011-01-03T10:07:26.033000
+445,T04 Determine confirmation of receipt,Resource10,2011-01-03T11:00:57.185000
+445,T05 Print and send confirmation of receipt,admin1,2011-01-07T10:48:13.916000
+446,Confirmation of receipt,Resource11,2010-12-28T07:58:59.254000
+446,T06 Determine necessity of stop advice,Resource11,2010-12-28T08:01:15.042000
+446,T10 Determine necessity to stop indication,Resource11,2010-12-28T08:01:33.415000
+446,T02 Check confirmation of receipt,Resource10,2010-12-28T11:25:05.826000
+446,T04 Determine confirmation of receipt,Resource10,2010-12-28T11:25:19.053000
+446,T05 Print and send confirmation of receipt,Resource11,2010-12-29T10:02:58.354000
+448,Confirmation of receipt,Resource09,2011-01-05T12:16:11.638000
+448,T06 Determine necessity of stop advice,Resource09,2011-01-05T12:17:19.396000
+448,T10 Determine necessity to stop indication,Resource09,2011-01-05T12:40:23.362000
+448,T02 Check confirmation of receipt,Resource24,2011-01-13T11:59:26.562000
+448,T04 Determine confirmation of receipt,Resource09,2011-01-25T08:22:42.562000
+448,T05 Print and send confirmation of receipt,Resource09,2011-01-25T08:23:19.236000
+449,Confirmation of receipt,Resource14,2011-01-11T08:49:19.363000
+449,T06 Determine necessity of stop advice,Resource14,2011-01-11T09:29:35.262000
+449,T10 Determine necessity to stop indication,Resource14,2011-01-11T09:29:52.600000
+449,T02 Check confirmation of receipt,Resource14,2011-01-11T09:31:20.626000
+449,T04 Determine confirmation of receipt,Resource10,2011-01-11T09:48:54.789000
+449,T05 Print and send confirmation of receipt,admin1,2011-01-11T13:11:50.889000
+450,Confirmation of receipt,Resource04,2011-01-03T09:36:13.845000
+450,T02 Check confirmation of receipt,Resource04,2011-01-03T09:36:26.627000
+450,T06 Determine necessity of stop advice,Resource04,2011-01-03T11:56:44.341000
+450,T10 Determine necessity to stop indication,Resource04,2011-01-03T11:57:00.153000
+450,T04 Determine confirmation of receipt,Resource10,2011-01-03T11:57:05.714000
+450,T05 Print and send confirmation of receipt,admin1,2011-01-07T10:52:15.292000
+457,Confirmation of receipt,Resource08,2010-12-30T13:39:11.950000
+457,T02 Check confirmation of receipt,Resource08,2010-12-30T13:39:51.140000
+457,T04 Determine confirmation of receipt,Resource10,2010-12-31T08:16:52.406000
+457,T05 Print and send confirmation of receipt,admin1,2010-12-31T10:32:16.370000
+457,T06 Determine necessity of stop advice,Resource08,2011-01-13T15:07:36.422000
+457,T10 Determine necessity to stop indication,Resource08,2011-01-13T15:13:14.209000
+460,Confirmation of receipt,Resource04,2011-01-07T13:42:49.358000
+460,T02 Check confirmation of receipt,Resource04,2011-01-07T13:43:02.116000
+460,T06 Determine necessity of stop advice,Resource04,2011-01-07T13:43:12.423000
+460,T04 Determine confirmation of receipt,Resource10,2011-01-07T14:25:03.384000
+460,T10 Determine necessity to stop indication,Resource04,2011-01-07T14:25:59.426000
+460,T05 Print and send confirmation of receipt,admin1,2011-01-07T14:48:40.718000
+465,Confirmation of receipt,Resource07,2011-01-04T15:56:50.730000
+465,T02 Check confirmation of receipt,Resource19,2011-01-05T10:11:35.465000
+465,T04 Determine confirmation of receipt,Resource10,2011-01-05T11:38:55.193000
+465,T05 Print and send confirmation of receipt,Resource07,2011-01-06T09:17:11.945000
+465,T06 Determine necessity of stop advice,Resource07,2011-01-06T09:17:28.682000
+465,T10 Determine necessity to stop indication,Resource07,2011-01-06T10:01:13.253000
+475,Confirmation of receipt,admin2,2011-01-05T08:28:07.911000
+480,Confirmation of receipt,Resource02,2011-01-14T14:36:32.573000
+480,T02 Check confirmation of receipt,Resource24,2011-01-17T11:38:13.316000
+480,T04 Determine confirmation of receipt,Resource10,2011-01-19T13:54:45.337000
+480,T05 Print and send confirmation of receipt,admin1,2011-01-24T10:20:09.442000
+480,T06 Determine necessity of stop advice,Resource02,2011-01-25T15:55:54.784000
+480,T10 Determine necessity to stop indication,Resource02,2011-01-25T15:56:12.975000
+495,Confirmation of receipt,Resource14,2011-01-11T13:28:22.812000
+495,T06 Determine necessity of stop advice,Resource14,2011-01-11T13:52:59.433000
+495,T10 Determine necessity to stop indication,Resource14,2011-01-11T13:53:19.335000
+495,T02 Check confirmation of receipt,Resource10,2011-01-12T10:45:22.480000
+495,T04 Determine confirmation of receipt,Resource10,2011-01-12T10:45:36.126000
+495,T05 Print and send confirmation of receipt,admin1,2011-01-12T14:01:30.274000
+499,Confirmation of receipt,Resource08,2011-02-07T07:49:51.378000
+499,T06 Determine necessity of stop advice,Resource08,2011-02-07T07:54:22.518000
+499,T02 Check confirmation of receipt,Resource08,2011-02-07T07:54:51.568000
+499,T04 Determine confirmation of receipt,Resource08,2011-02-07T07:57:05.110000
+499,T05 Print and send confirmation of receipt,Resource08,2011-02-07T07:57:47.858000
+499,T10 Determine necessity to stop indication,Resource08,2011-02-07T08:42:27.649000
+501,Confirmation of receipt,Resource02,2011-01-17T13:09:30.414000
+501,T02 Check confirmation of receipt,Resource02,2011-01-17T13:10:22.198000
+501,T06 Determine necessity of stop advice,Resource02,2011-01-17T14:09:43.827000
+501,T10 Determine necessity to stop indication,Resource02,2011-01-17T14:14:08.197000
+501,T04 Determine confirmation of receipt,Resource10,2011-01-19T14:07:32.811000
+501,T05 Print and send confirmation of receipt,admin1,2011-01-21T13:14:59.560000
+504,Confirmation of receipt,Resource17,2011-01-18T08:27:21.804000
+504,T06 Determine necessity of stop advice,Resource17,2011-01-18T08:27:38.295000
+504,T10 Determine necessity to stop indication,Resource17,2011-01-18T08:28:01.375000
+504,T02 Check confirmation of receipt,Resource17,2011-01-18T08:39:19.245000
+504,T04 Determine confirmation of receipt,Resource17,2011-01-18T08:40:52.540000
+504,T05 Print and send confirmation of receipt,Resource17,2011-01-18T08:41:45.512000
+507,Confirmation of receipt,Resource18,2011-01-13T10:38:56.153000
+507,T06 Determine necessity of stop advice,Resource18,2011-01-13T10:39:27.720000
+507,T10 Determine necessity to stop indication,Resource18,2011-01-13T10:40:11.410000
+507,T02 Check confirmation of receipt,Resource10,2011-01-13T15:09:20.719000
+507,T04 Determine confirmation of receipt,Resource10,2011-01-13T15:09:38.658000
+507,T05 Print and send confirmation of receipt,admin1,2011-01-18T08:46:52.717000
+519,Confirmation of receipt,Resource12,2011-01-14T07:06:51.863000
+519,T06 Determine necessity of stop advice,Resource12,2011-01-14T07:08:01.042000
+519,T10 Determine necessity to stop indication,Resource12,2011-01-14T07:08:26.001000
+519,T02 Check confirmation of receipt,Resource21,2011-02-04T12:09:08.172000
+519,T04 Determine confirmation of receipt,Resource21,2011-02-04T12:11:07.780000
+519,T05 Print and send confirmation of receipt,Resource21,2011-02-04T12:27:34.329000
+523,Confirmation of receipt,admin2,2011-01-15T12:42:05.411000
+525,Confirmation of receipt,Resource12,2011-03-01T12:43:51.747000
+525,T02 Check confirmation of receipt,Resource12,2011-03-02T07:27:07.117000
+525,T06 Determine necessity of stop advice,Resource12,2011-03-02T07:33:01.590000
+525,T10 Determine necessity to stop indication,Resource12,2011-03-02T07:33:39.344000
+525,T04 Determine confirmation of receipt,Resource10,2011-03-02T08:00:13.975000
+525,T05 Print and send confirmation of receipt,admin1,2011-03-02T13:26:03.181000
+530,Confirmation of receipt,Resource02,2011-02-01T15:35:39.977000
+530,T02 Check confirmation of receipt,Resource02,2011-02-01T15:37:33.275000
+530,T06 Determine necessity of stop advice,Resource02,2011-02-02T08:12:07.958000
+530,T07-1 Draft intern advice aspect 1,Resource02,2011-02-02T08:19:05.488000
+530,T06 Determine necessity of stop advice,Resource02,2011-02-02T08:21:52.637000
+530,T07-1 Draft intern advice aspect 1,Resource02,2011-02-02T08:22:52.817000
+530,T06 Determine necessity of stop advice,Resource02,2011-02-02T08:23:40.770000
+530,T07-1 Draft intern advice aspect 1,Resource02,2011-02-02T08:24:33.044000
+530,T06 Determine necessity of stop advice,Resource02,2011-02-02T08:24:55.446000
+530,T10 Determine necessity to stop indication,Resource02,2011-02-02T08:25:15.384000
+530,T04 Determine confirmation of receipt,Resource02,2011-02-02T09:49:15.212000
+530,T05 Print and send confirmation of receipt,Resource02,2011-02-02T09:51:01.951000
+531,Confirmation of receipt,Resource18,2011-01-20T12:56:59.677000
+531,T02 Check confirmation of receipt,Resource18,2011-01-20T12:59:54.727000
+531,T04 Determine confirmation of receipt,Resource18,2011-01-20T13:00:12.609000
+531,T05 Print and send confirmation of receipt,admin1,2011-01-24T11:00:28.441000
+531,T06 Determine necessity of stop advice,Resource18,2011-01-25T08:13:56.754000
+531,T10 Determine necessity to stop indication,Resource18,2011-01-25T08:14:15.919000
+533,Confirmation of receipt,Resource04,2011-01-28T14:29:43.786000
+533,T02 Check confirmation of receipt,Resource04,2011-01-28T14:30:00.274000
+533,T04 Determine confirmation of receipt,Resource04,2011-01-28T14:30:14.758000
+533,T05 Print and send confirmation of receipt,Resource04,2011-01-28T14:31:20.711000
+533,T06 Determine necessity of stop advice,Resource04,2011-02-04T13:18:50.548000
+533,T10 Determine necessity to stop indication,Resource04,2011-02-04T13:19:04.058000
+536,Confirmation of receipt,Resource04,2011-01-19T15:28:08.208000
+536,T02 Check confirmation of receipt,Resource04,2011-01-21T08:14:19.467000
+536,T04 Determine confirmation of receipt,Resource04,2011-01-21T08:14:32.449000
+536,T06 Determine necessity of stop advice,Resource04,2011-01-21T08:14:58.812000
+536,T10 Determine necessity to stop indication,Resource04,2011-01-21T08:15:11.544000
+536,T05 Print and send confirmation of receipt,admin1,2011-01-24T11:13:40.735000
+539,Confirmation of receipt,Resource01,2011-01-27T13:34:17.431000
+539,T02 Check confirmation of receipt,Resource01,2011-01-27T13:34:41.072000
+539,T06 Determine necessity of stop advice,Resource01,2011-01-27T13:44:42.382000
+539,T10 Determine necessity to stop indication,Resource01,2011-01-27T13:47:13.317000
+539,T04 Determine confirmation of receipt,Resource07,2011-02-03T10:10:54.978000
+539,T05 Print and send confirmation of receipt,Resource07,2011-02-03T10:11:24.300000
+541,Confirmation of receipt,admin2,2011-02-15T13:59:07.340000
+545,Confirmation of receipt,admin2,2011-01-28T13:59:55.010000
+557,Confirmation of receipt,Resource17,2011-02-03T10:07:02.147000
+557,T02 Check confirmation of receipt,Resource10,2011-02-03T10:30:35.377000
+557,T04 Determine confirmation of receipt,Resource10,2011-02-03T10:31:02.259000
+557,T06 Determine necessity of stop advice,Resource17,2011-02-07T07:58:22.287000
+557,T10 Determine necessity to stop indication,Resource17,2011-02-07T08:00:07.478000
+557,T05 Print and send confirmation of receipt,Resource21,2011-02-07T09:01:03.436000
+572,Confirmation of receipt,Resource06,2011-02-16T10:30:59.689000
+572,T02 Check confirmation of receipt,Resource06,2011-02-16T10:31:21.991000
+572,T06 Determine necessity of stop advice,Resource06,2011-02-16T10:31:39.228000
+572,T10 Determine necessity to stop indication,Resource06,2011-02-16T10:32:05.835000
+572,T04 Determine confirmation of receipt,Resource06,2011-02-16T12:46:42.897000
+572,T05 Print and send confirmation of receipt,admin1,2011-02-16T13:28:55.869000
+593,Confirmation of receipt,Resource07,2011-02-15T14:09:27.025000
+593,T02 Check confirmation of receipt,Resource07,2011-02-15T14:09:49.796000
+593,T04 Determine confirmation of receipt,Resource07,2011-02-15T14:10:40.691000
+593,T05 Print and send confirmation of receipt,Resource07,2011-02-15T14:11:06.077000
+593,T06 Determine necessity of stop advice,Resource07,2011-02-15T14:11:24.982000
+593,T10 Determine necessity to stop indication,Resource07,2011-02-15T14:11:46.393000
+593,T11 Create document X request unlicensed,Resource07,2011-02-24T14:53:25.233000
+593,T12 Check document X request unlicensed,Resource01,2011-02-25T08:10:36.708000
+593,T14 Determine document X request unlicensed,Resource19,2011-02-28T08:02:43.447000
+593,T15 Print document X request unlicensed,Resource07,2011-02-28T10:47:00.458000
+603,Confirmation of receipt,Resource07,2011-02-04T14:19:59.421000
+603,T02 Check confirmation of receipt,Resource07,2011-02-04T14:20:43.442000
+603,T04 Determine confirmation of receipt,Resource07,2011-02-04T14:20:59.258000
+603,T05 Print and send confirmation of receipt,Resource07,2011-02-04T14:21:12.911000
+603,T06 Determine necessity of stop advice,Resource07,2011-02-04T14:21:27.504000
+603,T10 Determine necessity to stop indication,Resource07,2011-02-04T14:22:01.647000
+605,Confirmation of receipt,Resource01,2011-02-09T11:07:29.300000
+605,T02 Check confirmation of receipt,Resource01,2011-02-09T11:07:46.209000
+605,T06 Determine necessity of stop advice,Resource01,2011-02-09T12:16:38.491000
+605,T10 Determine necessity to stop indication,Resource01,2011-02-09T12:18:06.103000
+605,T04 Determine confirmation of receipt,Resource01,2011-02-10T08:58:36.256000
+605,T05 Print and send confirmation of receipt,Resource01,2011-02-10T08:58:47.927000
+607,Confirmation of receipt,Resource01,2011-02-16T14:22:10.836000
+607,T02 Check confirmation of receipt,Resource01,2011-02-16T14:22:23.873000
+607,T04 Determine confirmation of receipt,Resource01,2011-02-16T14:22:38.402000
+607,T05 Print and send confirmation of receipt,Resource01,2011-02-16T14:22:48.748000
+607,T06 Determine necessity of stop advice,Resource07,2011-03-01T09:16:07.490000
+607,T10 Determine necessity to stop indication,Resource07,2011-03-01T09:16:31.090000
+609,Confirmation of receipt,Resource06,2011-03-10T17:06:48.012000
+609,T06 Determine necessity of stop advice,Resource06,2011-03-10T17:52:50.554000
+609,T10 Determine necessity to stop indication,Resource06,2011-03-10T17:53:06.918000
+609,T02 Check confirmation of receipt,Resource10,2011-03-11T09:06:25.650000
+609,T04 Determine confirmation of receipt,Resource10,2011-03-11T09:06:38.077000
+609,T05 Print and send confirmation of receipt,admin1,2011-03-11T10:02:53.089000
+619,Confirmation of receipt,Resource01,2011-02-17T14:08:53.884000
+619,T02 Check confirmation of receipt,Resource01,2011-02-17T14:09:11.716000
+619,T04 Determine confirmation of receipt,Resource01,2011-02-17T14:09:30.127000
+619,T05 Print and send confirmation of receipt,Resource01,2011-02-17T14:09:41.700000
+619,T06 Determine necessity of stop advice,Resource01,2011-02-17T14:09:53.380000
+619,T10 Determine necessity to stop indication,Resource01,2011-02-17T14:10:06.205000
+626,Confirmation of receipt,Resource06,2011-03-16T10:31:40.766000
+626,T02 Check confirmation of receipt,Resource06,2011-03-16T10:32:51.310000
+626,T04 Determine confirmation of receipt,Resource06,2011-03-16T10:33:03.326000
+626,T06 Determine necessity of stop advice,Resource06,2011-03-16T10:34:56.807000
+626,T10 Determine necessity to stop indication,Resource06,2011-03-16T10:35:21.411000
+626,T05 Print and send confirmation of receipt,admin1,2011-03-16T12:38:34.942000
+631,Confirmation of receipt,admin2,2011-02-09T14:06:38.763000
+637,Confirmation of receipt,Resource04,2011-03-01T10:58:34.191000
+637,T02 Check confirmation of receipt,Resource04,2011-03-01T10:58:46.817000
+637,T04 Determine confirmation of receipt,Resource04,2011-03-01T10:58:56.649000
+637,T05 Print and send confirmation of receipt,admin1,2011-03-01T14:09:46.516000
+637,T06 Determine necessity of stop advice,Resource04,2011-03-03T10:52:38.970000
+637,T10 Determine necessity to stop indication,Resource04,2011-03-03T10:52:52.889000
+644,Confirmation of receipt,Resource15,2011-02-16T10:37:58.519000
+644,T02 Check confirmation of receipt,Resource10,2011-02-16T11:37:06.649000
+644,T04 Determine confirmation of receipt,Resource10,2011-02-16T11:37:18.779000
+644,T05 Print and send confirmation of receipt,admin1,2011-02-16T13:24:36.004000
+644,T06 Determine necessity of stop advice,Resource15,2011-02-18T09:36:01.130000
+644,T10 Determine necessity to stop indication,Resource15,2011-02-18T09:36:19.540000
+667,Confirmation of receipt,Resource09,2011-04-11T09:35:13.544000
+667,T06 Determine necessity of stop advice,Resource09,2011-04-11T09:35:34.107000
+667,T10 Determine necessity to stop indication,Resource09,2011-04-11T09:36:06.319000
+667,T02 Check confirmation of receipt,Resource09,2011-04-11T09:37:15.543000
+667,T04 Determine confirmation of receipt,Resource09,2011-04-11T09:37:48.452000
+667,T05 Print and send confirmation of receipt,Resource09,2011-04-11T10:08:45.470000
+671,Confirmation of receipt,Resource18,2011-02-24T14:48:16.499000
+671,T02 Check confirmation of receipt,Resource18,2011-02-24T14:48:34.863000
+671,T04 Determine confirmation of receipt,Resource18,2011-02-24T14:48:47.328000
+671,T05 Print and send confirmation of receipt,Resource18,2011-02-24T14:49:36.398000
+671,T06 Determine necessity of stop advice,Resource18,2011-02-24T14:56:47.417000
+671,T10 Determine necessity to stop indication,Resource18,2011-02-24T14:58:49.340000
+672,Confirmation of receipt,Resource08,2011-03-01T11:01:43.728000
+672,T06 Determine necessity of stop advice,Resource08,2011-03-01T11:13:55.733000
+672,T10 Determine necessity to stop indication,Resource08,2011-03-01T11:20:43.673000
+672,T02 Check confirmation of receipt,Resource08,2011-03-01T11:21:07.289000
+672,T04 Determine confirmation of receipt,admin3,2011-03-02T08:01:11.685000
+672,T05 Print and send confirmation of receipt,admin1,2011-03-02T13:30:12.818000
+673,Confirmation of receipt,Resource01,2011-03-10T11:09:05.416000
+673,T02 Check confirmation of receipt,Resource01,2011-03-10T11:09:20.153000
+673,T04 Determine confirmation of receipt,Resource01,2011-03-10T11:09:33.830000
+673,T05 Print and send confirmation of receipt,Resource01,2011-03-10T11:09:44.583000
+673,T06 Determine necessity of stop advice,Resource01,2011-03-10T11:09:57.564000
+673,T10 Determine necessity to stop indication,Resource01,2011-03-10T11:10:14.946000
+676,Confirmation of receipt,Resource15,2011-02-23T11:45:30.822000
+676,T06 Determine necessity of stop advice,Resource15,2011-02-23T11:51:58.381000
+676,T10 Determine necessity to stop indication,Resource15,2011-02-28T09:47:24.851000
+676,T02 Check confirmation of receipt,Resource10,2011-02-28T10:53:00.608000
+676,T04 Determine confirmation of receipt,Resource10,2011-02-28T10:53:15.005000
+676,T05 Print and send confirmation of receipt,admin1,2011-03-01T09:13:07.907000
+693,Confirmation of receipt,Resource18,2011-03-07T09:49:17.828000
+693,T02 Check confirmation of receipt,Resource18,2011-03-07T09:49:30.883000
+693,T04 Determine confirmation of receipt,Resource18,2011-03-07T09:49:42.826000
+693,T05 Print and send confirmation of receipt,Resource18,2011-03-07T09:49:53.771000
+693,T06 Determine necessity of stop advice,Resource18,2011-03-07T09:50:04.880000
+693,T10 Determine necessity to stop indication,Resource18,2011-03-07T09:50:20.585000
+697,Confirmation of receipt,Resource15,2011-03-02T12:55:59.454000
+697,T06 Determine necessity of stop advice,Resource15,2011-03-02T13:00:21.667000
+697,T10 Determine necessity to stop indication,Resource15,2011-03-02T13:01:35.333000
+697,T02 Check confirmation of receipt,Resource15,2011-03-04T12:41:19.887000
+697,T04 Determine confirmation of receipt,Resource10,2011-03-07T13:31:56.274000
+697,T05 Print and send confirmation of receipt,admin1,2011-03-08T09:18:51.751000
+701,Confirmation of receipt,Resource08,2011-03-17T08:25:54.441000
+701,T02 Check confirmation of receipt,Resource08,2011-03-17T08:26:54.360000
+701,T06 Determine necessity of stop advice,Resource08,2011-03-17T08:36:55.354000
+701,T10 Determine necessity to stop indication,Resource08,2011-03-17T08:41:25.875000
+701,T04 Determine confirmation of receipt,Resource18,2011-03-17T08:54:25.550000
+701,T05 Print and send confirmation of receipt,admin1,2011-03-21T08:33:15.523000
+708,Confirmation of receipt,Resource15,2011-03-10T07:56:43.057000
+708,T06 Determine necessity of stop advice,Resource15,2011-03-10T07:57:34.633000
+708,T10 Determine necessity to stop indication,Resource15,2011-03-10T07:58:06.448000
+708,T02 Check confirmation of receipt,Resource18,2011-03-14T11:39:41.602000
+708,T04 Determine confirmation of receipt,Resource18,2011-03-14T11:41:16.175000
+708,T05 Print and send confirmation of receipt,admin1,2011-03-15T11:19:36.277000
+711,Confirmation of receipt,Resource04,2011-03-07T12:36:57.093000
+711,T02 Check confirmation of receipt,Resource04,2011-03-07T12:48:25.453000
+711,T06 Determine necessity of stop advice,Resource04,2011-03-07T12:48:36.190000
+711,T10 Determine necessity to stop indication,Resource04,2011-03-07T12:48:57.793000
+711,T04 Determine confirmation of receipt,Resource04,2011-03-07T12:52:06.444000
+711,T05 Print and send confirmation of receipt,Resource04,2011-03-07T12:52:16.702000
+711,T11 Create document X request unlicensed,Resource04,2011-03-07T12:52:25.633000
+711,T12 Check document X request unlicensed,Resource04,2011-03-07T12:52:50.533000
+711,T14 Determine document X request unlicensed,Resource10,2011-03-07T15:51:33.418000
+711,T15 Print document X request unlicensed,admin1,2011-03-09T10:40:42.914000
+713,Confirmation of receipt,Resource01,2011-03-24T09:31:41.008000
+713,T02 Check confirmation of receipt,Resource01,2011-03-24T09:32:54.843000
+713,T04 Determine confirmation of receipt,Resource01,2011-03-24T09:33:16.713000
+713,T05 Print and send confirmation of receipt,Resource01,2011-03-24T09:33:35.802000
+713,T06 Determine necessity of stop advice,admin2,2011-03-29T13:41:11.001000
+716,Confirmation of receipt,Resource01,2011-03-24T09:45:41.418000
+716,T02 Check confirmation of receipt,Resource01,2011-03-24T09:46:01.784000
+716,T04 Determine confirmation of receipt,Resource01,2011-03-24T09:46:13.946000
+716,T05 Print and send confirmation of receipt,Resource01,2011-03-24T09:46:24.024000
+716,T06 Determine necessity of stop advice,Resource11,2011-04-06T08:06:24.073000
+716,T10 Determine necessity to stop indication,Resource11,2011-04-06T08:07:15.367000
+716,T16 Report reasons to hold request,Resource11,2011-04-06T12:14:40.223000
+716,T17 Check report Y to stop indication,Resource11,2011-04-06T12:15:18.808000
+716,T18 Adjust report Y to stop indicition,Resource11,2011-04-06T12:15:31.424000
+716,T17 Check report Y to stop indication,Resource11,2011-04-06T12:16:10.658000
+716,T18 Adjust report Y to stop indicition,Resource11,2011-04-06T12:16:29.966000
+716,T17 Check report Y to stop indication,Resource11,2011-04-06T12:17:22.246000
+716,T18 Adjust report Y to stop indicition,Resource11,2011-04-06T12:17:34.132000
+716,T17 Check report Y to stop indication,Resource11,2011-04-06T12:19:08.597000
+716,T18 Adjust report Y to stop indicition,Resource11,2011-04-06T12:19:25.491000
+716,T17 Check report Y to stop indication,Resource11,2011-04-06T12:19:39.722000
+716,T19 Determine report Y to stop indication,Resource11,2011-04-06T12:19:53.076000
+716,T20 Print report Y to stop indication,Resource11,2011-04-06T12:20:03.916000
+721,Confirmation of receipt,Resource05,2011-03-16T09:31:36.855000
+721,T02 Check confirmation of receipt,Resource05,2011-03-16T09:31:54.708000
+721,T04 Determine confirmation of receipt,Resource05,2011-03-16T09:32:08.125000
+721,T05 Print and send confirmation of receipt,Resource05,2011-03-16T09:32:21.537000
+721,T06 Determine necessity of stop advice,Resource05,2011-03-16T09:32:35.840000
+721,T10 Determine necessity to stop indication,Resource05,2011-03-16T09:32:56.078000
+721,T11 Create document X request unlicensed,Resource05,2011-03-17T09:42:26.537000
+721,T12 Check document X request unlicensed,Resource05,2011-03-17T09:42:36.840000
+721,T14 Determine document X request unlicensed,Resource05,2011-03-17T09:42:53.564000
+721,T15 Print document X request unlicensed,admin1,2011-03-21T08:43:11.402000
+722,Confirmation of receipt,Resource01,2011-03-16T09:22:42.986000
+722,T02 Check confirmation of receipt,Resource01,2011-03-16T09:22:57.399000
+722,T04 Determine confirmation of receipt,Resource01,2011-03-16T09:23:10.215000
+722,T05 Print and send confirmation of receipt,Resource01,2011-03-16T09:23:21.717000
+722,T06 Determine necessity of stop advice,Resource01,2011-03-16T09:27:36.826000
+722,T10 Determine necessity to stop indication,Resource11,2011-03-21T11:29:43.708000
+723,Confirmation of receipt,Resource04,2011-03-15T15:56:23.105000
+723,T02 Check confirmation of receipt,Resource04,2011-03-15T15:56:37.928000
+723,T04 Determine confirmation of receipt,Resource04,2011-03-15T15:56:48.465000
+723,T05 Print and send confirmation of receipt,Resource04,2011-03-15T15:56:58.501000
+723,T06 Determine necessity of stop advice,Resource04,2011-03-15T15:57:07.681000
+723,T10 Determine necessity to stop indication,Resource04,2011-03-15T15:57:19.351000
+731,Confirmation of receipt,Resource05,2011-03-23T09:31:11.571000
+731,T02 Check confirmation of receipt,Resource05,2011-03-23T09:31:34.644000
+731,T04 Determine confirmation of receipt,Resource05,2011-03-23T09:31:47.783000
+731,T05 Print and send confirmation of receipt,Resource05,2011-03-23T09:33:11.659000
+731,T06 Determine necessity of stop advice,Resource05,2011-03-23T09:33:59.691000
+731,T10 Determine necessity to stop indication,Resource05,2011-03-23T09:34:26.734000
+737,Confirmation of receipt,Resource01,2011-03-24T10:20:25.179000
+737,T02 Check confirmation of receipt,Resource01,2011-03-24T10:20:40.323000
+737,T04 Determine confirmation of receipt,Resource01,2011-03-24T10:21:00.083000
+737,T05 Print and send confirmation of receipt,Resource01,2011-03-24T10:21:24.209000
+737,T06 Determine necessity of stop advice,Resource11,2011-04-07T06:08:11.893000
+737,T10 Determine necessity to stop indication,Resource11,2011-04-07T06:13:00.841000
+739,Confirmation of receipt,Resource17,2011-03-21T13:25:02.773000
+739,T02 Check confirmation of receipt,Resource17,2011-03-21T13:25:41.095000
+739,T06 Determine necessity of stop advice,Resource17,2011-03-21T13:25:53.604000
+739,T10 Determine necessity to stop indication,Resource17,2011-03-21T13:26:20.207000
+739,T04 Determine confirmation of receipt,Resource10,2011-03-21T19:42:14.588000
+739,T05 Print and send confirmation of receipt,admin1,2011-03-22T13:31:31.051000
+741,Confirmation of receipt,Resource18,2011-03-14T14:35:19.672000
+741,T02 Check confirmation of receipt,Resource02,2011-03-14T15:08:01.736000
+741,T04 Determine confirmation of receipt,Resource10,2011-03-14T15:31:03.092000
+741,T05 Print and send confirmation of receipt,admin1,2011-03-15T11:28:48.641000
+741,T06 Determine necessity of stop advice,Resource18,2011-03-22T14:24:41.524000
+741,T10 Determine necessity to stop indication,Resource18,2011-03-22T14:55:06.747000
+743,Confirmation of receipt,Resource08,2011-03-17T10:26:16.789000
+743,T02 Check confirmation of receipt,Resource08,2011-03-17T10:26:43.687000
+743,T06 Determine necessity of stop advice,Resource08,2011-03-17T10:39:04.143000
+743,T10 Determine necessity to stop indication,Resource08,2011-03-17T10:39:32.291000
+743,T04 Determine confirmation of receipt,Resource18,2011-03-17T11:28:28.215000
+743,T05 Print and send confirmation of receipt,admin1,2011-03-21T08:38:42.068000
+752,Confirmation of receipt,Resource05,2011-03-24T13:20:30.457000
+752,T02 Check confirmation of receipt,Resource05,2011-03-24T13:20:48.034000
+752,T06 Determine necessity of stop advice,Resource05,2011-03-28T08:43:34.600000
+752,T04 Determine confirmation of receipt,Resource05,2011-03-28T08:43:48.234000
+752,T05 Print and send confirmation of receipt,Resource05,2011-03-28T08:44:07.141000
+752,T10 Determine necessity to stop indication,Resource05,2011-03-28T08:44:25.200000
+757,Confirmation of receipt,Resource04,2011-03-18T08:40:49.471000
+757,T02 Check confirmation of receipt,Resource04,2011-03-18T08:41:01.981000
+757,T04 Determine confirmation of receipt,Resource04,2011-03-18T08:41:10.991000
+757,T05 Print and send confirmation of receipt,Resource04,2011-03-18T08:41:21.216000
+757,T06 Determine necessity of stop advice,Resource04,2011-03-18T08:41:34.507000
+757,T10 Determine necessity to stop indication,Resource04,2011-03-18T08:41:51.715000
+765,Confirmation of receipt,Resource01,2011-03-24T12:30:23.768000
+765,T02 Check confirmation of receipt,Resource01,2011-03-24T12:30:47.152000
+765,T04 Determine confirmation of receipt,Resource01,2011-03-24T12:33:53.495000
+765,T05 Print and send confirmation of receipt,Resource01,2011-03-24T12:34:04.563000
+765,T06 Determine necessity of stop advice,Resource01,2011-04-14T09:22:45.588000
+765,T10 Determine necessity to stop indication,Resource01,2011-04-14T09:23:15.448000
+781,Confirmation of receipt,Resource06,2011-03-29T08:11:42.068000
+781,T02 Check confirmation of receipt,Resource06,2011-03-29T08:11:56.752000
+781,T06 Determine necessity of stop advice,Resource06,2011-03-29T08:12:14.032000
+781,T10 Determine necessity to stop indication,Resource06,2011-03-29T08:12:29.919000
+781,T04 Determine confirmation of receipt,Resource10,2011-03-30T08:37:24.914000
+781,T05 Print and send confirmation of receipt,admin1,2011-03-31T06:47:54.232000
+786,Confirmation of receipt,Resource11,2011-03-29T06:34:24.689000
+786,T02 Check confirmation of receipt,Resource19,2011-03-31T06:53:26.864000
+786,T04 Determine confirmation of receipt,Resource19,2011-03-31T06:54:32.497000
+786,T05 Print and send confirmation of receipt,Resource01,2011-04-14T08:58:15.963000
+786,T06 Determine necessity of stop advice,Resource01,2011-04-14T08:58:26.111000
+786,T10 Determine necessity to stop indication,Resource01,2011-04-14T09:11:56.344000
+787,Confirmation of receipt,Resource04,2011-04-01T07:19:25.794000
+787,T02 Check confirmation of receipt,Resource04,2011-04-01T07:19:41.913000
+787,T06 Determine necessity of stop advice,Resource04,2011-04-01T07:20:07.958000
+787,T10 Determine necessity to stop indication,Resource04,2011-04-01T07:20:27.801000
+787,T04 Determine confirmation of receipt,Resource10,2011-04-01T07:41:17.414000
+787,T05 Print and send confirmation of receipt,admin1,2011-04-06T13:11:49.127000
+788,Confirmation of receipt,Resource09,2011-07-11T10:24:17.317000
+788,T02 Check confirmation of receipt,Resource09,2011-07-11T10:24:42.991000
+788,T04 Determine confirmation of receipt,Resource09,2011-07-11T10:25:09.516000
+788,T05 Print and send confirmation of receipt,Resource09,2011-07-11T10:25:31.803000
+788,T06 Determine necessity of stop advice,Resource09,2011-07-11T10:25:56.513000
+788,T10 Determine necessity to stop indication,Resource09,2011-07-11T10:26:30.092000
+793,Confirmation of receipt,Resource15,2011-03-29T09:21:59.517000
+793,T02 Check confirmation of receipt,Resource15,2011-03-29T09:22:20.284000
+793,T04 Determine confirmation of receipt,Resource15,2011-03-29T09:22:32.161000
+793,T06 Determine necessity of stop advice,Resource15,2011-03-29T09:22:46.075000
+793,T10 Determine necessity to stop indication,Resource15,2011-03-29T09:23:10.398000
+793,T05 Print and send confirmation of receipt,admin1,2011-03-29T13:55:05.218000
+803,Confirmation of receipt,Resource04,2011-05-03T09:12:20.665000
+803,T02 Check confirmation of receipt,Resource04,2011-05-03T09:12:37.537000
+803,T04 Determine confirmation of receipt,Resource04,2011-05-03T09:12:47.808000
+803,T05 Print and send confirmation of receipt,Resource04,2011-05-03T09:12:57.825000
+803,T06 Determine necessity of stop advice,Resource04,2011-05-03T09:13:07.305000
+803,T10 Determine necessity to stop indication,Resource04,2011-05-03T09:13:21.589000
+809,Confirmation of receipt,Resource01,2011-04-21T07:40:56.538000
+809,T02 Check confirmation of receipt,Resource01,2011-04-21T07:41:43.129000
+809,T04 Determine confirmation of receipt,Resource01,2011-04-21T07:41:56.687000
+809,T05 Print and send confirmation of receipt,Resource01,2011-04-21T07:42:05.396000
+809,T06 Determine necessity of stop advice,Resource01,2011-04-21T07:42:16.131000
+809,T10 Determine necessity to stop indication,Resource01,2011-04-21T07:42:30.026000
+816,Confirmation of receipt,Resource08,2011-04-07T11:20:34.912000
+816,T02 Check confirmation of receipt,Resource08,2011-04-07T11:20:57.619000
+816,T04 Determine confirmation of receipt,Resource08,2011-04-07T11:31:18.565000
+816,T06 Determine necessity of stop advice,Resource08,2011-04-07T11:31:40.561000
+816,T10 Determine necessity to stop indication,Resource08,2011-04-07T11:31:59.419000
+816,T05 Print and send confirmation of receipt,admin1,2011-04-08T09:38:41.982000
+820,Confirmation of receipt,Resource01,2011-04-21T08:21:19.162000
+820,T02 Check confirmation of receipt,Resource01,2011-04-21T08:21:37.302000
+820,T04 Determine confirmation of receipt,Resource01,2011-04-21T08:22:17.855000
+820,T05 Print and send confirmation of receipt,Resource01,2011-04-21T08:23:30.322000
+820,T06 Determine necessity of stop advice,Resource01,2011-04-21T08:23:56.234000
+820,T10 Determine necessity to stop indication,Resource01,2011-04-21T08:24:22.974000
+826,Confirmation of receipt,Resource09,2011-05-17T10:18:54.427000
+826,T06 Determine necessity of stop advice,Resource09,2011-05-17T10:19:13.915000
+826,T10 Determine necessity to stop indication,Resource09,2011-05-17T10:19:48.363000
+826,T02 Check confirmation of receipt,Resource09,2011-05-17T10:20:27.164000
+826,T04 Determine confirmation of receipt,Resource09,2011-05-17T10:21:09.902000
+826,T05 Print and send confirmation of receipt,Resource09,2011-05-17T10:21:31.095000
+832,Confirmation of receipt,Resource01,2011-04-21T09:57:59.419000
+832,T02 Check confirmation of receipt,Resource01,2011-04-21T09:58:13.844000
+832,T04 Determine confirmation of receipt,Resource01,2011-04-21T09:58:30.448000
+832,T05 Print and send confirmation of receipt,Resource01,2011-04-21T09:58:47.987000
+832,T06 Determine necessity of stop advice,Resource01,2011-04-21T09:59:02.639000
+832,T10 Determine necessity to stop indication,Resource01,2011-04-21T09:59:17.349000
+843,Confirmation of receipt,Resource01,2011-04-28T12:53:24.088000
+843,T02 Check confirmation of receipt,Resource01,2011-04-28T12:53:45.942000
+843,T04 Determine confirmation of receipt,Resource01,2011-04-28T12:53:56.885000
+843,T05 Print and send confirmation of receipt,Resource01,2011-04-28T13:01:11.710000
+843,T06 Determine necessity of stop advice,Resource01,2011-05-12T07:34:14.232000
+843,T10 Determine necessity to stop indication,Resource01,2011-05-12T07:34:36.210000
+849,Confirmation of receipt,Resource13,2011-04-13T08:53:05.329000
+849,T02 Check confirmation of receipt,Resource13,2011-04-13T08:53:52.557000
+849,T06 Determine necessity of stop advice,Resource13,2011-04-13T08:54:16.536000
+849,T10 Determine necessity to stop indication,Resource13,2011-04-13T08:54:33.659000
+849,T04 Determine confirmation of receipt,Resource10,2011-04-15T12:56:28.069000
+849,T05 Print and send confirmation of receipt,admin1,2011-04-18T13:17:21.141000
+855,Confirmation of receipt,Resource01,2011-04-28T13:11:56.573000
+855,T02 Check confirmation of receipt,Resource01,2011-04-28T13:12:10.772000
+855,T04 Determine confirmation of receipt,Resource01,2011-04-28T13:12:27.245000
+855,T05 Print and send confirmation of receipt,Resource01,2011-04-28T13:12:41.628000
+855,T06 Determine necessity of stop advice,Resource01,2011-05-13T06:36:59.996000
+855,T10 Determine necessity to stop indication,Resource01,2011-05-13T06:38:32.509000
+855,T11 Create document X request unlicensed,Resource01,2011-05-13T06:58:35.387000
+855,T12 Check document X request unlicensed,Resource01,2011-05-13T07:04:13.966000
+855,T14 Determine document X request unlicensed,Resource19,2011-05-19T08:32:05.630000
+855,T15 Print document X request unlicensed,Resource11,2011-05-19T08:53:49.765000
+858,Confirmation of receipt,Resource08,2011-04-20T07:28:23.446000
+858,T02 Check confirmation of receipt,Resource08,2011-04-20T07:30:47.189000
+858,T04 Determine confirmation of receipt,Resource08,2011-04-20T07:31:24.907000
+858,T05 Print and send confirmation of receipt,Resource08,2011-04-20T07:32:09.423000
+858,T06 Determine necessity of stop advice,Resource08,2011-04-20T07:32:36.702000
+858,T10 Determine necessity to stop indication,Resource08,2011-04-20T07:33:51.880000
+865,Confirmation of receipt,Resource01,2011-04-19T08:23:00.736000
+865,T02 Check confirmation of receipt,Resource01,2011-04-19T08:23:35.062000
+865,T04 Determine confirmation of receipt,Resource01,2011-04-19T08:23:57.921000
+865,T05 Print and send confirmation of receipt,Resource01,2011-04-19T08:24:22.020000
+865,T06 Determine necessity of stop advice,Resource01,2011-04-19T08:24:53.065000
+865,T10 Determine necessity to stop indication,Resource01,2011-04-19T08:25:37.221000
+874,Confirmation of receipt,Resource02,2011-04-20T13:06:51.527000
+874,T02 Check confirmation of receipt,Resource02,2011-04-20T13:07:09.279000
+874,T04 Determine confirmation of receipt,Resource02,2011-04-20T13:07:23.977000
+874,T05 Print and send confirmation of receipt,Resource02,2011-04-20T13:07:35.257000
+874,T06 Determine necessity of stop advice,Resource02,2011-04-21T07:08:09.585000
+874,T10 Determine necessity to stop indication,Resource02,2011-04-21T07:11:02.282000
+886,Confirmation of receipt,Resource07,2011-05-02T08:46:52.264000
+886,T02 Check confirmation of receipt,Resource07,2011-05-02T08:47:12.107000
+886,T04 Determine confirmation of receipt,Resource07,2011-05-02T08:47:26.664000
+886,T05 Print and send confirmation of receipt,Resource07,2011-05-02T08:47:37.350000
+886,T06 Determine necessity of stop advice,Resource07,2011-05-02T08:47:49.397000
+886,T10 Determine necessity to stop indication,Resource01,2011-05-13T07:13:14.833000
+893,Confirmation of receipt,Resource01,2011-04-28T07:26:03.180000
+893,T02 Check confirmation of receipt,Resource01,2011-04-28T07:26:17.585000
+893,T04 Determine confirmation of receipt,Resource01,2011-04-28T07:26:33.419000
+893,T05 Print and send confirmation of receipt,Resource01,2011-04-28T07:26:44.462000
+893,T06 Determine necessity of stop advice,Resource01,2011-04-28T07:44:31.203000
+893,T10 Determine necessity to stop indication,Resource01,2011-04-28T07:44:45.480000
+894,Confirmation of receipt,Resource05,2011-05-02T07:48:02.020000
+894,T02 Check confirmation of receipt,Resource05,2011-05-02T07:51:15.270000
+894,T04 Determine confirmation of receipt,Resource05,2011-05-02T07:51:37.777000
+894,T05 Print and send confirmation of receipt,Resource05,2011-05-02T07:51:58.263000
+894,T06 Determine necessity of stop advice,Resource05,2011-05-02T07:52:19.979000
+894,T10 Determine necessity to stop indication,Resource05,2011-05-02T07:53:19.482000
+894,T16 Report reasons to hold request,Resource05,2011-05-02T07:56:11.751000
+894,T17 Check report Y to stop indication,Resource05,2011-05-02T07:57:37.605000
+894,T19 Determine report Y to stop indication,Resource05,2011-05-02T07:59:10.319000
+894,T20 Print report Y to stop indication,Resource05,2011-05-02T07:59:23.761000
+898,Confirmation of receipt,Resource12,2011-05-03T13:18:22.690000
+898,T02 Check confirmation of receipt,Resource12,2011-05-03T13:18:51.126000
+898,T04 Determine confirmation of receipt,Resource12,2011-05-03T13:19:18.200000
+898,T05 Print and send confirmation of receipt,Resource12,2011-05-03T13:19:36.390000
+898,T06 Determine necessity of stop advice,Resource12,2011-05-03T13:20:30.072000
+898,T10 Determine necessity to stop indication,Resource12,2011-05-03T13:20:53.315000
+904,Confirmation of receipt,Resource17,2011-04-29T11:41:07.912000
+904,T02 Check confirmation of receipt,Resource17,2011-05-02T11:40:47.217000
+904,T06 Determine necessity of stop advice,Resource17,2011-05-02T11:41:00.637000
+904,T04 Determine confirmation of receipt,Resource17,2011-05-02T11:41:17.556000
+904,T10 Determine necessity to stop indication,Resource17,2011-05-02T11:41:29.804000
+904,T05 Print and send confirmation of receipt,Resource17,2011-05-02T11:42:03.077000
+905,Confirmation of receipt,Resource18,2011-04-28T10:36:55.668000
+905,T02 Check confirmation of receipt,Resource18,2011-04-28T10:37:09.169000
+905,T04 Determine confirmation of receipt,Resource18,2011-04-28T10:37:19.577000
+905,T05 Print and send confirmation of receipt,Resource18,2011-04-28T10:37:45.662000
+905,T06 Determine necessity of stop advice,Resource18,2011-05-30T06:10:55.101000
+905,T10 Determine necessity to stop indication,Resource18,2011-05-30T06:11:15.470000
+909,Confirmation of receipt,Resource08,2011-04-28T11:12:38.150000
+909,T02 Check confirmation of receipt,Resource08,2011-04-28T11:13:04.868000
+909,T04 Determine confirmation of receipt,Resource08,2011-04-28T11:13:47.328000
+909,T05 Print and send confirmation of receipt,Resource08,2011-04-28T11:14:20.642000
+909,T06 Determine necessity of stop advice,Resource08,2011-04-28T11:14:34.853000
+909,T10 Determine necessity to stop indication,Resource08,2011-04-28T11:17:13.974000
+924,Confirmation of receipt,Resource18,2011-05-03T11:21:17.150000
+924,T02 Check confirmation of receipt,Resource18,2011-05-03T11:21:36.349000
+924,T04 Determine confirmation of receipt,Resource18,2011-05-03T11:21:48.957000
+924,T05 Print and send confirmation of receipt,Resource18,2011-05-03T11:22:02.673000
+924,T06 Determine necessity of stop advice,Resource18,2011-06-06T12:25:05.865000
+924,T10 Determine necessity to stop indication,Resource18,2011-06-06T12:25:50.932000
+933,Confirmation of receipt,Resource02,2011-05-09T07:47:21.850000
+933,T02 Check confirmation of receipt,Resource02,2011-05-09T07:47:44.415000
+933,T04 Determine confirmation of receipt,Resource02,2011-05-09T07:48:04.829000
+933,T05 Print and send confirmation of receipt,Resource02,2011-05-09T07:48:21.129000
+933,T06 Determine necessity of stop advice,Resource02,2011-05-09T10:06:00.081000
+933,T10 Determine necessity to stop indication,Resource02,2011-05-09T10:06:19.898000
+934,Confirmation of receipt,Resource01,2011-05-11T12:00:22.518000
+934,T02 Check confirmation of receipt,Resource01,2011-05-11T12:00:36.809000
+934,T04 Determine confirmation of receipt,Resource01,2011-05-11T12:00:49.190000
+934,T05 Print and send confirmation of receipt,Resource01,2011-05-11T12:01:04.897000
+934,T06 Determine necessity of stop advice,Resource01,2011-05-18T13:00:20.275000
+934,T10 Determine necessity to stop indication,Resource01,2011-05-18T13:01:28.924000
+937,Confirmation of receipt,Resource14,2011-05-19T09:45:56.728000
+937,T02 Check confirmation of receipt,Resource14,2011-05-19T09:46:51.028000
+937,T04 Determine confirmation of receipt,Resource14,2011-05-19T09:47:05.956000
+937,T05 Print and send confirmation of receipt,Resource14,2011-05-19T09:47:26.113000
+937,T06 Determine necessity of stop advice,Resource14,2011-06-07T11:58:45.371000
+937,T10 Determine necessity to stop indication,Resource14,2011-06-07T11:59:07.546000
+938,Confirmation of receipt,Resource02,2011-05-10T08:23:17.026000
+938,T02 Check confirmation of receipt,Resource02,2011-05-10T08:23:38.909000
+938,T04 Determine confirmation of receipt,Resource02,2011-05-10T08:23:53.523000
+938,T05 Print and send confirmation of receipt,Resource02,2011-05-10T08:24:07.661000
+938,T06 Determine necessity of stop advice,Resource02,2011-05-10T08:32:56.148000
+938,T10 Determine necessity to stop indication,Resource02,2011-05-10T08:33:12.883000
+940,Confirmation of receipt,Resource15,2011-05-10T10:09:25.071000
+940,T06 Determine necessity of stop advice,Resource15,2011-05-10T10:11:01.924000
+940,T02 Check confirmation of receipt,Resource15,2011-05-10T10:11:56.155000
+940,T04 Determine confirmation of receipt,Resource15,2011-05-10T10:12:10.553000
+940,T05 Print and send confirmation of receipt,admin1,2011-05-11T10:22:53.530000
+940,T07-2 Draft intern advice aspect 2,Resource33,2011-05-30T10:13:59.270000
+940,T06 Determine necessity of stop advice,Resource15,2011-05-30T11:58:45.433000
+940,T10 Determine necessity to stop indication,Resource15,2011-05-30T11:59:04.568000
+942,Confirmation of receipt,Resource12,2011-05-17T10:38:44.749000
+942,T02 Check confirmation of receipt,Resource12,2011-05-17T10:40:16.987000
+942,T04 Determine confirmation of receipt,Resource12,2011-05-17T10:40:40.293000
+942,T05 Print and send confirmation of receipt,Resource12,2011-05-26T12:10:03.991000
+942,T06 Determine necessity of stop advice,Resource12,2011-05-26T12:15:02.840000
+942,T10 Determine necessity to stop indication,Resource12,2011-05-26T12:15:27.393000
+945,Confirmation of receipt,Resource12,2011-05-16T09:41:29.436000
+945,T02 Check confirmation of receipt,Resource12,2011-05-16T09:45:39.109000
+945,T04 Determine confirmation of receipt,Resource12,2011-05-16T09:51:48.198000
+945,T05 Print and send confirmation of receipt,admin1,2011-05-18T12:15:11.109000
+945,T06 Determine necessity of stop advice,Resource12,2011-06-06T08:53:12.796000
+945,T10 Determine necessity to stop indication,Resource12,2011-06-06T08:53:34.816000
+946,Confirmation of receipt,Resource06,2011-05-12T13:06:02.799000
+946,T06 Determine necessity of stop advice,Resource06,2011-05-12T13:10:29.245000
+946,T02 Check confirmation of receipt,Resource06,2011-05-12T13:10:46.281000
+946,T04 Determine confirmation of receipt,Resource06,2011-05-12T13:11:02.261000
+946,T05 Print and send confirmation of receipt,Resource06,2011-05-12T13:11:16.129000
+946,T10 Determine necessity to stop indication,Resource06,2011-05-12T13:11:33.621000
+952,Confirmation of receipt,Resource07,2011-05-13T08:46:32.480000
+952,T02 Check confirmation of receipt,Resource07,2011-05-13T11:02:51.992000
+952,T04 Determine confirmation of receipt,Resource07,2011-05-13T11:03:05.025000
+952,T05 Print and send confirmation of receipt,Resource07,2011-05-13T11:03:23.711000
+952,T06 Determine necessity of stop advice,Resource07,2011-05-13T11:03:45.572000
+952,T10 Determine necessity to stop indication,Resource07,2011-05-13T11:04:15.024000
+958,Confirmation of receipt,Resource02,2011-05-23T13:38:02.577000
+958,T02 Check confirmation of receipt,Resource02,2011-06-01T05:54:17.642000
+958,T04 Determine confirmation of receipt,Resource02,2011-06-01T05:54:29.708000
+958,T05 Print and send confirmation of receipt,Resource02,2011-06-01T05:54:42.362000
+958,T06 Determine necessity of stop advice,Resource02,2011-06-01T07:43:46.526000
+958,T10 Determine necessity to stop indication,Resource02,2011-06-01T10:52:48.457000
+966,Confirmation of receipt,Resource01,2011-05-18T12:33:56.160000
+966,T02 Check confirmation of receipt,Resource01,2011-05-18T12:35:12.999000
+966,T04 Determine confirmation of receipt,Resource01,2011-05-18T12:35:24.369000
+966,T05 Print and send confirmation of receipt,Resource01,2011-05-18T12:35:33.678000
+966,T06 Determine necessity of stop advice,Resource07,2011-05-23T10:30:30.770000
+966,T10 Determine necessity to stop indication,Resource07,2011-05-23T10:30:48.690000
+970,Confirmation of receipt,Resource15,2011-05-23T09:01:16.373000
+970,T02 Check confirmation of receipt,Resource15,2011-05-23T09:01:33.395000
+970,T04 Determine confirmation of receipt,Resource15,2011-05-23T09:01:47.042000
+970,T06 Determine necessity of stop advice,Resource15,2011-05-23T09:06:36.303000
+970,T10 Determine necessity to stop indication,Resource15,2011-05-23T09:09:42.193000
+970,T05 Print and send confirmation of receipt,admin1,2011-05-25T12:42:15.186000
+978,Confirmation of receipt,admin2,2011-06-21T06:33:14.630000
+985,Confirmation of receipt,admin2,2011-06-06T13:59:00.644000
+990,Confirmation of receipt,Resource04,2011-05-30T11:37:25.501000
+990,T02 Check confirmation of receipt,Resource04,2011-05-30T11:37:39.770000
+990,T06 Determine necessity of stop advice,Resource04,2011-05-30T11:37:50.560000
+990,T04 Determine confirmation of receipt,Resource04,2011-05-30T11:38:01.061000
+990,T05 Print and send confirmation of receipt,Resource04,2011-05-30T11:38:10.980000
+990,T10 Determine necessity to stop indication,Resource04,2011-05-30T11:38:23.665000
+994,Confirmation of receipt,Resource04,2011-05-31T11:20:06.562000
+994,T02 Check confirmation of receipt,Resource04,2011-05-31T11:20:20.388000
+994,T04 Determine confirmation of receipt,Resource04,2011-05-31T11:20:31.568000
+994,T05 Print and send confirmation of receipt,Resource04,2011-05-31T11:20:41.292000
+994,T06 Determine necessity of stop advice,Resource04,2011-05-31T11:20:50.875000
+994,T10 Determine necessity to stop indication,Resource04,2011-05-31T11:21:02.764000
+1000,Confirmation of receipt,Resource11,2011-05-30T10:03:04.514000
+1000,T06 Determine necessity of stop advice,Resource11,2011-05-30T10:06:59.856000
+1000,T10 Determine necessity to stop indication,Resource11,2011-05-30T10:09:50.404000
+1000,T02 Check confirmation of receipt,Resource11,2011-06-01T09:01:39.703000
+1000,T04 Determine confirmation of receipt,Resource11,2011-06-01T09:01:52.677000
+1000,T05 Print and send confirmation of receipt,Resource11,2011-06-01T09:02:03.590000
+1001,Confirmation of receipt,Resource04,2011-06-07T07:05:16.998000
+1001,T02 Check confirmation of receipt,Resource04,2011-06-07T07:07:21.786000
+1001,T04 Determine confirmation of receipt,Resource04,2011-06-07T07:07:41.844000
+1001,T05 Print and send confirmation of receipt,Resource04,2011-06-07T07:07:51.976000
+1001,T06 Determine necessity of stop advice,Resource04,2011-06-07T12:47:04.516000
+1001,T10 Determine necessity to stop indication,Resource04,2011-06-07T12:47:27.247000
+1005,Confirmation of receipt,admin2,2011-08-17T10:25:56.906000
+1006,Confirmation of receipt,Resource13,2011-06-07T06:44:09.680000
+1006,T02 Check confirmation of receipt,Resource13,2011-06-07T06:46:25.281000
+1006,T04 Determine confirmation of receipt,Resource13,2011-06-07T06:47:51.956000
+1006,T05 Print and send confirmation of receipt,Resource13,2011-06-07T06:49:30.439000
+1006,T06 Determine necessity of stop advice,Resource13,2011-06-07T06:52:25.071000
+1006,T10 Determine necessity to stop indication,Resource13,2011-06-07T06:53:19.894000
+1013,Confirmation of receipt,Resource06,2011-06-07T10:13:13.124000
+1013,T06 Determine necessity of stop advice,Resource06,2011-06-07T10:13:39.709000
+1013,T10 Determine necessity to stop indication,Resource06,2011-06-07T10:13:55.759000
+1013,T02 Check confirmation of receipt,Resource06,2011-06-07T10:14:10.630000
+1013,T04 Determine confirmation of receipt,Resource06,2011-06-07T10:14:25.041000
+1013,T05 Print and send confirmation of receipt,Resource06,2011-06-07T10:14:37.489000
+1022,Confirmation of receipt,Resource01,2011-06-30T09:23:57.674000
+1022,T02 Check confirmation of receipt,Resource01,2011-06-30T09:24:45.246000
+1022,T04 Determine confirmation of receipt,Resource01,2011-06-30T09:25:01.702000
+1022,T05 Print and send confirmation of receipt,Resource01,2011-06-30T09:25:16.596000
+1022,T06 Determine necessity of stop advice,Resource01,2011-06-30T09:25:36.548000
+1022,T10 Determine necessity to stop indication,Resource01,2011-06-30T09:25:53.154000
+1029,Confirmation of receipt,Resource12,2011-07-12T07:52:19.528000
+1029,T02 Check confirmation of receipt,Resource12,2011-07-12T07:53:01.309000
+1029,T04 Determine confirmation of receipt,Resource12,2011-07-12T07:53:25.523000
+1029,T05 Print and send confirmation of receipt,Resource12,2011-07-12T07:54:02.424000
+1029,T06 Determine necessity of stop advice,Resource12,2011-07-12T07:54:41.147000
+1029,T10 Determine necessity to stop indication,Resource12,2011-07-12T07:55:46.407000
+1031,Confirmation of receipt,Resource05,2011-06-09T10:28:41.018000
+1031,T02 Check confirmation of receipt,Resource05,2011-06-09T10:29:10.337000
+1031,T06 Determine necessity of stop advice,Resource05,2011-06-09T10:29:36.488000
+1031,T10 Determine necessity to stop indication,Resource05,2011-06-09T10:36:18.648000
+1031,T04 Determine confirmation of receipt,Resource05,2011-06-09T10:40:21.057000
+1031,T05 Print and send confirmation of receipt,Resource05,2011-06-09T11:44:54.995000
+1033,Confirmation of receipt,Resource13,2011-06-16T08:54:19.134000
+1033,T02 Check confirmation of receipt,Resource13,2011-06-16T08:54:53.605000
+1033,T03 Adjust confirmation of receipt,Resource13,2011-06-16T08:55:11.383000
+1033,T02 Check confirmation of receipt,Resource13,2011-06-28T09:42:52.227000
+1033,T04 Determine confirmation of receipt,Resource13,2011-06-28T09:43:19.875000
+1033,T05 Print and send confirmation of receipt,Resource13,2011-06-28T09:43:46.033000
+1033,T06 Determine necessity of stop advice,Resource13,2011-06-28T09:44:08.985000
+1033,T10 Determine necessity to stop indication,Resource13,2011-06-28T09:44:51.464000
+1036,Confirmation of receipt,Resource05,2011-06-16T13:10:50.230000
+1036,T02 Check confirmation of receipt,Resource05,2011-06-16T15:43:29.021000
+1036,T06 Determine necessity of stop advice,Resource05,2011-06-16T15:43:58.860000
+1036,T06 Determine necessity of stop advice,Resource05,2011-06-16T15:44:54.732000
+1036,T06 Determine necessity of stop advice,Resource05,2011-06-21T07:10:30.832000
+1036,T10 Determine necessity to stop indication,Resource05,2011-06-21T07:45:18.435000
+1036,T03 Adjust confirmation of receipt,Resource05,2011-06-21T09:41:10.753000
+1036,T02 Check confirmation of receipt,Resource05,2011-06-21T09:41:32.123000
+1036,T04 Determine confirmation of receipt,Resource05,2011-06-21T09:41:51.657000
+1036,T05 Print and send confirmation of receipt,Resource05,2011-06-21T09:42:10.031000
+1046,Confirmation of receipt,Resource01,2011-07-14T09:57:04.590000
+1046,T02 Check confirmation of receipt,Resource01,2011-07-14T09:57:40.065000
+1046,T04 Determine confirmation of receipt,Resource01,2011-07-14T09:57:59.754000
+1046,T05 Print and send confirmation of receipt,Resource01,2011-07-14T09:58:35.065000
+1046,T06 Determine necessity of stop advice,Resource01,2011-07-14T09:59:01.101000
+1046,T10 Determine necessity to stop indication,Resource01,2011-07-14T09:59:33.707000
+1048,Confirmation of receipt,Resource01,2011-06-30T13:34:21.881000
+1048,T02 Check confirmation of receipt,Resource01,2011-06-30T13:34:41.856000
+1048,T04 Determine confirmation of receipt,Resource01,2011-06-30T13:35:01.003000
+1048,T05 Print and send confirmation of receipt,Resource01,2011-06-30T13:35:15.166000
+1048,T06 Determine necessity of stop advice,Resource01,2011-06-30T13:35:33.071000
+1048,T10 Determine necessity to stop indication,Resource01,2011-06-30T13:35:56.264000
+1053,Confirmation of receipt,admin2,2011-06-14T13:49:29.332000
+1053,T02 Check confirmation of receipt,admin2,2011-06-14T13:52:59.095000
+1053,T04 Determine confirmation of receipt,admin2,2011-06-15T08:21:17.087000
+1053,T05 Print and send confirmation of receipt,TEST,2011-06-15T08:44:01.474000
+1053,T06 Determine necessity of stop advice,test,2011-06-15T09:12:55.261000
+1053,T08 Draft and send request for advice,test,2011-06-15T09:18:47.458000
+1053,T09-3 Process or receive external advice from party 3,test,2011-06-15T09:23:17.210000
+1053,T09-1 Process or receive external advice from party 1,test,2011-06-15T09:26:16.806000
+1053,T07-3 Draft intern advice hold for aspect 3,Resource26,2011-06-15T09:53:50.708000
+1053,T07-5 Draft intern advice aspect 5,Resource26,2011-06-15T09:54:09.601000
+1053,T09-2 Process or receive external advice from party 2,Resource26,2011-06-15T10:04:01.557000
+1053,T09-4 Process or receive external advice from party 4,Resource26,2011-06-15T10:41:42.494000
+1053,T07-2 Draft intern advice aspect 2,test,2011-06-15T11:46:46.820000
+1053,T07-1 Draft intern advice aspect 1,Resource26,2011-06-16T13:48:40.842000
+1053,T07-4 Draft internal advice to hold for type 4,Resource26,2011-06-16T13:48:58.173000
+1053,T06 Determine necessity of stop advice,Resource26,2011-06-16T13:49:43.934000
+1053,T06 Determine necessity of stop advice,Resource26,2011-06-16T13:50:32.990000
+1053,T06 Determine necessity of stop advice,Resource26,2011-06-16T13:51:57.591000
+1068,Confirmation of receipt,Resource12,2011-07-21T09:06:02.203000
+1068,T02 Check confirmation of receipt,Resource12,2011-07-21T09:19:35.542000
+1068,T04 Determine confirmation of receipt,Resource12,2011-07-21T09:20:37.912000
+1068,T05 Print and send confirmation of receipt,Resource12,2011-07-21T09:21:55.470000
+1068,T06 Determine necessity of stop advice,Resource12,2011-07-21T09:22:40.287000
+1068,T10 Determine necessity to stop indication,Resource12,2011-07-21T09:34:35.458000
+1070,Confirmation of receipt,Resource16,2011-07-05T10:10:25.728000
+1070,T02 Check confirmation of receipt,Resource16,2011-07-05T10:10:56.395000
+1070,T04 Determine confirmation of receipt,Resource16,2011-07-05T10:11:23.993000
+1070,T05 Print and send confirmation of receipt,Resource16,2011-07-05T10:11:47.148000
+1070,T06 Determine necessity of stop advice,Resource16,2011-07-05T10:12:15.069000
+1070,T10 Determine necessity to stop indication,Resource16,2011-07-05T10:12:42.051000
+1073,Confirmation of receipt,Resource09,2011-07-01T08:39:07.949000
+1073,T02 Check confirmation of receipt,Resource09,2011-07-01T08:39:37.906000
+1073,T04 Determine confirmation of receipt,Resource09,2011-07-01T08:40:21.914000
+1073,T06 Determine necessity of stop advice,Resource09,2011-07-01T08:41:08.528000
+1073,T10 Determine necessity to stop indication,Resource09,2011-07-01T08:41:38.595000
+1073,T05 Print and send confirmation of receipt,Resource09,2011-07-01T08:49:44.722000
+1074,Confirmation of receipt,Resource13,2011-06-27T10:55:24.837000
+1074,T02 Check confirmation of receipt,Resource13,2011-06-27T10:56:08.686000
+1074,T04 Determine confirmation of receipt,Resource13,2011-06-27T10:56:49.205000
+1074,T05 Print and send confirmation of receipt,Resource13,2011-06-27T10:57:22.148000
+1074,T06 Determine necessity of stop advice,Resource13,2011-06-27T10:57:49.676000
+1074,T10 Determine necessity to stop indication,Resource13,2011-06-27T10:58:09.048000
+1079,Confirmation of receipt,Resource01,2011-07-07T09:20:55.087000
+1079,T02 Check confirmation of receipt,Resource01,2011-07-07T09:21:18.590000
+1079,T04 Determine confirmation of receipt,Resource01,2011-07-07T09:21:44.747000
+1079,T05 Print and send confirmation of receipt,Resource01,2011-07-07T09:22:15.060000
+1079,T06 Determine necessity of stop advice,Resource01,2011-07-07T09:22:38.614000
+1079,T10 Determine necessity to stop indication,Resource01,2011-07-07T09:23:02.697000
+1085,Confirmation of receipt,Resource05,2011-07-04T11:52:06.292000
+1085,T06 Determine necessity of stop advice,Resource05,2011-07-04T12:06:54.393000
+1085,T10 Determine necessity to stop indication,Resource05,2011-07-04T12:11:22.323000
+1085,T02 Check confirmation of receipt,Resource05,2011-07-04T12:12:14.652000
+1085,T04 Determine confirmation of receipt,Resource05,2011-07-04T12:13:17.216000
+1085,T05 Print and send confirmation of receipt,Resource05,2011-07-04T12:13:46.110000
+1087,Confirmation of receipt,Resource12,2011-08-08T12:44:02.220000
+1087,T02 Check confirmation of receipt,Resource12,2011-08-08T12:44:45.625000
+1087,T04 Determine confirmation of receipt,Resource12,2011-08-08T12:45:33.258000
+1087,T05 Print and send confirmation of receipt,Resource12,2011-08-08T12:46:21.601000
+1087,T06 Determine necessity of stop advice,Resource12,2011-08-08T12:46:44.947000
+1087,T10 Determine necessity to stop indication,Resource12,2011-08-08T12:47:10.742000
+1088,Confirmation of receipt,Resource27,2011-06-27T08:50:43.177000
+1088,T06 Determine necessity of stop advice,Resource01,2011-07-14T11:58:06.481000
+1088,T02 Check confirmation of receipt,Resource01,2011-07-14T11:58:34.106000
+1088,T04 Determine confirmation of receipt,Resource01,2011-07-14T12:00:10.399000
+1088,T05 Print and send confirmation of receipt,Resource01,2011-07-14T12:00:29.442000
+1088,T10 Determine necessity to stop indication,Resource01,2011-07-14T12:02:43.390000
+1093,Confirmation of receipt,Resource27,2011-06-27T10:06:24.059000
+1093,T02 Check confirmation of receipt,admin2,2011-06-27T10:14:43.992000
+1093,T06 Determine necessity of stop advice,admin2,2011-06-27T10:14:44.515000
+1097,Confirmation of receipt,Resource05,2011-07-04T07:52:56.673000
+1097,T02 Check confirmation of receipt,Resource05,2011-07-04T07:53:30.669000
+1097,T06 Determine necessity of stop advice,Resource05,2011-07-04T07:55:15.654000
+1097,T04 Determine confirmation of receipt,Resource05,2011-07-04T07:55:56.746000
+1097,T03 Adjust confirmation of receipt,Resource05,2011-07-04T07:57:27.039000
+1097,T02 Check confirmation of receipt,Resource05,2011-07-04T07:58:05.869000
+1097,T10 Determine necessity to stop indication,Resource05,2011-07-04T07:58:36.803000
+1097,T04 Determine confirmation of receipt,Resource05,2011-07-04T08:04:34.230000
+1097,T05 Print and send confirmation of receipt,Resource05,2011-07-04T08:06:06.290000
+1099,Confirmation of receipt,Resource01,2011-07-14T12:52:03.390000
+1099,T02 Check confirmation of receipt,Resource01,2011-07-14T12:52:23.427000
+1099,T04 Determine confirmation of receipt,Resource01,2011-07-14T13:00:23.744000
+1099,T05 Print and send confirmation of receipt,Resource01,2011-07-14T13:01:31.093000
+1099,T06 Determine necessity of stop advice,Resource01,2011-07-14T13:02:37.155000
+1099,T10 Determine necessity to stop indication,Resource01,2011-07-14T13:03:52.159000
+1107,Confirmation of receipt,Resource04,2011-07-27T07:55:45.135000
+1107,T02 Check confirmation of receipt,Resource04,2011-07-27T07:56:06.569000
+1107,T04 Determine confirmation of receipt,Resource04,2011-07-27T07:56:29.974000
+1107,T05 Print and send confirmation of receipt,Resource04,2011-07-27T07:56:49.184000
+1107,T06 Determine necessity of stop advice,Resource04,2011-07-27T07:57:03.816000
+1107,T10 Determine necessity to stop indication,Resource04,2011-07-27T07:57:19.932000
+1110,Confirmation of receipt,Resource01,2011-07-20T08:54:58.203000
+1110,T02 Check confirmation of receipt,Resource01,2011-07-20T08:55:22.959000
+1110,T04 Determine confirmation of receipt,Resource01,2011-07-20T08:55:40.914000
+1110,T05 Print and send confirmation of receipt,Resource01,2011-07-20T08:55:56.999000
+1110,T06 Determine necessity of stop advice,Resource01,2011-07-20T08:56:22.428000
+1110,T10 Determine necessity to stop indication,Resource01,2011-07-20T08:56:40.362000
+1127,Confirmation of receipt,Resource27,2011-07-07T11:50:59.813000
+1127,T02 Check confirmation of receipt,Resource01,2011-07-20T11:04:47.791000
+1127,T06 Determine necessity of stop advice,Resource01,2011-07-20T11:05:26.141000
+1127,T04 Determine confirmation of receipt,Resource01,2011-07-20T11:06:04.607000
+1127,T05 Print and send confirmation of receipt,Resource01,2011-07-20T11:06:51.894000
+1127,T10 Determine necessity to stop indication,Resource01,2011-07-20T11:08:02.148000
+1138,Confirmation of receipt,Resource06,2011-07-29T08:09:43.120000
+1138,T02 Check confirmation of receipt,Resource06,2011-07-29T08:10:09.063000
+1138,T04 Determine confirmation of receipt,Resource06,2011-07-29T08:10:27.079000
+1138,T05 Print and send confirmation of receipt,Resource06,2011-07-29T08:10:46.086000
+1138,T06 Determine necessity of stop advice,Resource06,2011-07-29T08:33:10.329000
+1138,T10 Determine necessity to stop indication,Resource06,2011-07-29T08:44:04.925000
+1140,Confirmation of receipt,Resource27,2011-07-08T09:12:19.739000
+1140,T02 Check confirmation of receipt,Resource01,2011-07-21T08:46:40.846000
+1140,T04 Determine confirmation of receipt,Resource01,2011-07-21T08:47:10.490000
+1140,T05 Print and send confirmation of receipt,Resource01,2011-07-21T08:47:29.816000
+1140,T06 Determine necessity of stop advice,Resource01,2011-07-21T08:47:46.359000
+1140,T10 Determine necessity to stop indication,Resource01,2011-07-21T08:50:14.484000
+1145,Confirmation of receipt,Resource27,2011-07-11T09:49:05.918000
+1145,T02 Check confirmation of receipt,Resource01,2011-07-21T12:07:02.283000
+1145,T04 Determine confirmation of receipt,Resource01,2011-07-21T12:07:29.612000
+1145,T05 Print and send confirmation of receipt,Resource01,2011-07-21T12:07:46.858000
+1145,T06 Determine necessity of stop advice,Resource01,2011-07-21T12:10:32.812000
+1145,T10 Determine necessity to stop indication,Resource01,2011-07-21T12:10:54.479000
+1146,Confirmation of receipt,Resource27,2011-07-11T09:59:09.881000
+1146,T02 Check confirmation of receipt,Resource01,2011-07-21T12:47:42.233000
+1146,T04 Determine confirmation of receipt,Resource01,2011-07-21T12:48:15.617000
+1146,T05 Print and send confirmation of receipt,Resource01,2011-07-21T12:49:02.269000
+1146,T06 Determine necessity of stop advice,Resource01,2011-07-21T12:50:47.836000
+1146,T10 Determine necessity to stop indication,Resource01,2011-07-21T12:51:46.365000
+1151,Confirmation of receipt,Resource22,2011-07-20T09:36:49.743000
+1151,T02 Check confirmation of receipt,Resource22,2011-07-20T09:38:05.999000
+1151,T04 Determine confirmation of receipt,Resource22,2011-07-20T09:38:43.145000
+1151,T05 Print and send confirmation of receipt,Resource22,2011-07-20T09:39:18.104000
+1151,T06 Determine necessity of stop advice,Resource22,2011-07-20T09:41:01.552000
+1151,T10 Determine necessity to stop indication,Resource22,2011-07-20T09:42:01.398000
+1157,Confirmation of receipt,Resource27,2011-07-18T09:24:55.234000
+1157,T02 Check confirmation of receipt,Resource01,2011-07-22T12:06:51.143000
+1157,T03 Adjust confirmation of receipt,Resource01,2011-07-22T12:07:09.996000
+1157,T02 Check confirmation of receipt,Resource01,2011-07-22T12:09:16.354000
+1157,T04 Determine confirmation of receipt,Resource01,2011-07-22T12:18:48.492000
+1157,T05 Print and send confirmation of receipt,Resource01,2011-07-22T12:19:13.582000
+1157,T06 Determine necessity of stop advice,Resource01,2011-07-28T09:46:27.552000
+1157,T10 Determine necessity to stop indication,Resource01,2011-07-28T11:34:08.093000
+1164,Confirmation of receipt,Resource27,2011-07-18T12:40:34.291000
+1164,T02 Check confirmation of receipt,admin2,2011-09-23T13:21:07.212000
+1164,T06 Determine necessity of stop advice,admin2,2011-09-23T13:21:07.801000
+1167,Confirmation of receipt,admin2,2011-07-28T10:20:51.068000
+1169,Confirmation of receipt,Resource09,2011-07-28T13:19:45.681000
+1169,T06 Determine necessity of stop advice,Resource09,2011-07-28T13:22:21.540000
+1169,T10 Determine necessity to stop indication,Resource09,2011-07-28T13:23:08.179000
+1169,T02 Check confirmation of receipt,Resource09,2011-07-28T13:23:42.998000
+1169,T04 Determine confirmation of receipt,Resource09,2011-07-28T13:25:00.933000
+1169,T05 Print and send confirmation of receipt,Resource09,2011-07-28T13:25:38.412000
+1170,Confirmation of receipt,Resource06,2011-07-28T09:53:35.431000
+1170,T02 Check confirmation of receipt,Resource06,2011-07-28T09:59:17.324000
+1170,T04 Determine confirmation of receipt,Resource06,2011-07-28T09:59:34.415000
+1170,T05 Print and send confirmation of receipt,Resource06,2011-07-28T10:01:25.616000
+1170,T06 Determine necessity of stop advice,Resource06,2011-07-28T10:01:42.793000
+1170,T10 Determine necessity to stop indication,Resource06,2011-07-28T10:03:05.144000
+1173,Confirmation of receipt,Resource27,2011-07-22T06:57:13.058000
+1173,T02 Check confirmation of receipt,Resource02,2011-08-10T09:07:05.646000
+1173,T04 Determine confirmation of receipt,Resource02,2011-08-10T09:07:31.882000
+1173,T05 Print and send confirmation of receipt,Resource02,2011-08-10T09:08:02.606000
+1173,T06 Determine necessity of stop advice,Resource02,2011-08-10T09:09:41.491000
+1173,T10 Determine necessity to stop indication,Resource02,2011-08-10T09:11:02.328000
+1189,Confirmation of receipt,Resource01,2011-07-29T12:12:05.171000
+1189,T02 Check confirmation of receipt,Resource01,2011-07-29T12:12:31.341000
+1189,T04 Determine confirmation of receipt,Resource01,2011-07-29T12:13:14.316000
+1189,T05 Print and send confirmation of receipt,Resource01,2011-07-29T12:14:54.928000
+1189,T06 Determine necessity of stop advice,Resource01,2011-07-29T12:15:13.926000
+1189,T10 Determine necessity to stop indication,Resource01,2011-07-29T12:15:45.650000
+1206,Confirmation of receipt,Resource06,2011-08-04T06:39:44.970000
+1206,T02 Check confirmation of receipt,Resource06,2011-08-04T06:40:04.627000
+1206,T04 Determine confirmation of receipt,Resource06,2011-08-04T06:40:20.179000
+1206,T05 Print and send confirmation of receipt,Resource06,2011-08-04T06:40:37.420000
+1206,T06 Determine necessity of stop advice,Resource06,2011-08-04T06:41:54.151000
+1206,T10 Determine necessity to stop indication,Resource06,2011-08-04T06:43:07.086000
+1221,Confirmation of receipt,Resource01,2011-08-04T13:31:38.201000
+1221,T02 Check confirmation of receipt,Resource01,2011-08-04T13:32:00.946000
+1221,T04 Determine confirmation of receipt,Resource01,2011-08-04T13:32:18.665000
+1221,T05 Print and send confirmation of receipt,Resource01,2011-08-04T13:32:35.742000
+1221,T06 Determine necessity of stop advice,Resource01,2011-08-04T13:32:52.326000
+1221,T10 Determine necessity to stop indication,Resource01,2011-08-04T13:33:10.015000
+1223,Confirmation of receipt,Resource26,2010-10-02T07:20:39.266000
+1223,T02 Check confirmation of receipt,Resource26,2010-10-02T07:21:26.588000
+1223,T03 Adjust confirmation of receipt,Resource26,2010-10-02T07:31:12.836000
+1223,T02 Check confirmation of receipt,Resource26,2010-10-02T07:31:40.160000
+1223,T03 Adjust confirmation of receipt,Resource26,2010-10-02T07:32:01.401000
+1223,T02 Check confirmation of receipt,Resource21,2010-11-09T13:13:52.563000
+1223,T04 Determine confirmation of receipt,Resource21,2010-11-09T13:14:10.016000
+1223,T05 Print and send confirmation of receipt,Resource21,2010-11-09T13:14:22.628000
+1223,T06 Determine necessity of stop advice,Resource21,2010-11-09T13:14:37.300000
+1223,T07-1 Draft intern advice aspect 1,Resource21,2010-11-09T13:17:36.097000
+1223,T06 Determine necessity of stop advice,Resource26,2010-11-10T06:52:33.800000
+1223,T07-1 Draft intern advice aspect 1,Resource26,2010-11-10T06:52:51.041000
+1223,T06 Determine necessity of stop advice,Resource26,2010-11-10T06:53:08.065000
+1223,T10 Determine necessity to stop indication,admin1,2010-11-10T08:38:45.959000
+1223,T11 Create document X request unlicensed,admin1,2010-11-10T08:38:57.202000
+1223,T12 Check document X request unlicensed,admin1,2010-11-10T08:39:07.674000
+1223,T14 Determine document X request unlicensed,admin1,2010-11-10T08:39:21.494000
+1223,T15 Print document X request unlicensed,Resource26,2010-11-12T12:40:44.291000
+1227,Confirmation of receipt,Resource13,2011-08-15T07:37:07.097000
+1227,T06 Determine necessity of stop advice,Resource13,2011-08-15T07:37:27.921000
+1227,T10 Determine necessity to stop indication,Resource13,2011-08-15T07:37:46.677000
+1227,T02 Check confirmation of receipt,Resource13,2011-08-15T07:38:23.127000
+1227,T04 Determine confirmation of receipt,Resource13,2011-08-15T07:38:43.809000
+1227,T05 Print and send confirmation of receipt,Resource13,2011-08-15T07:39:11.485000
+1228,Confirmation of receipt,admin2,2011-08-15T07:04:12.097000
+1231,Confirmation of receipt,Resource04,2011-08-04T09:33:25.033000
+1231,T02 Check confirmation of receipt,Resource04,2011-08-04T09:33:47.076000
+1231,T04 Determine confirmation of receipt,Resource04,2011-08-04T09:34:05.872000
+1231,T05 Print and send confirmation of receipt,Resource04,2011-08-04T09:34:24.912000
+1231,T06 Determine necessity of stop advice,Resource04,2011-08-04T09:34:42.221000
+1231,T10 Determine necessity to stop indication,Resource04,2011-08-04T09:35:01.839000
+1232,Confirmation of receipt,Resource14,2011-08-09T08:11:55.902000
+1232,T02 Check confirmation of receipt,Resource14,2011-08-09T08:12:36.770000
+1232,T04 Determine confirmation of receipt,Resource14,2011-08-09T08:12:56.494000
+1232,T05 Print and send confirmation of receipt,Resource14,2011-08-09T08:13:22.672000
+1232,T06 Determine necessity of stop advice,Resource14,2011-08-09T08:41:14.999000
+1232,T10 Determine necessity to stop indication,Resource14,2011-08-09T08:43:50.060000
+1240,Confirmation of receipt,Resource02,2011-08-22T06:46:15.702000
+1240,T02 Check confirmation of receipt,Resource02,2011-08-22T06:47:11.778000
+1240,T04 Determine confirmation of receipt,Resource02,2011-08-22T07:05:22.802000
+1240,T05 Print and send confirmation of receipt,Resource02,2011-08-22T07:22:41.469000
+1240,T06 Determine necessity of stop advice,Resource02,2011-09-25T16:17:48.604000
+1240,T10 Determine necessity to stop indication,Resource02,2011-09-25T16:18:16.498000
+1242,Confirmation of receipt,Resource12,2011-08-11T12:25:17.524000
+1242,T02 Check confirmation of receipt,Resource12,2011-08-11T12:26:04.791000
+1242,T04 Determine confirmation of receipt,Resource12,2011-08-11T12:26:51.380000
+1242,T05 Print and send confirmation of receipt,Resource12,2011-08-11T12:27:52.790000
+1242,T06 Determine necessity of stop advice,Resource12,2011-08-11T12:33:07.403000
+1242,T07-3 Draft intern advice hold for aspect 3,Resource12,2011-08-11T12:35:16.881000
+1242,T07-2 Draft intern advice aspect 2,Resource12,2011-08-11T12:45:44.795000
+1242,T06 Determine necessity of stop advice,Resource12,2011-08-11T12:46:35.333000
+1242,T07-2 Draft intern advice aspect 2,Resource12,2011-08-11T12:47:03.653000
+1242,T07-3 Draft intern advice hold for aspect 3,Resource12,2011-08-11T12:47:22.767000
+1242,T06 Determine necessity of stop advice,Resource12,2011-08-11T12:47:46.348000
+1242,T10 Determine necessity to stop indication,Resource12,2011-08-11T12:48:34.970000
+1247,Confirmation of receipt,Resource02,2011-08-18T07:03:47.712000
+1247,T02 Check confirmation of receipt,Resource02,2011-08-18T07:04:10.566000
+1247,T04 Determine confirmation of receipt,Resource02,2011-08-18T07:04:46.787000
+1247,T05 Print and send confirmation of receipt,Resource02,2011-08-18T07:05:12.176000
+1247,T06 Determine necessity of stop advice,Resource02,2011-08-18T07:06:46.928000
+1247,T10 Determine necessity to stop indication,Resource02,2011-08-18T11:46:17.085000
+1250,Confirmation of receipt,Resource04,2011-08-19T12:26:09.623000
+1250,T02 Check confirmation of receipt,Resource04,2011-08-19T12:26:29.407000
+1250,T04 Determine confirmation of receipt,Resource04,2011-08-19T12:26:53.536000
+1250,T05 Print and send confirmation of receipt,Resource04,2011-08-19T12:27:12.652000
+1250,T06 Determine necessity of stop advice,Resource04,2011-08-24T10:35:45.035000
+1250,T10 Determine necessity to stop indication,Resource04,2011-08-24T10:36:04.081000
+1255,Confirmation of receipt,Resource01,2011-08-18T08:44:35.702000
+1255,T02 Check confirmation of receipt,Resource01,2011-08-18T08:44:54.597000
+1255,T04 Determine confirmation of receipt,Resource01,2011-08-18T08:45:10.506000
+1255,T05 Print and send confirmation of receipt,Resource01,2011-08-18T08:45:26.949000
+1255,T06 Determine necessity of stop advice,Resource01,2011-08-18T08:45:46.626000
+1255,T10 Determine necessity to stop indication,Resource01,2011-08-18T08:46:03.198000
+1269,Confirmation of receipt,Resource29,2011-09-08T10:36:59.555000
+1269,T02 Check confirmation of receipt,Resource29,2011-09-08T10:39:34.966000
+1269,T04 Determine confirmation of receipt,Resource29,2011-09-08T10:40:23.759000
+1269,T05 Print and send confirmation of receipt,Resource29,2011-09-08T10:41:58.362000
+1269,T06 Determine necessity of stop advice,Resource29,2011-09-08T10:43:08.695000
+1269,T10 Determine necessity to stop indication,Resource29,2011-09-08T10:43:41.881000
+1281,Confirmation of receipt,Resource09,2011-09-28T08:32:38.239000
+1281,T02 Check confirmation of receipt,Resource09,2011-09-28T08:33:13.324000
+1281,T04 Determine confirmation of receipt,Resource09,2011-09-28T08:33:48.879000
+1281,T05 Print and send confirmation of receipt,Resource09,2011-09-28T08:34:08.740000
+1281,T06 Determine necessity of stop advice,Resource09,2011-09-28T08:34:37.914000
+1281,T10 Determine necessity to stop indication,Resource09,2011-09-28T08:35:22.341000
+1282,Confirmation of receipt,Resource14,2011-11-14T09:16:51.933000
+1282,T02 Check confirmation of receipt,Resource14,2011-11-14T09:17:17.530000
+1282,T04 Determine confirmation of receipt,Resource14,2011-11-14T09:17:39.932000
+1282,T05 Print and send confirmation of receipt,Resource14,2011-11-14T09:18:18.595000
+1282,T06 Determine necessity of stop advice,Resource14,2011-11-14T09:18:44.261000
+1282,T10 Determine necessity to stop indication,Resource14,2011-11-14T09:19:06.315000
+1289,Confirmation of receipt,Resource01,2011-09-30T11:40:01.094000
+1289,T02 Check confirmation of receipt,Resource01,2011-09-30T11:41:56.250000
+1289,T04 Determine confirmation of receipt,Resource01,2011-09-30T11:42:15.520000
+1289,T05 Print and send confirmation of receipt,Resource01,2011-09-30T11:44:46.846000
+1289,T06 Determine necessity of stop advice,Resource01,2011-09-30T11:45:34.479000
+1289,T10 Determine necessity to stop indication,Resource01,2011-09-30T11:46:09.118000
+1290,Confirmation of receipt,Resource13,2011-09-16T09:22:01.912000
+1290,T02 Check confirmation of receipt,Resource13,2011-09-16T09:23:27.590000
+1290,T04 Determine confirmation of receipt,Resource13,2011-09-16T09:28:07.415000
+1290,T06 Determine necessity of stop advice,Resource13,2011-09-16T09:30:04.519000
+1290,T05 Print and send confirmation of receipt,Resource13,2011-09-16T09:33:57.383000
+1290,T10 Determine necessity to stop indication,Resource13,2011-09-16T09:35:59.052000
+1291,Confirmation of receipt,Resource05,2011-09-15T09:24:40.993000
+1291,T02 Check confirmation of receipt,Resource05,2011-09-15T09:25:06.002000
+1291,T04 Determine confirmation of receipt,Resource05,2011-09-15T09:25:25.938000
+1291,T05 Print and send confirmation of receipt,Resource05,2011-09-15T09:29:28.871000
+1291,T06 Determine necessity of stop advice,Resource05,2011-09-15T09:31:19.790000
+1291,T10 Determine necessity to stop indication,Resource05,2011-09-15T09:31:45.538000
+1300,Confirmation of receipt,Resource06,2011-10-12T12:39:45.245000
+1300,T02 Check confirmation of receipt,Resource06,2011-10-12T12:40:07.202000
+1300,T04 Determine confirmation of receipt,Resource06,2011-10-12T12:40:41.087000
+1300,T05 Print and send confirmation of receipt,Resource06,2011-10-12T12:40:59.913000
+1300,T06 Determine necessity of stop advice,Resource06,2011-10-12T12:41:58.247000
+1300,T10 Determine necessity to stop indication,Resource06,2011-10-12T12:44:40.449000
+1303,Confirmation of receipt,Resource03,2011-09-19T12:51:41.225000
+1303,T02 Check confirmation of receipt,Resource03,2011-09-19T12:52:23.816000
+1303,T06 Determine necessity of stop advice,Resource03,2011-09-19T12:54:19.103000
+1303,T10 Determine necessity to stop indication,Resource03,2011-09-19T12:59:12.713000
+1303,T11 Create document X request unlicensed,Resource03,2011-09-21T10:38:15.584000
+1303,T04 Determine confirmation of receipt,Resource03,2011-09-21T10:38:33.934000
+1303,T05 Print and send confirmation of receipt,Resource10,2011-09-22T12:09:53.320000
+1303,T12 Check document X request unlicensed,Resource01,2011-09-23T08:12:10.134000
+1303,T14 Determine document X request unlicensed,Resource03,2011-09-23T08:18:08.982000
+1303,T15 Print document X request unlicensed,Resource03,2011-09-23T08:18:23.789000
+1307,Confirmation of receipt,Resource02,2011-09-26T09:09:34.608000
+1307,T02 Check confirmation of receipt,Resource02,2011-09-26T09:09:55.369000
+1307,T04 Determine confirmation of receipt,Resource02,2011-09-26T09:10:24.969000
+1307,T05 Print and send confirmation of receipt,Resource02,2011-09-26T09:10:45.973000
+1307,T06 Determine necessity of stop advice,Resource02,2011-09-26T09:11:05.468000
+1307,T10 Determine necessity to stop indication,Resource02,2011-09-26T09:11:24.472000
+1311,Confirmation of receipt,Resource01,2011-09-15T11:20:12.002000
+1311,T02 Check confirmation of receipt,Resource01,2011-09-15T11:20:33.100000
+1311,T04 Determine confirmation of receipt,Resource01,2011-09-15T11:20:52.222000
+1311,T05 Print and send confirmation of receipt,Resource01,2011-09-15T11:21:21.468000
+1311,T06 Determine necessity of stop advice,Resource01,2011-09-15T11:22:08.191000
+1311,T10 Determine necessity to stop indication,Resource01,2011-09-15T11:22:40.144000
+1312,Confirmation of receipt,Resource04,2011-09-12T14:05:03.134000
+1312,T02 Check confirmation of receipt,Resource04,2011-09-12T14:05:31.356000
+1312,T04 Determine confirmation of receipt,Resource04,2011-09-12T14:05:49.293000
+1312,T05 Print and send confirmation of receipt,Resource04,2011-09-12T14:06:12.194000
+1312,T06 Determine necessity of stop advice,Resource04,2011-09-12T14:09:37.100000
+1312,T10 Determine necessity to stop indication,Resource04,2011-09-12T14:09:56.491000
+1322,Confirmation of receipt,Resource09,2012-01-12T10:30:24.529000
+1322,T02 Check confirmation of receipt,Resource09,2012-01-12T10:31:14.791000
+1322,T04 Determine confirmation of receipt,Resource09,2012-01-12T10:31:48.940000
+1322,T05 Print and send confirmation of receipt,Resource09,2012-01-12T10:32:43.621000
+1322,T06 Determine necessity of stop advice,Resource09,2012-01-12T10:33:21.699000
+1322,T10 Determine necessity to stop indication,Resource09,2012-01-12T10:34:28.299000
+1325,Confirmation of receipt,Resource05,2011-09-20T13:39:16.472000
+1325,T02 Check confirmation of receipt,Resource05,2011-09-20T13:39:40.796000
+1325,T04 Determine confirmation of receipt,Resource05,2011-09-20T13:40:30.567000
+1325,T05 Print and send confirmation of receipt,Resource05,2011-09-20T13:41:14.444000
+1325,T06 Determine necessity of stop advice,Resource05,2011-09-20T13:41:42.340000
+1325,T10 Determine necessity to stop indication,Resource05,2011-09-20T13:43:21.369000
+1334,Confirmation of receipt,Resource04,2011-09-27T07:46:52.030000
+1334,T02 Check confirmation of receipt,Resource04,2011-09-27T07:47:16.447000
+1334,T04 Determine confirmation of receipt,Resource04,2011-09-27T08:18:49.679000
+1334,T05 Print and send confirmation of receipt,Resource04,2011-09-27T08:23:36.635000
+1334,T06 Determine necessity of stop advice,Resource04,2011-09-27T08:23:52.916000
+1334,T10 Determine necessity to stop indication,Resource04,2011-09-27T08:24:14.974000
+1335,Confirmation of receipt,Resource03,2011-09-26T12:57:41.419000
+1335,T02 Check confirmation of receipt,Resource03,2011-09-26T12:58:01.365000
+1335,T04 Determine confirmation of receipt,Resource03,2011-09-26T13:01:45.731000
+1335,T05 Print and send confirmation of receipt,Resource03,2011-09-26T13:02:01.058000
+1335,T06 Determine necessity of stop advice,Resource03,2011-09-26T13:02:25.581000
+1335,T10 Determine necessity to stop indication,Resource03,2011-09-26T13:02:58.002000
+1335,T16 Report reasons to hold request,Resource01,2011-09-29T11:51:57.612000
+1335,T17 Check report Y to stop indication,Resource01,2011-09-29T11:52:16.377000
+1335,T19 Determine report Y to stop indication,Resource01,2011-09-29T11:52:34.107000
+1335,T20 Print report Y to stop indication,Resource01,2011-09-29T11:52:52.419000
+1338,Confirmation of receipt,Resource06,2011-10-14T08:11:00.255000
+1338,T02 Check confirmation of receipt,Resource06,2011-10-14T08:11:21.875000
+1338,T04 Determine confirmation of receipt,Resource06,2011-10-14T08:11:44.272000
+1338,T05 Print and send confirmation of receipt,Resource06,2011-10-14T08:12:01.701000
+1338,T06 Determine necessity of stop advice,Resource06,2011-10-14T08:12:19.209000
+1338,T10 Determine necessity to stop indication,Resource06,2011-10-14T08:12:38.431000
+1339,Confirmation of receipt,Resource03,2011-09-26T08:15:09.846000
+1339,T02 Check confirmation of receipt,Resource03,2011-09-26T08:16:45.151000
+1339,T04 Determine confirmation of receipt,Resource03,2011-09-26T08:17:03.554000
+1339,T05 Print and send confirmation of receipt,Resource03,2011-09-26T08:17:18.252000
+1339,T06 Determine necessity of stop advice,Resource03,2011-09-26T08:37:09.017000
+1339,T10 Determine necessity to stop indication,Resource03,2011-09-26T08:37:32.645000
+1341,Confirmation of receipt,Resource02,2011-09-26T06:41:00.730000
+1341,T02 Check confirmation of receipt,Resource02,2011-09-26T06:41:46.980000
+1341,T04 Determine confirmation of receipt,Resource02,2011-09-26T06:42:04.392000
+1341,T05 Print and send confirmation of receipt,Resource02,2011-09-26T06:42:20.954000
+1341,T06 Determine necessity of stop advice,Resource13,2011-09-30T14:29:19.407000
+1341,T10 Determine necessity to stop indication,Resource13,2011-09-30T14:33:02.196000
+1354,Confirmation of receipt,Resource03,2011-09-30T13:42:14.628000
+1354,T02 Check confirmation of receipt,Resource03,2011-09-30T13:42:40.812000
+1354,T04 Determine confirmation of receipt,Resource03,2011-09-30T13:46:10.426000
+1354,T05 Print and send confirmation of receipt,Resource03,2011-09-30T13:46:24.649000
+1354,T06 Determine necessity of stop advice,Resource03,2011-09-30T13:46:40.636000
+1354,T10 Determine necessity to stop indication,Resource03,2011-09-30T13:47:03.157000
+1355,Confirmation of receipt,Resource05,2011-10-06T15:41:44.676000
+1355,T02 Check confirmation of receipt,Resource05,2011-10-06T15:42:39.522000
+1355,T06 Determine necessity of stop advice,Resource05,2011-10-06T15:42:55.518000
+1355,T04 Determine confirmation of receipt,Resource05,2011-10-06T15:43:11.945000
+1355,T05 Print and send confirmation of receipt,Resource05,2011-10-06T15:43:39.268000
+1355,T10 Determine necessity to stop indication,Resource05,2011-10-06T15:44:15.120000
+1359,Confirmation of receipt,Resource16,2011-10-04T06:43:35.546000
+1359,T02 Check confirmation of receipt,Resource16,2011-10-04T06:44:28.376000
+1359,T04 Determine confirmation of receipt,Resource16,2011-10-04T06:44:54.909000
+1359,T05 Print and send confirmation of receipt,Resource16,2011-10-04T06:45:19.542000
+1359,T06 Determine necessity of stop advice,Resource16,2011-10-04T06:46:21.048000
+1359,T10 Determine necessity to stop indication,Resource16,2011-10-04T06:46:56.941000
+1365,Confirmation of receipt,Resource09,2011-11-09T11:30:39.630000
+1365,T06 Determine necessity of stop advice,Resource09,2011-11-09T11:31:16.108000
+1365,T10 Determine necessity to stop indication,Resource09,2011-11-09T11:31:58.143000
+1365,T02 Check confirmation of receipt,Resource09,2011-11-09T11:32:52.795000
+1365,T04 Determine confirmation of receipt,Resource09,2011-11-09T11:33:16.236000
+1365,T05 Print and send confirmation of receipt,Resource09,2011-11-09T11:33:36.705000
+1374,Confirmation of receipt,Resource03,2011-10-04T09:26:13.158000
+1374,T02 Check confirmation of receipt,Resource03,2011-10-04T09:27:01.407000
+1374,T04 Determine confirmation of receipt,Resource10,2011-10-05T11:41:58.942000
+1374,T05 Print and send confirmation of receipt,Resource03,2011-10-05T13:08:39.793000
+1374,T06 Determine necessity of stop advice,Resource03,2011-10-05T13:08:54.142000
+1374,T10 Determine necessity to stop indication,Resource03,2011-10-05T13:09:17.340000
+1374,T11 Create document X request unlicensed,Resource03,2011-10-05T13:09:32.391000
+1374,T12 Check document X request unlicensed,Resource03,2011-10-05T13:09:47.347000
+1374,T14 Determine document X request unlicensed,Resource03,2011-10-05T13:10:04.500000
+1374,T15 Print document X request unlicensed,Resource03,2011-10-05T13:10:19.089000
+1376,Confirmation of receipt,Resource16,2011-10-04T08:12:14.127000
+1376,T02 Check confirmation of receipt,Resource16,2011-10-04T08:49:03.666000
+1376,T04 Determine confirmation of receipt,Resource16,2011-10-04T08:49:26.572000
+1376,T05 Print and send confirmation of receipt,Resource16,2011-10-04T08:49:48.580000
+1376,T06 Determine necessity of stop advice,Resource16,2011-10-04T08:50:12.328000
+1376,T10 Determine necessity to stop indication,Resource16,2011-10-04T08:50:44.667000
+1381,Confirmation of receipt,Resource16,2011-10-05T08:47:10.795000
+1381,T02 Check confirmation of receipt,Resource16,2011-10-05T08:47:53.279000
+1381,T04 Determine confirmation of receipt,Resource16,2011-10-05T08:48:23.828000
+1381,T05 Print and send confirmation of receipt,Resource16,2011-10-05T08:48:46.355000
+1381,T06 Determine necessity of stop advice,Resource16,2011-10-05T08:49:15.759000
+1381,T10 Determine necessity to stop indication,Resource16,2011-10-05T08:49:51.324000
+1383,Confirmation of receipt,admin2,2011-11-15T08:46:02.943000
+1387,Confirmation of receipt,Resource03,2011-10-10T08:05:57.552000
+1387,T02 Check confirmation of receipt,Resource03,2011-10-10T08:21:44.804000
+1387,T04 Determine confirmation of receipt,Resource03,2011-10-10T08:22:01.954000
+1387,T05 Print and send confirmation of receipt,Resource03,2011-10-10T08:22:18.846000
+1387,T06 Determine necessity of stop advice,Resource03,2011-10-10T08:22:41.765000
+1387,T10 Determine necessity to stop indication,Resource03,2011-10-10T08:23:04.339000
+1401,Confirmation of receipt,Resource16,2011-10-07T07:06:53.480000
+1401,T02 Check confirmation of receipt,Resource16,2011-10-07T07:07:23.379000
+1401,T04 Determine confirmation of receipt,Resource16,2011-10-07T07:07:48.870000
+1401,T05 Print and send confirmation of receipt,Resource16,2011-10-07T07:08:07.023000
+1401,T06 Determine necessity of stop advice,Resource16,2011-10-07T07:08:24.290000
+1401,T10 Determine necessity to stop indication,Resource16,2011-10-07T07:08:53.701000
+1404,Confirmation of receipt,Resource20,2011-10-26T10:04:17.338000
+1404,T02 Check confirmation of receipt,Resource20,2011-10-27T08:47:14.553000
+1404,T04 Determine confirmation of receipt,Resource20,2011-10-27T08:47:51.088000
+1404,T05 Print and send confirmation of receipt,Resource20,2011-10-27T08:48:27.302000
+1404,T06 Determine necessity of stop advice,Resource20,2011-10-27T08:49:30.585000
+1404,T10 Determine necessity to stop indication,Resource20,2011-10-27T08:49:48.187000
+1405,Confirmation of receipt,Resource16,2011-10-07T08:00:49.113000
+1405,T02 Check confirmation of receipt,Resource16,2011-10-07T08:01:12.702000
+1405,T04 Determine confirmation of receipt,Resource16,2011-10-07T08:01:35.421000
+1405,T05 Print and send confirmation of receipt,Resource16,2011-10-07T08:01:59.336000
+1405,T06 Determine necessity of stop advice,Resource16,2011-10-07T08:02:26.888000
+1405,T10 Determine necessity to stop indication,Resource16,2011-10-07T08:03:13.921000
+1414,Confirmation of receipt,Resource04,2011-10-20T12:28:41.313000
+1414,T02 Check confirmation of receipt,Resource04,2011-10-20T12:29:00.055000
+1414,T04 Determine confirmation of receipt,Resource04,2011-10-20T12:31:27.177000
+1414,T05 Print and send confirmation of receipt,Resource04,2011-10-20T12:31:43.030000
+1414,T06 Determine necessity of stop advice,Resource04,2011-10-20T12:32:06.126000
+1414,T10 Determine necessity to stop indication,Resource04,2011-10-20T12:32:26.561000
+1421,Confirmation of receipt,Resource03,2011-10-10T13:40:31.164000
+1421,T02 Check confirmation of receipt,Resource03,2011-10-10T13:40:56.999000
+1421,T06 Determine necessity of stop advice,Resource03,2011-10-10T13:41:22.694000
+1421,T04 Determine confirmation of receipt,Resource03,2011-10-10T13:41:38.735000
+1421,T05 Print and send confirmation of receipt,Resource03,2011-10-10T13:41:52.458000
+1421,T10 Determine necessity to stop indication,Resource03,2011-10-10T13:42:12.496000
+1422,Confirmation of receipt,Resource02,2011-10-31T13:52:30.132000
+1422,T02 Check confirmation of receipt,Resource02,2011-10-31T13:52:54.101000
+1422,T04 Determine confirmation of receipt,Resource02,2011-10-31T13:53:18.768000
+1422,T05 Print and send confirmation of receipt,Resource02,2011-10-31T13:53:51.460000
+1422,T06 Determine necessity of stop advice,Resource02,2011-11-23T07:38:57.507000
+1422,T10 Determine necessity to stop indication,Resource02,2011-11-23T12:57:38.127000
+1427,Confirmation of receipt,Resource16,2011-10-11T06:34:50.571000
+1427,T06 Determine necessity of stop advice,Resource16,2011-10-11T06:35:13.280000
+1427,T02 Check confirmation of receipt,Resource16,2011-10-11T06:35:37.693000
+1427,T04 Determine confirmation of receipt,Resource16,2011-10-11T06:35:58.321000
+1427,T05 Print and send confirmation of receipt,Resource16,2011-10-11T06:36:15.505000
+1427,T10 Determine necessity to stop indication,Resource16,2011-10-11T06:36:42.866000
