@@ -40,6 +40,23 @@ def get_prefixes(data, case_col, activity_col, max_len):
 
     return X, Y, lengths
 
+def get_prefixes_ind(data, case_col, activity_col, max_len):
+    prefixes_acts, next_acts = [], []
+    for _, case in data.groupby(case_col, sort=False):
+        case = case.reset_index(drop=True)
+        for i in range(1, len(case)):
+            prefixes_acts.append(case[activity_col][:i].values)
+            next_acts.append(case[activity_col][i])
+
+    X = np.zeros((len(prefixes_acts), max_len), dtype=np.float32)
+    Y = np.zeros((len(prefixes_acts)), dtype=np.int32)
+
+    for i, prefix in enumerate(prefixes_acts):
+        left_pad = max_len - len(prefix)
+        X[i, left_pad:left_pad+len(prefix)] = prefix
+        Y[i] = next_acts[i]
+
+    return X, Y, 1
 
 def load_and_preprocess_data(base_folder, case_col, activity_col, dataset_name):
     folds_data = []
@@ -69,9 +86,9 @@ def load_and_preprocess_data(base_folder, case_col, activity_col, dataset_name):
                      val.groupby(case_col)[activity_col].count().max())
 
         # Prefijos
-        x_train, y_train, _ = get_prefixes(train, case_col, activity_col, max_len)
-        x_val, y_val, _ = get_prefixes(val, case_col, activity_col, max_len)
-        x_test, y_test, tam_suf_test = get_prefixes(test, case_col, activity_col, max_len)
+        x_train, y_train, _ = get_prefixes_ind(train, case_col, activity_col, max_len)
+        x_val, y_val, _ = get_prefixes_ind(val, case_col, activity_col, max_len)
+        x_test, y_test, tam_suf_test = get_prefixes_ind(test, case_col, activity_col, max_len)
 
         folds_data.append({
             'x_train': x_train,

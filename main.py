@@ -10,7 +10,7 @@ if __name__ == "__main__":
 
     dataset_name = "env_permit" 
     
-    folds_data = load_and_preprocess_data("./data", case_col="CaseID", activity_col="Activity", dataset_name= dataset_name)
+    folds_data = load_and_preprocess_data("./data", case_col="caseid", activity_col="task", dataset_name= dataset_name)
 
     accs = []
 
@@ -23,6 +23,16 @@ if __name__ == "__main__":
         x_test = torch.tensor(fold['x_test'], dtype=torch.long).to(device)
         y_test = torch.tensor(fold['y_test'], dtype=torch.long).to(device)
         tam_suf = torch.tensor(fold['tam_suf_test'], dtype=torch.long).to(device)
+
+        max_len = fold['max_len']
+        
+        print(x_val[1].shape)
+        print(x_val[1])
+        print("\n\n")
+        print(y_val[1].shape)
+        print(y_val[1])
+        print("\n\n")
+        print(max_len)
 
         model = Modelo(d_model=fold['num_activities']+1, device=device).to(device)
 

@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 from jellyfish import damerau_levenshtein_distance
+from training.train import acc
 
 
 def levenshtein_acc(y_pred, y_real, tam_suf):
@@ -32,14 +33,15 @@ def test(model, test_loader, num_activities):
     for mini_batch in test_loader:
         prefix = mini_batch[0].to(device)
         y_real = mini_batch[1]
-        tam_suf = mini_batch[2]
+        #tam_suf = mini_batch[2]
 
         y_pred = model(prefix)
         y_pred_loss = y_pred.view(-1, num_activities + 2)
         y_real_loss = y_real.view(-1)
 
         test_loss = loss_fn(y_pred_loss, y_real_loss)
-        test_acc = levenshtein_acc(y_pred, y_real, tam_suf)
+        test_acc = acc(y_pred, y_real)
+        #test_acc = levenshtein_acc(y_pred, y_real, tam_suf)
 
         test_epoch_loss.append(test_loss.item())
         test_epoch_acc.append(test_acc)
