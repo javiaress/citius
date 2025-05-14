@@ -111,9 +111,9 @@ def load_and_preprocess_data(base_folder, case_col, activity_col, dataset_name):
                      test.groupby(case_col)[activity_col].count().max(),)
 
         # Prefijos
-        x_train, y_train, _ = get_prefixes(train, case_col, activity_col, max_len)
-        x_val, y_val, _ = get_prefixes(val, case_col, activity_col, max_len)
-        x_test, y_test, tam_suf_test = get_prefixes(test, case_col, activity_col, max_len)
+        x_train, y_train, _ = get_prefixes_ind(train, case_col, activity_col, max_len)
+        x_val, y_val, _ = get_prefixes_ind(val, case_col, activity_col, max_len)
+        x_test, y_test, tam_suf_test = get_prefixes_ind(test, case_col, activity_col, max_len)
 
         folds_data.append({
             'x_train': x_train,

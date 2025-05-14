@@ -1,4 +1,4 @@
-from models.ssm import Modelo
+from models.ssm_ind import Modelo_ind as Modelo
 from data.preprocess import load_and_preprocess_data
 from training.train import fit
 from training.evaluate import test

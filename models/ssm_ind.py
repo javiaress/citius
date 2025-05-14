@@ -93,7 +93,7 @@ class SSM(nn.Module):
         hidden_previos = hidden_previos.permute(1, 0, 2, 3)  # (batch, seq, d_inner, d_state)
         return y, hidden_previos
 
-class Modelo(nn.Module):
+class Modelo_ind(nn.Module):
     def __init__(self, d_model, d_embedding = 32, d_hidden = 32, device=None):
         super().__init__()
         self.d_model = d_model

@@ -40,8 +40,8 @@ def test(model, test_loader, num_activities):
         y_real_loss = y_real.view(-1)
 
         test_loss = loss_fn(y_pred_loss, y_real_loss)
-        #test_acc = acc(y_pred, y_real)
-        test_acc = levenshtein_acc(y_pred, y_real, tam_suf)
+        test_acc = acc(y_pred, y_real)
+        #test_acc = levenshtein_acc(y_pred, y_real, tam_suf)
 
         test_epoch_loss.append(test_loss.item())
         test_epoch_acc.append(test_acc)
