@@ -12,7 +12,7 @@ import os
 import pathlib
 import wandb
 from jellyfish._jellyfish import damerau_levenshtein_distance
-
+"""
 seed = 42
 
 random.seed(seed)
@@ -26,7 +26,7 @@ if torch.cuda.is_available():
   torch.cuda.manual_seed_all(seed)
 
 torch.backends.cudnn.deterministic = True
-
+"""
 class SSM(nn.Module):
     def __init__(
         self,
@@ -176,7 +176,7 @@ class Modelo(nn.Module):
 DATOS Y ENTRENAMIENTO
 """
 
-data_folder = './data/'
+data_folder = './data/train_fold0_variation0_'
 filename = 'env_permit'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
@@ -186,8 +186,8 @@ data
 # In[2]:
 
 
-CASE_COL = 'CaseID'
-ACTIVITY_COL = 'Activity'
+CASE_COL = 'caseid'
+ACTIVITY_COL = 'task'
 #CASE_COL = 'case:concept:name'
 #ACTIVITY_COL = 'concept:name'
 
