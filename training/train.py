@@ -47,15 +47,14 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
         train_epoch_loss = []
         train_epoch_acc = []
         model.train()
-
-        for mini_batch in train_loader:
+        for i, mini_batch in enumerate(train_loader):
             prefix = mini_batch[0].to(device)
             y_real = mini_batch[1]
 
             model.zero_grad()
             y_pred = model(prefix)
-
-            y_pred_loss = y_pred.view(-1, num_activities + 2)
+            
+            y_pred_loss = y_pred.view(-1, num_activities + 1)
             y_real_loss = y_real.view(-1)
 
             train_loss = loss_fn(y_pred_loss, y_real_loss)

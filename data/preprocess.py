@@ -107,7 +107,8 @@ def load_and_preprocess_data(base_folder, case_col, activity_col, dataset_name):
 
         # Longitud máxima de traza
         max_len = max(train.groupby(case_col)[activity_col].count().max(),
-                     val.groupby(case_col)[activity_col].count().max())
+                     val.groupby(case_col)[activity_col].count().max(), 
+                     test.groupby(case_col)[activity_col].count().max(),)
 
         # Prefijos
         x_train, y_train, _ = get_prefixes(train, case_col, activity_col, max_len)

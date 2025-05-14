@@ -176,7 +176,7 @@ class Modelo(nn.Module):
 DATOS Y ENTRENAMIENTO
 """
 
-data_folder = './data/train_fold0_variation0_'
+data_folder = './data/test_fold0_variation0_'
 filename = 'env_permit'
 data = pd.read_csv(data_folder + filename + '.csv')
 data
