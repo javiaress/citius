@@ -10,14 +10,27 @@ def category_to_label(attr: pd.Series):
     attr_cat = pd.Series(map(lambda x: reverse_dict[x], attr.values))
     return attr_cat, attr_dict, reverse_dict
 
+def group_by_case(data, case_col):
+    data_augment = pd.DataFrame()
+    cases = data.groupby(case_col, sort=False)
+    for _, case in cases:
+        case = case.reset_index(drop=True)
+        data_augment = pd.concat([data_augment, case])
+
+    return data_augment
+
 
 def add_end_of_case(data, case_col, activity_col, num_activities):
-    augmented = []
-    for _, case in data.groupby(case_col, sort=False):
-        eoc_row = pd.DataFrame({case_col: [case[case_col].iloc[0]],
+    augmented = pd.DataFrame()
+    cases = data.groupby(case_col, sort=False)
+    for _, case in cases:
+        case = case.reset_index(drop=True)
+        eoc_row = pd.DataFrame({case_col: [case[case_col][0]],
                                 activity_col: [num_activities + 1]})
-        augmented.append(pd.concat([case, eoc_row], ignore_index=True))
-    return pd.concat(augmented, ignore_index=True)
+        case = pd.concat([case, eoc_row])
+        case = case.reset_index(drop=True)
+        augmented = pd.concat([augmented, case])
+    return augmented
 
 
 def get_prefixes(data, case_col, activity_col, max_len):
@@ -25,7 +38,7 @@ def get_prefixes(data, case_col, activity_col, max_len):
     for _, case in data.groupby(case_col, sort=False):
         case = case.reset_index(drop=True)
         for i in range(1, len(case)):
-            prefixes_acts.append(case[activity_col][:i].values)
+            prefixes_acts.append(case[activity_col][0:i].values)
             next_acts.append(case[activity_col][i:].values)
 
     X = np.zeros((len(prefixes_acts), max_len), dtype=np.float32)
@@ -34,8 +47,13 @@ def get_prefixes(data, case_col, activity_col, max_len):
 
     for i, prefix in enumerate(prefixes_acts):
         left_pad = max_len - len(prefix)
-        X[i, left_pad:left_pad+len(prefix)] = prefix
-        Y[i, :len(next_acts[i])] = next_acts[i]
+        next_act = next_acts[i]
+        for j, act in enumerate(prefix):
+            X[i, j + left_pad] = act
+        
+        for k, act in enumerate(next_act):
+            Y[i, k] = act
+            
         lengths[i] = len(next_acts[i])
 
     return X, Y, lengths
@@ -71,9 +89,15 @@ def load_and_preprocess_data(base_folder, case_col, activity_col, dataset_name):
         test = pd.read_csv(test_file)
 
         # Codificar actividades
-        train[activity_col], _, reverse_dict = category_to_label(train[activity_col])
-        val[activity_col] = val[activity_col].map(reverse_dict)
-        test[activity_col] = test[activity_col].map(reverse_dict)
+        train[activity_col], _, _ = category_to_label(train[activity_col])
+        val[activity_col], _, _ = category_to_label(val[activity_col])
+        test[activity_col], _, _ = category_to_label(test[activity_col])
+
+        # Codificar casos
+        train = group_by_case(train, case_col)
+        val = group_by_case(val, case_col)
+        test = group_by_case(test, case_col)
+
         num_activities = train[activity_col].nunique()
 
         # Agregar evento fin de caso
