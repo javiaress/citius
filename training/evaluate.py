@@ -33,7 +33,7 @@ def test(model, test_loader, num_activities):
     for mini_batch in test_loader:
         prefix = mini_batch[0].to(device)
         y_real = mini_batch[1]
-        tam_suf = mini_batch[2]
+        #tam_suf = mini_batch[2]
 
         y_pred = model(prefix)
         y_pred_loss = y_pred.view(-1, num_activities + 2)

@@ -4,11 +4,28 @@ from training.train import fit
 from training.evaluate import test
 import torch
 from torch.utils.data import DataLoader, TensorDataset
+import random
+import numpy as np
+
+
+seed = 42
+
+random.seed(seed)
+
+np.random.seed(seed)
+
+torch.manual_seed(seed)
+
+if torch.cuda.is_available():
+
+  torch.cuda.manual_seed_all(seed)
+
+torch.backends.cudnn.deterministic = True
 
 if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    dataset_name = "env_permit" 
+    dataset_name = "Helpdesk" 
     
     folds_data = load_and_preprocess_data("./data", case_col="caseid", activity_col="task", dataset_name= dataset_name)
 
@@ -34,11 +51,13 @@ if __name__ == "__main__":
         print("\n\n")
         print(max_len)
 
+        print(fold['num_activities']+1)
+
         model = Modelo(d_model=fold['num_activities']+1, device=device).to(device)
 
         train_loader = DataLoader(TensorDataset(x_train, y_train), batch_size=16, shuffle=True)
         val_loader = DataLoader(TensorDataset(x_val, y_val), batch_size=16, shuffle=True)
-        test_loader = DataLoader(TensorDataset(x_test, y_test, tam_suf), batch_size=16, shuffle=True)
+        test_loader = DataLoader(TensorDataset(x_test, y_test), batch_size=16, shuffle=True)
 
         fit(model, train_loader, val_loader, dataset_name, str(fold_idx), "modelossm", use_wandb=False)
 

@@ -22,7 +22,12 @@ def val_test(model, val_loader, device, num_activities):
         y_real = mini_batch[1]
 
         y_pred = model(prefix)
-        y_pred_loss = y_pred.view(-1, num_activities + 2)
+        
+        if y_real.max() >= y_pred.shape[-1]:
+            print("y_pred shape:", y_pred.shape)
+            print("y_real max:", y_real.max().item())
+
+        y_pred_loss = y_pred.view(-1, num_activities + 1)
         y_real_loss = y_real.view(-1)
 
         val_loss = loss_fn(y_pred_loss, y_real_loss)
