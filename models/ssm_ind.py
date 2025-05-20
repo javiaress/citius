@@ -3,6 +3,35 @@ import torch.nn as nn
 import math
 from einops import repeat, rearrange
 
+def discretize_matrices(A, B, dt):
+    """
+    Discretiza las matrices A y B usando la forma explícita:
+        A_bar = exp(dt * A)
+        B_bar = (dt*A)^-1 * (exp(dt*A) - I) * dt * B
+
+    Parámetros:
+        A: Tensor de forma (N, N) -- matriz del sistema continuo
+        B: Tensor de forma (N, M) -- entrada del sistema continuo
+        dt: escalar o tensor escalar
+
+    Retorna:
+        A_bar: matriz A discretizada
+        B_bar: matriz B discretizada
+    """
+    device = A.device
+    N = A.shape[0]
+    
+    # Paso 1: A_bar = exp(dt * A)
+    At = dt * A
+    A_bar = torch.matrix_exp(At)
+
+    # Paso 2: B_bar = (At)^-1 * (A_bar - I) * dt * B
+    I = torch.eye(N, device=device)
+    At_inv = torch.linalg.inv(At)
+    B_bar = At_inv @ (A_bar - I) @ (dt * B)
+
+    return A_bar, B_bar
+
 class SSM(nn.Module):
     def __init__(
         self,
@@ -63,13 +92,13 @@ class SSM(nn.Module):
             dt = self.dt_proj(dt)
             #print(f"dt shape: {dt.shape}\n\n")
             
-            #dt = dt.unsqueeze(0)
-            dA = torch.einsum("ji,is->jis", dt, A) # 1 inner, inner state -> 1 inner state
+            #dA = torch.einsum("ji,is->jis", dt, A) # batch inner, inner state -> batch inner state
             #print(f"dA shape: {dA.shape}\n\n")
 
-            #B = B.unsqueeze(0)
-            dB = torch.einsum("ji,js->jis", dt, B) # 1 inner, 1 state -> 1 inner state
+            #dB = torch.einsum("ji,js->jis", dt, B) # batch inner, batch state -> batch inner state
             #print(f"dB shape: {dB.shape}\n\n")
+
+            dA, dB = discretize_matrices(A, B, dt)
             
             mask = (x[:, i].abs().sum(dim=-1) > 1e-5).float().unsqueeze(-1).unsqueeze(-1)
             hidden_state = hidden_state * dA + rearrange(x[:,i], "b d -> b d 1") * dB
