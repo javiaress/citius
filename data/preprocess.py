@@ -71,8 +71,12 @@ def get_prefixes_ind(data, case_col, activity_col, max_len):
 
     for i, prefix in enumerate(prefixes_acts):
         left_pad = max_len - len(prefix)
-        X[i, left_pad:left_pad+len(prefix)] = prefix
-        Y[i] = next_acts[i]
+        next_act = next_acts[i]
+
+        for j, act in enumerate(prefix):
+            X[i, j + left_pad] = act
+            
+        Y[i] = next_act
 
     return X, Y, 1
 

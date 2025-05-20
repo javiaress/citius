@@ -30,7 +30,7 @@ def test(model, test_loader, num_activities):
     test_epoch_loss = []
     test_epoch_acc = []
 
-    for mini_batch in test_loader:
+    for i, mini_batch in enumerate(test_loader):
         prefix = mini_batch[0].to(device)
         y_real = mini_batch[1]
         #tam_suf = mini_batch[2]
@@ -38,6 +38,17 @@ def test(model, test_loader, num_activities):
         y_pred = model(prefix)
         y_pred_loss = y_pred.view(-1, num_activities + 2)
         y_real_loss = y_real.view(-1)
+
+        if (i % 100 == 0):
+
+            y_pred_softmax = torch.log_softmax(y_pred, dim=-1)
+            _, y_pred_tags = torch.max(y_pred_softmax, dim=-1)
+            print("\n\n real:")
+            print(y_real)
+            print("\n\n pred:")               
+            print(y_pred_tags)
+            print("\n\n")
+            #print(f"tam_suf: {tam_suf}\n\n")
 
         test_loss = loss_fn(y_pred_loss, y_real_loss)
         test_acc = acc(y_pred, y_real)

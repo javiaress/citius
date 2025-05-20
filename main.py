@@ -40,8 +40,6 @@ if __name__ == "__main__":
         x_test = torch.tensor(fold['x_test'], dtype=torch.long).to(device)
         y_test = torch.tensor(fold['y_test'], dtype=torch.long).to(device)
         tam_suf = torch.tensor(fold['tam_suf_test'], dtype=torch.long).to(device)
-
-        max_len = fold['max_len']
         
         print(x_val[1].shape)
         print(x_val[1])
@@ -49,9 +47,6 @@ if __name__ == "__main__":
         print(y_val[1].shape)
         print(y_val[1])
         print("\n\n")
-        print(max_len)
-
-        print(fold['num_activities']+1)
 
         model = Modelo(d_model=fold['num_activities']+1, device=device).to(device)
 
