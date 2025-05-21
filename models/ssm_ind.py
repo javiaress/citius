@@ -3,6 +3,13 @@ import torch.nn as nn
 import math
 from einops import repeat, rearrange
 
+def check_nan(tensor, name, step):
+    if torch.isnan(tensor).any() or torch.isinf(tensor).any():
+        print(f"[NaN/Inf DETECTED] in {name} at step {step}")
+        print(f"{name}.min: {tensor.min().item()}, max: {tensor.max().item()}")
+        print(tensor)
+        print ("\n")
+
 class SSM(nn.Module):
     def __init__(
         self,
@@ -54,7 +61,7 @@ class SSM(nn.Module):
             B = x_proj[:,:self.d_state]
             dt = x_proj[:,self.d_state:self.d_state + self.dt_rank]
             C = x_proj[:,self.d_state + self.dt_rank:]
-            A = -torch.exp(self.A_log.float())
+            A = -torch.exp(self.A_log)
 
             #print(f"dt shape: {dt.shape}\n\n")
             #print(f"A shape: {A.shape}\n\n")
@@ -63,6 +70,8 @@ class SSM(nn.Module):
 
             dt = self.dt_proj(dt)
             #print(f"dt shape: {dt.shape}\n\n")
+
+            dt = torch.clamp(dt, min=-10.0, max=10.0)
             
             deltaA = torch.einsum("ji,is->jis", dt, A) # batch inner, inner state -> batch inner state
             dA = torch.matrix_exp(deltaA)
@@ -70,9 +79,15 @@ class SSM(nn.Module):
 
             deltaB = torch.einsum("ji,js->jis", dt, B) # batch inner, batch state -> batch inner state
             exp_minus_I = dA - I
+            deltaA = deltaA + 1e-5 * torch.eye(deltaA.size(-1), device=deltaA.device)
             A_inv_term = torch.bmm(torch.linalg.pinv(deltaA), exp_minus_I)
             dB = torch.bmm(A_inv_term, deltaB)
             #print(f"dB shape: {dB.shape}\n\n")
+
+            check_nan(deltaA, "deltaA", i)
+            check_nan(dA, "dA", i)
+            check_nan(A_inv_term, "A_inv_term", i)
+            check_nan(dB, "dB", i)
 
             mask = (x[:, i].abs().sum(dim=-1) > 1e-5).float().unsqueeze(-1).unsqueeze(-1)
             hidden_state = hidden_state * dA + rearrange(x[:,i], "b d -> b d 1") * dB

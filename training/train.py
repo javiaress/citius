@@ -63,6 +63,11 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
             y_real_loss = y_real.view(-1)
 
             train_loss = loss_fn(y_pred_loss, y_real_loss)
+
+            if torch.isnan(train_loss):
+                print(f"NaN detectado en train_loss en epoch {e}, batch {i}. Deteniendo entrenamiento.")
+                return
+
             train_acc = acc(y_pred, y_real)
 
             train_loss.backward()

@@ -58,29 +58,30 @@ def get_prefixes(data, case_col, activity_col, max_len):
 
     return X, Y, lengths
 
-def get_prefixes_ind(data, case_col, activity_col, max_len):
+def get_prefixes_ind(data, case_col, activity_col, resource_col, max_len):
     prefixes_acts, next_acts = [], []
+    prefixes_rsrc = []
     for _, case in data.groupby(case_col, sort=False):
         case = case.reset_index(drop=True)
         for i in range(1, len(case)):
             prefixes_acts.append(case[activity_col][:i].values)
+            prefixes_rsrc.append(case[resource_col][:i].values)
             next_acts.append(case[activity_col][i])
 
-    X = np.zeros((len(prefixes_acts), max_len), dtype=np.float32)
+    X = np.zeros((len(prefixes_acts), max_len, 2), dtype=np.float32)
     Y = np.zeros((len(prefixes_acts)), dtype=np.int32)
 
-    for i, prefix in enumerate(prefixes_acts):
-        left_pad = max_len - len(prefix)
+    for i, (a_seq, r_seq) in enumerate(zip(prefixes_acts, prefixes_rsrc)):
+        left_pad = max_len - len(a_seq)
         next_act = next_acts[i]
+        X[i, left_pad:, 0] = a_seq
+        X[i, left_pad:, 1] = r_seq
 
-        for j, act in enumerate(prefix):
-            X[i, j + left_pad] = act
-            
         Y[i] = next_act
 
     return X, Y, 1
 
-def load_and_preprocess_data(base_folder, case_col, activity_col, dataset_name):
+def load_and_preprocess_data(base_folder, case_col, activity_col, resource_col, time_col, dataset_name):
     folds_data = []
 
     for fold in range(5):
@@ -96,6 +97,11 @@ def load_and_preprocess_data(base_folder, case_col, activity_col, dataset_name):
         train[activity_col], _, _ = category_to_label(train[activity_col])
         val[activity_col], _, _ = category_to_label(val[activity_col])
         test[activity_col], _, _ = category_to_label(test[activity_col])
+
+        # Codificar recursos
+        train[resource_col], _, _ = category_to_label(train[resource_col])
+        val[resource_col], _, _ = category_to_label(val[resource_col])
+        test[resource_col], _, _ = category_to_label(test[resource_col])
 
         # Codificar casos
         train = group_by_case(train, case_col)
@@ -115,9 +121,9 @@ def load_and_preprocess_data(base_folder, case_col, activity_col, dataset_name):
                      test.groupby(case_col)[activity_col].count().max(),)
 
         # Prefijos
-        x_train, y_train, _ = get_prefixes_ind(train, case_col, activity_col, max_len)
-        x_val, y_val, _ = get_prefixes_ind(val, case_col, activity_col, max_len)
-        x_test, y_test, tam_suf_test = get_prefixes_ind(test, case_col, activity_col, max_len)
+        x_train, y_train, _ = get_prefixes_ind(train, case_col, activity_col, resource_col, max_len)
+        x_val, y_val, _ = get_prefixes_ind(val, case_col, activity_col, resource_col, max_len)
+        x_test, y_test, tam_suf_test = get_prefixes_ind(test, case_col, activity_col, resource_col, max_len)
 
         folds_data.append({
             'x_train': x_train,

@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
     dataset_name = "Helpdesk" 
     
-    folds_data = load_and_preprocess_data("./data", case_col="caseid", activity_col="task", resource_col="end_timestamp", time_col="time", dataset_name= dataset_name)
+    folds_data = load_and_preprocess_data("./data", case_col="caseid", activity_col="task", dataset_name= dataset_name)
 
     accs = []
 
@@ -41,11 +41,11 @@ if __name__ == "__main__":
         y_test = torch.tensor(fold['y_test'], dtype=torch.long).to(device)
         tam_suf = torch.tensor(fold['tam_suf_test'], dtype=torch.long).to(device)
         
-        print(x_val[1].shape)
-        print(x_val[1])
+        print(x_val[10].shape)
+        print(x_val[10])
         print("\n\n")
-        print(y_val[1].shape)
-        print(y_val[1])
+        print(y_val[10].shape)
+        print(y_val[10])
         print("\n\n")
 
         model = Modelo(d_model=fold['num_activities']+1, device=device).to(device)
