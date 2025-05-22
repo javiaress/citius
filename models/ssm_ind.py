@@ -37,11 +37,11 @@ class SSM(nn.Module):
         nn.init.xavier_uniform_(self.x_proj.weight)
         nn.init.zeros_(self.x_proj.bias)
 
-        #nn.init.xavier_uniform_(self.dt_proj.weight)
-        #nn.init.zeros_(self.dt_proj.bias)
-
         self.dt_proj = nn.Linear(self.dt_rank, self.d_inner)
-         # Initialize special dt projection to preserve variance at initialization
+        nn.init.xavier_uniform_(self.dt_proj.weight)
+        nn.init.zeros_(self.dt_proj.bias)
+
+        """ # Initialize special dt projection to preserve variance at initialization
         dt_init_std = self.dt_rank**-0.5 * dt_scale
         if dt_init == "constant":
             nn.init.constant_(self.dt_proj.weight, dt_init_std)
@@ -62,7 +62,7 @@ class SSM(nn.Module):
             self.dt_proj.bias.copy_(inv_dt)
 
         # Our initialization would set all Linear.bias to zero, need to mark this one as _no_reinit
-        self.dt_proj.bias._no_reinit = True
+        self.dt_proj.bias._no_reinit = True"""
 
 
         self.device = device
