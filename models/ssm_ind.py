@@ -122,7 +122,8 @@ class Modelo_ind(nn.Module):
 
         self.rsrc_embedding = nn.Embedding(d_rsrc, d_embedding, padding_idx=0)
         self.act_embedding = nn.Embedding(d_acts, d_embedding, padding_idx=0)
-        self.concat_to_hidden = nn.Linear(2 * d_embedding, d_hidden)
+        self.input_dim = d_embedding * 2 + 2
+        self.linear1 = nn.Linear(self.input_dim, d_hidden)
         self.ssm = SSM(d_inner= d_hidden, device = device)
         self.linear2 = nn.Linear(d_hidden, d_acts + 1) # +1 para el EOC
     
@@ -130,9 +131,11 @@ class Modelo_ind(nn.Module):
 
         act_emb = self.act_embedding(x[:, :, 0])       # (batch, seq, d_emb)
         rsrc_emb = self.rsrc_embedding(x[:, :, 1])     # (batch, seq, d_emb)
+        time_prev = x[:, :, 2].unsqueeze(-1)  # [batch, seq_len, 1]
+        time_case = x[:, :, 3].unsqueeze(-1)
 
-        emb_cat = torch.cat([act_emb, rsrc_emb], dim=-1)  # (batch, seq, 2*d_emb)
-        x_proj = self.concat_to_hidden(emb_cat)           # (batch, seq, d_hidden)
+        emb_cat = torch.cat([act_emb, rsrc_emb, time_prev, time_case], dim=-1)  # (batch, seq, input_dim)
+        x_proj = self.linear1(emb_cat)           # (batch, seq, d_hidden)
 
         out, _ = self.ssm(x_proj)
         salida = self.linear2(out)      
