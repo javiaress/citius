@@ -3,12 +3,15 @@ import numpy as np
 import os
 
 
-def category_to_label(attr: pd.Series):
-    uniq_attr = attr.unique()
-    attr_dict = {idx + 1: value for idx, value in enumerate(uniq_attr)}
-    reverse_dict = {value: key for key, value in attr_dict.items()}
-    attr_cat = pd.Series(map(lambda x: reverse_dict[x], attr.values))
-    return attr_cat, attr_dict, reverse_dict
+def build_global_dict(*series):
+    # Unir todos los valores únicos de todas las series
+    all_values = pd.concat(series).unique()
+    all_values_sorted = sorted(all_values)
+    label_dict = {val: idx + 1 for idx, val in enumerate(all_values_sorted)}  # empezar en 1
+    return label_dict
+
+def apply_label_mapping(attr: pd.Series, label_dict: dict):
+    return attr.map(label_dict).astype(int)
 
 def group_by_case(data, case_col):
     data_augment = pd.DataFrame()
@@ -93,22 +96,25 @@ def load_and_preprocess_data(base_folder, case_col, activity_col, resource_col, 
         val = pd.read_csv(val_file)
         test = pd.read_csv(test_file)
 
-        # Codificar actividades
-        train[activity_col], _, _ = category_to_label(train[activity_col])
-        val[activity_col], _, _ = category_to_label(val[activity_col])
-        test[activity_col], _, _ = category_to_label(test[activity_col])
+        # Codificar actividades y recursos con mapeo global
+        activity_dict = build_global_dict(train[activity_col], val[activity_col], test[activity_col])
+        resource_dict = build_global_dict(train[resource_col], val[resource_col], test[resource_col])
 
-        # Codificar recursos
-        train[resource_col], _, _ = category_to_label(train[resource_col])
-        val[resource_col], _, _ = category_to_label(val[resource_col])
-        test[resource_col], _, _ = category_to_label(test[resource_col])
+        train[activity_col] = apply_label_mapping(train[activity_col], activity_dict)
+        val[activity_col] = apply_label_mapping(val[activity_col], activity_dict)
+        test[activity_col] = apply_label_mapping(test[activity_col], activity_dict)
+
+        train[resource_col] = apply_label_mapping(train[resource_col], resource_dict)
+        val[resource_col] = apply_label_mapping(val[resource_col], resource_dict)
+        test[resource_col] = apply_label_mapping(test[resource_col], resource_dict)
 
         # Codificar casos
         train = group_by_case(train, case_col)
         val = group_by_case(val, case_col)
         test = group_by_case(test, case_col)
 
-        num_activities = train[activity_col].nunique()
+        num_activities = len(activity_dict)
+        num_resources = len(resource_dict)
 
         # Agregar evento fin de caso
         train = add_end_of_case(train, case_col, activity_col, num_activities)
@@ -134,6 +140,7 @@ def load_and_preprocess_data(base_folder, case_col, activity_col, resource_col, 
             'y_test': y_test,
             'tam_suf_test': tam_suf_test,
             'num_activities': num_activities,
+            'num_resources': num_resources,
             'max_len': max_len
         })
 

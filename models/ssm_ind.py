@@ -112,21 +112,29 @@ class SSM(nn.Module):
         return y, hidden_previos
 
 class Modelo_ind(nn.Module):
-    def __init__(self, d_model, d_embedding = 32, d_hidden = 32, device=None):
+    def __init__(self, d_acts, d_rsrc, d_embedding = 32, d_hidden = 32, device=None):
         super().__init__()
-        self.d_model = d_model
+        self.d_acts = d_acts
+        self.d_rsrc = d_rsrc
         self.d_embedding = d_embedding
         self.d_hidden = d_hidden
         self.device = device
-        self.embedding = nn.Embedding(d_model, d_embedding, padding_idx=0)
-        self.linear1 = nn.Linear(d_embedding, d_hidden)
+
+        self.rsrc_embedding = nn.Embedding(d_rsrc, d_embedding, padding_idx=0)
+        self.embedding = nn.Embedding(d_acts, d_embedding, padding_idx=0)
+        self.concat_to_hidden = nn.Linear(2 * d_embedding, d_hidden)
         self.ssm = SSM(d_inner= d_hidden, device = device)
-        self.linear2 = nn.Linear(d_hidden, d_model + 1)
+        self.linear2 = nn.Linear(d_hidden, d_acts + 1) # +1 para el EOC
     
     def forward(self, x):
-        
-        x_ssm = self.embedding(x) 
-        out, _ = self.ssm(x_ssm)
+
+        act_emb = self.act_embedding(x[:, :, 0])       # (batch, seq, d_emb)
+        rsrc_emb = self.rsrc_embedding(x[:, :, 1])     # (batch, seq, d_emb)
+
+        emb_cat = torch.cat([act_emb, rsrc_emb], dim=-1)  # (batch, seq, 2*d_emb)
+        x_proj = self.concat_to_hidden(emb_cat)           # (batch, seq, d_hidden)
+
+        out, _ = self.ssm(x_proj)
         salida = self.linear2(out)      
 
         return salida

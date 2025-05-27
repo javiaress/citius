@@ -48,7 +48,7 @@ if __name__ == "__main__":
         print(y_val[10])
         print("\n\n")
 
-        model = Modelo(d_model=fold['num_activities']+1, device=device).to(device)
+        model = Modelo(d_acts=fold['num_activities']+1, d_rsrc= fold['num_resources']+1, device=device).to(device) #+1 para el padding
 
         train_loader = DataLoader(TensorDataset(x_train, y_train), batch_size=16, shuffle=True)
         val_loader = DataLoader(TensorDataset(x_val, y_val), batch_size=16, shuffle=True)
@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
         fit(model, train_loader, val_loader, dataset_name, str(fold_idx), "modelossm", use_wandb=False)
 
-        model.load_state_dict(torch.load(f"./models/{dataset_name}/{fold_idx}/modelossm"))
+        model.load_state_dict(torch.load(f"./models/recursos/{dataset_name}/{fold_idx}/modelossm"))
         model.to(device)
 
         _, acc = test(model, test_loader, fold['num_activities'])
