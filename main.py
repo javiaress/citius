@@ -1,5 +1,5 @@
 from models.ssm_ind import Modelo_ind as Modelo
-from data.preprocess import load_and_preprocess_data
+from data.preprocess2 import load_and_preprocess_data
 from training.train import fit
 from training.evaluate import test
 import torch
@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
     dataset_name = "Helpdesk" 
     
-    folds_data = load_and_preprocess_data("./data", case_col="caseid", activity_col="task", dataset_name= dataset_name)
+    folds_data = load_and_preprocess_data("./data", case_col="caseid", activity_col="task", resource_col="user", time_col="end_timestamp", dataset_name= dataset_name)
 
     accs = []
 

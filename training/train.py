@@ -40,7 +40,7 @@ def val_test(model, val_loader, device, num_activities):
 
 def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wandb=False):
     device = next(model.parameters()).device
-    num_activities = model.d_model
+    num_activities = model.d_acts
 
     opt = torch.optim.Adam(model.parameters(), lr=0.002, betas=(0.9, 0.999), eps=1e-08)
     loss_fn = nn.CrossEntropyLoss(ignore_index=0).to(device)

@@ -121,7 +121,7 @@ class Modelo_ind(nn.Module):
         self.device = device
 
         self.rsrc_embedding = nn.Embedding(d_rsrc, d_embedding, padding_idx=0)
-        self.embedding = nn.Embedding(d_acts, d_embedding, padding_idx=0)
+        self.act_embedding = nn.Embedding(d_acts, d_embedding, padding_idx=0)
         self.concat_to_hidden = nn.Linear(2 * d_embedding, d_hidden)
         self.ssm = SSM(d_inner= d_hidden, device = device)
         self.linear2 = nn.Linear(d_hidden, d_acts + 1) # +1 para el EOC
