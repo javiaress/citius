@@ -101,7 +101,7 @@ def fit(model, train_loader, val_loader, filename, num_fold, model_name, use_wan
                 val_mae_best = avg_val_loss
                 epochs_no_improve = 0
 
-                model_dir = f'./models/recursos/{filename}/{num_fold}'
+                model_dir = f'./models/tiempos/{filename}/{num_fold}'
                 os.makedirs(model_dir, exist_ok=True)
                 torch.save(model.state_dict(), os.path.join(model_dir, model_name))
             else:

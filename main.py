@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
         fit(model, train_loader, val_loader, dataset_name, str(fold_idx), "modelossm", use_wandb=False)
 
-        model.load_state_dict(torch.load(f"./models/recursos/{dataset_name}/{fold_idx}/modelossm"))
+        model.load_state_dict(torch.load(f"./models/tiempos/{dataset_name}/{fold_idx}/modelossm"))
         model.to(device)
 
         _, acc = test(model, test_loader, fold['num_activities'])
