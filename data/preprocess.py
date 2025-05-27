@@ -2,13 +2,15 @@ import pandas as pd
 import numpy as np
 import os
 
+def build_global_activity_dict(*series):
+    # Unir todos los valores únicos de todas las series
+    all_values = pd.concat(series).unique()
+    all_values_sorted = sorted(all_values)
+    label_dict = {val: idx + 1 for idx, val in enumerate(all_values_sorted)}  # empezar en 1
+    return label_dict
 
-def category_to_label(attr: pd.Series):
-    uniq_attr = attr.unique()
-    attr_dict = {idx + 1: value for idx, value in enumerate(uniq_attr)}
-    reverse_dict = {value: key for key, value in attr_dict.items()}
-    attr_cat = pd.Series(map(lambda x: reverse_dict[x], attr.values))
-    return attr_cat, attr_dict, reverse_dict
+def apply_label_mapping(attr: pd.Series, label_dict: dict):
+    return attr.map(label_dict).astype(int)
 
 def group_by_case(data, case_col):
     data_augment = pd.DataFrame()
@@ -91,18 +93,20 @@ def load_and_preprocess_data(base_folder, case_col, activity_col, dataset_name):
         train = pd.read_csv(train_file)
         val = pd.read_csv(val_file)
         test = pd.read_csv(test_file)
+        
+        # Codificación global consistente
+        activity_mapping = build_global_activity_dict(train[activity_col], val[activity_col], test[activity_col])
 
-        # Codificar actividades
-        train[activity_col], _, _ = category_to_label(train[activity_col])
-        val[activity_col], _, _ = category_to_label(val[activity_col])
-        test[activity_col], _, _ = category_to_label(test[activity_col])
+        train[activity_col] = apply_label_mapping(train[activity_col], activity_mapping)
+        val[activity_col] = apply_label_mapping(val[activity_col], activity_mapping)
+        test[activity_col] = apply_label_mapping(test[activity_col], activity_mapping)
 
         # Codificar casos
         train = group_by_case(train, case_col)
         val = group_by_case(val, case_col)
         test = group_by_case(test, case_col)
 
-        num_activities = train[activity_col].nunique()
+        num_activities = len(activity_mapping)
 
         # Agregar evento fin de caso
         train = add_end_of_case(train, case_col, activity_col, num_activities)
@@ -132,3 +136,4 @@ def load_and_preprocess_data(base_folder, case_col, activity_col, dataset_name):
         })
 
     return folds_data
+

@@ -57,15 +57,14 @@ class SSM(nn.Module):
         out = []
         hidden_previos = []
         I = torch.eye(self.d_inner, self.d_state, device=self.device).unsqueeze(0).expand(batch, -1, -1)
-
+        
+        A = -torch.exp(self.A_log)
+        B = self.B.unsqueeze(0).expand(batch, -1, -1)  # (batch, d_inner, d_state)
+        C = self.C.unsqueeze(0).expand(batch, -1, -1)  # (batch, d_inner, d_state)
+        dt = self.dt.unsqueeze(0).expand(batch, -1)    # (batch, d_inner)
         for i in range(seq):
             
             #print(f"x: {x.shape}\n\n")
-            A = -torch.exp(self.A_log)
-            B = self.B.unsqueeze(0).expand(batch, -1, -1)  # (batch, d_inner, d_state)
-            C = self.C.unsqueeze(0).expand(batch, -1, -1)  # (batch, d_inner, d_state)
-            dt = self.dt.unsqueeze(0).expand(batch, -1)    # (batch, d_inner)
-
             #print(f"dt shape: {dt.shape}\n\n")
             #print(f"A shape: {A.shape}\n\n")
             #print(f"B shape: {B.shape}\n\n")
@@ -78,7 +77,7 @@ class SSM(nn.Module):
             dA = torch.matrix_exp(deltaA)
             #print(f"dA shape: {dA.shape}\n\n")
 
-            deltaB = torch.einsum("ji,js->jis", dt, B) # batch inner, batch state -> batch inner state
+            deltaB = torch.einsum("ji,jis->jis", dt, B) # batch inner, batch state -> batch inner state
             exp_minus_I = dA - I
             deltaA = deltaA + 1e-5 * torch.eye(deltaA.size(-1), device=deltaA.device)
             A_inv_term = torch.bmm(torch.linalg.pinv(deltaA), exp_minus_I)
@@ -98,7 +97,7 @@ class SSM(nn.Module):
             #print(f"hidden_state shape: {hidden_state.shape}\n\n")
             
             #C = C.unsqueeze(0)
-            y = torch.einsum("jis,js->ji", hidden_state, C)  + self.D * x[:,i]
+            y = torch.einsum("jis,jis->ji", hidden_state, C)  + self.D * x[:,i]
             #print(f"y shape: {y.shape}\n\n")
 
             hidden_previos.append(hidden_state)
