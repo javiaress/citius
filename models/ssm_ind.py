@@ -16,11 +16,6 @@ class SSM(nn.Module):
         d_inner,
         d_state=32,
         dt_rank="auto",
-        dt_init="random",
-        dt_scale=1.0,
-        dt_min=0.001,
-        dt_max=0.1,
-        dt_init_floor=1e-4,
         device=None
     ):
         super().__init__()
@@ -29,40 +24,14 @@ class SSM(nn.Module):
         self.d_state = d_state
         self.dt_rank = math.ceil(self.d_inner / 16) if dt_rank == "auto" else dt_rank
 
-        self.x_proj = nn.Linear(
-            self.d_inner, self.dt_rank + self.d_state * 2, bias = False
-        )
+        self.B = nn.Parameter(torch.randn(self.d_inner, self.d_state))
+        self.C = nn.Parameter(torch.randn(self.d_inner, self.d_state))
+        self.dt = nn.Parameter(torch.randn(self.d_inner))  # Puede ser pequeño
 
-        # Inicialización explícita de pesos
-        nn.init.xavier_uniform_(self.x_proj.weight)
-
-        self.dt_proj = nn.Linear(self.dt_rank, self.d_inner)
-        nn.init.xavier_uniform_(self.dt_proj.weight)
-        nn.init.zeros_(self.dt_proj.bias)
-
-        """ # Initialize special dt projection to preserve variance at initialization
-        dt_init_std = self.dt_rank**-0.5 * dt_scale
-        if dt_init == "constant":
-            nn.init.constant_(self.dt_proj.weight, dt_init_std)
-        elif dt_init == "random":
-            nn.init.uniform_(self.dt_proj.weight, -dt_init_std, dt_init_std)
-        else:
-            raise NotImplementedError
-
-        # Initialize dt bias so that F.softplus(dt_bias) is between dt_min and dt_max
-        dt = torch.exp(
-            torch.rand(self.d_inner) * (math.log(dt_max) - math.log(dt_min))
-            + math.log(dt_min)
-        ).clamp(min=dt_init_floor)
-
-        # Inverse of softplus: https://github.com/pytorch/pytorch/issues/72759
-        inv_dt = dt + torch.log(-torch.expm1(-dt))
-        with torch.no_grad():
-            self.dt_proj.bias.copy_(inv_dt)
-
-        # Our initialization would set all Linear.bias to zero, need to mark this one as _no_reinit
-        self.dt_proj.bias._no_reinit = True"""
-
+        # Inicialización opcional
+        nn.init.xavier_uniform_(self.B)
+        nn.init.xavier_uniform_(self.C)
+        nn.init.uniform_(self.dt, -0.1, 0.1)
 
         self.device = device
 
@@ -92,18 +61,15 @@ class SSM(nn.Module):
         for i in range(seq):
             
             #print(f"x: {x.shape}\n\n")
-            x_proj = self.x_proj(x[:,i,:])
-            B = x_proj[:,:self.d_state]
-            dt = x_proj[:,self.d_state:self.d_state + self.dt_rank]
-            C = x_proj[:,self.d_state + self.dt_rank:]
             A = -torch.exp(self.A_log)
+            B = self.B.unsqueeze(0).expand(batch, -1, -1)  # (batch, d_inner, d_state)
+            C = self.C.unsqueeze(0).expand(batch, -1, -1)  # (batch, d_inner, d_state)
+            dt = self.dt.unsqueeze(0).expand(batch, -1)    # (batch, d_inner)
 
             #print(f"dt shape: {dt.shape}\n\n")
             #print(f"A shape: {A.shape}\n\n")
             #print(f"B shape: {B.shape}\n\n")
             #print(f"C shape: {C.shape}\n\n")
-
-            dt = self.dt_proj(dt)
             #print(f"dt shape: {dt.shape}\n\n")
 
             dt = torch.clamp(dt, min=-0.1, max=0.1)
