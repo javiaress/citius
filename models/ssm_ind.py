@@ -30,12 +30,11 @@ class SSM(nn.Module):
         self.dt_rank = math.ceil(self.d_inner / 16) if dt_rank == "auto" else dt_rank
 
         self.x_proj = nn.Linear(
-            self.d_inner, self.dt_rank + self.d_state * 2
+            self.d_inner, self.dt_rank + self.d_state * 2, bias = False
         )
 
         # Inicialización explícita de pesos
         nn.init.xavier_uniform_(self.x_proj.weight)
-        nn.init.zeros_(self.x_proj.bias)
 
         self.dt_proj = nn.Linear(self.dt_rank, self.d_inner)
         nn.init.xavier_uniform_(self.dt_proj.weight)
