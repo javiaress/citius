@@ -33,11 +33,11 @@ if __name__ == "__main__":
 
     for fold_idx, fold in enumerate(folds_data):
         print(f"\n=== Fold {fold_idx} ===")
-        x_train = torch.tensor(fold['x_train'], dtype=torch.long).to(device)
+        x_train = torch.tensor(fold['x_train'], dtype=torch.float32).to(device)
         y_train = torch.tensor(fold['y_train'], dtype=torch.long).to(device)
-        x_val = torch.tensor(fold['x_val'], dtype=torch.long).to(device)
+        x_val = torch.tensor(fold['x_val'], dtype=torch.float32).to(device)
         y_val = torch.tensor(fold['y_val'], dtype=torch.long).to(device)
-        x_test = torch.tensor(fold['x_test'], dtype=torch.long).to(device)
+        x_test = torch.tensor(fold['x_test'], dtype=torch.float32).to(device)
         y_test = torch.tensor(fold['y_test'], dtype=torch.long).to(device)
         tam_suf = torch.tensor(fold['tam_suf_test'], dtype=torch.long).to(device)
         
@@ -46,6 +46,10 @@ if __name__ == "__main__":
         print("\n\n")
         print(y_val[10].shape)
         print(y_val[10])
+        print("\n\n")
+        print(x_val[11])
+        print("\n\n")
+        print(y_val[11])
         print("\n\n")
 
         model = Modelo(d_acts=fold['num_activities']+1, d_rsrc= fold['num_resources']+1, device=device).to(device) #+1 para el padding

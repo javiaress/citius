@@ -42,10 +42,9 @@ def compute_temporal_features(data, case_col, timestamp_col):
 
     for _, case in data.groupby(case_col, sort=False):
         case = case.sort_values(by=timestamp_col).reset_index(drop=True)
-        timesinceprev = case[timestamp_col].diff().dt.total_seconds()
+        timesinceprev = case[timestamp_col].diff().dt.total_seconds().copy()
         timesinceprev.iloc[0] = 0.0
         timesincecase = (case[timestamp_col] - case[timestamp_col].iloc[0]).dt.total_seconds()
-
         case['time_prev'] = timesinceprev
         case['time_case'] = timesincecase
         new_data.append(case)
@@ -167,7 +166,7 @@ def load_and_preprocess_data(base_folder, case_col, activity_col, resource_col, 
         x_train, y_train, _ = get_prefixes_ind(train, case_col, activity_col, resource_col, max_len)
         x_val, y_val, _ = get_prefixes_ind(val, case_col, activity_col, resource_col, max_len)
         x_test, y_test, tam_suf_test = get_prefixes_ind(test, case_col, activity_col, resource_col, max_len)
-
+        
         folds_data.append({
             'x_train': x_train,
             'y_train': y_train,

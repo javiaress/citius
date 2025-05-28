@@ -129,8 +129,8 @@ class Modelo_ind(nn.Module):
     
     def forward(self, x):
 
-        act_emb = self.act_embedding(x[:, :, 0])       # (batch, seq, d_emb)
-        rsrc_emb = self.rsrc_embedding(x[:, :, 1])     # (batch, seq, d_emb)
+        act_emb = self.act_embedding(x[:, :, 0].long())       # (batch, seq, d_emb)
+        rsrc_emb = self.rsrc_embedding(x[:, :, 1].long())     # (batch, seq, d_emb)
         time_prev = x[:, :, 2].unsqueeze(-1)  # [batch, seq_len, 1]
         time_case = x[:, :, 3].unsqueeze(-1)
 
