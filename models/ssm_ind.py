@@ -24,14 +24,17 @@ class SSM(nn.Module):
         self.d_state = d_state
         self.dt_rank = math.ceil(self.d_inner / 16) if dt_rank == "auto" else dt_rank
 
-        self.B = nn.Parameter(torch.randn(self.d_inner, self.d_state))
-        self.C = nn.Parameter(torch.randn(self.d_inner, self.d_state))
-        self.dt = nn.Parameter(torch.randn(self.d_inner))  # Puede ser pequeño
+        self.x_proj = nn.Linear(
+            self.d_inner, self.dt_rank + self.d_state * 2, bias = False
+        )
+        
+        # Inicialización explícita de pesos
+        nn.init.xavier_uniform_(self.x_proj.weight)
 
-        # Inicialización opcional
-        nn.init.xavier_uniform_(self.B)
-        nn.init.xavier_uniform_(self.C)
-        nn.init.uniform_(self.dt, -0.1, 0.1)
+        self.dt_proj = nn.Linear(self.dt_rank, self.d_inner)
+        nn.init.xavier_uniform_(self.dt_proj.weight)
+        nn.init.zeros_(self.dt_proj.bias)
+
 
         self.device = device
 
@@ -58,17 +61,21 @@ class SSM(nn.Module):
         hidden_previos = []
         I = torch.eye(self.d_inner, self.d_state, device=self.device).unsqueeze(0).expand(batch, -1, -1)
         
-        A = -torch.exp(self.A_log)
-        B = self.B.unsqueeze(0).expand(batch, -1, -1)  # (batch, d_inner, d_state)
-        C = self.C.unsqueeze(0).expand(batch, -1, -1)  # (batch, d_inner, d_state)
-        dt = self.dt.unsqueeze(0).expand(batch, -1)    # (batch, d_inner)
         for i in range(seq):
             
             #print(f"x: {x.shape}\n\n")
+            x_proj = self.x_proj(x[:,i,:])
+            B = x_proj[:,:self.d_state]
+            dt = x_proj[:,self.d_state:self.d_state + self.dt_rank]
+            C = x_proj[:,self.d_state + self.dt_rank:]
+            A = -torch.exp(self.A_log)
+
             #print(f"dt shape: {dt.shape}\n\n")
             #print(f"A shape: {A.shape}\n\n")
             #print(f"B shape: {B.shape}\n\n")
             #print(f"C shape: {C.shape}\n\n")
+
+            dt = self.dt_proj(dt)
             #print(f"dt shape: {dt.shape}\n\n")
 
             dt = torch.clamp(dt, min=-0.1, max=0.1)
@@ -77,7 +84,7 @@ class SSM(nn.Module):
             dA = torch.matrix_exp(deltaA)
             #print(f"dA shape: {dA.shape}\n\n")
 
-            deltaB = torch.einsum("ji,jis->jis", dt, B) # batch inner, batch state -> batch inner state
+            deltaB = torch.einsum("ji,js->jis", dt, B) # batch inner, batch state -> batch inner state
             exp_minus_I = dA - I
             deltaA = deltaA + 1e-5 * torch.eye(deltaA.size(-1), device=deltaA.device)
             A_inv_term = torch.bmm(torch.linalg.pinv(deltaA), exp_minus_I)
@@ -97,7 +104,7 @@ class SSM(nn.Module):
             #print(f"hidden_state shape: {hidden_state.shape}\n\n")
             
             #C = C.unsqueeze(0)
-            y = torch.einsum("jis,jis->ji", hidden_state, C)  + self.D * x[:,i]
+            y = torch.einsum("jis,js->ji", hidden_state, C)  + self.D * x[:,i]
             #print(f"y shape: {y.shape}\n\n")
 
             hidden_previos.append(hidden_state)
