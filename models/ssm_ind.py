@@ -147,7 +147,6 @@ class Modelo_ind(nn.Module):
 
         mask = (x[:, :, 0] == 0)  # assuming act = 0 is padding
         attn_out, _ = self.attention(x_proj, x_proj, x_proj, key_padding_mask=mask)
-        attn_out, _ = self.attention(x_proj, x_proj, x_proj)
         out, _ = self.ssm(attn_out)
         salida = self.linear2(out)      
 
