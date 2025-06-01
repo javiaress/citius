@@ -131,6 +131,7 @@ class Modelo_ind(nn.Module):
         self.act_embedding = nn.Embedding(d_acts, d_embedding, padding_idx=0)
         self.input_dim = d_embedding * 2 + 2
         self.linear1 = nn.Linear(self.input_dim, d_hidden)
+        self.attention = nn.MultiheadAttention(embed_dim=d_hidden, num_heads=4, batch_first=True)
         self.ssm = SSM(d_inner= d_hidden, device = device)
         self.linear2 = nn.Linear(d_hidden, d_acts + 1) # +1 para el EOC
     
@@ -144,7 +145,10 @@ class Modelo_ind(nn.Module):
         emb_cat = torch.cat([act_emb, rsrc_emb, time_prev, time_case], dim=-1)  # (batch, seq, input_dim)
         x_proj = self.linear1(emb_cat)           # (batch, seq, d_hidden)
 
-        out, _ = self.ssm(x_proj)
+        mask = (x[:, :, 0] == 0)  # assuming act = 0 is padding
+        attn_out, _ = self.attention(x_proj, x_proj, x_proj, key_padding_mask=mask)
+        attn_out, _ = self.attention(x_proj, x_proj, x_proj)
+        out, _ = self.ssm(attn_out)
         salida = self.linear2(out)      
 
         return salida
