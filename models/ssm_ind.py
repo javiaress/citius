@@ -146,10 +146,13 @@ class Modelo_ind(nn.Module):
         time_prev = x[:, :, 2].unsqueeze(-1)  # [batch, seq_len, 1]
         time_case = x[:, :, 3].unsqueeze(-1)
 
+        # Máscara de padding: True donde hay padding
+        pad_mask = (x[:, :, 0] == 0)  # (B, L)
+
         emb_cat = torch.cat([act_emb, rsrc_emb, time_prev, time_case], dim=-1)  # (batch, seq, input_dim)
         x_proj = self.linear_proj(emb_cat)           # (batch, seq, d_hidden)
 
-        x_attn, _ = self.attention_in(x_proj, x_proj, x_proj)
+        x_attn, _ = self.attention_in(x_proj, x_proj, x_proj, key_padding_mask=pad_mask)
 
         ssm_out, _ = self.ssm(x_attn)
 
