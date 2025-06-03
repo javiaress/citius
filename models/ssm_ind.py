@@ -156,7 +156,7 @@ class Modelo_ind(nn.Module):
 
         ssm_out, _ = self.ssm(x_attn)
 
-        attn_out, _ = self.attn_out(ssm_out, ssm_out, ssm_out)
+        attn_out, _ = self.attention_out(ssm_out, ssm_out, ssm_out)
 
         out = self.dropout(attn_out)
 
