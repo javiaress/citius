@@ -132,6 +132,8 @@ class Modelo_ind(nn.Module):
         self.input_dim = d_embedding * 2 + 2
         self.linear_proj = nn.Linear(self.input_dim, d_hidden)
 
+        self.norm1 = nn.LayerNorm(d_hidden)
+
         self.attention_in = nn.MultiheadAttention(embed_dim=d_hidden, num_heads=4, batch_first=True)
         self.ssm = SSM(d_inner= d_hidden, device = device)
         self.attention_out = nn.MultiheadAttention(embed_dim=d_hidden, num_heads=4, batch_first=True)
@@ -151,7 +153,9 @@ class Modelo_ind(nn.Module):
 
         emb_cat = torch.cat([act_emb, rsrc_emb, time_prev, time_case], dim=-1)  # (batch, seq, input_dim)
         x_proj = self.linear_proj(emb_cat)           # (batch, seq, d_hidden)
-
+        
+        x_proj = self.norm1(x_proj)
+        
         x_attn, _ = self.attention_in(x_proj, x_proj, x_proj, key_padding_mask=pad_mask)
 
         ssm_out, _ = self.ssm(x_attn)
