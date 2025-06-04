@@ -1,0 +1,915 @@
+
+=== Fold 0 ===
+torch.Size([26, 4])
+tensor([[0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [1.0000e+00, 9.0000e+00, 0.0000e+00, 0.0000e+00],
+        [2.0000e+00, 9.0000e+00, 5.8422e-04, 1.8827e-04],
+        [6.0000e+00, 9.0000e+00, 8.6223e-04, 4.6613e-04],
+        [4.0000e+00, 9.0000e+00, 3.5553e-04, 5.8071e-04],
+        [5.0000e+00, 9.0000e+00, 3.7901e-04, 7.0285e-04]], device='cuda:0')
+
+
+
+torch.Size([])
+tensor(17, device='cuda:0')
+
+
+
+tensor([[0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [1.0000e+00, 9.0000e+00, 0.0000e+00, 0.0000e+00],
+        [2.0000e+00, 9.0000e+00, 5.8422e-04, 1.8827e-04],
+        [6.0000e+00, 9.0000e+00, 8.6223e-04, 4.6613e-04],
+        [4.0000e+00, 9.0000e+00, 3.5553e-04, 5.8071e-04],
+        [5.0000e+00, 9.0000e+00, 3.7901e-04, 7.0285e-04],
+        [1.7000e+01, 9.0000e+00, 5.7533e-04, 8.8825e-04]], device='cuda:0')
+
+
+
+tensor(28, device='cuda:0')
+
+
+
+Epoch 0: | Train Loss: 278237.267296 | Val Loss: 2.063469 | Train Acc: 10.079 | Val Acc: 15.147
+Epoch 1: | Train Loss: 1924.242191 | Val Loss: 2.909142 | Train Acc: 25.867 | Val Acc: 31.632
+Epoch 2: | Train Loss: 8154.547635 | Val Loss: 1.028258 | Train Acc: 46.821 | Val Acc: 73.088
+Epoch 3: | Train Loss: 51.274972 | Val Loss: 0.793024 | Train Acc: 63.512 | Val Acc: 83.515
+Epoch 4: | Train Loss: 14292.849551 | Val Loss: 0.820845 | Train Acc: 58.941 | Val Acc: 83.500
+Epoch 5: | Train Loss: 6.749907 | Val Loss: 0.707709 | Train Acc: 73.970 | Val Acc: 84.838
+Epoch 6: | Train Loss: 15730.800408 | Val Loss: 2.366532 | Train Acc: 62.211 | Val Acc: 53.412
+Epoch 7: | Train Loss: 174917.914260 | Val Loss: 1.387708 | Train Acc: 57.045 | Val Acc: 69.897
+Epoch 8: | Train Loss: 1.968489 | Val Loss: 1.812179 | Train Acc: 61.759 | Val Acc: 70.338
+Epoch 9: | Train Loss: 69837.793042 | Val Loss: 0.910414 | Train Acc: 58.960 | Val Acc: 81.500
+Epoch 10: | Train Loss: 5934.501570 | Val Loss: 0.840431 | Train Acc: 66.095 | Val Acc: 83.515
+Epoch 11: | Train Loss: 95.015559 | Val Loss: 0.984729 | Train Acc: 66.077 | Val Acc: 76.103
+Epoch 12: | Train Loss: 1.177282 | Val Loss: 0.808475 | Train Acc: 70.556 | Val Acc: 84.765
+Epoch 13: | Train Loss: 1.115788 | Val Loss: 0.743200 | Train Acc: 73.501 | Val Acc: 85.588
+Epoch 14: | Train Loss: 1.063528 | Val Loss: 0.707739 | Train Acc: 75.596 | Val Acc: 84.412
+Epoch 15: | Train Loss: 1.432036 | Val Loss: 2.334409 | Train Acc: 70.141 | Val Acc: 52.074
+Epoch 16: | Train Loss: 1065.609930 | Val Loss: 1.146949 | Train Acc: 36.994 | Val Acc: 71.029
+Epoch 17: | Train Loss: 5725.232861 | Val Loss: 0.805487 | Train Acc: 56.087 | Val Acc: 84.235
+Epoch 18: | Train Loss: 1.064023 | Val Loss: 1.034950 | Train Acc: 74.259 | Val Acc: 76.324
+Epoch 19: | Train Loss: 45225.527585 | Val Loss: 97.590813 | Train Acc: 64.252 | Val Acc: 81.603
+Epoch 20: | Train Loss: 14.689259 | Val Loss: 0.772577 | Train Acc: 72.128 | Val Acc: 85.118
+Epoch 21: | Train Loss: 1.117355 | Val Loss: 0.684962 | Train Acc: 76.734 | Val Acc: 86.103
+Epoch 22: | Train Loss: 6.616957 | Val Loss: 0.695354 | Train Acc: 75.434 | Val Acc: 86.456
+Epoch 23: | Train Loss: 1.821246 | Val Loss: 0.700554 | Train Acc: 75.795 | Val Acc: 86.176
+Epoch 24: | Train Loss: 272.180853 | Val Loss: 0.658682 | Train Acc: 74.205 | Val Acc: 86.397
+Epoch 25: | Train Loss: 1.136898 | Val Loss: 0.663967 | Train Acc: 76.861 | Val Acc: 84.544
+Epoch 26: | Train Loss: 0.996308 | Val Loss: 1053.068176 | Train Acc: 76.879 | Val Acc: 67.191
+Epoch 27: | Train Loss: 104.651434 | Val Loss: 0.557555 | Train Acc: 77.095 | Val Acc: 86.750
+Epoch 28: | Train Loss: 2.737556 | Val Loss: 0.546369 | Train Acc: 79.173 | Val Acc: 87.721
+Epoch 29: | Train Loss: 0.897214 | Val Loss: 0.701290 | Train Acc: 79.606 | Val Acc: 83.559
+Epoch 30: | Train Loss: 0.834996 | Val Loss: 0.575200 | Train Acc: 79.137 | Val Acc: 87.279
+Epoch 31: | Train Loss: 0.803413 | Val Loss: 0.581032 | Train Acc: 79.299 | Val Acc: 87.426
+Epoch 32: | Train Loss: 1550.558275 | Val Loss: 0.570823 | Train Acc: 77.944 | Val Acc: 87.853
+Epoch 33: | Train Loss: 23.432059 | Val Loss: 1.276561 | Train Acc: 78.938 | Val Acc: 80.809
+Epoch 34: | Train Loss: 32584.321849 | Val Loss: 0.518675 | Train Acc: 72.706 | Val Acc: 88.971
+Epoch 35: | Train Loss: 332.150819 | Val Loss: 1.061270 | Train Acc: 75.723 | Val Acc: 83.662
+Epoch 36: | Train Loss: 523.014719 | Val Loss: 0.688503 | Train Acc: 70.845 | Val Acc: 84.235
+Epoch 37: | Train Loss: 40.856605 | Val Loss: 0.521138 | Train Acc: 78.486 | Val Acc: 87.926
+Epoch 38: | Train Loss: 190.947442 | Val Loss: 0.578058 | Train Acc: 80.058 | Val Acc: 86.088
+Epoch 39: | Train Loss: 20.976717 | Val Loss: 0.493959 | Train Acc: 81.322 | Val Acc: 87.103
+Epoch 40: | Train Loss: 2.316595 | Val Loss: 7.956361 | Train Acc: 80.220 | Val Acc: 82.059
+Epoch 41: | Train Loss: 0.672748 | Val Loss: 0.481315 | Train Acc: 82.858 | Val Acc: 88.618
+Epoch 42: | Train Loss: 0.804681 | Val Loss: 0.580684 | Train Acc: 82.027 | Val Acc: 86.971
+Epoch 43: | Train Loss: 1.424936 | Val Loss: 0.532583 | Train Acc: 81.033 | Val Acc: 87.912
+Epoch 44: | Train Loss: 3903.717063 | Val Loss: 2.195735 | Train Acc: 82.533 | Val Acc: 85.853
+Epoch 45: | Train Loss: 25140.224388 | Val Loss: 0.566791 | Train Acc: 78.360 | Val Acc: 85.515
+Epoch 46: | Train Loss: 2697.439946 | Val Loss: 8.175709 | Train Acc: 78.649 | Val Acc: 59.897
+Epoch 47: | Train Loss: 1665.138266 | Val Loss: 0.579507 | Train Acc: 76.788 | Val Acc: 85.706
+Epoch 48: | Train Loss: 0.751674 | Val Loss: 0.565084 | Train Acc: 81.593 | Val Acc: 85.500
+Epoch 49: | Train Loss: 1.005657 | Val Loss: 0.614767 | Train Acc: 80.708 | Val Acc: 88.368
+Epoch 50: | Train Loss: 398.015292 | Val Loss: 0.485091 | Train Acc: 80.401 | Val Acc: 88.294
+Epoch 51: | Train Loss: 1.219734 | Val Loss: 1.309373 | Train Acc: 80.889 | Val Acc: 87.059
+Epoch 52: | Train Loss: 51.757324 | Val Loss: 0.513449 | Train Acc: 80.004 | Val Acc: 88.824
+Epoch 53: | Train Loss: 0.947207 | Val Loss: 0.531565 | Train Acc: 81.629 | Val Acc: 86.250
+Epoch 54: | Train Loss: 306.701817 | Val Loss: 0.603712 | Train Acc: 78.396 | Val Acc: 87.132
+Epoch 55: | Train Loss: 56.319964 | Val Loss: 0.478168 | Train Acc: 81.431 | Val Acc: 89.485
+Epoch 56: | Train Loss: 2.298817 | Val Loss: 0.472192 | Train Acc: 83.400 | Val Acc: 89.706
+Epoch 57: | Train Loss: 0.596191 | Val Loss: 0.461374 | Train Acc: 84.863 | Val Acc: 90.000
+Epoch 58: | Train Loss: 0.572631 | Val Loss: 0.428939 | Train Acc: 85.152 | Val Acc: 90.941
+Epoch 59: | Train Loss: 2.154118 | Val Loss: 0.542852 | Train Acc: 83.237 | Val Acc: 88.074
+Epoch 60: | Train Loss: 490.129657 | Val Loss: 0.459873 | Train Acc: 79.859 | Val Acc: 87.882
+Epoch 61: | Train Loss: 32.853737 | Val Loss: 0.425835 | Train Acc: 82.262 | Val Acc: 90.000
+Epoch 62: | Train Loss: 0.737282 | Val Loss: 0.459818 | Train Acc: 84.321 | Val Acc: 88.824
+Epoch 63: | Train Loss: 424.392888 | Val Loss: 0.447620 | Train Acc: 84.267 | Val Acc: 89.838
+Epoch 64: | Train Loss: 0.547934 | Val Loss: 0.410338 | Train Acc: 85.079 | Val Acc: 89.779
+Epoch 65: | Train Loss: 42.813774 | Val Loss: 0.430594 | Train Acc: 82.731 | Val Acc: 88.750
+Epoch 66: | Train Loss: 1.247490 | Val Loss: 0.423779 | Train Acc: 84.032 | Val Acc: 90.735
+Epoch 67: | Train Loss: 184.604079 | Val Loss: 0.420717 | Train Acc: 84.321 | Val Acc: 90.809
+Epoch 68: | Train Loss: 76.090874 | Val Loss: 0.432954 | Train Acc: 83.418 | Val Acc: 90.632
+Epoch 69: | Train Loss: 0.587136 | Val Loss: 0.388596 | Train Acc: 84.718 | Val Acc: 91.397
+Epoch 70: | Train Loss: 0.548905 | Val Loss: 0.381428 | Train Acc: 84.863 | Val Acc: 91.103
+Epoch 71: | Train Loss: 0.590513 | Val Loss: 93.655487 | Train Acc: 84.899 | Val Acc: 80.588
+Epoch 72: | Train Loss: 2735.811340 | Val Loss: 0.480916 | Train Acc: 82.424 | Val Acc: 88.309
+Epoch 73: | Train Loss: 499.424405 | Val Loss: 488.740834 | Train Acc: 82.460 | Val Acc: 86.397
+Epoch 74: | Train Loss: 5.951807 | Val Loss: 0.397486 | Train Acc: 82.749 | Val Acc: 89.926
+Epoch 75: | Train Loss: 65.721585 | Val Loss: 0.597965 | Train Acc: 84.754 | Val Acc: 86.029
+Epoch 76: | Train Loss: 1251.726277 | Val Loss: 1.785699 | Train Acc: 76.951 | Val Acc: 83.456
+Epoch 77: | Train Loss: 15.287116 | Val Loss: 0.434577 | Train Acc: 82.280 | Val Acc: 89.338
+Epoch 78: | Train Loss: 0.603381 | Val Loss: 0.492103 | Train Acc: 84.285 | Val Acc: 88.515
+Epoch 79: | Train Loss: 2007.395707 | Val Loss: 2.254920 | Train Acc: 83.165 | Val Acc: 88.824
+Epoch 80: | Train Loss: 48.565910 | Val Loss: 0.445666 | Train Acc: 81.720 | Val Acc: 90.074
+Epoch 81: | Train Loss: 23.465243 | Val Loss: 0.530661 | Train Acc: 80.257 | Val Acc: 88.515
+Epoch 82: | Train Loss: 1.921280 | Val Loss: 1.007270 | Train Acc: 81.882 | Val Acc: 75.662
+Epoch 83: | Train Loss: 0.936858 | Val Loss: 0.452488 | Train Acc: 82.623 | Val Acc: 89.926
+Epoch 84: | Train Loss: 634.964805 | Val Loss: 0.426991 | Train Acc: 82.135 | Val Acc: 89.853
+Epoch 85: | Train Loss: 3.844905 | Val Loss: 0.516139 | Train Acc: 81.124 | Val Acc: 88.971
+Epoch 86: | Train Loss: 7.498986 | Val Loss: 0.513149 | Train Acc: 81.268 | Val Acc: 88.632
+Epoch 87: | Train Loss: 13498.131184 | Val Loss: 1.477537 | Train Acc: 79.444 | Val Acc: 78.809
+Epoch 88: | Train Loss: 1652.893759 | Val Loss: 0.473811 | Train Acc: 78.251 | Val Acc: 87.794
+Epoch 89: | Train Loss: 0.727057 | Val Loss: 0.479876 | Train Acc: 83.363 | Val Acc: 89.838
+Epoch 90: | Train Loss: 1.456807 | Val Loss: 0.553150 | Train Acc: 82.009 | Val Acc: 84.779
+Epoch 91: | Train Loss: 332.653594 | Val Loss: 2.414218 | Train Acc: 81.900 | Val Acc: 81.029
+Epoch 92: | Train Loss: 194.287557 | Val Loss: 0.531531 | Train Acc: 82.298 | Val Acc: 85.529
+Epoch 93: | Train Loss: 1.566860 | Val Loss: 0.457370 | Train Acc: 83.291 | Val Acc: 89.985
+Epoch 94: | Train Loss: 0.562675 | Val Loss: 0.501930 | Train Acc: 84.682 | Val Acc: 88.971
+Epoch 95: | Train Loss: 0.698252 | Val Loss: 0.435328 | Train Acc: 84.917 | Val Acc: 90.118
+Epoch 96: | Train Loss: 0.559884 | Val Loss: 0.445995 | Train Acc: 85.134 | Val Acc: 90.662
+Epoch 97: | Train Loss: 0.783089 | Val Loss: 0.413880 | Train Acc: 84.809 | Val Acc: 90.588
+Epoch 98: | Train Loss: 614.461884 | Val Loss: 628.686083 | Train Acc: 82.406 | Val Acc: 74.191
+Epoch 99: | Train Loss: 40.688026 | Val Loss: 0.439852 | Train Acc: 84.140 | Val Acc: 90.059
+
+
+ real:
+tensor([ 6,  2,  5, 17, 26, 28, 17, 15,  2,  2,  4,  4, 17, 17,  6, 21],
+       device='cuda:0')
+
+
+ pred:
+tensor([ 6,  2,  5, 17,  2, 28, 17,  6,  2, 17,  4,  4, 17, 17,  2, 21],
+       device='cuda:0')
+
+
+
+
+
+ real:
+tensor([ 2,  2, 27, 28,  6,  2,  5, 28,  4, 28,  2,  6, 17,  2, 28,  7],
+       device='cuda:0')
+
+
+ pred:
+tensor([ 2,  2, 27, 28,  6,  2,  5, 28,  4, 28,  2,  4, 17,  2, 28, 17],
+       device='cuda:0')
+
+
+
+Fold 0 Levenshtein Accuracy: 0.8627
+
+=== Fold 1 ===
+torch.Size([26, 4])
+tensor([[0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [1.0000e+00, 2.7000e+01, 0.0000e+00, 0.0000e+00],
+        [2.0000e+00, 1.0000e+00, 3.6182e+00, 1.1996e+00],
+        [4.0000e+00, 1.0000e+00, 7.6115e-04, 1.1999e+00],
+        [5.0000e+00, 1.0000e+00, 3.4417e-04, 1.2000e+00],
+        [6.0000e+00, 1.0000e+00, 2.8295e-04, 1.2001e+00]], device='cuda:0')
+
+
+
+torch.Size([])
+tensor(17, device='cuda:0')
+
+
+
+tensor([[0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [1.0000e+00, 2.7000e+01, 0.0000e+00, 0.0000e+00],
+        [2.0000e+00, 1.0000e+00, 3.6182e+00, 1.1996e+00],
+        [4.0000e+00, 1.0000e+00, 7.6115e-04, 1.1999e+00],
+        [5.0000e+00, 1.0000e+00, 3.4417e-04, 1.2000e+00],
+        [6.0000e+00, 1.0000e+00, 2.8295e-04, 1.2001e+00],
+        [1.7000e+01, 1.0000e+00, 2.5040e-04, 1.2001e+00]], device='cuda:0')
+
+
+
+tensor(28, device='cuda:0')
+
+
+
+Epoch 0: | Train Loss: 264405.785386 | Val Loss: 754365.660093 | Train Acc: 13.322 | Val Acc: 12.069
+Epoch 1: | Train Loss: 816461.649519 | Val Loss: 1.904117 | Train Acc: 21.327 | Val Acc: 36.782
+Epoch 2: | Train Loss: 270.034917 | Val Loss: 1.387065 | Train Acc: 35.654 | Val Acc: 54.741
+Epoch 3: | Train Loss: 3.269951 | Val Loss: 1.254512 | Train Acc: 52.248 | Val Acc: 71.408
+Epoch 4: | Train Loss: 1033.321196 | Val Loss: 0.879135 | Train Acc: 73.300 | Val Acc: 82.399
+Epoch 5: | Train Loss: 1.494680 | Val Loss: 0.950131 | Train Acc: 77.741 | Val Acc: 70.977
+Epoch 6: | Train Loss: 0.875796 | Val Loss: 0.799772 | Train Acc: 79.952 | Val Acc: 85.201
+Epoch 7: | Train Loss: 8989.993818 | Val Loss: 0.738052 | Train Acc: 74.525 | Val Acc: 84.986
+Epoch 8: | Train Loss: 7011.590202 | Val Loss: 212.366347 | Train Acc: 75.420 | Val Acc: 81.897
+Epoch 9: | Train Loss: 959.729506 | Val Loss: 1.704950 | Train Acc: 78.600 | Val Acc: 77.011
+Epoch 10: | Train Loss: 4.004436 | Val Loss: 3.797565 | Train Acc: 77.632 | Val Acc: 83.118
+Epoch 11: | Train Loss: 239.971870 | Val Loss: 0.764216 | Train Acc: 75.640 | Val Acc: 85.345
+Epoch 12: | Train Loss: 0.818818 | Val Loss: 0.683692 | Train Acc: 80.757 | Val Acc: 85.704
+Epoch 13: | Train Loss: 0.765464 | Val Loss: 0.633086 | Train Acc: 81.981 | Val Acc: 84.555
+Epoch 14: | Train Loss: 0.675510 | Val Loss: 0.586748 | Train Acc: 83.279 | Val Acc: 86.853
+Epoch 15: | Train Loss: 0.656685 | Val Loss: 0.577708 | Train Acc: 83.279 | Val Acc: 86.422
+Epoch 16: | Train Loss: 0.709189 | Val Loss: 0.537409 | Train Acc: 83.279 | Val Acc: 87.428
+Epoch 17: | Train Loss: 0.674442 | Val Loss: 0.559605 | Train Acc: 83.205 | Val Acc: 86.566
+Epoch 18: | Train Loss: 0.723468 | Val Loss: 0.625019 | Train Acc: 83.132 | Val Acc: 86.782
+Epoch 19: | Train Loss: 0.702762 | Val Loss: 0.541317 | Train Acc: 82.785 | Val Acc: 87.213
+Epoch 20: | Train Loss: 0.755869 | Val Loss: 0.553891 | Train Acc: 83.333 | Val Acc: 86.566
+Epoch 21: | Train Loss: 0.942653 | Val Loss: 0.585522 | Train Acc: 82.712 | Val Acc: 86.279
+Epoch 22: | Train Loss: 0.874534 | Val Loss: 0.625276 | Train Acc: 83.480 | Val Acc: 86.782
+Epoch 23: | Train Loss: 0.844015 | Val Loss: 0.533460 | Train Acc: 83.041 | Val Acc: 82.184
+Epoch 24: | Train Loss: 1969.564582 | Val Loss: 0.685459 | Train Acc: 83.498 | Val Acc: 86.351
+Epoch 25: | Train Loss: 98.827161 | Val Loss: 0.495519 | Train Acc: 83.991 | Val Acc: 88.290
+Epoch 26: | Train Loss: 0.723394 | Val Loss: 0.492033 | Train Acc: 84.503 | Val Acc: 86.853
+Epoch 27: | Train Loss: 0.558488 | Val Loss: 0.454933 | Train Acc: 85.179 | Val Acc: 89.296
+Epoch 28: | Train Loss: 0.657285 | Val Loss: 0.521665 | Train Acc: 85.216 | Val Acc: 85.273
+Epoch 29: | Train Loss: 0.550596 | Val Loss: 0.513360 | Train Acc: 85.490 | Val Acc: 87.787
+Epoch 30: | Train Loss: 0.537451 | Val Loss: 0.526563 | Train Acc: 85.069 | Val Acc: 88.721
+Epoch 31: | Train Loss: 0.579990 | Val Loss: 0.462829 | Train Acc: 85.325 | Val Acc: 88.506
+Epoch 32: | Train Loss: 0.621320 | Val Loss: 0.542186 | Train Acc: 85.088 | Val Acc: 86.566
+Epoch 33: | Train Loss: 12672.904821 | Val Loss: 0.558848 | Train Acc: 82.328 | Val Acc: 83.836
+Epoch 34: | Train Loss: 31.627121 | Val Loss: 0.480706 | Train Acc: 82.438 | Val Acc: 86.494
+Epoch 35: | Train Loss: 7.431930 | Val Loss: 0.480387 | Train Acc: 83.936 | Val Acc: 87.284
+Epoch 36: | Train Loss: 908.299327 | Val Loss: 0.619834 | Train Acc: 81.561 | Val Acc: 83.836
+Epoch 37: | Train Loss: 123275.353151 | Val Loss: 0.609800 | Train Acc: 72.478 | Val Acc: 86.207
+Epoch 38: | Train Loss: 1.571649 | Val Loss: 0.489462 | Train Acc: 82.566 | Val Acc: 88.721
+Epoch 39: | Train Loss: 247.820538 | Val Loss: 0.571884 | Train Acc: 82.145 | Val Acc: 86.494
+Epoch 40: | Train Loss: 1.492806 | Val Loss: 0.525105 | Train Acc: 83.516 | Val Acc: 87.859
+Epoch 41: | Train Loss: 433.576930 | Val Loss: 0.521473 | Train Acc: 82.054 | Val Acc: 88.362
+Epoch 42: | Train Loss: 352276.649758 | Val Loss: 154.505384 | Train Acc: 77.814 | Val Acc: 77.945
+Epoch 43: | Train Loss: 12747.412575 | Val Loss: 0.532674 | Train Acc: 78.692 | Val Acc: 87.069
+Epoch 44: | Train Loss: 387.361516 | Val Loss: 0.571818 | Train Acc: 81.871 | Val Acc: 87.069
+Epoch 45: | Train Loss: 14409.672738 | Val Loss: 0.703082 | Train Acc: 78.363 | Val Acc: 83.333
+Epoch 46: | Train Loss: 37424.984348 | Val Loss: 5053.268311 | Train Acc: 60.599 | Val Acc: 73.635
+Epoch 47: | Train Loss: 34950.171894 | Val Loss: 506.231496 | Train Acc: 68.037 | Val Acc: 60.632
+Epoch 48: | Train Loss: 3328.694739 | Val Loss: 1812.752287 | Train Acc: 68.988 | Val Acc: 65.158
+Epoch 49: | Train Loss: 10518.703141 | Val Loss: 1596.468622 | Train Acc: 69.974 | Val Acc: 73.132
+Epoch 50: | Train Loss: 8901.493725 | Val Loss: 516.328731 | Train Acc: 66.612 | Val Acc: 52.514
+Epoch 51: | Train Loss: 198.763931 | Val Loss: 16.764643 | Train Acc: 78.692 | Val Acc: 78.592
+Epoch 52: | Train Loss: 4365.264590 | Val Loss: 2.172140 | Train Acc: 77.906 | Val Acc: 81.034
+Epoch 53: | Train Loss: 10518.657457 | Val Loss: 177.235330 | Train Acc: 70.852 | Val Acc: 70.761
+Epoch 54: | Train Loss: 4265.776267 | Val Loss: 28.501496 | Train Acc: 77.047 | Val Acc: 81.034
+Epoch 55: | Train Loss: 1233.677629 | Val Loss: 6.595570 | Train Acc: 78.107 | Val Acc: 79.813
+Epoch 56: | Train Loss: 1101.514899 | Val Loss: 0.668922 | Train Acc: 75.585 | Val Acc: 82.256
+Epoch 57: | Train Loss: 694.597720 | Val Loss: 0.864701 | Train Acc: 77.175 | Val Acc: 84.770
+Early stopping
+
+
+ real:
+tensor([28, 28,  2, 28,  4,  5,  5,  6, 18,  6,  6,  2,  4, 28,  2, 28],
+       device='cuda:0')
+
+
+ pred:
+tensor([28, 28,  2, 28,  4,  5,  5,  2, 28,  6,  5,  2,  4, 28,  2, 28],
+       device='cuda:0')
+
+
+
+
+
+ real:
+tensor([ 5, 28,  6, 28, 22,  5,  2,  6,  6,  6,  6,  2,  5,  4, 28, 17],
+       device='cuda:0')
+
+
+ pred:
+tensor([ 5, 28,  6, 28, 19,  5,  2,  4,  6,  4,  2, 28,  5,  4, 28, 17],
+       device='cuda:0')
+
+
+
+Fold 1 Levenshtein Accuracy: 0.8502
+
+=== Fold 2 ===
+torch.Size([26, 4])
+tensor([[0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [1.0000e+00, 2.7000e+01, 0.0000e+00, 0.0000e+00],
+        [2.0000e+00, 2.2000e+01, 7.8472e+01, 2.5663e+01],
+        [4.0000e+00, 2.2000e+01, 5.1212e-04, 2.5663e+01],
+        [5.0000e+00, 2.2000e+01, 1.2401e-03, 2.5664e+01],
+        [6.0000e+00, 2.2000e+01, 4.7767e-04, 2.5664e+01]], device='cuda:0')
+
+
+
+torch.Size([])
+tensor(17, device='cuda:0')
+
+
+
+tensor([[0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [1.0000e+00, 2.7000e+01, 0.0000e+00, 0.0000e+00],
+        [2.0000e+00, 2.2000e+01, 7.8472e+01, 2.5663e+01],
+        [4.0000e+00, 2.2000e+01, 5.1212e-04, 2.5663e+01],
+        [5.0000e+00, 2.2000e+01, 1.2401e-03, 2.5664e+01],
+        [6.0000e+00, 2.2000e+01, 4.7767e-04, 2.5664e+01],
+        [1.7000e+01, 2.2000e+01, 5.9976e-04, 2.5664e+01]], device='cuda:0')
+
+
+
+tensor(28, device='cuda:0')
+
+
+
+Epoch 0: | Train Loss: 195381.469196 | Val Loss: 962.830479 | Train Acc: 10.874 | Val Acc: 28.147
+Epoch 1: | Train Loss: 542.460969 | Val Loss: 1.473531 | Train Acc: 32.273 | Val Acc: 41.397
+Epoch 2: | Train Loss: 4.665564 | Val Loss: 3.064178 | Train Acc: 50.822 | Val Acc: 53.456
+Epoch 3: | Train Loss: 93676.204487 | Val Loss: 1.826272 | Train Acc: 48.721 | Val Acc: 44.691
+Epoch 4: | Train Loss: 2.225949 | Val Loss: 0.925029 | Train Acc: 61.824 | Val Acc: 79.441
+Epoch 5: | Train Loss: 1.047849 | Val Loss: 0.798184 | Train Acc: 74.159 | Val Acc: 82.882
+Epoch 6: | Train Loss: 1.449109 | Val Loss: 0.824409 | Train Acc: 77.230 | Val Acc: 84.235
+Epoch 7: | Train Loss: 147.481376 | Val Loss: 0.708753 | Train Acc: 77.705 | Val Acc: 84.206
+Epoch 8: | Train Loss: 0.845483 | Val Loss: 0.713320 | Train Acc: 79.057 | Val Acc: 84.103
+Epoch 9: | Train Loss: 266.224477 | Val Loss: 0.709619 | Train Acc: 77.686 | Val Acc: 82.235
+Epoch 10: | Train Loss: 0.915996 | Val Loss: 0.683138 | Train Acc: 79.185 | Val Acc: 85.765
+Epoch 11: | Train Loss: 0.811318 | Val Loss: 0.876523 | Train Acc: 79.605 | Val Acc: 75.235
+Epoch 12: | Train Loss: 1.058543 | Val Loss: 0.714939 | Train Acc: 75.183 | Val Acc: 85.382
+Epoch 13: | Train Loss: 0.923204 | Val Loss: 0.802087 | Train Acc: 75.201 | Val Acc: 79.985
+Epoch 14: | Train Loss: 1.620808 | Val Loss: 0.693920 | Train Acc: 77.705 | Val Acc: 84.985
+Epoch 15: | Train Loss: 31326.174963 | Val Loss: 0.891977 | Train Acc: 68.074 | Val Acc: 77.118
+Epoch 16: | Train Loss: 1.455509 | Val Loss: 0.893690 | Train Acc: 74.616 | Val Acc: 78.691
+Epoch 17: | Train Loss: 41.182114 | Val Loss: 0.790840 | Train Acc: 75.457 | Val Acc: 80.279
+Epoch 18: | Train Loss: 92.323329 | Val Loss: 0.870324 | Train Acc: 72.862 | Val Acc: 81.044
+Epoch 19: | Train Loss: 5787.217521 | Val Loss: 1.330222 | Train Acc: 60.435 | Val Acc: 58.647
+Epoch 20: | Train Loss: 723.907585 | Val Loss: 1.086645 | Train Acc: 52.485 | Val Acc: 69.779
+Epoch 21: | Train Loss: 468.079089 | Val Loss: 0.946992 | Train Acc: 61.367 | Val Acc: 75.588
+Epoch 22: | Train Loss: 1.026835 | Val Loss: 0.843955 | Train Acc: 70.285 | Val Acc: 81.015
+Epoch 23: | Train Loss: 260.308645 | Val Loss: 0.814334 | Train Acc: 74.214 | Val Acc: 83.559
+Epoch 24: | Train Loss: 10710.167419 | Val Loss: 1.131962 | Train Acc: 72.405 | Val Acc: 79.176
+Epoch 25: | Train Loss: 1.557573 | Val Loss: 1.293611 | Train Acc: 75.713 | Val Acc: 76.118
+Epoch 26: | Train Loss: 101.860303 | Val Loss: 0.765878 | Train Acc: 69.317 | Val Acc: 82.794
+Epoch 27: | Train Loss: 18.123422 | Val Loss: 0.795609 | Train Acc: 72.332 | Val Acc: 80.529
+Epoch 28: | Train Loss: 386.302099 | Val Loss: 0.821592 | Train Acc: 73.629 | Val Acc: 78.706
+Epoch 29: | Train Loss: 10.387328 | Val Loss: 0.694217 | Train Acc: 77.376 | Val Acc: 83.118
+Epoch 30: | Train Loss: 1.277824 | Val Loss: 0.636664 | Train Acc: 79.130 | Val Acc: 86.221
+Epoch 31: | Train Loss: 163.249236 | Val Loss: 2.092995 | Train Acc: 77.650 | Val Acc: 76.118
+Epoch 32: | Train Loss: 44.768735 | Val Loss: 0.688395 | Train Acc: 78.289 | Val Acc: 84.985
+Epoch 33: | Train Loss: 0.843234 | Val Loss: 0.773172 | Train Acc: 77.814 | Val Acc: 84.838
+Epoch 34: | Train Loss: 2.907753 | Val Loss: 0.646228 | Train Acc: 74.287 | Val Acc: 86.206
+Epoch 35: | Train Loss: 86.040404 | Val Loss: 0.934054 | Train Acc: 76.005 | Val Acc: 83.985
+Epoch 36: | Train Loss: 1802.592637 | Val Loss: 613.884209 | Train Acc: 72.405 | Val Acc: 79.500
+Epoch 37: | Train Loss: 1.829649 | Val Loss: 0.833460 | Train Acc: 70.340 | Val Acc: 78.838
+Epoch 38: | Train Loss: 16.431537 | Val Loss: 0.823324 | Train Acc: 75.640 | Val Acc: 81.515
+Epoch 39: | Train Loss: 743.191211 | Val Loss: 0.777618 | Train Acc: 73.081 | Val Acc: 80.015
+Epoch 40: | Train Loss: 672.253896 | Val Loss: 0.685406 | Train Acc: 76.115 | Val Acc: 84.471
+Epoch 41: | Train Loss: 9276.532748 | Val Loss: 0.803418 | Train Acc: 75.037 | Val Acc: 82.147
+Epoch 42: | Train Loss: 0.839341 | Val Loss: 1.245358 | Train Acc: 78.271 | Val Acc: 81.382
+Epoch 43: | Train Loss: 0.925436 | Val Loss: 0.686705 | Train Acc: 79.660 | Val Acc: 85.662
+Epoch 44: | Train Loss: 525.244160 | Val Loss: 0.730522 | Train Acc: 74.196 | Val Acc: 83.735
+Epoch 45: | Train Loss: 60.054230 | Val Loss: 0.722228 | Train Acc: 78.947 | Val Acc: 83.147
+Epoch 46: | Train Loss: 178.536390 | Val Loss: 336.807231 | Train Acc: 79.258 | Val Acc: 81.471
+Epoch 47: | Train Loss: 11579.540981 | Val Loss: 0.666525 | Train Acc: 75.493 | Val Acc: 85.500
+Epoch 48: | Train Loss: 3419.239347 | Val Loss: 0.813312 | Train Acc: 70.925 | Val Acc: 83.441
+Epoch 49: | Train Loss: 150.172273 | Val Loss: 0.621205 | Train Acc: 73.721 | Val Acc: 86.382
+Epoch 50: | Train Loss: 1800.528803 | Val Loss: 38.416336 | Train Acc: 76.298 | Val Acc: 81.471
+Epoch 51: | Train Loss: 302.775396 | Val Loss: 235.536452 | Train Acc: 76.298 | Val Acc: 72.721
+Epoch 52: | Train Loss: 271.668889 | Val Loss: 1.124142 | Train Acc: 73.611 | Val Acc: 86.162
+Epoch 53: | Train Loss: 18.336027 | Val Loss: 0.697957 | Train Acc: 79.386 | Val Acc: 85.353
+Epoch 54: | Train Loss: 0.947111 | Val Loss: 1.616988 | Train Acc: 79.295 | Val Acc: 84.912
+Epoch 55: | Train Loss: 4.379196 | Val Loss: 1.256548 | Train Acc: 75.347 | Val Acc: 74.353
+Epoch 56: | Train Loss: 1.501666 | Val Loss: 0.745606 | Train Acc: 74.671 | Val Acc: 83.235
+Epoch 57: | Train Loss: 67331.463670 | Val Loss: 0.676107 | Train Acc: 61.513 | Val Acc: 85.456
+Epoch 58: | Train Loss: 2.913307 | Val Loss: 0.983325 | Train Acc: 78.710 | Val Acc: 85.956
+Epoch 59: | Train Loss: 1032.372738 | Val Loss: 101.612582 | Train Acc: 77.778 | Val Acc: 71.368
+Epoch 60: | Train Loss: 10.914991 | Val Loss: 0.588563 | Train Acc: 78.984 | Val Acc: 86.176
+Epoch 61: | Train Loss: 344.602206 | Val Loss: 2856.717484 | Train Acc: 77.248 | Val Acc: 82.941
+Epoch 62: | Train Loss: 75.908807 | Val Loss: 1.042112 | Train Acc: 78.052 | Val Acc: 81.456
+Epoch 63: | Train Loss: 0.830521 | Val Loss: 0.520638 | Train Acc: 81.122 | Val Acc: 87.235
+Epoch 64: | Train Loss: 3.510239 | Val Loss: 0.656789 | Train Acc: 78.911 | Val Acc: 84.338
+Epoch 65: | Train Loss: 3359.709495 | Val Loss: 0.660401 | Train Acc: 75.402 | Val Acc: 84.515
+Epoch 66: | Train Loss: 3956.565300 | Val Loss: 0.666225 | Train Acc: 77.412 | Val Acc: 82.676
+Epoch 67: | Train Loss: 631.812407 | Val Loss: 0.669190 | Train Acc: 78.655 | Val Acc: 85.044
+Epoch 68: | Train Loss: 0.799065 | Val Loss: 0.632859 | Train Acc: 79.642 | Val Acc: 86.279
+Epoch 69: | Train Loss: 0.840349 | Val Loss: 0.621730 | Train Acc: 79.240 | Val Acc: 86.309
+Epoch 70: | Train Loss: 5120.659106 | Val Loss: 1.797238 | Train Acc: 73.885 | Val Acc: 78.294
+Epoch 71: | Train Loss: 38347.160389 | Val Loss: 0.593689 | Train Acc: 69.901 | Val Acc: 86.706
+Epoch 72: | Train Loss: 661.072088 | Val Loss: 4059.547446 | Train Acc: 81.414 | Val Acc: 78.706
+Epoch 73: | Train Loss: 89.188395 | Val Loss: 0.621595 | Train Acc: 80.866 | Val Acc: 87.412
+Epoch 74: | Train Loss: 52.393590 | Val Loss: 30634.513323 | Train Acc: 80.574 | Val Acc: 25.706
+Epoch 75: | Train Loss: 5622.336477 | Val Loss: 0.641704 | Train Acc: 73.209 | Val Acc: 86.632
+Epoch 76: | Train Loss: 3.768717 | Val Loss: 0.677579 | Train Acc: 82.749 | Val Acc: 84.941
+Epoch 77: | Train Loss: 0.674971 | Val Loss: 0.592188 | Train Acc: 82.968 | Val Acc: 86.176
+Epoch 78: | Train Loss: 0.614979 | Val Loss: 342.544898 | Train Acc: 83.662 | Val Acc: 86.279
+Epoch 79: | Train Loss: 6261.669070 | Val Loss: 0.623380 | Train Acc: 75.512 | Val Acc: 86.647
+Epoch 80: | Train Loss: 474.973144 | Val Loss: 0.826347 | Train Acc: 82.109 | Val Acc: 86.426
+Epoch 81: | Train Loss: 7.195708 | Val Loss: 0.598237 | Train Acc: 81.707 | Val Acc: 86.574
+Epoch 82: | Train Loss: 0.610170 | Val Loss: 0.752164 | Train Acc: 83.041 | Val Acc: 85.515
+Epoch 83: | Train Loss: 4.398819 | Val Loss: 0.601496 | Train Acc: 81.414 | Val Acc: 85.324
+Epoch 84: | Train Loss: 745.690357 | Val Loss: 0.655391 | Train Acc: 80.355 | Val Acc: 85.882
+Epoch 85: | Train Loss: 0.841127 | Val Loss: 0.591209 | Train Acc: 81.835 | Val Acc: 86.426
+Epoch 86: | Train Loss: 561313.038185 | Val Loss: 7106.301473 | Train Acc: 34.795 | Val Acc: 17.706
+Epoch 87: | Train Loss: 3567.698349 | Val Loss: 1932.210485 | Train Acc: 62.664 | Val Acc: 50.750
+Epoch 88: | Train Loss: 33.732505 | Val Loss: 0.668754 | Train Acc: 70.577 | Val Acc: 86.397
+Epoch 89: | Train Loss: 0.753024 | Val Loss: 0.588143 | Train Acc: 81.963 | Val Acc: 86.765
+Epoch 90: | Train Loss: 39633.824005 | Val Loss: 33914.692116 | Train Acc: 75.055 | Val Acc: 67.412
+Epoch 91: | Train Loss: 2671.292158 | Val Loss: 0.653798 | Train Acc: 77.394 | Val Acc: 85.765
+Epoch 92: | Train Loss: 80.166360 | Val Loss: 76.468386 | Train Acc: 79.971 | Val Acc: 85.500
+Epoch 93: | Train Loss: 148.878375 | Val Loss: 1.143681 | Train Acc: 77.230 | Val Acc: 85.691
+Early stopping
+
+
+ real:
+tensor([ 5,  4,  5,  4,  6,  5,  5, 24, 17,  6,  2,  5, 28, 19,  4, 17],
+       device='cuda:0')
+
+
+ pred:
+tensor([ 5,  4,  5,  4,  4,  5,  5, 28, 17,  6,  2,  5, 28,  5,  4,  6],
+       device='cuda:0')
+
+
+
+
+
+ real:
+tensor([17,  4, 28,  5, 17,  4,  4, 17,  4,  6, 17, 17,  2, 28, 28,  5],
+       device='cuda:0')
+
+
+ pred:
+tensor([17,  4, 28,  5, 17,  4,  4, 17,  4,  2,  4, 17,  2,  4, 28,  5],
+       device='cuda:0')
+
+
+
+Fold 2 Levenshtein Accuracy: 0.8114
+
+=== Fold 3 ===
+torch.Size([26, 4])
+tensor([[0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [1.0000e+00, 2.2000e+01, 0.0000e+00, 0.0000e+00],
+        [2.0000e+00, 2.2000e+01, 9.1209e-04, 2.9885e-04],
+        [4.0000e+00, 2.2000e+01, 4.4430e-04, 4.4442e-04],
+        [5.0000e+00, 2.2000e+01, 4.1814e-04, 5.8142e-04],
+        [6.0000e+00, 2.2000e+01, 1.2373e-03, 9.8684e-04]], device='cuda:0')
+
+
+
+torch.Size([])
+tensor(17, device='cuda:0')
+
+
+
+tensor([[0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [1.0000e+00, 2.2000e+01, 0.0000e+00, 0.0000e+00],
+        [2.0000e+00, 2.2000e+01, 9.1209e-04, 2.9885e-04],
+        [4.0000e+00, 2.2000e+01, 4.4430e-04, 4.4442e-04],
+        [5.0000e+00, 2.2000e+01, 4.1814e-04, 5.8142e-04],
+        [6.0000e+00, 2.2000e+01, 1.2373e-03, 9.8684e-04],
+        [1.7000e+01, 2.2000e+01, 7.1581e-04, 1.2214e-03]], device='cuda:0')
+
+
+
+tensor(28, device='cuda:0')
+
+
+
+Epoch 0: | Train Loss: 108537.485452 | Val Loss: 9313.448228 | Train Acc: 8.279 | Val Acc: 15.116
+Epoch 1: | Train Loss: 7131.541078 | Val Loss: 1360.137664 | Train Acc: 12.355 | Val Acc: 15.504
+Epoch 2: | Train Loss: 204.348702 | Val Loss: 2.075207 | Train Acc: 15.272 | Val Acc: 16.715
+Epoch 3: | Train Loss: 2.080028 | Val Loss: 2.069711 | Train Acc: 15.815 | Val Acc: 16.061
+Epoch 4: | Train Loss: 2.077571 | Val Loss: 2.080736 | Train Acc: 16.159 | Val Acc: 16.013
+Epoch 5: | Train Loss: 2.078884 | Val Loss: 2.067852 | Train Acc: 14.946 | Val Acc: 16.667
+Epoch 6: | Train Loss: 62719.420066 | Val Loss: 2.068759 | Train Acc: 14.837 | Val Acc: 16.691
+Epoch 7: | Train Loss: 163775.863204 | Val Loss: 157.363775 | Train Acc: 19.801 | Val Acc: 27.568
+Epoch 8: | Train Loss: 125538.042876 | Val Loss: 1.953886 | Train Acc: 15.507 | Val Acc: 20.397
+Epoch 9: | Train Loss: 16065.895222 | Val Loss: 8.080998 | Train Acc: 30.779 | Val Acc: 49.007
+Epoch 10: | Train Loss: 260.798269 | Val Loss: 128.875549 | Train Acc: 44.638 | Val Acc: 45.543
+Epoch 11: | Train Loss: 359.614210 | Val Loss: 2.094552 | Train Acc: 46.576 | Val Acc: 46.172
+Epoch 12: | Train Loss: 577.529972 | Val Loss: 1.302385 | Train Acc: 40.978 | Val Acc: 59.932
+Epoch 13: | Train Loss: 1.795545 | Val Loss: 1.452883 | Train Acc: 57.011 | Val Acc: 61.143
+Epoch 14: | Train Loss: 17279.933679 | Val Loss: 1.362343 | Train Acc: 50.688 | Val Acc: 54.869
+Epoch 15: | Train Loss: 2.781329 | Val Loss: 1.239683 | Train Acc: 52.409 | Val Acc: 60.174
+Epoch 16: | Train Loss: 378.696205 | Val Loss: 7.351136 | Train Acc: 53.062 | Val Acc: 54.288
+Epoch 17: | Train Loss: 980.068574 | Val Loss: 1.045827 | Train Acc: 51.123 | Val Acc: 69.356
+Epoch 18: | Train Loss: 2.399017 | Val Loss: 1.056016 | Train Acc: 58.786 | Val Acc: 69.719
+Epoch 19: | Train Loss: 953.903230 | Val Loss: 1.025001 | Train Acc: 56.757 | Val Acc: 70.882
+Epoch 20: | Train Loss: 321.188652 | Val Loss: 28.870473 | Train Acc: 60.797 | Val Acc: 67.926
+Epoch 21: | Train Loss: 1128.674359 | Val Loss: 1.020530 | Train Acc: 61.431 | Val Acc: 72.335
+Epoch 22: | Train Loss: 945.061530 | Val Loss: 1.016433 | Train Acc: 60.652 | Val Acc: 69.089
+Epoch 23: | Train Loss: 1.363431 | Val Loss: 0.898194 | Train Acc: 65.598 | Val Acc: 73.958
+Epoch 24: | Train Loss: 2.003724 | Val Loss: 0.875990 | Train Acc: 69.982 | Val Acc: 74.346
+Epoch 25: | Train Loss: 362.738552 | Val Loss: 0.939498 | Train Acc: 66.123 | Val Acc: 73.740
+Epoch 26: | Train Loss: 2352.988638 | Val Loss: 0.811133 | Train Acc: 65.272 | Val Acc: 83.987
+Epoch 27: | Train Loss: 2.126339 | Val Loss: 1.016813 | Train Acc: 66.431 | Val Acc: 72.602
+Epoch 28: | Train Loss: 2.356722 | Val Loss: 0.883232 | Train Acc: 69.040 | Val Acc: 81.977
+Epoch 29: | Train Loss: 2549.246424 | Val Loss: 1505.661859 | Train Acc: 68.986 | Val Acc: 77.907
+Epoch 30: | Train Loss: 783.283729 | Val Loss: 2.083757 | Train Acc: 70.435 | Val Acc: 81.977
+Epoch 31: | Train Loss: 252.181999 | Val Loss: 0.701630 | Train Acc: 72.663 | Val Acc: 84.859
+Epoch 32: | Train Loss: 1.568447 | Val Loss: 0.802395 | Train Acc: 75.054 | Val Acc: 84.375
+Epoch 33: | Train Loss: 2.276114 | Val Loss: 222.655292 | Train Acc: 77.699 | Val Acc: 84.278
+Epoch 34: | Train Loss: 419.440990 | Val Loss: 17.612174 | Train Acc: 75.960 | Val Acc: 84.205
+Epoch 35: | Train Loss: 144.355019 | Val Loss: 0.774891 | Train Acc: 73.732 | Val Acc: 82.607
+Epoch 36: | Train Loss: 1356.916847 | Val Loss: 1.113010 | Train Acc: 70.000 | Val Acc: 70.640
+Epoch 37: | Train Loss: 717.525017 | Val Loss: 0.739694 | Train Acc: 71.957 | Val Acc: 85.005
+Epoch 38: | Train Loss: 31987.093841 | Val Loss: 1.200749 | Train Acc: 68.243 | Val Acc: 76.672
+Epoch 39: | Train Loss: 151.362990 | Val Loss: 370.836807 | Train Acc: 72.717 | Val Acc: 49.564
+Epoch 40: | Train Loss: 30.104984 | Val Loss: 101.747840 | Train Acc: 73.478 | Val Acc: 82.437
+Epoch 41: | Train Loss: 71.877533 | Val Loss: 0.634412 | Train Acc: 76.775 | Val Acc: 86.434
+Epoch 42: | Train Loss: 9345.719776 | Val Loss: 367.273568 | Train Acc: 71.178 | Val Acc: 83.454
+Epoch 43: | Train Loss: 150.493260 | Val Loss: 1.479112 | Train Acc: 77.754 | Val Acc: 85.126
+Epoch 44: | Train Loss: 21.475345 | Val Loss: 153.517904 | Train Acc: 78.533 | Val Acc: 77.180
+Epoch 45: | Train Loss: 298.344640 | Val Loss: 0.640617 | Train Acc: 75.743 | Val Acc: 85.417
+Epoch 46: | Train Loss: 1568.035554 | Val Loss: 0.626384 | Train Acc: 76.250 | Val Acc: 85.732
+Epoch 47: | Train Loss: 0.950823 | Val Loss: 0.734747 | Train Acc: 80.127 | Val Acc: 77.544
+Epoch 48: | Train Loss: 4.607262 | Val Loss: 8.010208 | Train Acc: 80.453 | Val Acc: 85.392
+Epoch 49: | Train Loss: 1.075219 | Val Loss: 0.557356 | Train Acc: 81.413 | Val Acc: 86.410
+Epoch 50: | Train Loss: 37.297927 | Val Loss: 0.554231 | Train Acc: 81.196 | Val Acc: 86.531
+Epoch 51: | Train Loss: 12.051376 | Val Loss: 0.573783 | Train Acc: 81.920 | Val Acc: 85.950
+Epoch 52: | Train Loss: 0.876734 | Val Loss: 0.605392 | Train Acc: 81.196 | Val Acc: 85.853
+Epoch 53: | Train Loss: 0.717172 | Val Loss: 0.570056 | Train Acc: 81.975 | Val Acc: 86.216
+Epoch 54: | Train Loss: 0.711724 | Val Loss: 0.604714 | Train Acc: 82.536 | Val Acc: 85.998
+Epoch 55: | Train Loss: 0.666887 | Val Loss: 0.553911 | Train Acc: 83.043 | Val Acc: 87.016
+Epoch 56: | Train Loss: 0.687619 | Val Loss: 0.660709 | Train Acc: 82.862 | Val Acc: 84.472
+Epoch 57: | Train Loss: 149.944172 | Val Loss: 0.656829 | Train Acc: 81.540 | Val Acc: 86.604
+Epoch 58: | Train Loss: 3161.975702 | Val Loss: 45901.415163 | Train Acc: 80.109 | Val Acc: 36.943
+Epoch 59: | Train Loss: 4212.903892 | Val Loss: 0.543704 | Train Acc: 81.214 | Val Acc: 87.185
+Epoch 60: | Train Loss: 14253.032180 | Val Loss: 15456.735103 | Train Acc: 67.011 | Val Acc: 84.496
+Epoch 61: | Train Loss: 49.462457 | Val Loss: 0.610413 | Train Acc: 77.935 | Val Acc: 84.690
+Epoch 62: | Train Loss: 257.818440 | Val Loss: 0.645112 | Train Acc: 77.663 | Val Acc: 85.005
+Epoch 63: | Train Loss: 281.266362 | Val Loss: 3.499955 | Train Acc: 78.424 | Val Acc: 85.368
+Epoch 64: | Train Loss: 35.062370 | Val Loss: 0.578302 | Train Acc: 81.014 | Val Acc: 86.531
+Epoch 65: | Train Loss: 273.961896 | Val Loss: 0.621445 | Train Acc: 79.638 | Val Acc: 85.950
+Epoch 66: | Train Loss: 171.613431 | Val Loss: 0.533857 | Train Acc: 80.344 | Val Acc: 87.282
+Epoch 67: | Train Loss: 122.348871 | Val Loss: 6.922424 | Train Acc: 79.366 | Val Acc: 82.607
+Epoch 68: | Train Loss: 16.193439 | Val Loss: 138.878743 | Train Acc: 80.797 | Val Acc: 76.139
+Epoch 69: | Train Loss: 9.590560 | Val Loss: 2.559147 | Train Acc: 78.841 | Val Acc: 87.330
+Epoch 70: | Train Loss: 2212.124831 | Val Loss: 2927.383349 | Train Acc: 76.775 | Val Acc: 75.872
+Epoch 71: | Train Loss: 5.842320 | Val Loss: 0.468488 | Train Acc: 81.920 | Val Acc: 88.639
+Epoch 72: | Train Loss: 245.510087 | Val Loss: 2562.682630 | Train Acc: 82.591 | Val Acc: 70.761
+Epoch 73: | Train Loss: 4014.185744 | Val Loss: 31254.933079 | Train Acc: 78.841 | Val Acc: 60.950
+Epoch 74: | Train Loss: 2070.010665 | Val Loss: 60.600865 | Train Acc: 81.033 | Val Acc: 80.984
+Epoch 75: | Train Loss: 386.220669 | Val Loss: 12.489897 | Train Acc: 81.793 | Val Acc: 87.863
+Epoch 76: | Train Loss: 0.992869 | Val Loss: 0.469550 | Train Acc: 84.583 | Val Acc: 89.583
+Epoch 77: | Train Loss: 0.575995 | Val Loss: 0.457096 | Train Acc: 84.819 | Val Acc: 89.414
+Epoch 78: | Train Loss: 131.832092 | Val Loss: 0.756521 | Train Acc: 83.370 | Val Acc: 81.371
+Epoch 79: | Train Loss: 436.781000 | Val Loss: 0.537438 | Train Acc: 82.011 | Val Acc: 84.496
+Epoch 80: | Train Loss: 288.742626 | Val Loss: 25.358282 | Train Acc: 83.043 | Val Acc: 86.943
+Epoch 81: | Train Loss: 7.295989 | Val Loss: 0.678440 | Train Acc: 83.913 | Val Acc: 84.593
+Epoch 82: | Train Loss: 13.459198 | Val Loss: 0.472855 | Train Acc: 84.094 | Val Acc: 88.929
+Epoch 83: | Train Loss: 0.605617 | Val Loss: 0.428113 | Train Acc: 85.199 | Val Acc: 90.504
+Epoch 84: | Train Loss: 0.528158 | Val Loss: 0.427782 | Train Acc: 85.670 | Val Acc: 90.189
+Epoch 85: | Train Loss: 0.690647 | Val Loss: 15.970642 | Train Acc: 84.891 | Val Acc: 88.299
+Epoch 86: | Train Loss: 156.594920 | Val Loss: 396.407273 | Train Acc: 84.855 | Val Acc: 69.985
+Epoch 87: | Train Loss: 1394.660449 | Val Loss: 27.914888 | Train Acc: 79.022 | Val Acc: 73.789
+Epoch 88: | Train Loss: 165.519154 | Val Loss: 0.579791 | Train Acc: 80.924 | Val Acc: 86.967
+Epoch 89: | Train Loss: 1681.821825 | Val Loss: 49.505946 | Train Acc: 74.801 | Val Acc: 79.700
+Epoch 90: | Train Loss: 6.688322 | Val Loss: 0.483237 | Train Acc: 80.217 | Val Acc: 88.832
+Epoch 91: | Train Loss: 143.084332 | Val Loss: 0.446881 | Train Acc: 83.605 | Val Acc: 89.390
+Epoch 92: | Train Loss: 156.527644 | Val Loss: 2.039613 | Train Acc: 84.112 | Val Acc: 89.244
+Epoch 93: | Train Loss: 39.862391 | Val Loss: 0.507194 | Train Acc: 83.696 | Val Acc: 89.268
+Epoch 94: | Train Loss: 59.579816 | Val Loss: 0.402123 | Train Acc: 84.348 | Val Acc: 90.722
+Epoch 95: | Train Loss: 0.670751 | Val Loss: 0.428045 | Train Acc: 85.344 | Val Acc: 90.165
+Epoch 96: | Train Loss: 41.121261 | Val Loss: 0.394147 | Train Acc: 85.435 | Val Acc: 90.552
+Epoch 97: | Train Loss: 27.780883 | Val Loss: 0.399667 | Train Acc: 85.091 | Val Acc: 89.947
+Epoch 98: | Train Loss: 19.318173 | Val Loss: 6.273028 | Train Acc: 85.489 | Val Acc: 81.444
+Epoch 99: | Train Loss: 0.535109 | Val Loss: 0.449100 | Train Acc: 85.888 | Val Acc: 89.123
+
+
+ real:
+tensor([ 4,  4,  6,  4, 17,  4, 28,  5,  4,  4, 28,  4,  2, 17, 28,  6],
+       device='cuda:0')
+
+
+ pred:
+tensor([ 6,  6, 27,  6, 17,  6, 28,  6,  6,  6, 28,  6,  2, 17, 28,  6],
+       device='cuda:0')
+
+
+
+
+
+ real:
+tensor([ 5, 17,  2,  6, 17,  2,  2,  2, 17,  2, 28,  5,  4,  6, 17,  6],
+       device='cuda:0')
+
+
+ pred:
+tensor([ 5,  2,  2,  6, 17,  2,  2,  2, 17,  2, 28,  5,  4,  6, 17, 17],
+       device='cuda:0')
+
+
+
+Fold 3 Levenshtein Accuracy: 0.8595
+
+=== Fold 4 ===
+torch.Size([26, 4])
+tensor([[0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [1.0000e+00, 2.7000e+01, 0.0000e+00, 0.0000e+00],
+        [2.0000e+00, 1.3000e+01, 2.5173e+01, 8.4004e+00],
+        [4.0000e+00, 1.3000e+01, 4.5834e-04, 8.4006e+00],
+        [5.0000e+00, 1.3000e+01, 5.0060e-04, 8.4007e+00],
+        [6.0000e+00, 1.3000e+01, 4.7096e-04, 8.4009e+00]], device='cuda:0')
+
+
+
+torch.Size([])
+tensor(17, device='cuda:0')
+
+
+
+tensor([[0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+        [1.0000e+00, 2.7000e+01, 0.0000e+00, 0.0000e+00],
+        [2.0000e+00, 1.3000e+01, 2.5173e+01, 8.4004e+00],
+        [4.0000e+00, 1.3000e+01, 4.5834e-04, 8.4006e+00],
+        [5.0000e+00, 1.3000e+01, 5.0060e-04, 8.4007e+00],
+        [6.0000e+00, 1.3000e+01, 4.7096e-04, 8.4009e+00],
+        [1.7000e+01, 1.3000e+01, 2.7327e-04, 8.4010e+00]], device='cuda:0')
+
+
+
+tensor(28, device='cuda:0')
+
+
+
+Epoch 0: | Train Loss: 114478.117997 | Val Loss: 2.094574 | Train Acc: 11.047 | Val Acc: 16.640
+Epoch 1: | Train Loss: 252723.586773 | Val Loss: 2806846.414240 | Train Acc: 27.301 | Val Acc: 19.683
+Epoch 2: | Train Loss: 1557378.217363 | Val Loss: 1270860.645888 | Train Acc: 18.035 | Val Acc: 12.419
+Epoch 3: | Train Loss: 360484.252722 | Val Loss: 1.206927 | Train Acc: 37.373 | Val Acc: 68.496
+Epoch 4: | Train Loss: 38216.090602 | Val Loss: 1.183292 | Train Acc: 53.955 | Val Acc: 69.379
+Epoch 5: | Train Loss: 4391.250910 | Val Loss: 1.763945 | Train Acc: 53.234 | Val Acc: 50.741
+Epoch 6: | Train Loss: 26237.868869 | Val Loss: 6.517490 | Train Acc: 44.386 | Val Acc: 35.572
+Epoch 7: | Train Loss: 3688.555563 | Val Loss: 1.671819 | Train Acc: 45.585 | Val Acc: 60.846
+Epoch 8: | Train Loss: 2.236887 | Val Loss: 1.320258 | Train Acc: 52.719 | Val Acc: 63.291
+Epoch 9: | Train Loss: 1975.352474 | Val Loss: 1.221092 | Train Acc: 62.318 | Val Acc: 68.425
+Epoch 10: | Train Loss: 1.287657 | Val Loss: 0.824154 | Train Acc: 71.542 | Val Acc: 83.746
+Epoch 11: | Train Loss: 35183.279785 | Val Loss: 11.917654 | Train Acc: 69.713 | Val Acc: 80.682
+Epoch 12: | Train Loss: 1296.278688 | Val Loss: 0.832963 | Train Acc: 72.929 | Val Acc: 84.568
+Epoch 13: | Train Loss: 2.472557 | Val Loss: 0.801127 | Train Acc: 76.877 | Val Acc: 84.314
+Epoch 14: | Train Loss: 3845.699407 | Val Loss: 0.752837 | Train Acc: 75.503 | Val Acc: 85.298
+Epoch 15: | Train Loss: 1.093410 | Val Loss: 0.716090 | Train Acc: 77.229 | Val Acc: 85.278
+Epoch 16: | Train Loss: 0.955106 | Val Loss: 0.954256 | Train Acc: 77.301 | Val Acc: 79.596
+Epoch 17: | Train Loss: 0.972448 | Val Loss: 0.852754 | Train Acc: 75.569 | Val Acc: 82.204
+Epoch 18: | Train Loss: 15.704404 | Val Loss: 0.888000 | Train Acc: 72.523 | Val Acc: 81.138
+Epoch 19: | Train Loss: 43.470016 | Val Loss: 36.161106 | Train Acc: 77.289 | Val Acc: 74.645
+Epoch 20: | Train Loss: 801.216681 | Val Loss: 0.803166 | Train Acc: 77.489 | Val Acc: 83.360
+Epoch 21: | Train Loss: 701.151550 | Val Loss: 1.209328 | Train Acc: 77.077 | Val Acc: 79.647
+Epoch 22: | Train Loss: 0.924143 | Val Loss: 0.736249 | Train Acc: 78.034 | Val Acc: 84.334
+Epoch 23: | Train Loss: 0.823503 | Val Loss: 0.839276 | Train Acc: 79.076 | Val Acc: 84.071
+Epoch 24: | Train Loss: 0.803026 | Val Loss: 0.665943 | Train Acc: 79.669 | Val Acc: 86.252
+Epoch 25: | Train Loss: 0.810680 | Val Loss: 14.455518 | Train Acc: 79.251 | Val Acc: 84.456
+Epoch 26: | Train Loss: 1.340987 | Val Loss: 0.702145 | Train Acc: 78.821 | Val Acc: 85.704
+Epoch 27: | Train Loss: 0.859434 | Val Loss: 0.655863 | Train Acc: 79.342 | Val Acc: 85.613
+Epoch 28: | Train Loss: 1.003775 | Val Loss: 0.669677 | Train Acc: 79.421 | Val Acc: 85.613
+Epoch 29: | Train Loss: 0.854805 | Val Loss: 0.690639 | Train Acc: 79.566 | Val Acc: 83.675
+Epoch 30: | Train Loss: 0.768278 | Val Loss: 0.675446 | Train Acc: 80.511 | Val Acc: 85.856
+Epoch 31: | Train Loss: 1.738398 | Val Loss: 0.727742 | Train Acc: 81.111 | Val Acc: 83.289
+Epoch 32: | Train Loss: 0.710445 | Val Loss: 0.587400 | Train Acc: 82.237 | Val Acc: 86.435
+Epoch 33: | Train Loss: 0.736681 | Val Loss: 3.734025 | Train Acc: 81.619 | Val Acc: 86.151
+Epoch 34: | Train Loss: 1.613314 | Val Loss: 0.587651 | Train Acc: 79.960 | Val Acc: 87.977
+Epoch 35: | Train Loss: 666.820088 | Val Loss: 2226.748842 | Train Acc: 73.789 | Val Acc: 84.101
+Epoch 36: | Train Loss: 123.201279 | Val Loss: 0.714115 | Train Acc: 73.964 | Val Acc: 85.187
+Epoch 37: | Train Loss: 8600.269657 | Val Loss: 0.961444 | Train Acc: 76.369 | Val Acc: 75.264
+Epoch 38: | Train Loss: 0.828461 | Val Loss: 0.668209 | Train Acc: 79.203 | Val Acc: 85.065
+Epoch 39: | Train Loss: 4.466026 | Val Loss: 0.668891 | Train Acc: 80.081 | Val Acc: 86.485
+Epoch 40: | Train Loss: 213.668359 | Val Loss: 0.627681 | Train Acc: 79.542 | Val Acc: 87.196
+Epoch 41: | Train Loss: 1.716300 | Val Loss: 0.645235 | Train Acc: 80.614 | Val Acc: 85.522
+Epoch 42: | Train Loss: 119153.816120 | Val Loss: 2.544087 | Train Acc: 79.839 | Val Acc: 80.641
+Epoch 43: | Train Loss: 0.960591 | Val Loss: 0.505672 | Train Acc: 80.487 | Val Acc: 89.042
+Epoch 44: | Train Loss: 0.776345 | Val Loss: 389.347103 | Train Acc: 82.104 | Val Acc: 85.450
+Epoch 45: | Train Loss: 7.898299 | Val Loss: 0.553595 | Train Acc: 83.043 | Val Acc: 88.170
+Epoch 46: | Train Loss: 0.780560 | Val Loss: 0.594844 | Train Acc: 83.824 | Val Acc: 87.459
+Epoch 47: | Train Loss: 3.192355 | Val Loss: 0.558624 | Train Acc: 83.430 | Val Acc: 88.403
+Epoch 48: | Train Loss: 147.405381 | Val Loss: 0.679535 | Train Acc: 78.725 | Val Acc: 85.664
+Epoch 49: | Train Loss: 5531.715308 | Val Loss: 0.548116 | Train Acc: 82.722 | Val Acc: 87.815
+Epoch 50: | Train Loss: 5.310569 | Val Loss: 0.784082 | Train Acc: 82.552 | Val Acc: 81.017
+Epoch 51: | Train Loss: 18290.490711 | Val Loss: 0.683642 | Train Acc: 69.810 | Val Acc: 85.562
+Epoch 52: | Train Loss: 1.749497 | Val Loss: 0.984388 | Train Acc: 76.411 | Val Acc: 76.035
+Epoch 53: | Train Loss: 182.435124 | Val Loss: 0.729979 | Train Acc: 75.799 | Val Acc: 85.014
+Epoch 54: | Train Loss: 158.070416 | Val Loss: 0.676868 | Train Acc: 79.754 | Val Acc: 83.929
+Epoch 55: | Train Loss: 6225.285963 | Val Loss: 0.719926 | Train Acc: 66.594 | Val Acc: 84.162
+Epoch 56: | Train Loss: 3538.768819 | Val Loss: 2.092628 | Train Acc: 70.312 | Val Acc: 51.075
+Epoch 57: | Train Loss: 562.711423 | Val Loss: 0.638124 | Train Acc: 77.689 | Val Acc: 85.511
+Epoch 58: | Train Loss: 2320.495525 | Val Loss: 0.654065 | Train Acc: 77.265 | Val Acc: 85.664
+Epoch 59: | Train Loss: 0.780648 | Val Loss: 0.700563 | Train Acc: 81.117 | Val Acc: 84.233
+Epoch 60: | Train Loss: 11585.091486 | Val Loss: 2.493383 | Train Acc: 74.249 | Val Acc: 75.051
+Epoch 61: | Train Loss: 184.430903 | Val Loss: 1.273768 | Train Acc: 76.351 | Val Acc: 79.657
+Epoch 62: | Train Loss: 143.549465 | Val Loss: 0.587969 | Train Acc: 77.937 | Val Acc: 86.820
+Epoch 63: | Train Loss: 1786.303047 | Val Loss: 1.082903 | Train Acc: 77.889 | Val Acc: 83.127
+Epoch 64: | Train Loss: 855.448268 | Val Loss: 0.635777 | Train Acc: 78.882 | Val Acc: 86.719
+Epoch 65: | Train Loss: 264.556010 | Val Loss: 0.682134 | Train Acc: 76.944 | Val Acc: 83.076
+Epoch 66: | Train Loss: 0.687755 | Val Loss: 0.660831 | Train Acc: 82.122 | Val Acc: 83.320
+Epoch 67: | Train Loss: 0.670284 | Val Loss: 0.628596 | Train Acc: 82.837 | Val Acc: 85.988
+Epoch 68: | Train Loss: 0.740596 | Val Loss: 0.571828 | Train Acc: 81.420 | Val Acc: 86.983
+Epoch 69: | Train Loss: 0.735337 | Val Loss: 0.545976 | Train Acc: 82.104 | Val Acc: 88.281
+Epoch 70: | Train Loss: 0.618418 | Val Loss: 0.536124 | Train Acc: 84.878 | Val Acc: 88.474
+Epoch 71: | Train Loss: 0.600301 | Val Loss: 0.563895 | Train Acc: 84.399 | Val Acc: 87.835
+Epoch 72: | Train Loss: 97.032396 | Val Loss: 0.562667 | Train Acc: 84.799 | Val Acc: 87.784
+Epoch 73: | Train Loss: 939.635437 | Val Loss: 0.550311 | Train Acc: 83.091 | Val Acc: 87.906
+Early stopping
+
+
+ real:
+tensor([13,  2,  2, 22, 28, 17,  6, 17, 17,  5, 12,  4, 17, 17,  4,  4],
+       device='cuda:0')
+
+
+ pred:
+tensor([ 6,  2,  2, 22, 28, 17,  4, 17, 17,  5,  5,  4, 17, 17,  4, 28],
+       device='cuda:0')
+
+
+
+
+
+ real:
+tensor([28, 17,  6,  6, 17, 28, 28,  5,  5,  6,  2,  5,  5, 17,  2,  6],
+       device='cuda:0')
+
+
+ pred:
+tensor([28, 17,  6,  6, 17, 28, 28,  5,  5,  6,  2,  5,  5,  2,  2,  6],
+       device='cuda:0')
+
+
+
+Fold 4 Levenshtein Accuracy: 0.8467
+Average Levenshtein Accuracy: 0.8461
