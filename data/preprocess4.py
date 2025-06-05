@@ -92,16 +92,15 @@ def get_prefixes_ind(data, case_col, activity_col, max_len):
             prefixes_t2.append(case['time_case'][:i].values)
             next_acts.append(case[activity_col][i])
 
-    X = np.zeros((len(prefixes_acts), max_len, 4), dtype=np.float32)
+    X = np.zeros((len(prefixes_acts), max_len, 3), dtype=np.float32)
     Y = np.zeros((len(prefixes_acts)), dtype=np.int32)
 
-    for i, (a_seq, r_seq, t1_seq, t2_seq) in enumerate(zip(prefixes_acts, prefixes_t1, prefixes_t2)):
+    for i, (a_seq, t1_seq, t2_seq) in enumerate(zip(prefixes_acts, prefixes_t1, prefixes_t2)):
         left_pad = max_len - len(a_seq)
         next_act = next_acts[i]
         X[i, left_pad:, 0] = a_seq
-        X[i, left_pad:, 1] = r_seq
-        X[i, left_pad:, 2] = t1_seq
-        X[i, left_pad:, 3] = t2_seq
+        X[i, left_pad:, 1] = t1_seq
+        X[i, left_pad:, 2] = t2_seq
 
         Y[i] = next_act
 
