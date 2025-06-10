@@ -25,19 +25,19 @@ torch.backends.cudnn.deterministic = True
 if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    dataset_name = "Helpdesk" 
+    dataset_name = "BPI_Challenge_2013_closed_problems" 
     
-    folds_data = load_and_preprocess_data("./data", case_col="caseid", activity_col="task", resource_col="user", time_col="end_timestamp", dataset_name= dataset_name)
+    folds_data = load_and_preprocess_data("./data", case_col="caseid", activity_col="task", dataset_name= dataset_name)
 
     accs = []
 
     for fold_idx, fold in enumerate(folds_data):
         print(f"\n=== Fold {fold_idx} ===")
-        x_train = torch.tensor(fold['x_train'], dtype=torch.float32).to(device)
+        x_train = torch.tensor(fold['x_train'], dtype=torch.long).to(device)
         y_train = torch.tensor(fold['y_train'], dtype=torch.long).to(device)
-        x_val = torch.tensor(fold['x_val'], dtype=torch.float32).to(device)
+        x_val = torch.tensor(fold['x_val'], dtype=torch.long).to(device)
         y_val = torch.tensor(fold['y_val'], dtype=torch.long).to(device)
-        x_test = torch.tensor(fold['x_test'], dtype=torch.float32).to(device)
+        x_test = torch.tensor(fold['x_test'], dtype=torch.long).to(device)
         y_test = torch.tensor(fold['y_test'], dtype=torch.long).to(device)
         tam_suf = torch.tensor(fold['tam_suf_test'], dtype=torch.long).to(device)
         
@@ -52,7 +52,7 @@ if __name__ == "__main__":
         print(y_val[11])
         print("\n\n")
 
-        model = Modelo(d_acts=fold['num_activities']+1, d_rsrc= fold['num_resources']+1, device=device).to(device) #+1 para el padding
+        model = Modelo(d_acts=fold['num_activities']+1, device=device).to(device) #+1 para el padding
 
         train_loader = DataLoader(TensorDataset(x_train, y_train), batch_size=16, shuffle=True)
         val_loader = DataLoader(TensorDataset(x_val, y_val), batch_size=16, shuffle=True)
