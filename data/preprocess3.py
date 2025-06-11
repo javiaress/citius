@@ -51,8 +51,10 @@ def compute_temporal_features(data, case_col, timestamp_col):
 
     return pd.concat(new_data).reset_index(drop=True)
 
-def get_divisor(train_series, val_series):
-    return pd.concat([train_series, val_series]).mean()
+def get_min_max(train_series, val_series):
+    concat = pd.concat([train_series, val_series])
+    return concat.min(), concat.max()
+
 
 
 def get_prefixes(data, case_col, activity_col, max_len):
@@ -137,12 +139,12 @@ def load_and_preprocess_data(base_folder, case_col, activity_col, resource_col, 
         val[resource_col] = apply_label_mapping(val[resource_col], resource_dict)
         test[resource_col] = apply_label_mapping(test[resource_col], resource_dict)
 
-        div1 = get_divisor(train['time_prev'], val['time_prev'])
-        div2 = get_divisor(train['time_case'], val['time_case'])
-
+        min1, max1 = get_min_max(train['time_prev'], val['time_prev'])
+        min2, max2 = get_min_max(train['time_case'], val['time_case'])
+        
         for df in [train, val, test]:
-            df['time_prev'] /= div1
-            df['time_case'] /= div2
+            df['time_prev'] = (df['time_prev'] - min1) / (max1 - min1)
+            df['time_case'] = (df['time_case'] - min2) / (max2 - min2)
 
         # Codificar casos
         train = group_by_case(train, case_col)
