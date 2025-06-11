@@ -19,7 +19,7 @@ class Modelo_ind(nn.Module):
         self.d_hidden = d_hidden
         self.device = device
         self.act_embedding = nn.Embedding(d_acts, d_embedding, padding_idx=0)
-        self.lstm = nn.LSTM(d_inner= d_hidden, hidden_size= d_hidden, batch_first=True)
+        self.lstm = nn.LSTM(input_size= d_embedding, hidden_size= d_hidden, batch_first=True)
         self.linear_out = nn.Linear(d_hidden, d_acts + 1) # +1 para el EOC
     
     def forward(self, x):
@@ -27,6 +27,8 @@ class Modelo_ind(nn.Module):
         x_lstm = self.act_embedding(x)       # (batch, seq, d_emb)
         
         out, _ = self.lstm(x_lstm)
+        
+        out = out[:, -1, :]
 
         salida = self.linear_out(out)      
 

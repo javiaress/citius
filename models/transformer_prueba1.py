@@ -38,8 +38,9 @@ class Modelo_ind(nn.Module):
 
         x_trans = self.act_embedding(x)       # (batch, seq, d_emb)
         
-        out, _ = self.transformer(x_trans, src_key_padding_mask=pad_mask)
-
+        out = self.transformer(x_trans, src_key_padding_mask=pad_mask)
+        
+        out = out[:, -1, :]
         salida = self.linear_out(out)      
 
         return salida

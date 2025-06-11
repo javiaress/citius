@@ -32,7 +32,7 @@ torch.backends.cudnn.deterministic = True
 if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    dataset_name = "BPI_Challenge_2013_closed_problems" 
+    dataset_name = "Helpdesk" 
 
     model_name = "ssm_prueba1"
     
