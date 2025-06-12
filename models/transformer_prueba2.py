@@ -43,7 +43,7 @@ class Modelo_ind(nn.Module):
         emb_cat = torch.cat([act_emb, time_prev, time_case], dim=-1)  # (batch, seq, input_dim)
         x_proj = self.linear_proj(emb_cat)           # (batch, seq, d_hidden)
         
-        out = self.transformer(x_trans)
+        out = self.transformer(x_proj)
         
         out = out[:, -1, :]
         salida = self.linear_out(out)      
