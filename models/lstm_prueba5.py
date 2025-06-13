@@ -50,6 +50,8 @@ class Modelo_ind(nn.Module):
 
         out, _ = self.attn(out, out, out, key_padding_mask=pad_mask)
 
+        out = out[:, -1, :]
+
         salida = self.linear_out(out)      
 
         return salida

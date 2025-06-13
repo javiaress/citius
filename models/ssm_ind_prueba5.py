@@ -107,11 +107,11 @@ class SSM(nn.Module):
             
             #print("FIN ITER\n")
         #out = torch.stack(out)  # (seq, batch, d_inner)
-        hidden_previos = torch.stack(hidden_previos)  # (seq, batch, d_inner, d_state)
+        #hidden_previos = torch.stack(hidden_previos)  # (seq, batch, d_inner, d_state)
         
         #out = out.permute(1, 0, 2)  # (batch, seq, d_inner)
-        hidden_previos = hidden_previos.permute(1, 0, 2, 3)  # (batch, seq, d_inner, d_state)
-        return y, hidden_previos
+        #hidden_previos = hidden_previos.permute(1, 0, 2, 3)  # (batch, seq, d_inner, d_state)
+        return y, hidden_state
 
 class Modelo_ind(nn.Module):
     def __init__(self, d_acts, d_rsrc, d_embedding = 32, d_hidden = 32, device=None):
@@ -128,7 +128,7 @@ class Modelo_ind(nn.Module):
         self.linear_proj = nn.Linear(self.input_dim, d_hidden)
         self.attention_in = nn.MultiheadAttention(embed_dim=d_hidden, num_heads=4, batch_first=True)
         self.ssm = SSM(d_inner= d_hidden, device = device)
-        self.attention_post_ssm = nn.MultiheadAttention(embed_dim=d_hidden, num_heads=4, batch_first=True)
+        self.attention_out = nn.MultiheadAttention(embed_dim=d_hidden, num_heads=4, batch_first=True)
         self.linear_out = nn.Linear(d_hidden, d_acts + 1) # +1 para el EOC
     
     def forward(self, x):
@@ -149,8 +149,10 @@ class Modelo_ind(nn.Module):
         y, hidden = self.ssm(x_attn, time_prev)
 
         hidden_summary = hidden.sum(dim=-1)
-
-        out, _ = self.attn(hidden_summary, hidden_summary, hidden_summary)
+        
+        out, _ = self.attention_out(hidden_summary, hidden_summary, hidden_summary)
+        
+        out = y + out
 
         salida = self.linear_out(out)      
 
