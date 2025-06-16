@@ -47,7 +47,7 @@ class SSM(nn.Module):
         self.D = nn.Parameter(torch.ones(self.d_inner, dtype=torch.float32, device=device)) 
         self.D._no_weight_decay = True
 
-        attn = nn.MultiheadAttention(embed_dim= d_inner*d_state, num_heads=4, batch_first=True)
+        self.attn = nn.MultiheadAttention(embed_dim= d_inner*d_state, num_heads=4, batch_first=True)
 
 
 
@@ -108,7 +108,7 @@ class SSM(nn.Module):
                 B, L, D, S = hidden_seq.shape
                 hidden_seq_flat = hidden_seq.reshape(B, L, D * S)  # (batch, seq, D*S)
 
-                hidden_state, _ = self.attn(hidden_seq_flat, hidden_seq_flat, hidden_seq_flat, key_padding_mask=mask.squeeze(-1))
+                hidden_state, _ = self.attn(hidden_seq_flat, hidden_seq_flat, hidden_seq_flat)
                 hidden_state = hidden_state.reshape(B, L, D, S)  # (batch, seq, d_inner, d_state)
                 hidden_state = hidden_state[:, -1, :, :]  # (batch, d_inner, d_state)
 
