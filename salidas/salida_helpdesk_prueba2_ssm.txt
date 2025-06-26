@@ -69,7 +69,7 @@ Epoch 40: | Train Loss: 0.485429 | Val Loss: 0.510553 | Train Acc: 84.104 | Val 
 Epoch 41: | Train Loss: 0.484664 | Val Loss: 0.514025 | Train Acc: 84.170 | Val Acc: 83.431
 Epoch 42: | Train Loss: 0.485023 | Val Loss: 0.504765 | Train Acc: 84.192 | Val Acc: 83.314
 Early stopping
-Training time for fold 0: 2h 17m 27s
+Training time for fold 0: 0h 51m 5s
 
 
  real:
@@ -109,7 +109,7 @@ tensor([12,  2, 10, 12, 10, 10, 12, 15, 15, 15,  2,  2, 10,  9, 15, 12],
 
 
 
-Testing time for fold 0: 0h 0m 33s
+Testing time for fold 0: 0h 0m 7s
 Fold 0 Levenshtein Accuracy: 0.8465
 
 === Fold 1 ===
@@ -189,7 +189,7 @@ Epoch 47: | Train Loss: 0.483294 | Val Loss: 0.503058 | Train Acc: 84.270 | Val 
 Epoch 48: | Train Loss: 0.483114 | Val Loss: 0.511451 | Train Acc: 84.127 | Val Acc: 84.121
 Epoch 49: | Train Loss: 0.482296 | Val Loss: 0.496582 | Train Acc: 84.133 | Val Acc: 83.784
 Early stopping
-Training time for fold 1: 2h 53m 27s
+Training time for fold 1: 1h 0m 2s
 
 
  real:
@@ -229,7 +229,7 @@ tensor([15,  2, 12, 15, 10, 10,  2,  2,  2, 12, 15, 15,  2, 10, 10,  2],
 
 
 
-Testing time for fold 1: 0h 1m 9s
+Testing time for fold 1: 0h 0m 6s
 Fold 1 Levenshtein Accuracy: 0.8425
 
 === Fold 2 ===
@@ -301,7 +301,7 @@ Epoch 39: | Train Loss: 0.488860 | Val Loss: 0.480430 | Train Acc: 84.123 | Val 
 Epoch 40: | Train Loss: 0.489050 | Val Loss: 0.486951 | Train Acc: 83.969 | Val Acc: 84.689
 Epoch 41: | Train Loss: 0.489340 | Val Loss: 0.495413 | Train Acc: 84.064 | Val Acc: 84.788
 Early stopping
-Training time for fold 2: 3h 59m 48s
+Training time for fold 2: 0h 50m 2s
 
 
  real:
@@ -341,7 +341,7 @@ tensor([ 2, 10, 10,  2,  2,  2, 12,  2,  2, 15, 10, 10, 15,  1, 12,  2],
 
 
 
-Testing time for fold 2: 0h 1m 10s
+Testing time for fold 2: 0h 0m 6s
 Fold 2 Levenshtein Accuracy: 0.8430
 
 === Fold 3 ===
@@ -415,7 +415,7 @@ Epoch 41: | Train Loss: 0.479647 | Val Loss: 0.510156 | Train Acc: 84.359 | Val 
 Epoch 42: | Train Loss: 0.481286 | Val Loss: 0.536733 | Train Acc: 84.390 | Val Acc: 84.568
 Epoch 43: | Train Loss: 0.479048 | Val Loss: 0.517449 | Train Acc: 84.351 | Val Acc: 84.390
 Early stopping
-Training time for fold 3: 3h 34m 6s
+Training time for fold 3: 0h 52m 3s
 
 
  real:
@@ -455,7 +455,7 @@ tensor([ 2, 12, 10, 15,  1, 12, 12, 10, 15,  2, 10,  2, 12, 12, 10, 15],
 
 
 
-Testing time for fold 3: 0h 0m 58s
+Testing time for fold 3: 0h 0m 7s
 Fold 3 Levenshtein Accuracy: 0.8298
 
 === Fold 4 ===
@@ -529,7 +529,7 @@ Epoch 41: | Train Loss: 0.492155 | Val Loss: 0.477307 | Train Acc: 84.002 | Val 
 Epoch 42: | Train Loss: 0.491585 | Val Loss: 0.483046 | Train Acc: 84.007 | Val Acc: 84.194
 Epoch 43: | Train Loss: 0.491936 | Val Loss: 0.480262 | Train Acc: 84.189 | Val Acc: 84.287
 Early stopping
-Training time for fold 4: 3h 1m 28s
+Training time for fold 4: 0h 52m 28s
 
 
  real:
@@ -569,8 +569,8 @@ tensor([15, 10,  2,  2, 12, 10,  2,  2, 10,  2, 15, 15, 10, 12, 15, 12],
 
 
 
-Testing time for fold 4: 0h 0m 41s
+Testing time for fold 4: 0h 0m 6s
 Fold 4 Levenshtein Accuracy: 0.8434
 Average Levenshtein Accuracy: 0.8410
-Total Training Time: 15h 46m 18s
-Total Testing Time: 0h 4m 33s
+Total Training Time: 4h 25m 42s
+Total Testing Time: 0h 0m 35s

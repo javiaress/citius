@@ -1,4 +1,4 @@
-from models.ssm_ind_prueba5c import Modelo_ind as Modelo
+from models.ssm_ind_prueba3 import Modelo_ind as Modelo
 from data.preprocess3 import load_and_preprocess_data
 from training.train import fit
 from training.evaluate import test
@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
     dataset_name = "BPI_Challenge_2013_closed_problems" 
 
-    model_name = "ssm_prueba5c"
+    model_name = "ssm_prueba3"
     
     folds_data = load_and_preprocess_data("./data", case_col="caseid", activity_col="task", resource_col="user", time_col = "end_timestamp", dataset_name= dataset_name)
 
